@@ -190,7 +190,7 @@ export default function Component() {
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center">
           <Image
-            src="/mmcore_transparent.png"
+            src="./mmcore_transparent.png"
             alt="MMCore Logo"
             width={150}
             height={40}
@@ -320,17 +320,6 @@ export default function Component() {
                   <div className="space-y-4 text-left">
                     <div className="flex items-center gap-4">
                       <div className="bg-primary/10 p-3 rounded-full text-primary">
-                        <Phone className="h-6 w-6" />
-                      </div>
-                      <div>
-                        <p className="font-semibold">Telefoon</p>
-                        <a href="tel:+310612345678" className="text-muted-foreground hover:underline">
-                          +31 (0)6 12 34 56 78
-                        </a>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-4">
-                      <div className="bg-primary/10 p-3 rounded-full text-primary">
                         <Mail className="h-6 w-6" />
                       </div>
                       <div>
@@ -338,15 +327,6 @@ export default function Component() {
                         <a href="mailto:info@MMCore.eu" className="text-muted-foreground hover:underline">
                           info@MMCore.eu
                         </a>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-4">
-                      <div className="bg-primary/10 p-3 rounded-full text-primary">
-                        <Clock className="h-6 w-6" />
-                      </div>
-                      <div>
-                        <p className="font-semibold">Bereikbaarheid</p>
-                        <p className="text-muted-foreground">Ma-Vr: 9:00 - 18:00</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4">
