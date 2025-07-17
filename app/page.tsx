@@ -19,6 +19,7 @@ import {
   Phone,
   Clock,
   Send,
+  PackageCheck,
 } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -185,12 +186,14 @@ const services = [
 ]
 
 export default function Component() {
+  const [trackingNumbers, setTrackingNumbers] = useState("")
+
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center">
           <Image
-            src="./mmcore_transparent.png"
+            src="/mmcore_transparent.png"
             alt="MMCore Logo"
             width={150}
             height={40}
@@ -200,7 +203,7 @@ export default function Component() {
           <span className="sr-only">MMCore</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          {["home", "services", "about", "contact"].map((id) => (
+          {["home", "services", "about", "contact", "tracking"].map((id) => (
             <Link
               key={id}
               href={`#${id}`}
@@ -300,6 +303,43 @@ export default function Component() {
           </div>
         </section>
 
+        {/* Tracking Section */}
+        <section
+          id="tracking"
+          className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-blue-950 to-blue-800 text-white"
+        >
+          <div className="container px-4 md:px-6 text-center">
+            <div className="space-y-6 max-w-3xl mx-auto">
+              <div className="flex flex-col items-center space-y-4">
+                <div className="relative">
+                  <MapPin className="h-20 w-20 text-primary absolute -top-4 left-1/2 -translate-x-1/2 z-10" />
+                  <PackageCheck className="h-24 w-24 text-white relative z-0" />
+                </div>
+                <p className="text-sm font-medium uppercase tracking-wider text-primary">| TRACK YOUR PACKAGE</p>
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Check delivery status in real time
+              </h2>
+              <p className="text-lg text-gray-300">
+                Enter your tracking numbers - one per line to track them all at once!
+              </p>
+              <div className="w-full max-w-xl mx-auto">
+                <Textarea
+                  placeholder="1. Enter tracking numbers here"
+                  className="w-full min-h-[150px] bg-white/10 border-white/20 text-white placeholder:text-gray-400 focus:ring-primary focus:border-primary"
+                  value={trackingNumbers}
+                  onChange={(e) => setTrackingNumbers(e.target.value)}
+                />
+                <Link href={`/tracking?numbers=${encodeURIComponent(trackingNumbers)}`} passHref>
+                  <Button className="mt-4 w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                    Track shipment <PackageCheck className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 text-center">
@@ -320,6 +360,17 @@ export default function Component() {
                   <div className="space-y-4 text-left">
                     <div className="flex items-center gap-4">
                       <div className="bg-primary/10 p-3 rounded-full text-primary">
+                        <Phone className="h-6 w-6" />
+                      </div>
+                      <div>
+                        <p className="font-semibold">Telefoon</p>
+                        <a href="tel:+310612345678" className="text-muted-foreground hover:underline">
+                          +31 (0)6 12 34 56 78
+                        </a>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <div className="bg-primary/10 p-3 rounded-full text-primary">
                         <Mail className="h-6 w-6" />
                       </div>
                       <div>
@@ -327,6 +378,15 @@ export default function Component() {
                         <a href="mailto:info@MMCore.eu" className="text-muted-foreground hover:underline">
                           info@MMCore.eu
                         </a>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <div className="bg-primary/10 p-3 rounded-full text-primary">
+                        <Clock className="h-6 w-6" />
+                      </div>
+                      <div>
+                        <p className="font-semibold">Bereikbaarheid</p>
+                        <p className="text-muted-foreground">Ma-Vr: 9:00 - 18:00</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4">
