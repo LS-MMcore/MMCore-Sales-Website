@@ -193,7 +193,7 @@ export default function Component() {
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center">
           <Image
-            src="/mmcore_transparent.png"
+            src="./mmcore_transparent.png"
             alt="MMCore Logo"
             width={150}
             height={40}
@@ -306,32 +306,31 @@ export default function Component() {
         {/* Tracking Section */}
         <section
           id="tracking"
-          className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-blue-950 to-blue-800 text-white"
+          className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-primary to-blue-400 text-white"
         >
           <div className="container px-4 md:px-6 text-center">
             <div className="space-y-6 max-w-3xl mx-auto">
               <div className="flex flex-col items-center space-y-4">
                 <div className="relative">
-                  <MapPin className="h-20 w-20 text-primary absolute -top-4 left-1/2 -translate-x-1/2 z-10" />
                   <PackageCheck className="h-24 w-24 text-white relative z-0" />
                 </div>
-                <p className="text-sm font-medium uppercase tracking-wider text-primary">| TRACK YOUR PACKAGE</p>
+                <p className="text-sm font-medium uppercase tracking-wider text-white/80">| TRACK YOUR PACKAGE</p>
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Check delivery status in real time
               </h2>
-              <p className="text-lg text-gray-300">
+              <p className="text-lg text-white/80">
                 Enter your tracking numbers - one per line to track them all at once!
               </p>
               <div className="w-full max-w-xl mx-auto">
                 <Textarea
                   placeholder="1. Enter tracking numbers here"
-                  className="w-full min-h-[150px] bg-white/10 border-white/20 text-white placeholder:text-gray-400 focus:ring-primary focus:border-primary"
+                  className="w-full min-h-[150px] bg-white/20 border-white/50 text-white placeholder:text-white/70 focus:ring-white focus:border-white"
                   value={trackingNumbers}
                   onChange={(e) => setTrackingNumbers(e.target.value)}
                 />
                 <Link href={`/tracking?numbers=${encodeURIComponent(trackingNumbers)}`} passHref>
-                  <Button className="mt-4 w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                  <Button className="mt-4 w-full bg-white text-primary hover:bg-gray-100">
                     Track shipment <PackageCheck className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
