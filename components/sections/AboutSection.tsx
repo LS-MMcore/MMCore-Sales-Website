@@ -19,7 +19,7 @@ export default function AboutSection() {
                         </p>
                     </div>
                     <div className="flex justify-center">
-                        <Image src="/orb.png" alt="MMCore Logo" width={300} height={300} priority />
+                        <Image src="./orb.png" alt="MMCore Logo" width={300} height={300} priority />
                     </div>
                 </div>
             </div>
