@@ -11,6 +11,14 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Button } from "../ui/button";
+
+const languages = [
+    { code: "en", name: "English", flag: "🇺🇸" },
+    { code: "nl", name: "Nederlands", flag: "🇳🇱" },
+    { code: "it", name: "Italiano", flag: "🇮🇹" },
+    { code: "es", name: "Español", flag: "🇪🇸" },
+]
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +33,18 @@ export default function Header() {
         { href: "#services", label: "services" },
         { href: "#contact", label: "Contact" },
     ];
+
+    const [currentLang, setCurrentLang] = useState("en")
+
+    const handleLanguageChange = (langCode: string) => {
+        setCurrentLang(langCode)
+        // Update document language
+        if (typeof document !== "undefined") {
+            document.documentElement.lang = langCode
+        }
+    }
+
+    const currentLanguage = languages.find((lang) => lang.code === currentLang) || languages[0]
 
     return (
         <header className="fixed w-full top-0 z-50 bg-card border-b">
@@ -52,14 +72,19 @@ export default function Header() {
                     ))}
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
-                            <button className="p-2 rounded-lg bg-muted text-muted-foreground hover:bg-accent/10 hover:text-accent transition-colors flex items-center space-x-1">
-                                <Globe className="w-5 h-5" />
-                                <span className="uppercase">{selectedLanguage}</span>
-                            </button>
+                            <Button variant="outline" size="sm" className="gap-2 bg-transparent">
+                                <Globe className="h-4 w-4" />
+                                <span className="hidden sm:inline">{currentLanguage.name}</span>
+                                <span className="sm:hidden">{currentLanguage.flag}</span>
+                            </Button>
                         </DropdownMenuTrigger>
                         <DropdownMenuContent align="end">
-                            <DropdownMenuItem onClick={() => setSelectedLanguage("en")}>English</DropdownMenuItem>
-                            <DropdownMenuItem onClick={() => setSelectedLanguage("nl")}>Nederlands</DropdownMenuItem>
+                            {languages.map((lang) => (
+                                <DropdownMenuItem key={lang.code} onClick={() => handleLanguageChange(lang.code)} className="gap-2">
+                                    <span>{lang.flag}</span>
+                                    <span>{lang.name}</span>
+                                </DropdownMenuItem>
+                            ))}
                         </DropdownMenuContent>
                     </DropdownMenu>
                 </div>
@@ -67,18 +92,20 @@ export default function Header() {
                 <div className="md:hidden flex items-center space-x-2">
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
-                            <button className="p-2 rounded-lg bg-muted text-muted-foreground hover:bg-accent/10 hover:text-accent transition-colors flex items-center space-x-1">
-                                <Globe className="w-5 h-5" />
-                                <span className="uppercase">{selectedLanguage}</span>
-                            </button>
+                            <Button variant="outline" size="sm" className="gap-2 bg-transparent">
+                                <Globe className="h-4 w-4" />
+                                <span className="hidden sm:inline">{currentLanguage.name}</span>
+                                <span className="sm:hidden">{currentLanguage.flag}</span>
+                            </Button>
                         </DropdownMenuTrigger>
                         <DropdownMenuContent align="end">
-                            <DropdownMenuItem onClick={() => setSelectedLanguage("nl")}>Nederlands</DropdownMenuItem>
-                            <DropdownMenuItem onClick={() => setSelectedLanguage("en")}>English</DropdownMenuItem>
-                            <DropdownMenuItem onClick={() => setSelectedLanguage("it")}>Italiano</DropdownMenuItem>
-                            <DropdownMenuItem onClick={() => setSelectedLanguage("es")}>Español</DropdownMenuItem>
+                            {languages.map((lang) => (
+                                <DropdownMenuItem key={lang.code} onClick={() => handleLanguageChange(lang.code)} className="gap-2">
+                                    <span>{lang.flag}</span>
+                                    <span>{lang.name}</span>
+                                </DropdownMenuItem>
+                            ))}
                         </DropdownMenuContent>
-
                     </DropdownMenu>
                     <button onClick={() => setIsOpen(!isOpen)} className="text-foreground">
                         {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
