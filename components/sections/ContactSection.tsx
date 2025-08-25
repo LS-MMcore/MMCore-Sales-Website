@@ -144,26 +144,8 @@ export default function ContactSection() {
                                     <div>
                                         <p className="font-semibold">E-mail</p>
                                         <a href="mailto:info@MMCore.eu" className="text-muted-foreground hover:underline">
-                                            info@MMCore.eu
+                                            info@mmcore.eu
                                         </a>
-                                    </div>
-                                </div>
-                                <div className="flex items-center gap-4">
-                                    <div className="bg-primary/10 p-3 rounded-full text-primary">
-                                        <Clock className="h-6 w-6" />
-                                    </div>
-                                    <div>
-                                        <p className="font-semibold">Bereikbaarheid</p>
-                                        <p className="text-muted-foreground">Ma-Vr: 9:00 - 18:00</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-center gap-4">
-                                    <div className="bg-primary/10 p-3 rounded-full text-primary">
-                                        <MapPin className="h-6 w-6" />
-                                    </div>
-                                    <div>
-                                        <p className="font-semibold">Locatie</p>
-                                        <p className="text-muted-foreground">Nederland</p>
                                     </div>
                                 </div>
                             </div>
