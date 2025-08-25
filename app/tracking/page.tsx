@@ -190,6 +190,12 @@ function getStatusInfo(code: string) {
   }
 }
 
+function buildMMCoreUrl(language: string, apiKey: string) {
+  return `https://api.mmcore.tech/get_tracking_information/${encodeURIComponent(
+    apiKey
+  )}?lang=${encodeURIComponent(language)}&type=barcode`
+}
+
 export default function TrackingPage() {
   const search = useSearchParams()
   const [raw, setRaw] = useState("")
@@ -199,7 +205,7 @@ export default function TrackingPage() {
   const [collapsedPackages, setCollapsedPackages] = useState<Set<string>>(new Set())
 
   const codesFromQuery = useMemo(() => {
-    const numbers = search.get("numbers") || "" // your TrackingSection link
+    const numbers = search.get("numbers") || ""
     const codes = search.get("codes") || search.get("code") || ""
     const joined = [numbers, codes].filter(Boolean).join("\n")
     return parseCodes(joined)
@@ -220,7 +226,6 @@ export default function TrackingPage() {
       setRaw(codesFromQuery.join("\n"))
       void onSubmit(codesFromQuery)
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   async function onSubmit(codesArg?: string[]) {
@@ -233,16 +238,32 @@ export default function TrackingPage() {
     setError(null)
     setResult(null)
     try {
-      const res = await fetch("/api/tracking", {
+      const cleaned = Array.from(new Set(codes.map((c) => String(c).trim()).filter(Boolean))).slice(0, 50)
+      const language = currentLang === "NL" ? "NL" : "EN"
+
+      const MMCORE_KEY =
+        (typeof process !== "undefined" && (process as any).env?.NEXT_PUBLIC_MMCORE_KEY) ||
+        "43133486A143C928A86CF90CCF0E8DD0A16F57D0"
+
+      const url = buildMMCoreUrl(language, MMCORE_KEY)
+
+      const upstream = await fetch(url, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ codes, lang: currentLang }),
-      })
-      const json = await res.json()
-      if (!res.ok || !json?.ok) {
-        throw new Error(json?.error || "Request failed")
+        // IMPORTANT: no custom headers besides one of the "simple" content types
+        // Use text/plain so the request is simple (no preflight).
+        headers: { "Content-Type": "text/plain" }, // remove Accept and any other headers
+        body: JSON.stringify(cleaned),             // server must accept the body regardless of content-type
+        cache: "no-store",
+      });
+
+      if (!upstream.ok) {
+        const text = await upstream.text().catch(() => "")
+        throw new Error(text || `Upstream error (${upstream.status})`)
       }
-      setResult(json)
+
+      const data = (await upstream.json()) as MMCoreResponse
+
+      setResult({ requested: cleaned, lang: language, data })
     } catch (e: any) {
       setError(e?.message ?? "Something went wrong")
     } finally {
@@ -420,12 +441,11 @@ export default function TrackingPage() {
                     </div>
                   </div>
                   <div
-                    className={`transition-all duration-300 ease-in-out overflow-hidden ${isCollapsed ? "max-h-0 opacity-0" : "max-h-[2000px] opacity-100"
-                      }`}
+                    className={`transition-all duration-300 ease-in-out overflow-hidden ${isCollapsed ? "max-h-0 opacity-0" : "max-h-[2000px] opacity-100"}`}
                   >
                     <div className="p-3 sm:p-6 bg-white rounded-b-lg">
                       <div className="space-y-3 sm:space-y-4">
-                        {[...(scans || [])]
+                        {(scans || [])
                           .slice()
                           .sort((a, b) => (b.dateTime || "").localeCompare(a.dateTime || ""))
                           .map((scan, index) => {
@@ -446,20 +466,14 @@ export default function TrackingPage() {
                                   <div className="absolute left-[22px] sm:left-[30px] top-[52px] sm:top-[60px] w-0.5 h-6 sm:h-8 bg-slate-200" />
                                 )}
 
-                                <div
-                                  className={`p-1.5 sm:p-2 rounded-full flex-shrink-0 ${isLatest ? "bg-white shadow-sm" : "bg-white"}`}
-                                >
+                                <div className={`p-1.5 sm:p-2 rounded-full flex-shrink-0 ${isLatest ? "bg-white shadow-sm" : "bg-white"}`}>
                                   {scanStatusInfo.icon && (
-                                    <scanStatusInfo.icon
-                                      className={`h-3 w-3 sm:h-4 sm:w-4 ${scanStatusInfo.iconColor}`}
-                                    />
+                                    <scanStatusInfo.icon className={`h-3 w-3 sm:h-4 sm:w-4 ${scanStatusInfo.iconColor}`} />
                                   )}
                                 </div>
 
                                 <div className="flex-1 min-w-0">
-                                  <div
-                                    className={`font-medium text-sm sm:text-base leading-tight ${isLatest ? scanStatusInfo.textColor : "text-slate-900"}`}
-                                  >
+                                  <div className={`font-medium text-sm sm:text-base leading-tight ${isLatest ? scanStatusInfo.textColor : "text-slate-900"}`}>
                                     {scanStatusInfo.text}
                                   </div>
                                   {(scan.location || scan.description) && (
