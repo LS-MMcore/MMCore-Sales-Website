@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Textarea } from "@/components/ui/textarea"
 import { Badge } from "@/components/ui/badge"
+import TrackingProgressBar from "@/components/tracking-progress-bar"
 import {
   Loader2,
   Search,
@@ -119,8 +120,8 @@ function getStatusInfo(code: string) {
     }
   }
 
-  // Out for delivery
-  if (code === "5000" || code === "5001" || code.startsWith("500")) {
+  // Out for delivery / In transit
+  if (code === "5000" || code === "5001" || code.startsWith("500") || code === "2003" || code === "3001" || code === "3050") {
     return {
       text: statusText,
       variant: "secondary" as const,
@@ -128,18 +129,6 @@ function getStatusInfo(code: string) {
       textColor: "text-blue-800",
       icon: Truck,
       iconColor: "text-blue-600",
-    }
-  }
-
-  // In transit
-  if (code === "2003" || code === "3001" || code === "3050") {
-    return {
-      text: statusText,
-      variant: "secondary" as const,
-      bgColor: "bg-purple-50 border-purple-200",
-      textColor: "text-purple-800",
-      icon: Plane,
-      iconColor: "text-purple-600",
     }
   }
 
@@ -156,7 +145,7 @@ function getStatusInfo(code: string) {
   }
 
   // Customs/Documentation
-  if (code.startsWith("20") || code === "97" || code === "98" || code === "99" || code === "213") {
+  if (code.startsWith("20") || code === "97" || code === "98" || code === "213") {
     return {
       text: statusText,
       variant: "secondary" as const,
@@ -164,6 +153,18 @@ function getStatusInfo(code: string) {
       textColor: "text-amber-800",
       icon: FileText,
       iconColor: "text-amber-600",
+    }
+  }
+
+  //Label generated
+  if (code === "99") {
+    return {
+      text: statusText,
+      variant: "secondary" as const,
+      bgColor: "bg-grey-50 border-grey-200",
+      textColor: "text-grey-800",
+      icon: Package,
+      iconColor: "text-grey-600",
     }
   }
 
@@ -192,7 +193,7 @@ function getStatusInfo(code: string) {
 
 function buildMMCoreUrl(language: string, apiKey: string) {
   return `https://api.mmcore.tech/get_tracking_information/${encodeURIComponent(
-    apiKey
+    apiKey,
   )}?lang=${encodeURIComponent(language)}&type=barcode`
 }
 
@@ -203,6 +204,7 @@ export default function TrackingPage() {
   const [error, setError] = useState<string | null>(null)
   const [result, setResult] = useState<null | { requested: string[]; lang: string; data: MMCoreResponse }>(null)
   const [collapsedPackages, setCollapsedPackages] = useState<Set<string>>(new Set())
+  const [showAllEntries, setShowAllEntries] = useState<Set<string>>(new Set())
 
   const codesFromQuery = useMemo(() => {
     const numbers = search.get("numbers") || ""
@@ -249,10 +251,8 @@ export default function TrackingPage() {
 
       const upstream = await fetch(url, {
         method: "POST",
-        // IMPORTANT: no custom headers besides one of the "simple" content types
-        // Use text/plain so the request is simple (no preflight).
-        headers: { "Content-Type": "text/plain" }, // remove Accept and any other headers
-        body: JSON.stringify(cleaned),             // server must accept the body regardless of content-type
+        headers: { "Content-Type": "text/plain" },
+        body: JSON.stringify(cleaned),
         cache: "no-store",
       });
 
@@ -273,6 +273,18 @@ export default function TrackingPage() {
 
   const togglePackageCollapse = (barcode: string) => {
     setCollapsedPackages((prev) => {
+      const newSet = new Set(prev)
+      if (newSet.has(barcode)) {
+        newSet.delete(barcode)
+      } else {
+        newSet.add(barcode)
+      }
+      return newSet
+    })
+  }
+
+  const toggleShowAllEntries = (barcode: string) => {
+    setShowAllEntries((prev) => {
       const newSet = new Set(prev)
       if (newSet.has(barcode)) {
         newSet.delete(barcode)
@@ -324,7 +336,7 @@ export default function TrackingPage() {
                   </>
                 ) : (
                   <>
-                    <Search className="mr-2 h-4 w-4" />
+                    <Search className="mr-2 h-4 w-4 sm:h-8 sm:w-8" />
                     Track Packages
                   </>
                 )}
@@ -375,6 +387,12 @@ export default function TrackingPage() {
               const lastCode = last?.code || ""
               const statusInfo = getStatusInfo(lastCode)
               const isCollapsed = collapsedPackages.has(barcode)
+              const showingAll = showAllEntries.has(barcode)
+              const sortedScans = (scans || [])
+                .slice()
+                .sort((a, b) => (b.dateTime || "").localeCompare(a.dateTime || ""))
+              const displayedScans = showingAll ? sortedScans : sortedScans.slice(0, 5)
+              const hasMoreEntries = sortedScans.length > 5
 
               return (
                 <Card
@@ -444,68 +462,96 @@ export default function TrackingPage() {
                     className={`transition-all duration-300 ease-in-out overflow-hidden ${isCollapsed ? "max-h-0 opacity-0" : "max-h-[2000px] opacity-100"}`}
                   >
                     <div className="p-3 sm:p-6 bg-white rounded-b-lg">
+                      <TrackingProgressBar scans={scans} lastStatus={last} />
+
                       <div className="space-y-3 sm:space-y-4">
-                        {(scans || [])
-                          .slice()
-                          .sort((a, b) => (b.dateTime || "").localeCompare(a.dateTime || ""))
-                          .map((scan, index) => {
-                            const scanStatusInfo = getStatusInfo(scan.code)
-                            const isLatest = index === 0
+                        {displayedScans.map((scan, index) => {
+                          const scanStatusInfo = getStatusInfo(scan.code)
+                          const isLatest = index === 0
 
-                            return (
+                          return (
+                            <div
+                              key={barcode + "-" + scan.itemNumber}
+                              className={`relative flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl transition-all duration-200 hover:shadow-md ${isLatest ? scanStatusInfo.bgColor : "bg-slate-50 hover:bg-slate-100"
+                                }`}
+                              style={{
+                                animationDelay: `${index * 50}ms`,
+                                animation: !isCollapsed ? `fadeInUp 0.3s ease-out forwards` : "none",
+                              }}
+                            >
+                              {index < displayedScans.length - 1 && (
+                                <div className="absolute left-[22px] sm:left-[30px] top-[52px] sm:top-[60px] w-0.5 h-6 sm:h-8 bg-slate-200" />
+                              )}
+
                               <div
-                                key={barcode + "-" + scan.itemNumber}
-                                className={`relative flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl transition-all duration-200 hover:shadow-md ${isLatest ? scanStatusInfo.bgColor : "bg-slate-50 hover:bg-slate-100"
-                                  }`}
-                                style={{
-                                  animationDelay: `${index * 50}ms`,
-                                  animation: !isCollapsed ? `fadeInUp 0.3s ease-out forwards` : "none",
-                                }}
+                                className={`p-1.5 sm:p-2 rounded-full flex-shrink-0 ${isLatest ? "bg-white shadow-sm" : "bg-white"}`}
                               >
-                                {index < scans.length - 1 && (
-                                  <div className="absolute left-[22px] sm:left-[30px] top-[52px] sm:top-[60px] w-0.5 h-6 sm:h-8 bg-slate-200" />
+                                {scanStatusInfo.icon && (
+                                  <scanStatusInfo.icon
+                                    className={`h-3 w-3 sm:h-4 sm:w-4 ${scanStatusInfo.iconColor}`}
+                                  />
                                 )}
-
-                                <div className={`p-1.5 sm:p-2 rounded-full flex-shrink-0 ${isLatest ? "bg-white shadow-sm" : "bg-white"}`}>
-                                  {scanStatusInfo.icon && (
-                                    <scanStatusInfo.icon className={`h-3 w-3 sm:h-4 sm:w-4 ${scanStatusInfo.iconColor}`} />
-                                  )}
-                                </div>
-
-                                <div className="flex-1 min-w-0">
-                                  <div className={`font-medium text-sm sm:text-base leading-tight ${isLatest ? scanStatusInfo.textColor : "text-slate-900"}`}>
-                                    {scanStatusInfo.text}
-                                  </div>
-                                  {(scan.location || scan.description) && (
-                                    <div className="mt-1 flex items-start gap-1 text-xs sm:text-sm text-slate-600">
-                                      <MapPin className="h-3 w-3 mt-0.5 flex-shrink-0" />
-                                      <span className="break-words">
-                                        {scan.location}
-                                        {scan.location && scan.description ? " • " : ""}
-                                        {scan.description}
-                                      </span>
-                                    </div>
-                                  )}
-                                </div>
-
-                                <div className="text-right text-xs text-slate-500 flex-shrink-0">
-                                  {scan.dateTime ? (
-                                    <>
-                                      <div className="whitespace-nowrap">
-                                        {new Date(scan.dateTime).toLocaleDateString()}
-                                      </div>
-                                      <div className="font-mono whitespace-nowrap">
-                                        {new Date(scan.dateTime).toLocaleTimeString()}
-                                      </div>
-                                    </>
-                                  ) : (
-                                    "—"
-                                  )}
-                                </div>
                               </div>
-                            )
-                          })}
+
+                              <div className="flex-1 min-w-0">
+                                <div
+                                  className={`font-medium text-sm sm:text-base leading-tight ${isLatest ? scanStatusInfo.textColor : "text-slate-900"}`}
+                                >
+                                  {scanStatusInfo.text}
+                                </div>
+                                {(scan.location || scan.description) && (
+                                  <div className="mt-1 flex items-start gap-1 text-xs sm:text-sm text-slate-600">
+                                    <MapPin className="h-3 w-3 mt-0.5 flex-shrink-0" />
+                                    <span className="break-words">
+                                      {scan.location}
+                                      {scan.location && scan.description ? " • " : ""}
+                                      {scan.description}
+                                    </span>
+                                  </div>
+                                )}
+                              </div>
+
+                              <div className="text-right text-xs text-slate-500 flex-shrink-0">
+                                {scan.dateTime ? (
+                                  <>
+                                    <div className="whitespace-nowrap">
+                                      {new Date(scan.dateTime).toLocaleDateString()}
+                                    </div>
+                                    <div className="font-mono whitespace-nowrap">
+                                      {new Date(scan.dateTime).toLocaleTimeString()}
+                                    </div>
+                                  </>
+                                ) : (
+                                  "—"
+                                )}
+                              </div>
+                            </div>
+                          )
+                        })}
                       </div>
+
+                      {hasMoreEntries && (
+                        <div className="mt-4 pt-4 border-t border-slate-200 flex justify-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => toggleShowAllEntries(barcode)}
+                            className="text-[#63b2dc] border-[#63b2dc]/20 hover:bg-[#63b2dc]/5 hover:border-[#63b2dc]/40 transition-all duration-200"
+                          >
+                            {showingAll ? (
+                              <>
+                                <ChevronUp className="mr-2 h-4 w-4" />
+                                Show Less
+                              </>
+                            ) : (
+                              <>
+                                <ChevronDown className="mr-2 h-4 w-4" />
+                                Show All ({sortedScans.length} entries)
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </Card>
