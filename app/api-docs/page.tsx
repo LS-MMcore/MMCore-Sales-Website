@@ -454,9 +454,8 @@ curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY?ls=Y' \
                       <CardDescription>{endpoint.description}</CardDescription>
                     </CardHeader>
                     <div
-                      className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                        isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
-                      }`}
+                      className={`overflow-hidden transition-all duration-300 ease-in-out ${isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
+                        }`}
                     >
                       <CardContent>
                         <div className="space-y-4">
@@ -590,7 +589,7 @@ curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY' \\
         </section>
 
         {/* FAQ Section */}
-        <section className="w-full py-12 md:py-24 bg-white">
+        {/* <section className="w-full py-12 md:py-24 bg-white">
           <div className="container px-4 md:px-6">
             <div className="text-center space-y-4 mb-12">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-slate-800">
@@ -658,7 +657,7 @@ curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY' \\
               })}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Resources */}
         <section className="w-full py-12 md:py-24" style={{ backgroundColor: "#63b2dc10" }}>
