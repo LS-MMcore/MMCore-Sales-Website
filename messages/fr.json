@@ -1,0 +1,226 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "tracking": "Suivi",
+    "services": "Services",
+    "apiDocs": "API Docs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "trustedBy": "Approuvé par 500+ entreprises",
+    "title": "Solutions Logistiques & Fulfillment Transparentes",
+    "titleHighlight": "Fulfillment",
+    "subtitle": "Connectez les marques, fabricants et prestataires logistiques en Europe et au Royaume-Uni avec notre plateforme multi-transporteurs avancée.",
+    "getStarted": "Commencer Aujourd'hui",
+    "viewApiDocs": "Voir API Docs",
+    "carriers": "35+ Transporteurs",
+    "carriersDesc": "Réseau Mondial",
+    "countries": "50+ Pays",
+    "countriesDesc": "Portée Mondiale",
+    "realtime": "Temps Réel",
+    "realtimeDesc": "Suivi & Mises à Jour"
+  },
+  "about": {
+    "title": "Nos Services",
+    "subtitle": "Solutions d'expédition complètes pour votre entreprise",
+    "multiCarrier": {
+      "title": "Intégration Multi-Transporteurs",
+      "description": "Connectez-vous avec 35+ transporteurs dans le monde via une seule API"
+    },
+    "realTimeTracking": {
+      "title": "Suivi en Temps Réel",
+      "description": "Surveillez les expéditions avec des mises à jour en direct et des notifications"
+    },
+    "customsSupport": {
+      "title": "Support Douanier",
+      "description": "Documentation douanière automatisée et conformité"
+    },
+    "billingReconciliation": {
+      "title": "Réconciliation de Facturation",
+      "description": "Facturation rationalisée et gestion des coûts entre transporteurs"
+    },
+    "learnMore": "En Savoir Plus Sur Nos Services"
+  },
+  "tracking": {
+    "title": "Suivre Votre Expédition",
+    "subtitle": "Entrez votre numéro de suivi pour des mises à jour en temps réel",
+    "placeholder": "Entrer le numéro de suivi",
+    "trackButton": "Suivre le Colis",
+    "trackYourPackage": "SUIVEZ VOTRE COLIS",
+    "enterTrackingNumbers": "Entrez les numéros de suivi (un par ligne)",
+    "pleaseEnterTracking": "Veuillez entrer au moins un numéro de suivi",
+    "somethingWentWrong": "Quelque chose s'est mal passé",
+    "notFound": "Non trouvé",
+    "unknownStatus": "Statut Inconnu",
+    "noUpdates": "Aucune mise à jour",
+    "noResults": "Aucune information de suivi trouvée pour ce numéro.",
+    "error": "Erreur lors de la récupération des informations de suivi. Veuillez réessayer."
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Prêt à rationaliser vos opérations d'expédition ? Contactez-nous aujourd'hui.",
+    "successMessage": "Votre message a été envoyé avec succès !",
+    "stats": {
+      "shipments": "1M+ Expéditions",
+      "shipmentsDesc": "Traitées Mensuellement",
+      "uptime": "99.9% Disponibilité",
+      "uptimeDesc": "SLA Garanti",
+      "support": "Support 24/7",
+      "supportDesc": "Assistance Experte"
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "email": "E-mail",
+      "emailDesc": "Envoyez-nous un message pour le support",
+      "hours": "Heures d'Ouverture",
+      "hoursValue": "Lundi - Vendredi, 9h00 - 18h00 CET",
+      "location": "Localisation",
+      "locationValue": "Amsterdam, Pays-Bas"
+    },
+    "form": {
+      "title": "Formulaire de Contact",
+      "subtitle": "Remplissez le formulaire et nous vous contacterons dès que possible",
+      "firstName": "Prénom",
+      "firstNamePlaceholder": "Entrez votre prénom",
+      "lastName": "Nom de Famille",
+      "lastNamePlaceholder": "Entrez votre nom de famille",
+      "name": "Nom Complet",
+      "namePlaceholder": "Entrez votre nom complet",
+      "email": "Adresse E-mail",
+      "emailPlaceholder": "Entrez votre adresse e-mail",
+      "company": "Entreprise",
+      "companyPlaceholder": "Entrez le nom de votre entreprise",
+      "industry": "Industrie",
+      "selectIndustry": "Sélectionnez votre industrie",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de vos besoins d'expédition...",
+      "submit": "Envoyer le Message"
+    },
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "apiDocs": "Documentation API",
+      "apiDocsDesc": "Consultez notre référence API complète",
+      "features": "Fonctionnalités de la Plateforme",
+      "featuresDesc": "Découvrez toutes les capacités",
+      "tracking": "Suivi d'Expédition",
+      "trackingDesc": "Suivez vos colis en temps réel"
+    }
+  },
+  "footer": {
+    "description": "Plateforme d'expédition multi-transporteurs leader connectant les entreprises en Europe et au Royaume-Uni.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "support": "Support",
+    "legal": "Légal",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions de Service",
+    "cookiePolicy": "Politique des Cookies",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "services": {
+    "title": "Plateforme de Tarification & Étiquetage Multi-Transporteurs",
+    "subtitle": "Rationalisez vos opérations d'expédition avec notre plateforme complète",
+    "description": "MMCore est une solution basée sur le cloud, entièrement évolutive qui permet aux entreprises de gérer, optimiser et automatiser leurs processus d'expédition via 35+ transporteurs livrant dans 50+ pays depuis un système centralisé.",
+    "features": "Capacités de la Plateforme",
+    "advantages": "Avantages Clés",
+    "carriers": "Réseau Mondial de Transporteurs",
+    "readyToOptimize": "Prêt à Optimiser Votre Logistique ?",
+    "getStarted": "Commencer Maintenant",
+    "apiDocumentation": "Documentation API",
+    "platformCapabilities": {
+      "title": "Capacités de la Plateforme",
+      "apiIntegration": {
+        "title": "Intégration API & EDI",
+        "description": "Intégration directe avec les systèmes de transporteurs pour l'échange de données en temps réel"
+      },
+      "customsSupport": {
+        "title": "Support Douanier Complet",
+        "description": "Documentation douanière automatisée et gestion de la conformité"
+      },
+      "billingReconciliation": {
+        "title": "Réconciliation de Facturation Avancée",
+        "description": "Processus de facturation rationalisés avec analyse détaillée des coûts"
+      },
+      "cloudBased": {
+        "title": "Architecture Basée sur le Cloud",
+        "description": "Évolutif, sécurisé et accessible de partout"
+      }
+    },
+    "keyAdvantages": {
+      "title": "Avantages Clés",
+      "general": "Avantages Généraux",
+      "sales": "Avantages Commerciaux",
+      "operational": "Avantages Opérationnels",
+      "financial": "Avantages Financiers"
+    },
+    "carrierNetwork": {
+      "title": "Réseau Mondial de Transporteurs",
+      "subtitle": "Connectez-vous avec 35+ transporteurs dans 50+ pays",
+      "stats": {
+        "carriers": "35+",
+        "carriersLabel": "Partenaires Transporteurs",
+        "countries": "50+",
+        "countriesLabel": "Pays Desservis",
+        "shipments": "1M+",
+        "shipmentsLabel": "Expéditions Mensuelles",
+        "uptime": "99.9%",
+        "uptimeLabel": "Disponibilité de la Plateforme"
+      }
+    }
+  },
+  "apiDocs": {
+    "title": "Documentation API MMCore",
+    "subtitle": "Référence complète pour l'intégration avec notre plateforme d'expédition multi-transporteurs",
+    "introduction": "Introduction",
+    "introText": "L'API MMCore fournit un accès complet à notre plateforme d'expédition multi-transporteurs. Intégrez avec 35+ transporteurs dans le monde via une API unifiée.",
+    "quickStart": "Démarrage Rapide",
+    "authentication": "Authentification",
+    "authDescription": "Toutes les requêtes API nécessitent une authentification avec votre clé API dans l'en-tête.",
+    "endpoints": "Points de Terminaison API",
+    "additionalResources": "Ressources Supplémentaires",
+    "postmanCollection": "Collection Postman",
+    "getSupport": "Obtenir du Support",
+    "getAuth": "Obtenir l'Authentification",
+    "getAuthDesc": "Authentifier et récupérer le jeton d'accès",
+    "getTracking": "Obtenir les Informations de Suivi",
+    "getTrackingDesc": "Récupérer les informations de suivi détaillées pour les expéditions",
+    "postLabel": "Créer une Étiquette d'Expédition",
+    "postLabelDesc": "Générer des étiquettes d'expédition pour divers transporteurs",
+    "postManifest": "Soumettre les Données de Manifeste",
+    "postManifestDesc": "Soumettre les données de manifeste pour le traitement des expéditions",
+    "postLockShipment": "Verrouiller le Manifeste d'Expédition",
+    "postLockShipmentDesc": "Verrouiller les données de manifeste pour empêcher d'autres modifications",
+    "postShipmentRequest": "Créer une Demande d'Expédition",
+    "postShipmentRequestDesc": "Créer de nouvelles demandes d'expédition avec sélection de transporteur",
+    "parameters": "Paramètres",
+    "response": "Réponse",
+    "example": "Exemple",
+    "statusCodes": "Codes de Statut",
+    "exampleAuthentication": "Exemple : Authentification",
+    "headerAuthentication": "Authentification d'En-tête",
+    "completeReference": "Référence complète",
+    "everythingYouNeed": "Tout ce dont vous avez besoin",
+    "secureYourApi": "Sécurisez votre API",
+    "getUpAndRunning": "Démarrer rapidement",
+    "signUpForAccount": "S'inscrire pour un compte",
+    "verifyCredentials": "Vérifier vos identifiants",
+    "startProcessing": "Commencer le traitement des expéditions",
+    "basicExample": "Exemple de base",
+    "includeAuthUser": "Incluez votre AUTH_USER",
+    "keepCredentialsSecure": "Gardez vos identifiants sécurisés",
+    "neverExpose": "Ne les exposez jamais",
+    "useEnvironmentVariables": "Utilisez les variables d'environnement"
+  },
+  "common": {
+    "back": "Retour",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "close": "Fermer"
+  }
+}

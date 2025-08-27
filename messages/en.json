@@ -1,0 +1,228 @@
+{
+  "navigation": {
+    "home": "Home",
+    "tracking": "Tracking",
+    "services": "Services",
+    "apiDocs": "API Documentation",
+    "contact": "Contact"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved",
+    "termsOfService": "Terms of service",
+    "privacyPolicy": "Privacy policy",
+    "poweredBy": "Powered by"
+  },
+  "hero": {
+    "trustedBy": "Trusted by 500+ Companies",
+    "title": "Seamless Logistics & Fulfillment Solutions",
+    "titleHighlight": "Fulfillment",
+    "subtitle": "Connect brands, manufacturers, and logistics providers across Europe and the UK with our advanced multi-carrier platform.",
+    "getStarted": "Get Started Today",
+    "viewApiDocs": "View API Docs",
+    "carriers": "35+ Carriers",
+    "carriersDesc": "Global Network",
+    "countries": "50+ Countries",
+    "countriesDesc": "Worldwide Reach",
+    "realtime": "Real-time",
+    "realtimeDesc": "Tracking & Updates"
+  },
+  "about": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive shipping solutions for your business",
+    "multiCarrier": {
+      "title": "Multi-Carrier Integration",
+      "description": "Connect with 35+ carriers worldwide through a single API"
+    },
+    "realTimeTracking": {
+      "title": "Real-Time Tracking",
+      "description": "Monitor shipments with live updates and notifications"
+    },
+    "customsSupport": {
+      "title": "Customs Support",
+      "description": "Automated customs documentation and compliance"
+    },
+    "billingReconciliation": {
+      "title": "Billing Reconciliation",
+      "description": "Streamlined billing and cost management across carriers"
+    },
+    "learnMore": "Learn More About Our Services"
+  },
+  "tracking": {
+    "title": "Track Your Shipment",
+    "subtitle": "Enter your tracking number to get real-time updates",
+    "placeholder": "Enter tracking number",
+    "trackButton": "Track Package",
+    "trackYourPackage": "TRACK YOUR PACKAGE",
+    "enterTrackingNumbers": "Enter tracking numbers (one per line)",
+    "pleaseEnterTracking": "Please enter at least one tracking number",
+    "somethingWentWrong": "Something went wrong",
+    "notFound": "Not found",
+    "unknownStatus": "Unknown Status",
+    "noUpdates": "No updates",
+    "noResults": "No tracking information found for this number.",
+    "error": "Error fetching tracking information. Please try again."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to streamline your shipping operations? Contact us today.",
+    "successMessage": "Your message has been sent successfully!",
+    "stats": {
+      "shipments": "1M+ Shipments",
+      "shipmentsDesc": "Processed Monthly",
+      "uptime": "99.9% Uptime",
+      "uptimeDesc": "Guaranteed SLA",
+      "support": "24/7 Support",
+      "supportDesc": "Expert Assistance"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "emailDesc": "Get in touch with our team",
+      "hours": "Business Hours",
+      "hoursValue": "Monday - Friday, 9:00 AM - 6:00 PM CET",
+      "location": "Location",
+      "locationValue": "Amsterdam, Netherlands"
+    },
+    "form": {
+      "title": "Contact Form",
+      "subtitle": "Send us a message and we'll get back to you",
+      "name": "First Name",
+      "namePlaceholder": "Enter your first name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Enter your last name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "company": "Company",
+      "companyPlaceholder": "Enter your company name",
+      "enquiry": "Enquiry Type",
+      "selectEnquiry": "Select enquiry type",
+      "enquiryOptions": {
+        "sales": "Sales",
+        "support": "Technical Support",
+        "technical": "IT & Integration",
+        "partnership": "Partnership",
+        "billing": "Billing & Pricing",
+        "demo": "Request Demo",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your shipping needs...",
+      "submit": "Send Message"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "api": "API Documentation",
+      "apiIcon": "📚",
+      "features": "Platform Features",
+      "featuresIcon": "⚡",
+      "tracking": "Track Shipments",
+      "trackingIcon": "📦"
+    }
+  },
+  "services": {
+    "title": "Multi-Carrier Tariff & Labeling Platform",
+    "subtitle": "Streamline your shipping operations with our comprehensive platform",
+    "description": "MMCore is a cloud-based, fully scalable solution that allows companies to manage, optimize, and automate their shipping processes across 35+ carriers delivering to 50+ countries from one centralized system.",
+    "features": "Platform Capabilities",
+    "advantages": "Key Advantages",
+    "carriers": "Global Carrier Network",
+    "readyToOptimize": "Ready to Optimize Your Logistics?",
+    "getStarted": "Get Started",
+    "apiDocumentation": "API Documentation",
+    "platformCapabilities": {
+      "title": "Platform Capabilities",
+      "apiIntegration": {
+        "title": "API & EDI Integration",
+        "description": "Direct integration with carrier systems for real-time data exchange"
+      },
+      "customsSupport": {
+        "title": "Comprehensive Customs Support",
+        "description": "Automated customs documentation and compliance management"
+      },
+      "billingReconciliation": {
+        "title": "Advanced Billing Reconciliation",
+        "description": "Streamlined billing processes with detailed cost analysis"
+      },
+      "cloudBased": {
+        "title": "Cloud-Based Architecture",
+        "description": "Scalable, secure, and accessible from anywhere"
+      }
+    },
+    "keyAdvantages": {
+      "title": "Key Advantages",
+      "general": "General Benefits",
+      "sales": "Sales Benefits",
+      "operational": "Operational Benefits",
+      "financial": "Financial Benefits"
+    },
+    "carrierNetwork": {
+      "title": "Global Carrier Network",
+      "subtitle": "Connect with 35+ carriers across 50+ countries",
+      "stats": {
+        "carriers": "35+",
+        "carriersLabel": "Carrier Partners",
+        "countries": "50+",
+        "countriesLabel": "Countries Served",
+        "shipments": "1M+",
+        "shipmentsLabel": "Monthly Shipments",
+        "uptime": "99.9%",
+        "uptimeLabel": "Platform Uptime"
+      }
+    }
+  },
+  "apiDocs": {
+    "title": "MMCore API Documentation",
+    "subtitle": "Complete reference for integrating with our multi-carrier shipping platform",
+    "introduction": "Introduction",
+    "introText": "The MMCore API provides comprehensive access to our multi-carrier shipping platform. Integrate with 35+ carriers worldwide through a single, unified API.",
+    "quickStart": "Quick Start",
+    "authentication": "Authentication",
+    "authDescription": "All API requests require authentication using your API key in the header.",
+    "endpoints": "API Endpoints",
+    "additionalResources": "Additional Resources",
+    "postmanCollection": "Postman Collection",
+    "getSupport": "Get Support",
+    "getAuth": "Get Authentication",
+    "getAuthDesc": "Authenticate and retrieve access token",
+    "getTracking": "Get Tracking Information",
+    "getTrackingDesc": "Retrieve detailed tracking information for shipments",
+    "postLabel": "Create Shipping Label",
+    "postLabelDesc": "Generate shipping labels for various carriers",
+    "postManifest": "Submit Manifest Data",
+    "postManifestDesc": "Submit manifest data for shipment processing",
+    "postLockShipment": "Lock Shipment Manifest",
+    "postLockShipmentDesc": "Lock manifest data to prevent further modifications",
+    "postShipmentRequest": "Create Shipment Request",
+    "postShipmentRequestDesc": "Create new shipment requests with carrier selection",
+    "parameters": "Parameters",
+    "response": "Response",
+    "example": "Example",
+    "statusCodes": "Status Codes",
+    "exampleAuthentication": "Example: Authentication",
+    "headerAuthentication": "Header Authentication",
+    "completeReference": "Complete reference",
+    "everythingYouNeed": "Everything you need",
+    "secureYourApi": "Secure your API",
+    "getUpAndRunning": "Get up and running",
+    "signUpForAccount": "Sign up for an account",
+    "verifyCredentials": "Verify your credentials",
+    "startProcessing": "Start processing shipments",
+    "basicExample": "Basic example",
+    "includeAuthUser": "Include your AUTH_USER",
+    "keepCredentialsSecure": "Keep your credentials secure",
+    "neverExpose": "Never expose them",
+    "useEnvironmentVariables": "Use environment variables"
+  },
+  "common": {
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close"
+  }
+}

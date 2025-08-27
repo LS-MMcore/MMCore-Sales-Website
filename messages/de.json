@@ -1,0 +1,226 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "tracking": "Sendungsverfolgung",
+    "services": "Dienstleistungen",
+    "apiDocs": "API Docs",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "trustedBy": "Vertraut von 500+ Unternehmen",
+    "title": "Nahtlose Logistik & Fulfillment Lösungen",
+    "titleHighlight": "Fulfillment",
+    "subtitle": "Verbinden Sie Marken, Hersteller und Logistikdienstleister in Europa und Großbritannien mit unserer fortschrittlichen Multi-Carrier-Plattform.",
+    "getStarted": "Heute Beginnen",
+    "viewApiDocs": "API Docs Ansehen",
+    "carriers": "35+ Spediteure",
+    "carriersDesc": "Globales Netzwerk",
+    "countries": "50+ Länder",
+    "countriesDesc": "Weltweite Reichweite",
+    "realtime": "Echtzeit",
+    "realtimeDesc": "Tracking & Updates"
+  },
+  "about": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Versandlösungen für Ihr Unternehmen",
+    "multiCarrier": {
+      "title": "Multi-Carrier Integration",
+      "description": "Verbindung mit 35+ Spediteuren weltweit über eine einzige API"
+    },
+    "realTimeTracking": {
+      "title": "Echtzeit-Tracking",
+      "description": "Überwachen Sie Sendungen mit Live-Updates und Benachrichtigungen"
+    },
+    "customsSupport": {
+      "title": "Zoll-Support",
+      "description": "Automatisierte Zolldokumentation und Compliance"
+    },
+    "billingReconciliation": {
+      "title": "Abrechnungsabgleich",
+      "description": "Optimierte Abrechnung und Kostenmanagement über Spediteure hinweg"
+    },
+    "learnMore": "Mehr Über Unsere Dienstleistungen"
+  },
+  "tracking": {
+    "title": "Sendung Verfolgen",
+    "subtitle": "Geben Sie Ihre Sendungsnummer ein für Echtzeit-Updates",
+    "placeholder": "Sendungsnummer eingeben",
+    "trackButton": "Paket Verfolgen",
+    "trackYourPackage": "IHR PAKET VERFOLGEN",
+    "enterTrackingNumbers": "Sendungsnummern eingeben (eine pro Zeile)",
+    "pleaseEnterTracking": "Bitte geben Sie mindestens eine Sendungsnummer ein",
+    "somethingWentWrong": "Etwas ist schiefgelaufen",
+    "notFound": "Nicht gefunden",
+    "unknownStatus": "Unbekannter Status",
+    "noUpdates": "Keine Updates",
+    "noResults": "Keine Sendungsinformationen für diese Nummer gefunden.",
+    "error": "Fehler beim Abrufen der Sendungsinformationen. Bitte versuchen Sie es erneut."
+  },
+  "contact": {
+    "title": "Kontakt Aufnehmen",
+    "subtitle": "Bereit, Ihre Versandabläufe zu optimieren? Kontaktieren Sie uns heute.",
+    "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
+    "stats": {
+      "shipments": "1M+ Sendungen",
+      "shipmentsDesc": "Monatlich Verarbeitet",
+      "uptime": "99.9% Verfügbarkeit",
+      "uptimeDesc": "Garantierte SLA",
+      "support": "24/7 Support",
+      "supportDesc": "Expertenunterstützung"
+    },
+    "info": {
+      "title": "Kontakt Informationen",
+      "email": "E-Mail",
+      "emailDesc": "Senden Sie uns eine Nachricht für Support",
+      "hours": "Geschäftszeiten",
+      "hoursValue": "Montag - Freitag, 9:00 - 18:00 MEZ",
+      "location": "Standort",
+      "locationValue": "Amsterdam, Niederlande"
+    },
+    "form": {
+      "title": "Kontakt Formular",
+      "subtitle": "Füllen Sie das Formular aus und wir werden uns so schnell wie möglich bei Ihnen melden",
+      "firstName": "Vorname",
+      "firstNamePlaceholder": "Geben Sie Ihren Vornamen ein",
+      "lastName": "Nachname",
+      "lastNamePlaceholder": "Geben Sie Ihren Nachnamen ein",
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Geben Sie Ihren Firmennamen ein",
+      "industry": "Branche",
+      "selectIndustry": "Wählen Sie Ihre Branche",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihren Versandanforderungen...",
+      "submit": "Nachricht Senden"
+    },
+    "quickLinks": {
+      "title": "Schnelle Links",
+      "apiDocs": "API Dokumentation",
+      "apiDocsDesc": "Sehen Sie sich unsere vollständige API-Referenz an",
+      "features": "Plattform Features",
+      "featuresDesc": "Entdecken Sie alle Funktionen",
+      "tracking": "Sendungsverfolgung",
+      "trackingDesc": "Verfolgen Sie Ihre Pakete in Echtzeit"
+    }
+  },
+  "footer": {
+    "description": "Führende Multi-Carrier-Versandplattform, die Unternehmen in Europa und Großbritannien verbindet.",
+    "quickLinks": "Schnelle Links",
+    "services": "Dienstleistungen",
+    "support": "Support",
+    "legal": "Rechtliches",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "services": {
+    "title": "Multi-Carrier Tarif & Labeling Plattform",
+    "subtitle": "Optimieren Sie Ihre Versandabläufe mit unserer umfassenden Plattform",
+    "description": "MMCore ist eine cloud-basierte, vollständig skalierbare Lösung, die es Unternehmen ermöglicht, ihre Versandprozesse über 35+ Spediteure zu verwalten, zu optimieren und zu automatisieren, die in 50+ Länder von einem zentralisierten System aus liefern.",
+    "features": "Plattform-Funktionen",
+    "advantages": "Hauptvorteile",
+    "carriers": "Globales Spediteursnetzwerk",
+    "readyToOptimize": "Bereit, Ihre Logistik zu Optimieren?",
+    "getStarted": "Jetzt Beginnen",
+    "apiDocumentation": "API Dokumentation",
+    "platformCapabilities": {
+      "title": "Plattform-Funktionen",
+      "apiIntegration": {
+        "title": "API & EDI Integration",
+        "description": "Direkte Integration mit Spediteurssystemen für Echtzeit-Datenaustausch"
+      },
+      "customsSupport": {
+        "title": "Umfassender Zoll-Support",
+        "description": "Automatisierte Zolldokumentation und Compliance-Management"
+      },
+      "billingReconciliation": {
+        "title": "Erweiterte Abrechnungsabstimmung",
+        "description": "Optimierte Abrechnungsprozesse mit detaillierter Kostenanalyse"
+      },
+      "cloudBased": {
+        "title": "Cloud-basierte Architektur",
+        "description": "Skalierbar, sicher und von überall zugänglich"
+      }
+    },
+    "keyAdvantages": {
+      "title": "Hauptvorteile",
+      "general": "Allgemeine Vorteile",
+      "sales": "Verkaufsvorteile",
+      "operational": "Operative Vorteile",
+      "financial": "Finanzielle Vorteile"
+    },
+    "carrierNetwork": {
+      "title": "Globales Spediteursnetzwerk",
+      "subtitle": "Verbindung mit 35+ Spediteuren in 50+ Ländern",
+      "stats": {
+        "carriers": "35+",
+        "carriersLabel": "Spediteurs-Partner",
+        "countries": "50+",
+        "countriesLabel": "Bediente Länder",
+        "shipments": "1M+",
+        "shipmentsLabel": "Monatliche Sendungen",
+        "uptime": "99.9%",
+        "uptimeLabel": "Plattform-Verfügbarkeit"
+      }
+    }
+  },
+  "apiDocs": {
+    "title": "MMCore API Dokumentation",
+    "subtitle": "Vollständige Referenz für die Integration mit unserer Multi-Carrier-Versandplattform",
+    "introduction": "Einführung",
+    "introText": "Die MMCore API bietet umfassenden Zugang zu unserer Multi-Carrier-Versandplattform. Integrieren Sie mit 35+ Spediteuren weltweit über eine einheitliche API.",
+    "quickStart": "Schnellstart",
+    "authentication": "Authentifizierung",
+    "authDescription": "Alle API-Anfragen erfordern eine Authentifizierung mit Ihrem API-Schlüssel im Header.",
+    "endpoints": "API Endpunkte",
+    "additionalResources": "Zusätzliche Ressourcen",
+    "postmanCollection": "Postman Sammlung",
+    "getSupport": "Support Erhalten",
+    "getAuth": "Authentifizierung Abrufen",
+    "getAuthDesc": "Authentifizieren und Zugriffstoken abrufen",
+    "getTracking": "Sendungsinformationen Abrufen",
+    "getTrackingDesc": "Detaillierte Sendungsinformationen für Pakete abrufen",
+    "postLabel": "Versandlabel Erstellen",
+    "postLabelDesc": "Versandlabels für verschiedene Spediteure generieren",
+    "postManifest": "Manifestdaten Übermitteln",
+    "postManifestDesc": "Manifestdaten für Sendungsverarbeitung übermitteln",
+    "postLockShipment": "Sendungsmanifest Sperren",
+    "postLockShipmentDesc": "Manifestdaten sperren, um weitere Änderungen zu verhindern",
+    "postShipmentRequest": "Sendungsanfrage Erstellen",
+    "postShipmentRequestDesc": "Neue Sendungsanfragen mit Spediteursauswahl erstellen",
+    "parameters": "Parameter",
+    "response": "Antwort",
+    "example": "Beispiel",
+    "statusCodes": "Statuscodes",
+    "exampleAuthentication": "Beispiel: Authentifizierung",
+    "headerAuthentication": "Header-Authentifizierung",
+    "completeReference": "Vollständige Referenz",
+    "everythingYouNeed": "Alles was Sie brauchen",
+    "secureYourApi": "Sichern Sie Ihre API",
+    "getUpAndRunning": "Schnell loslegen",
+    "signUpForAccount": "Für ein Konto registrieren",
+    "verifyCredentials": "Anmeldedaten überprüfen",
+    "startProcessing": "Mit der Verarbeitung von Sendungen beginnen",
+    "basicExample": "Grundlegendes Beispiel",
+    "includeAuthUser": "Fügen Sie Ihren AUTH_USER hinzu",
+    "keepCredentialsSecure": "Halten Sie Ihre Anmeldedaten sicher",
+    "neverExpose": "Setzen Sie sie niemals frei",
+    "useEnvironmentVariables": "Verwenden Sie Umgebungsvariablen"
+  },
+  "common": {
+    "back": "Zurück",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "close": "Schließen"
+  }
+}
