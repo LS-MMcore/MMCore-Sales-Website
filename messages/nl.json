@@ -61,25 +61,21 @@
     "subtitle": "Klaar om uw verzendoperaties te stroomlijnen? Neem vandaag contact met ons op.",
     "successMessage": "Uw bericht is succesvol verzonden!",
     "stats": {
-      "shipments": "1M+ Zendingen",
-      "shipmentsDesc": "Maandelijks Verwerkt",
-      "uptime": "99.9% Uptime",
-      "uptimeDesc": "Gegarandeerde SLA",
+      "tms": "TMS",
+      "tmsDesc": "Transport Management Systeem",
+      "wms": "WMS",
+      "wmsDesc": "Warehouse Management Systeem",
       "support": "24/7 Ondersteuning",
       "supportDesc": "Expert Assistentie"
     },
     "info": {
       "title": "Contact Informatie",
       "email": "E-mail",
-      "emailDesc": "Stuur ons een bericht voor ondersteuning",
-      "hours": "Kantooruren",
-      "hoursValue": "Maandag - Vrijdag, 9:00 - 18:00 CET",
-      "location": "Locatie",
-      "locationValue": "Amsterdam, Nederland"
+      "emailDesc": "Neem contact op met ons team"
     },
     "form": {
       "title": "Contact Formulier",
-      "subtitle": "Vul het formulier in en we nemen zo snel mogelijk contact met u op",
+      "subtitle": "Stuur ons een bericht en we nemen contact met u op",
       "firstName": "Voornaam",
       "firstNamePlaceholder": "Voer uw voornaam in",
       "lastName": "Achternaam",
@@ -112,11 +108,7 @@
       "features": "Platform Functies",
       "featuresIcon": "⚡",
       "tracking": "Zending Tracking",
-      "trackingIcon": "📦",
-      "apiDocs": "API Documentatie",
-      "apiDocsDesc": "Bekijk onze volledige API referentie",
-      "featuresDesc": "Ontdek alle mogelijkheden",
-      "trackingDesc": "Volg uw pakketten real-time"
+      "trackingIcon": "📦"
     }
   },
   "services": {
@@ -211,7 +203,42 @@
     "includeAuthUser": "Voeg uw AUTH_USER toe",
     "keepCredentialsSecure": "Houd uw inloggegevens veilig",
     "neverExpose": "Stel ze nooit bloot",
-    "useEnvironmentVariables": "Gebruik omgevingsvariabelen"
+    "useEnvironmentVariables": "Gebruik omgevingsvariabelen",
+    "changelog": "Wijzigingslogboek",
+    "changelogSubtitle": "Blijf op de hoogte van de nieuwste API-wijzigingen en verbeteringen",
+    "backToDocumentation": "Terug naar Documentatie",
+    "stayUpdated": "Blijf Bijgewerkt",
+    "subscribeToUpdates": "Abonneer u op onze updates om belangrijke API-wijzigingen nooit te missen",
+    "viewDocumentation": "Bekijk Documentatie",
+    "contactSupport": "Contact Ondersteuning",
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Veelgestelde vragen over de MMCore API",
+      "rateLimits": {
+        "question": "Wat zijn de API-snelheidslimieten?",
+        "answer": "De MMCore API heeft een snelheidslimiet van 1000 verzoeken per uur per API-sleutel. Als u hogere limieten nodig heeft voor productiegebruik, neem dan contact op met ons ondersteuningsteam om enterprise-opties te bespreken."
+      },
+      "bulkTracking": {
+        "question": "Kan ik meerdere zendingen tegelijk volgen?",
+        "answer": "Ja, het tracking-endpoint ondersteunt bulk tracking. U kunt een array van trackingnummers in de request body sturen om meerdere zendingen tegelijkertijd te volgen, met een maximum van 100 trackingnummers per verzoek."
+      },
+      "manifestLocking": {
+        "question": "Wat gebeurt er wanneer ik een manifest vergrendel?",
+        "answer": "Het vergrendelen van een manifest voorkomt verdere wijzigingen aan de zendinggegevens en meldt de vervoerder dat de zending klaar is voor verwerking. Dit wordt meestal gedaan wanneer alle pakketten voor een luchtvrachtbrief zijn toegevoegd."
+      },
+      "trackingLanguages": {
+        "question": "Welke talen worden ondersteund voor tracking-reacties?",
+        "answer": "Momenteel ondersteunt de API Engels (en) en Nederlands (nl) voor tracking-reacties. U kunt de taal specificeren met de 'lang' query parameter in uw tracking-verzoeken."
+      },
+      "errorHandling": {
+        "question": "Hoe moet ik API-fouten afhandelen?",
+        "answer": "De API retourneert standaard HTTP-statuscodes. Controleer altijd de response status en handel fouten op de juiste manier af. Veelvoorkomende fouten zijn 400 (Bad Request), 401 (Unauthorized), 404 (Not Found), en 500 (Internal Server Error)."
+      },
+      "webhooks": {
+        "question": "Ondersteunen jullie webhooks voor real-time updates?",
+        "answer": "Webhook-ondersteuning is momenteel in ontwikkeling. Voor nu kunt u het tracking-endpoint pollen voor updates. We raden aan om elke 15-30 minuten te controleren op updates om actueel te blijven met zendingstatuswijzigingen."
+      }
+    }
   },
   "common": {
     "back": "Terug",

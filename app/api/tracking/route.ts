@@ -24,7 +24,7 @@ function buildMMCoreUrl(language: string, apiKey: string) {
 
 export async function POST(request: NextRequest) {
   try {
-    const MMCORE_KEY = "43133486A143C928A86CF90CCF0E8DD0A16F57D0"
+    const MMCORE_KEY = process.env.MMCORE_KEY
 
     if (!MMCORE_KEY) {
       return NextResponse.json({ error: "MMCore API key not configured" }, { status: 500 })

@@ -67,21 +67,17 @@
     "subtitle": "Ready to streamline your shipping operations? Contact us today.",
     "successMessage": "Your message has been sent successfully!",
     "stats": {
-      "shipments": "1M+ Shipments",
-      "shipmentsDesc": "Processed Monthly",
-      "uptime": "99.9% Uptime",
-      "uptimeDesc": "Guaranteed SLA",
+      "tms": "TMS",
+      "tmsDesc": "Transport Management System",
+      "wms": "WMS",
+      "wmsDesc": "Warehouse Management System",
       "support": "24/7 Support",
       "supportDesc": "Expert Assistance"
     },
     "info": {
       "title": "Contact Information",
       "email": "Email",
-      "emailDesc": "Get in touch with our team",
-      "hours": "Business Hours",
-      "hoursValue": "Monday - Friday, 9:00 AM - 6:00 PM CET",
-      "location": "Location",
-      "locationValue": "Amsterdam, Netherlands"
+      "emailDesc": "Get in touch with our team"
     },
     "form": {
       "title": "Contact Form",
@@ -211,7 +207,42 @@
     "includeAuthUser": "Include your AUTH_USER",
     "keepCredentialsSecure": "Keep your credentials secure",
     "neverExpose": "Never expose them",
-    "useEnvironmentVariables": "Use environment variables"
+    "useEnvironmentVariables": "Use environment variables",
+    "changelog": "Changelog",
+    "changelogSubtitle": "Stay up to date with the latest API changes and improvements",
+    "backToDocumentation": "Back to Documentation",
+    "stayUpdated": "Stay Updated",
+    "subscribeToUpdates": "Subscribe to our updates to never miss important API changes",
+    "viewDocumentation": "View Documentation",
+    "contactSupport": "Contact Support",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about the MMCore API",
+      "rateLimits": {
+        "question": "What are the API rate limits?",
+        "answer": "The MMCore API has a rate limit of 1000 requests per hour per API key. If you need higher limits for production use, please contact our support team to discuss enterprise options."
+      },
+      "bulkTracking": {
+        "question": "Can I track multiple shipments at once?",
+        "answer": "Yes, the tracking endpoint supports bulk tracking. You can send an array of tracking numbers in the request body to track multiple shipments simultaneously, with a maximum of 100 tracking numbers per request."
+      },
+      "manifestLocking": {
+        "question": "What happens when I lock a manifest?",
+        "answer": "Locking a manifest prevents any further modifications to the shipment data and notifies the carrier that the shipment is ready for processing. This is typically done when all packages for an airwaybill have been added."
+      },
+      "trackingLanguages": {
+        "question": "Which languages are supported for tracking responses?",
+        "answer": "Currently, the API supports English (en) and Dutch (nl) for tracking responses. You can specify the language using the 'lang' query parameter in your tracking requests."
+      },
+      "errorHandling": {
+        "question": "How should I handle API errors?",
+        "answer": "The API returns standard HTTP status codes. Always check the response status and handle errors appropriately. Common errors include 400 (Bad Request), 401 (Unauthorized), 404 (Not Found), and 500 (Internal Server Error)."
+      },
+      "webhooks": {
+        "question": "Do you support webhooks for real-time updates?",
+        "answer": "Webhook support is currently in development. For now, you can poll the tracking endpoint for updates. We recommend checking for updates every 15-30 minutes to stay current with shipment status changes."
+      }
+    }
   },
   "common": {
     "back": "Back",

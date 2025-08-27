@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react"
 import { useSearchParams } from "next/navigation"
-import SimpleHeader from "@/components/layout/simple-header"
+import Header from "@/components/layout/Header"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Textarea } from "@/components/ui/textarea"
@@ -301,7 +301,7 @@ export default function TrackingPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#63b2dc]/10">
-      <SimpleHeader />
+      <Header />
 
       <main className="mx-auto max-w-6xl px-3 sm:px-4 py-6 sm:py-8 pt-24 sm:pt-32">
         <div className="text-center mb-6 sm:mb-8">
@@ -477,9 +477,8 @@ export default function TrackingPage() {
                           return (
                             <div
                               key={barcode + "-" + scan.itemNumber}
-                              className={`relative flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl transition-all duration-200 hover:shadow-md ${
-                                isLatest ? scanStatusInfo.bgColor : "bg-slate-50 hover:bg-slate-100"
-                              }`}
+                              className={`relative flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl transition-all duration-200 hover:shadow-md ${isLatest ? scanStatusInfo.bgColor : "bg-slate-50 hover:bg-slate-100"
+                                }`}
                               style={{
                                 animationDelay: `${index * 50}ms`,
                                 animation: !isCollapsed ? `fadeInUp 0.3s ease-out forwards` : "none",
