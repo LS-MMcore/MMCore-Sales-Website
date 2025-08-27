@@ -123,25 +123,46 @@
     "advantages": "Key Advantages",
     "carriers": "Global Carrier Network",
     "readyToOptimize": "Ready to Optimize Your Logistics?",
+    "ctaParagraph": "Get started with our multi-carrier platform and streamline your shipping operations today.",
     "getStarted": "Get Started",
     "apiDocumentation": "API Documentation",
+    "andManyMore": "And many more...",
+    "badge": {
+      "carriers": "35+ Carriers",
+      "countries": "50+ Countries",
+      "cloud": "Cloud-Based",
+      "gdpr": "GDPR Compliant"
+    },
     "platformCapabilities": {
       "title": "Platform Capabilities",
+      "description": "Everything you need to streamline your logistics operations",
       "apiIntegration": {
         "title": "API & EDI Integration",
-        "description": "Direct integration with carrier systems for real-time data exchange"
+        "description": "Direct integration with carrier systems for real-time data exchange",
+        "contractTerm": "No long-term contracts",
+        "activation": "Immediate activation",
+        "apiConnection": "Direct API connection"
       },
       "customsSupport": {
         "title": "Comprehensive Customs Support",
-        "description": "Automated customs documentation and compliance management"
+        "description": "Automated customs documentation and compliance management",
+        "webshopPlugins": "Webshop plugins available",
+        "customFrontend": "Custom front-end support",
+        "automatedDataExchange": "Automated data exchange"
       },
       "billingReconciliation": {
         "title": "Advanced Billing Reconciliation",
-        "description": "Streamlined billing processes with detailed cost analysis"
+        "description": "Streamlined billing processes with detailed cost analysis",
+        "crossBorderShipping": "Cross-border shipping",
+        "legalCompliance": "Legal compliance",
+        "automatedDataDeletion": "Automated data deletion"
       },
       "cloudBased": {
         "title": "Cloud-Based Architecture",
-        "description": "Scalable, secure, and accessible from anywhere"
+        "description": "Scalable, secure, and accessible from anywhere",
+        "invoiceVerification": "Invoice verification",
+        "billingErrorDetection": "Billing error detection",
+        "costManagement": "Cost management"
       }
     },
     "keyAdvantages": {
@@ -149,7 +170,33 @@
       "general": "General Benefits",
       "sales": "Sales Benefits",
       "operational": "Operational Benefits",
-      "financial": "Financial Benefits"
+      "financial": "Financial Benefits",
+      "lists": {
+        "operational": [
+          "Status reports comparing promised vs actual transit times",
+          "Direct carrier customer support communication",
+          "Comprehensive track & trace functionality",
+          "Multiple parcel injection points per country",
+          "Automatic email notifications for shipments",
+          "Industrial printer compatibility (.ZPL format)"
+        ],
+        "financial": [
+          "Flexible tariff management (platform or custom)",
+          "Real-time billing reconciliation",
+          "Automatic weight discrepancy detection",
+          "Immediate billing error correction",
+          "Cost optimization tools",
+          "Financial reporting and analytics"
+        ],
+        "sales": [
+          "Multi-carrier flexibility for best rates",
+          "No interference with existing contracts",
+          "Custom carrier contract integration",
+          "Multi-location shipping support",
+          "Country-specific local injection",
+          "Superior return network coverage"
+        ]
+      }
     },
     "carrierNetwork": {
       "title": "Global Carrier Network",
@@ -162,98 +209,184 @@
         "shipments": "1M+",
         "shipmentsLabel": "Monthly Shipments",
         "uptime": "99.9%",
-        "uptimeLabel": "Platform Uptime"
+        "uptimeLabel": "Platform Uptime",
+        "injectionPoints": "200+",
+        "injectionPointsLabel": "Injection Points"
+      },
+      "section": {
+        "title": "Currently Integrated Carriers",
+        "subtitle": "Choose the best carrier for every shipment based on delivery time, pricing, and region"
+      },
+      "types": {
+        "national": "National",
+        "express": "Express",
+        "parcel": "Parcel",
+        "mail": "Mail",
+        "global": "Global"
+      },
+      "regions": {
+        "netherlands": "Netherlands",
+        "germany": "Germany",
+        "belgium": "Belgium",
+        "austria": "Austria",
+        "unitedKingdom": "United Kingdom",
+        "denmark": "Denmark",
+        "slovenia": "Slovenia",
+        "france": "France",
+        "spain": "Spain",
+        "switzerland": "Switzerland",
+        "nordic": "Nordic",
+        "norway": "Norway",
+        "europe": "Europe",
+        "global": "Global"
       }
     }
   },
   "apiDocs": {
     "title": "MMCore API Documentation",
     "subtitle": "Complete reference for integrating with our multi-carrier shipping platform",
-    "introduction": "Introduction",
-    "introText": "The MMCore API provides comprehensive access to our multi-carrier shipping platform. Integrate with 35+ carriers worldwide through a single, unified API.",
     "quickStart": "Quick Start",
-    "authentication": "Authentication",
-    "authDescription": "All API requests require authentication using your API key in the header.",
-    "endpoints": "API Endpoints",
-    "additionalResources": "Additional Resources",
-    "postmanCollection": "Postman Collection",
-    "getSupport": "Get Support",
-    "getAuth": "Get Authentication",
-    "getAuthDesc": "Authenticate and retrieve access token",
-    "getTracking": "Get Tracking Information",
-    "getTrackingDesc": "Retrieve detailed tracking information for shipments",
-    "postLabel": "Create Shipping Label",
-    "postLabelDesc": "Generate shipping labels for various carriers",
-    "postManifest": "Submit Manifest Data",
-    "postManifestDesc": "Submit manifest data for shipment processing",
-    "postLockShipment": "Lock Shipment Manifest",
-    "postLockShipmentDesc": "Lock manifest data to prevent further modifications",
-    "postShipmentRequest": "Create Shipment Request",
-    "postShipmentRequestDesc": "Create new shipment requests with carrier selection",
-    "parameters": "Parameters",
-    "response": "Response",
-    "example": "Example",
-    "statusCodes": "Status Codes",
-    "exampleAuthentication": "Example: Authentication",
-    "headerAuthentication": "Header Authentication",
-    "completeReference": "Complete reference",
-    "everythingYouNeed": "Everything you need",
-    "secureYourApi": "Secure your API",
     "getUpAndRunning": "Get up and running",
     "signUpForAccount": "Sign up for an account",
+    "includeAuthUser": "Include your AUTH_USER and AUTH_PW to authenticate.",
     "verifyCredentials": "Verify your credentials",
     "startProcessing": "Start processing shipments",
+    "exampleAuthentication": "Example: Authentication",
     "basicExample": "Basic example",
-    "includeAuthUser": "Include your AUTH_USER",
-    "keepCredentialsSecure": "Keep your credentials secure",
-    "neverExpose": "Never expose them",
-    "useEnvironmentVariables": "Use environment variables",
+    "endpointsTitle": "API Endpoints",
+    "completeReference": "Complete reference",
+    "parameters": "Parameters",
+    "queryParameters": "Query Parameters",
+    "default": "Default",
+    "values": "Values",
+    "response": "Response",
+    "example": "Example",
+    "authentication": "Authentication",
+    "secureYourApi": "Secure your API",
+    "headerAuthentication": "Header Authentication",
+    "securityNote": "Security Note",
+    "keepCredentialsSecure": "Keep your credentials secure.",
+    "neverExpose": "Never expose them.",
+    "useEnvironmentVariables": "Use environment variables.",
+    "additionalResources": "Additional Resources",
+    "everythingYouNeed": "Everything you need",
+    "postmanCollection": "Postman Collection",
+    "getSupport": "Get Support",
     "changelog": "Changelog",
-    "changelogSubtitle": "Stay up to date with the latest API changes and improvements",
-    "backToDocumentation": "Back to Documentation",
-    "stayUpdated": "Stay Updated",
-    "subscribeToUpdates": "Subscribe to our updates to never miss important API changes",
-    "viewDocumentation": "View Documentation",
-    "contactSupport": "Contact Support",
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Common questions about the MMCore API",
-      "rateLimits": {
-        "question": "What are the API rate limits?",
-        "answer": "The MMCore API has a rate limit of 1000 requests per hour per API key. If you need higher limits for production use, please contact our support team to discuss enterprise options."
+    "badges": {
+      "restApi": "REST API",
+      "realTimeTracking": "Real-time Tracking",
+      "manifestProcessing": "Manifest Processing",
+      "multiCarrier": "Multi-carrier"
+    },
+    "statusCodes": "Status Codes",
+    "statusCodesIntro": "Status codes returned in tracking responses with their descriptions",
+    "endpoints": {
+      "auth": {
+        "description": "Authenticate and validate your API credentials"
       },
-      "bulkTracking": {
-        "question": "Can I track multiple shipments at once?",
-        "answer": "Yes, the tracking endpoint supports bulk tracking. You can send an array of tracking numbers in the request body to track multiple shipments simultaneously, with a maximum of 100 tracking numbers per request."
+      "tracking": {
+        "description": "Get detailed tracking information for shipments with comprehensive query parameters",
+        "query": {
+          "lang": "Sets the language for the API response",
+          "flightTrackingSetting": "Defines how flight/waybill tracking should be handled",
+          "type": "Specifies the type of tracking being used",
+          "trackingDetails": "Defines the level of detail in the tracking response"
+        }
       },
-      "manifestLocking": {
-        "question": "What happens when I lock a manifest?",
-        "answer": "Locking a manifest prevents any further modifications to the shipment data and notifies the carrier that the shipment is ready for processing. This is typically done when all packages for an airwaybill have been added."
+      "action": {
+        "description": "Request a carrier label for a specific country with various output options",
+        "query": {
+          "pl": "Y = Show PDF label, N = get JSON result",
+          "dhlzpl": "Y = get DHL JSON Label, N = get URL to get PDF",
+          "zpl": "Y = get ZPL label if carrier supports it",
+          "o": "Output will be in JSON format",
+          "dl": "Y = the label will be called within this call"
+        }
       },
-      "trackingLanguages": {
-        "question": "Which languages are supported for tracking responses?",
-        "answer": "Currently, the API supports English (en) and Dutch (nl) for tracking responses. You can specify the language using the 'lang' query parameter in your tracking requests."
+      "postManifest": {
+        "description": "Upload manifest data to the database for shipment processing (supports bulk uploads)",
+        "query": {
+          "ls": "Y = Lock manifest data (if there are no errors), N = Don't lock manifest data. ONLY APPLICABLE FOR AIRWAYBILLS"
+        }
       },
-      "errorHandling": {
-        "question": "How should I handle API errors?",
-        "answer": "The API returns standard HTTP status codes. Always check the response status and handle errors appropriately. Common errors include 400 (Bad Request), 401 (Unauthorized), 404 (Not Found), and 500 (Internal Server Error)."
-      },
-      "webhooks": {
-        "question": "Do you support webhooks for real-time updates?",
-        "answer": "Webhook support is currently in development. For now, you can poll the tracking endpoint for updates. We recommend checking for updates every 15-30 minutes to stay current with shipment status changes."
+      "lockShipment": {
+        "description": "Lock a shipment to prevent further changes (Airwaybills only). This notifies that the shipment is complete."
       }
+    },
+    "statusCodeDescriptions": {
+      "97": "Manifested for customs",
+      "98": "Label data has been pre-registered",
+      "99": "Label has been created",
+      "200": "Dispatch declaration",
+      "201": "Dispatch arrival",
+      "202": "Dispatch documentation",
+      "203": "Dispatch amendment",
+      "204": "Dispatch cancellation",
+      "205": "Customs clearance started",
+      "207": "Customs Issue",
+      "208": "Confiscated",
+      "209": "Held by customs",
+      "210": "Needs documents",
+      "211": "Accepted",
+      "213": "Parcel cleared",
+      "214": "Cleared manually",
+      "215": "Cancelled",
+      "216": "Arrived in facility",
+      "217": "Ready for last mile",
+      "218": "Released to last mile",
+      "219": "Job dispatched",
+      "2000": "The cargo is being tracked",
+      "2001": "Information has been sent, waiting for the logistics provider to pick up the cargo",
+      "2002": "The logistics provider gets the cargo",
+      "2003": "In transit",
+      "2004": "The cargo arrived at their destination",
+      "2005": "Notify the consignee to pick up the cargo",
+      "2006": "The cargo is delivered to the consignee",
+      "2007": "Packages were lost, damaged, returned, unclaimed, etc",
+      "2008": "Shipping time too long",
+      "3000": "Parcel has reached a depot",
+      "3001": "Outbound scan",
+      "3004": "Parcel details updated",
+      "3005": "Parcel has arrived at the last-mile carrier",
+      "3050": "Parcel has left the depot",
+      "5000": "Parcel is out for delivery",
+      "5001": "Parcel is out for delivery to recipient",
+      "5002": "A text message notification has been sent to the recipient",
+      "5003": "Parcel is out for delivery to parcel locker",
+      "5004": "Parcel is out for delivery to parcel shop",
+      "7000": "Recipient was not at home, second try:",
+      "7001": "Recipient was not at home, package will be stored on the depot for 5 days",
+      "7002": "Recipient was not at home",
+      "7003": "Recipient was not at home, package can be picked up at a collection point",
+      "7004": "Stored until requested",
+      "8000": "Return to sender",
+      "8001": "Shipment canceled",
+      "8500": "Extra information",
+      "9000": "Delivered",
+      "9001": "Package is delivered to the neighbors",
+      "9002": "Package is delivered to the parcelshop",
+      "9003": "Package is delivered to the parcelbox",
+      "9004": "Package is delivered to a secure place",
+      "9005": "Package is collected",
+      "9006": "Return delivered",
+      "9500": "Refused",
+      "9501": "Package was not picked up",
+      "9502": "Package was not delivered",
+      "9503": "Package is rerouted to a new address",
+      "9600": "Incorrect address details"
+    },
+    "common": {
+      "back": "Back",
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete",
+      "close": "Close"
     }
-  },
-  "common": {
-    "back": "Back",
-    "loading": "Loading...",
-    "error": "Error",
-    "success": "Success",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "save": "Save",
-    "edit": "Edit",
-    "delete": "Delete",
-    "close": "Close"
   }
 }
