@@ -1,8 +1,8 @@
-import en from "../messages/en.json"
-import nl from "../messages/nl.json"
-import de from "../messages/de.json"
-import fr from "../messages/fr.json"
-import it from "../messages/it.json"
+import en from "../translations/en.json"
+import nl from "../translations/nl.json"
+import de from "../translations/de.json"
+import fr from "../translations/fr.json"
+import it from "../translations/it.json"
 
 export type Locale = "en" | "nl" | "de" | "fr" | "it"
 
