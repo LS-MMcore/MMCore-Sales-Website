@@ -3,16 +3,22 @@
     "home": "Startseite",
     "tracking": "Sendungsverfolgung",
     "services": "Dienstleistungen",
-    "apiDocs": "API Docs",
+    "apiDocs": "API-Dokumentation",
     "contact": "Kontakt"
   },
+  "footer": {
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "termsOfService": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzerklärung",
+    "poweredBy": "Bereitgestellt von"
+  },
   "hero": {
-    "trustedBy": "Vertraut von 500+ Unternehmen",
-    "title": "Nahtlose Logistik & Fulfillment Lösungen",
+    "trustedBy": "Vertraut von über 500 Unternehmen",
+    "title": "Nahtlose Logistik- & Fulfillment-Lösungen",
     "titleHighlight": "Fulfillment",
-    "subtitle": "Verbinden Sie Marken, Hersteller und Logistikdienstleister in Europa und Großbritannien mit unserer fortschrittlichen Multi-Carrier-Plattform.",
-    "getStarted": "Heute Beginnen",
-    "viewApiDocs": "API Docs Ansehen",
+    "subtitle": "Verbinden Sie Marken, Hersteller und Logistikanbieter in ganz Europa und dem Vereinigten Königreich mit unserer fortschrittlichen Multi-Carrier-Plattform.",
+    "getStarted": "Jetzt starten",
+    "viewApiDocs": "API-Dokumentation ansehen",
     "carriers": "35+ Spediteure",
     "carriersDesc": "Globales Netzwerk",
     "countries": "50+ Länder",
@@ -24,30 +30,30 @@
     "title": "Unsere Dienstleistungen",
     "subtitle": "Umfassende Versandlösungen für Ihr Unternehmen",
     "multiCarrier": {
-      "title": "Multi-Carrier Integration",
-      "description": "Verbindung mit 35+ Spediteuren weltweit über eine einzige API"
+      "title": "Multi-Carrier-Integration",
+      "description": "Verbinden Sie sich über eine einzige API mit über 35 Spediteuren weltweit"
     },
     "realTimeTracking": {
       "title": "Echtzeit-Tracking",
       "description": "Überwachen Sie Sendungen mit Live-Updates und Benachrichtigungen"
     },
     "customsSupport": {
-      "title": "Zoll-Support",
+      "title": "Zollunterstützung",
       "description": "Automatisierte Zolldokumentation und Compliance"
     },
     "billingReconciliation": {
-      "title": "Abrechnungsabgleich",
-      "description": "Optimierte Abrechnung und Kostenmanagement über Spediteure hinweg"
+      "title": "Rechnungsabgleich",
+      "description": "Optimiertes Rechnungs- und Kostenmanagement über alle Spediteure"
     },
-    "learnMore": "Mehr Über Unsere Dienstleistungen"
+    "learnMore": "Mehr über unsere Dienstleistungen erfahren"
   },
   "tracking": {
-    "title": "Sendung Verfolgen",
-    "subtitle": "Geben Sie Ihre Sendungsnummer ein für Echtzeit-Updates",
+    "title": "Sendung verfolgen",
+    "subtitle": "Geben Sie Ihre Sendungsnummer ein, um Echtzeit-Updates zu erhalten",
     "placeholder": "Sendungsnummer eingeben",
-    "trackButton": "Paket Verfolgen",
+    "trackButton": "Paket verfolgen",
     "trackYourPackage": "IHR PAKET VERFOLGEN",
-    "enterTrackingNumbers": "Sendungsnummern eingeben (eine pro Zeile)",
+    "enterTrackingNumbers": "Geben Sie Sendungsnummern ein (eine pro Zeile)",
     "pleaseEnterTracking": "Bitte geben Sie mindestens eine Sendungsnummer ein",
     "somethingWentWrong": "Etwas ist schiefgelaufen",
     "notFound": "Nicht gefunden",
@@ -57,170 +63,330 @@
     "error": "Fehler beim Abrufen der Sendungsinformationen. Bitte versuchen Sie es erneut."
   },
   "contact": {
-    "title": "Kontakt Aufnehmen",
-    "subtitle": "Bereit, Ihre Versandabläufe zu optimieren? Kontaktieren Sie uns heute.",
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Bereit, Ihre Versandprozesse zu optimieren? Kontaktieren Sie uns noch heute.",
     "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
     "stats": {
-      "shipments": "1M+ Sendungen",
-      "shipmentsDesc": "Monatlich Verarbeitet",
-      "uptime": "99.9% Verfügbarkeit",
-      "uptimeDesc": "Garantierte SLA",
+      "tms": "TMS",
+      "tmsDesc": "Transportmanagementsystem",
+      "wms": "WMS",
+      "wmsDesc": "Lagerverwaltungssystem",
       "support": "24/7 Support",
       "supportDesc": "Expertenunterstützung"
     },
     "info": {
-      "title": "Kontakt Informationen",
+      "title": "Kontaktinformationen",
       "email": "E-Mail",
-      "emailDesc": "Senden Sie uns eine Nachricht für Support",
-      "hours": "Geschäftszeiten",
-      "hoursValue": "Montag - Freitag, 9:00 - 18:00 MEZ",
-      "location": "Standort",
-      "locationValue": "Amsterdam, Niederlande"
+      "emailDesc": "Nehmen Sie Kontakt mit unserem Team auf"
     },
     "form": {
-      "title": "Kontakt Formular",
-      "subtitle": "Füllen Sie das Formular aus und wir werden uns so schnell wie möglich bei Ihnen melden",
-      "firstName": "Vorname",
-      "firstNamePlaceholder": "Geben Sie Ihren Vornamen ein",
+      "title": "Kontaktformular",
+      "subtitle": "Senden Sie uns eine Nachricht und wir melden uns bei Ihnen",
+      "name": "Vorname",
+      "namePlaceholder": "Geben Sie Ihren Vornamen ein",
       "lastName": "Nachname",
       "lastNamePlaceholder": "Geben Sie Ihren Nachnamen ein",
-      "name": "Vollständiger Name",
-      "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
       "email": "E-Mail-Adresse",
       "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
       "company": "Unternehmen",
-      "companyPlaceholder": "Geben Sie Ihren Firmennamen ein",
-      "industry": "Branche",
-      "selectIndustry": "Wählen Sie Ihre Branche",
+      "companyPlaceholder": "Geben Sie Ihren Unternehmensnamen ein",
+      "enquiry": "Anfragetyp",
+      "selectEnquiry": "Anfragetyp auswählen",
+      "enquiryOptions": {
+        "sales": "Vertrieb",
+        "support": "Technischer Support",
+        "technical": "IT & Integration",
+        "partnership": "Partnerschaft",
+        "billing": "Abrechnung & Preise",
+        "demo": "Demo anfordern",
+        "other": "Sonstiges"
+      },
       "message": "Nachricht",
-      "messagePlaceholder": "Erzählen Sie uns von Ihren Versandanforderungen...",
-      "submit": "Nachricht Senden"
+      "messagePlaceholder": "Erzählen Sie uns von Ihren Versandbedürfnissen...",
+      "submit": "Nachricht senden"
     },
     "quickLinks": {
-      "title": "Schnelle Links",
-      "apiDocs": "API Dokumentation",
-      "apiDocsDesc": "Sehen Sie sich unsere vollständige API-Referenz an",
-      "features": "Plattform Features",
-      "featuresDesc": "Entdecken Sie alle Funktionen",
-      "tracking": "Sendungsverfolgung",
-      "trackingDesc": "Verfolgen Sie Ihre Pakete in Echtzeit"
+      "title": "Schnellzugriff",
+      "api": "API-Dokumentation",
+      "apiIcon": "📚",
+      "features": "Plattform-Funktionen",
+      "featuresIcon": "⚡",
+      "tracking": "Sendungen verfolgen",
+      "trackingIcon": "📦"
     }
   },
-  "footer": {
-    "description": "Führende Multi-Carrier-Versandplattform, die Unternehmen in Europa und Großbritannien verbindet.",
-    "quickLinks": "Schnelle Links",
-    "services": "Dienstleistungen",
-    "support": "Support",
-    "legal": "Rechtliches",
-    "privacyPolicy": "Datenschutzrichtlinie",
-    "termsOfService": "Nutzungsbedingungen",
-    "cookiePolicy": "Cookie-Richtlinie",
-    "allRightsReserved": "Alle Rechte vorbehalten."
-  },
   "services": {
-    "title": "Multi-Carrier Tarif & Labeling Plattform",
-    "subtitle": "Optimieren Sie Ihre Versandabläufe mit unserer umfassenden Plattform",
-    "description": "MMCore ist eine cloud-basierte, vollständig skalierbare Lösung, die es Unternehmen ermöglicht, ihre Versandprozesse über 35+ Spediteure zu verwalten, zu optimieren und zu automatisieren, die in 50+ Länder von einem zentralisierten System aus liefern.",
+    "title": "Multi-Carrier-Tarif- & Etikettierungsplattform",
+    "subtitle": "Optimieren Sie Ihre Versandprozesse mit unserer umfassenden Plattform",
+    "description": "MMCore ist eine cloudbasierte, vollständig skalierbare Lösung, mit der Unternehmen ihre Versandprozesse über 35+ Spediteure in mehr als 50 Länder von einem zentralen System aus verwalten, optimieren und automatisieren können.",
     "features": "Plattform-Funktionen",
-    "advantages": "Hauptvorteile",
+    "advantages": "Wichtige Vorteile",
     "carriers": "Globales Spediteursnetzwerk",
-    "readyToOptimize": "Bereit, Ihre Logistik zu Optimieren?",
-    "getStarted": "Jetzt Beginnen",
-    "apiDocumentation": "API Dokumentation",
+    "readyToOptimize": "Bereit, Ihre Logistik zu optimieren?",
+    "ctaParagraph": "Starten Sie mit unserer Multi-Carrier-Plattform und optimieren Sie Ihre Versandprozesse noch heute.",
+    "getStarted": "Jetzt starten",
+    "apiDocumentation": "API-Dokumentation",
+    "andManyMore": "Und viele mehr...",
+    "badge": {
+      "carriers": "35+ Spediteure",
+      "countries": "50+ Länder",
+      "cloud": "Cloud-basiert",
+      "gdpr": "DSGVO-konform"
+    },
     "platformCapabilities": {
       "title": "Plattform-Funktionen",
+      "description": "Alles, was Sie zur Optimierung Ihrer Logistikprozesse benötigen",
       "apiIntegration": {
-        "title": "API & EDI Integration",
-        "description": "Direkte Integration mit Spediteurssystemen für Echtzeit-Datenaustausch"
+        "title": "API- & EDI-Integration",
+        "description": "Direkte Integration mit Spediteursystemen für den Echtzeit-Datenaustausch",
+        "contractTerm": "Keine langfristigen Verträge",
+        "activation": "Sofortige Aktivierung",
+        "apiConnection": "Direkte API-Verbindung"
       },
       "customsSupport": {
-        "title": "Umfassender Zoll-Support",
-        "description": "Automatisierte Zolldokumentation und Compliance-Management"
+        "title": "Umfassende Zollunterstützung",
+        "description": "Automatisierte Zolldokumentation und Compliance-Management",
+        "webshopPlugins": "Webshop-Plugins verfügbar",
+        "customFrontend": "Individuelle Frontend-Unterstützung",
+        "automatedDataExchange": "Automatischer Datenaustausch"
       },
       "billingReconciliation": {
-        "title": "Erweiterte Abrechnungsabstimmung",
-        "description": "Optimierte Abrechnungsprozesse mit detaillierter Kostenanalyse"
+        "title": "Erweiterter Rechnungsabgleich",
+        "description": "Optimierte Abrechnungsprozesse mit detaillierter Kostenanalyse",
+        "crossBorderShipping": "Grenzüberschreitender Versand",
+        "legalCompliance": "Rechtliche Konformität",
+        "automatedDataDeletion": "Automatische Datenlöschung"
       },
       "cloudBased": {
         "title": "Cloud-basierte Architektur",
-        "description": "Skalierbar, sicher und von überall zugänglich"
+        "description": "Skalierbar, sicher und von überall zugänglich",
+        "invoiceVerification": "Rechnungsprüfung",
+        "billingErrorDetection": "Erkennung von Abrechnungsfehlern",
+        "costManagement": "Kostenmanagement"
       }
     },
     "keyAdvantages": {
-      "title": "Hauptvorteile",
+      "title": "Wichtige Vorteile",
       "general": "Allgemeine Vorteile",
-      "sales": "Verkaufsvorteile",
-      "operational": "Operative Vorteile",
-      "financial": "Finanzielle Vorteile"
+      "sales": "Vertriebsvorteile",
+      "operational": "Betriebliche Vorteile",
+      "financial": "Finanzielle Vorteile",
+      "lists": {
+        "operational": [
+          "Statusberichte: zugesagte vs. tatsächliche Lieferzeiten",
+          "Direkte Kommunikation mit Spediteurs-Support",
+          "Umfassende Track-&-Trace-Funktionalität",
+          "Mehrere Paketübergabepunkte pro Land",
+          "Automatische E-Mail-Benachrichtigungen für Sendungen",
+          "Industrielle Druckerkompatibilität (.ZPL-Format)"
+        ],
+        "financial": [
+          "Flexible Tarifverwaltung (plattform- oder kundenspezifisch)",
+          "Echtzeit-Rechnungsabgleich",
+          "Automatische Gewichtsdifferenzerkennung",
+          "Sofortige Korrektur von Abrechnungsfehlern",
+          "Kostenoptimierungstools",
+          "Finanzberichte und Analysen"
+        ],
+        "sales": [
+          "Multi-Carrier-Flexibilität für beste Preise",
+          "Keine Beeinträchtigung bestehender Verträge",
+          "Integration individueller Spediteursverträge",
+          "Unterstützung für Multi-Standort-Versand",
+          "Länderspezifische lokale Übergabe",
+          "Überlegenes Retourennetzwerk"
+        ]
+      }
     },
     "carrierNetwork": {
       "title": "Globales Spediteursnetzwerk",
-      "subtitle": "Verbindung mit 35+ Spediteuren in 50+ Ländern",
+      "subtitle": "Verbinden Sie sich mit über 35 Spediteuren in mehr als 50 Ländern",
       "stats": {
         "carriers": "35+",
-        "carriersLabel": "Spediteurs-Partner",
+        "carriersLabel": "Spediteurspartner",
         "countries": "50+",
         "countriesLabel": "Bediente Länder",
         "shipments": "1M+",
         "shipmentsLabel": "Monatliche Sendungen",
-        "uptime": "99.9%",
-        "uptimeLabel": "Plattform-Verfügbarkeit"
+        "uptime": "99,9%",
+        "uptimeLabel": "Plattform-Verfügbarkeit",
+        "injectionPoints": "200+",
+        "injectionPointsLabel": "Übergabepunkte"
+      },
+      "section": {
+        "title": "Aktuell integrierte Spediteure",
+        "subtitle": "Wählen Sie den besten Spediteur für jede Sendung basierend auf Lieferzeit, Preis und Region"
+      },
+      "types": {
+        "national": "National",
+        "express": "Express",
+        "parcel": "Paket",
+        "mail": "Post",
+        "global": "Global"
+      },
+      "regions": {
+        "netherlands": "Niederlande",
+        "germany": "Deutschland",
+        "belgium": "Belgien",
+        "austria": "Österreich",
+        "unitedKingdom": "Vereinigtes Königreich",
+        "denmark": "Dänemark",
+        "slovenia": "Slowenien",
+        "france": "Frankreich",
+        "spain": "Spanien",
+        "switzerland": "Schweiz",
+        "nordic": "Nordisch",
+        "norway": "Norwegen",
+        "europe": "Europa",
+        "global": "Global"
       }
     }
   },
   "apiDocs": {
-    "title": "MMCore API Dokumentation",
-    "subtitle": "Vollständige Referenz für die Integration mit unserer Multi-Carrier-Versandplattform",
-    "introduction": "Einführung",
-    "introText": "Die MMCore API bietet umfassenden Zugang zu unserer Multi-Carrier-Versandplattform. Integrieren Sie mit 35+ Spediteuren weltweit über eine einheitliche API.",
+    "title": "MMCore API-Dokumentation",
+    "subtitle": "Vollständige Referenz zur Integration mit unserer Multi-Carrier-Versandplattform",
     "quickStart": "Schnellstart",
-    "authentication": "Authentifizierung",
-    "authDescription": "Alle API-Anfragen erfordern eine Authentifizierung mit Ihrem API-Schlüssel im Header.",
-    "endpoints": "API Endpunkte",
-    "additionalResources": "Zusätzliche Ressourcen",
-    "postmanCollection": "Postman Sammlung",
-    "getSupport": "Support Erhalten",
-    "getAuth": "Authentifizierung Abrufen",
-    "getAuthDesc": "Authentifizieren und Zugriffstoken abrufen",
-    "getTracking": "Sendungsinformationen Abrufen",
-    "getTrackingDesc": "Detaillierte Sendungsinformationen für Pakete abrufen",
-    "postLabel": "Versandlabel Erstellen",
-    "postLabelDesc": "Versandlabels für verschiedene Spediteure generieren",
-    "postManifest": "Manifestdaten Übermitteln",
-    "postManifestDesc": "Manifestdaten für Sendungsverarbeitung übermitteln",
-    "postLockShipment": "Sendungsmanifest Sperren",
-    "postLockShipmentDesc": "Manifestdaten sperren, um weitere Änderungen zu verhindern",
-    "postShipmentRequest": "Sendungsanfrage Erstellen",
-    "postShipmentRequestDesc": "Neue Sendungsanfragen mit Spediteursauswahl erstellen",
+    "getUpAndRunning": "Schnell einsatzbereit",
+    "signUpForAccount": "Konto erstellen",
+    "includeAuthUser": "Fügen Sie AUTH_USER und AUTH_PW zur Authentifizierung hinzu.",
+    "verifyCredentials": "Überprüfen Sie Ihre Zugangsdaten",
+    "startProcessing": "Sendungen verarbeiten",
+    "exampleAuthentication": "Beispiel: Authentifizierung",
+    "basicExample": "Grundbeispiel",
+    "endpointsTitle": "API-Endpunkte",
+    "completeReference": "Vollständige Referenz",
     "parameters": "Parameter",
+    "queryParameters": "Abfrageparameter",
+    "default": "Standard",
+    "values": "Werte",
     "response": "Antwort",
     "example": "Beispiel",
-    "statusCodes": "Statuscodes",
-    "exampleAuthentication": "Beispiel: Authentifizierung",
-    "headerAuthentication": "Header-Authentifizierung",
-    "completeReference": "Vollständige Referenz",
-    "everythingYouNeed": "Alles was Sie brauchen",
+    "authentication": "Authentifizierung",
     "secureYourApi": "Sichern Sie Ihre API",
-    "getUpAndRunning": "Schnell loslegen",
-    "signUpForAccount": "Für ein Konto registrieren",
-    "verifyCredentials": "Anmeldedaten überprüfen",
-    "startProcessing": "Mit der Verarbeitung von Sendungen beginnen",
-    "basicExample": "Grundlegendes Beispiel",
-    "includeAuthUser": "Fügen Sie Ihren AUTH_USER hinzu",
-    "keepCredentialsSecure": "Halten Sie Ihre Anmeldedaten sicher",
-    "neverExpose": "Setzen Sie sie niemals frei",
-    "useEnvironmentVariables": "Verwenden Sie Umgebungsvariablen"
-  },
-  "common": {
-    "back": "Zurück",
-    "loading": "Laden...",
-    "error": "Fehler",
-    "success": "Erfolg",
-    "cancel": "Abbrechen",
-    "confirm": "Bestätigen",
-    "save": "Speichern",
-    "edit": "Bearbeiten",
-    "delete": "Löschen",
-    "close": "Schließen"
+    "headerAuthentication": "Header-Authentifizierung",
+    "securityNote": "Sicherheitshinweis",
+    "keepCredentialsSecure": "Bewahren Sie Ihre Zugangsdaten sicher auf.",
+    "neverExpose": "Geben Sie diese niemals weiter.",
+    "useEnvironmentVariables": "Verwenden Sie Umgebungsvariablen.",
+    "additionalResources": "Zusätzliche Ressourcen",
+    "everythingYouNeed": "Alles, was Sie brauchen",
+    "postmanCollection": "Postman-Sammlung",
+    "getSupport": "Support erhalten",
+    "changelog": "Änderungsprotokoll",
+    "badges": {
+      "restApi": "REST API",
+      "realTimeTracking": "Echtzeit-Tracking",
+      "manifestProcessing": "Manifestverarbeitung",
+      "multiCarrier": "Multi-Carrier"
+    },
+    "statusCodes": "Statuscodes",
+    "statusCodesIntro": "Statuscodes, die in Tracking-Antworten zurückgegeben werden, mit ihren Beschreibungen",
+    "endpoints": {
+      "auth": {
+        "description": "Authentifizieren und validieren Sie Ihre API-Zugangsdaten"
+      },
+      "tracking": {
+        "description": "Erhalten Sie detaillierte Tracking-Informationen für Sendungen mit umfassenden Abfrageparametern",
+        "query": {
+          "lang": "Legt die Sprache für die API-Antwort fest",
+          "flightTrackingSetting": "Definiert, wie Flug-/Frachtbrief-Tracking gehandhabt wird",
+          "type": "Gibt die Art des verwendeten Trackings an",
+          "trackingDetails": "Definiert den Detaillierungsgrad in der Tracking-Antwort"
+        }
+      },
+      "action": {
+        "description": "Fordern Sie ein Spediteur-Etikett für ein bestimmtes Land mit verschiedenen Ausgabeoptionen an",
+        "query": {
+          "pl": "Y = PDF-Etikett anzeigen, N = JSON-Ergebnis erhalten",
+          "dhlzpl": "Y = DHL JSON-Etikett, N = URL zum PDF",
+          "zpl": "Y = ZPL-Etikett, falls unterstützt",
+          "o": "Ausgabe im JSON-Format",
+          "dl": "Y = Etikett wird innerhalb dieses Aufrufs erzeugt"
+        }
+      },
+      "postManifest": {
+        "description": "Laden Sie Manifestdaten zur Sendungsverarbeitung in die Datenbank hoch (unterstützt Massenuploads)",
+        "query": {
+          "ls": "Y = Manifestdaten sperren (falls fehlerfrei), N = Manifestdaten nicht sperren. NUR FÜR LUFTFRACHTBRIEFE ANWENDBAR"
+        }
+      },
+      "lockShipment": {
+        "description": "Sperrt eine Sendung, um weitere Änderungen zu verhindern (nur Luftfrachtbriefe). Signalisiert, dass die Sendung abgeschlossen ist."
+      }
+    },
+    "statusCodeDescriptions": {
+      "97": "Für den Zoll manifestiert",
+      "98": "Etikettendaten wurden vorregistriert",
+      "99": "Etikett wurde erstellt",
+      "200": "Versanderklärung",
+      "201": "Versandankunft",
+      "202": "Versanddokumentation",
+      "203": "Versandänderung",
+      "204": "Versandstornierung",
+      "205": "Zollabfertigung gestartet",
+      "207": "Zollproblem",
+      "208": "Beschlagnahmt",
+      "209": "Vom Zoll zurückgehalten",
+      "210": "Dokumente erforderlich",
+      "211": "Akzeptiert",
+      "213": "Paket freigegeben",
+      "214": "Manuell freigegeben",
+      "215": "Storniert",
+      "216": "Im Lager angekommen",
+      "217": "Bereit für letzte Meile",
+      "218": "An letzte Meile übergeben",
+      "219": "Auftrag versendet",
+      "2000": "Fracht wird verfolgt",
+      "2001": "Information gesendet, wartet auf Abholung durch Spediteur",
+      "2002": "Spediteur hat die Fracht übernommen",
+      "2003": "Unterwegs",
+      "2004": "Fracht am Zielort angekommen",
+      "2005": "Empfänger zur Abholung benachrichtigt",
+      "2006": "Fracht an Empfänger zugestellt",
+      "2007": "Pakete verloren, beschädigt, retourniert oder nicht abgeholt",
+      "2008": "Lieferzeit zu lang",
+      "3000": "Paket hat ein Depot erreicht",
+      "3001": "Ausgangsscan",
+      "3004": "Paketdetails aktualisiert",
+      "3005": "Paket beim letzte-Meile-Spediteur eingetroffen",
+      "3050": "Paket hat das Depot verlassen",
+      "5000": "Paket in Zustellung",
+      "5001": "Paket wird dem Empfänger zugestellt",
+      "5002": "SMS-Benachrichtigung an Empfänger gesendet",
+      "5003": "Paket wird an Paketstation geliefert",
+      "5004": "Paket wird an Paketshop geliefert",
+      "7000": "Empfänger nicht zuhause, zweiter Versuch:",
+      "7001": "Empfänger nicht zuhause, Paket wird 5 Tage im Depot gelagert",
+      "7002": "Empfänger nicht zuhause",
+      "7003": "Empfänger nicht zuhause, Paket kann an Abholstelle abgeholt werden",
+      "7004": "Gelagert bis zur Abholung",
+      "8000": "Rücksendung an Absender",
+      "8001": "Sendung storniert",
+      "8500": "Zusätzliche Information",
+      "9000": "Zugestellt",
+      "9001": "Paket beim Nachbarn zugestellt",
+      "9002": "Paket im Paketshop zugestellt",
+      "9003": "Paket in Paketbox zugestellt",
+      "9004": "Paket an sicherem Ort zugestellt",
+      "9005": "Paket abgeholt",
+      "9006": "Rücksendung zugestellt",
+      "9500": "Abgelehnt",
+      "9501": "Paket nicht abgeholt",
+      "9502": "Paket nicht zugestellt",
+      "9503": "Paket an neue Adresse umgeleitet",
+      "9600": "Falsche Adressangaben"
+    },
+    "common": {
+      "back": "Zurück",
+      "loading": "Lädt...",
+      "error": "Fehler",
+      "success": "Erfolg",
+      "cancel": "Abbrechen",
+      "confirm": "Bestätigen",
+      "save": "Speichern",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "close": "Schließen"
+    }
   }
 }

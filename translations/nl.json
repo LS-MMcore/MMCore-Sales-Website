@@ -3,62 +3,68 @@
     "home": "Home",
     "tracking": "Tracking",
     "services": "Diensten",
-    "apiDocs": "API Docs",
+    "apiDocs": "API-documentatie",
     "contact": "Contact"
+  },
+  "footer": {
+    "allRightsReserved": "Alle rechten voorbehouden",
+    "termsOfService": "Servicevoorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "poweredBy": "Aangedreven door"
   },
   "hero": {
     "trustedBy": "Vertrouwd door 500+ bedrijven",
-    "title": "Naadloze Logistiek & Fulfillment Oplossingen",
-    "titleHighlight": "Fulfillment",
-    "subtitle": "Verbind merken, fabrikanten en logistieke dienstverleners in Europa en het VK met ons geavanceerde multi-carrier platform.",
-    "getStarted": "Begin Vandaag",
-    "viewApiDocs": "Bekijk API Docs",
+    "title": "Naadloze logistiek- & fulfilmentoplossingen",
+    "titleHighlight": "Fulfilment",
+    "subtitle": "Verbind merken, fabrikanten en logistieke aanbieders in heel Europa en het VK met ons geavanceerde multi-carrier platform.",
+    "getStarted": "Begin vandaag nog",
+    "viewApiDocs": "Bekijk API-documentatie",
     "carriers": "35+ Vervoerders",
-    "carriersDesc": "Wereldwijd Netwerk",
+    "carriersDesc": "Wereldwijd netwerk",
     "countries": "50+ Landen",
-    "countriesDesc": "Wereldwijd Bereik",
-    "realtime": "Real-time",
+    "countriesDesc": "Wereldwijde dekking",
+    "realtime": "Realtime",
     "realtimeDesc": "Tracking & Updates"
   },
   "about": {
     "title": "Onze Diensten",
     "subtitle": "Uitgebreide verzendoplossingen voor uw bedrijf",
     "multiCarrier": {
-      "title": "Multi-Carrier Integratie",
-      "description": "Verbind met 35+ vervoerders wereldwijd via één API"
+      "title": "Multi-carrier integratie",
+      "description": "Verbind met 35+ vervoerders wereldwijd via één enkele API"
     },
     "realTimeTracking": {
-      "title": "Real-Time Tracking",
-      "description": "Monitor zendingen met live updates en meldingen"
+      "title": "Realtime Tracking",
+      "description": "Volg zendingen met live updates en meldingen"
     },
     "customsSupport": {
-      "title": "Douane Ondersteuning",
+      "title": "Douaneondersteuning",
       "description": "Geautomatiseerde douanedocumentatie en compliance"
     },
     "billingReconciliation": {
-      "title": "Facturatie Reconciliatie",
-      "description": "Gestroomlijnde facturatie en kostenbeheer over vervoerders"
+      "title": "Factuurafstemming",
+      "description": "Gestroomlijnd facturatie- en kostenbeheer over alle vervoerders"
     },
-    "learnMore": "Meer Informatie Over Onze Diensten"
+    "learnMore": "Meer over onze diensten"
   },
   "tracking": {
-    "title": "Volg Uw Zending",
-    "subtitle": "Voer uw trackingnummer in voor real-time updates",
+    "title": "Volg uw zending",
+    "subtitle": "Voer uw trackingnummer in om realtime updates te ontvangen",
     "placeholder": "Voer trackingnummer in",
-    "trackButton": "Volg Pakket",
+    "trackButton": "Pakket volgen",
     "trackYourPackage": "VOLG UW PAKKET",
     "enterTrackingNumbers": "Voer trackingnummers in (één per regel)",
     "pleaseEnterTracking": "Voer ten minste één trackingnummer in",
     "somethingWentWrong": "Er is iets misgegaan",
     "notFound": "Niet gevonden",
-    "unknownStatus": "Onbekende Status",
+    "unknownStatus": "Onbekende status",
     "noUpdates": "Geen updates",
     "noResults": "Geen trackinginformatie gevonden voor dit nummer.",
-    "error": "Fout bij ophalen trackinginformatie. Probeer opnieuw."
+    "error": "Fout bij het ophalen van trackinginformatie. Probeer opnieuw."
   },
   "contact": {
-    "title": "Neem Contact Op",
-    "subtitle": "Klaar om uw verzendoperaties te stroomlijnen? Neem vandaag contact met ons op.",
+    "title": "Neem contact op",
+    "subtitle": "Klaar om uw verzendprocessen te optimaliseren? Neem vandaag nog contact met ons op.",
     "successMessage": "Uw bericht is succesvol verzonden!",
     "stats": {
       "tms": "TMS",
@@ -66,190 +72,321 @@
       "wms": "WMS",
       "wmsDesc": "Warehouse Management Systeem",
       "support": "24/7 Ondersteuning",
-      "supportDesc": "Expert Assistentie"
+      "supportDesc": "Deskundige hulp"
     },
     "info": {
-      "title": "Contact Informatie",
+      "title": "Contactinformatie",
       "email": "E-mail",
       "emailDesc": "Neem contact op met ons team"
     },
     "form": {
-      "title": "Contact Formulier",
-      "subtitle": "Stuur ons een bericht en we nemen contact met u op",
-      "firstName": "Voornaam",
-      "firstNamePlaceholder": "Voer uw voornaam in",
+      "title": "Contactformulier",
+      "subtitle": "Stuur ons een bericht en wij nemen contact met u op",
+      "name": "Voornaam",
+      "namePlaceholder": "Voer uw voornaam in",
       "lastName": "Achternaam",
       "lastNamePlaceholder": "Voer uw achternaam in",
-      "name": "Volledige Naam",
-      "namePlaceholder": "Voer uw volledige naam in",
       "email": "E-mailadres",
       "emailPlaceholder": "Voer uw e-mailadres in",
       "company": "Bedrijf",
       "companyPlaceholder": "Voer uw bedrijfsnaam in",
-      "enquiry": "Type Aanvraag",
+      "enquiry": "Type aanvraag",
       "selectEnquiry": "Selecteer type aanvraag",
       "enquiryOptions": {
         "sales": "Verkoop",
-        "support": "Technische Ondersteuning",
+        "support": "Technische ondersteuning",
         "technical": "IT & Integratie",
         "partnership": "Partnerschap",
         "billing": "Facturatie & Prijzen",
-        "demo": "Demo Aanvragen",
-        "other": "Anders"
+        "demo": "Demo aanvragen",
+        "other": "Overig"
       },
       "message": "Bericht",
       "messagePlaceholder": "Vertel ons over uw verzendbehoeften...",
-      "submit": "Verstuur Bericht"
+      "submit": "Verstuur bericht"
     },
     "quickLinks": {
-      "title": "Snelle Links",
-      "api": "API Documentatie",
+      "title": "Snelle links",
+      "api": "API-documentatie",
       "apiIcon": "📚",
-      "features": "Platform Functies",
+      "features": "Platformfuncties",
       "featuresIcon": "⚡",
-      "tracking": "Zending Tracking",
+      "tracking": "Volg zendingen",
       "trackingIcon": "📦"
     }
   },
   "services": {
-    "title": "Multi-Carrier Tarief & Labeling Platform",
-    "subtitle": "Stroomlijn uw verzendoperaties met ons uitgebreide platform",
-    "description": "MMCore is een cloud-gebaseerde, volledig schaalbare oplossing waarmee bedrijven hun verzendprocessen kunnen beheren, optimaliseren en automatiseren via 35+ vervoerders die leveren aan 50+ landen vanuit één gecentraliseerd systeem.",
-    "features": "Platform Mogelijkheden",
-    "advantages": "Belangrijkste Voordelen",
-    "carriers": "Wereldwijd Vervoerdersnetwerk",
-    "readyToOptimize": "Klaar om Uw Logistiek te Optimaliseren?",
-    "getStarted": "Begin Nu",
-    "apiDocumentation": "API Documentatie",
+    "title": "Multi-carrier Tarief- & Labelplatform",
+    "subtitle": "Optimaliseer uw verzendprocessen met ons uitgebreide platform",
+    "description": "MMCore is een cloudgebaseerde, volledig schaalbare oplossing waarmee bedrijven hun verzendprocessen kunnen beheren, optimaliseren en automatiseren via 35+ vervoerders naar meer dan 50 landen vanuit één centraal systeem.",
+    "features": "Platformmogelijkheden",
+    "advantages": "Belangrijkste voordelen",
+    "carriers": "Wereldwijd vervoerdersnetwerk",
+    "readyToOptimize": "Klaar om uw logistiek te optimaliseren?",
+    "ctaParagraph": "Begin vandaag nog met ons multi-carrier platform en stroomlijn uw verzendprocessen.",
+    "getStarted": "Begin nu",
+    "apiDocumentation": "API-documentatie",
+    "andManyMore": "En nog veel meer...",
+    "badge": {
+      "carriers": "35+ Vervoerders",
+      "countries": "50+ Landen",
+      "cloud": "Cloud-gebaseerd",
+      "gdpr": "AVG-conform"
+    },
     "platformCapabilities": {
-      "title": "Platform Mogelijkheden",
+      "title": "Platformmogelijkheden",
+      "description": "Alles wat u nodig heeft om uw logistieke processen te stroomlijnen",
       "apiIntegration": {
-        "title": "API & EDI Integratie",
-        "description": "Directe integratie met vervoerderssystemen voor real-time gegevensuitwisseling"
+        "title": "API- & EDI-integratie",
+        "description": "Directe integratie met vervoerderssystemen voor realtime data-uitwisseling",
+        "contractTerm": "Geen langdurige contracten",
+        "activation": "Directe activering",
+        "apiConnection": "Directe API-verbinding"
       },
       "customsSupport": {
-        "title": "Uitgebreide Douane Ondersteuning",
-        "description": "Geautomatiseerde douanedocumentatie en compliance management"
+        "title": "Uitgebreide douaneondersteuning",
+        "description": "Geautomatiseerde douanedocumentatie en compliancebeheer",
+        "webshopPlugins": "Webshop-plugins beschikbaar",
+        "customFrontend": "Ondersteuning voor maatwerk frontend",
+        "automatedDataExchange": "Geautomatiseerde gegevensuitwisseling"
       },
       "billingReconciliation": {
-        "title": "Geavanceerde Facturatie Reconciliatie",
-        "description": "Gestroomlijnde facturatieprocessen met gedetailleerde kostenanalyse"
+        "title": "Geavanceerde factuurafstemming",
+        "description": "Gestroomlijnde facturatie met gedetailleerde kostenanalyse",
+        "crossBorderShipping": "Grensoverschrijdende verzending",
+        "legalCompliance": "Wettelijke naleving",
+        "automatedDataDeletion": "Automatische gegevensverwijdering"
       },
       "cloudBased": {
-        "title": "Cloud-Gebaseerde Architectuur",
-        "description": "Schaalbaar, veilig en overal toegankelijk"
+        "title": "Cloud-gebaseerde architectuur",
+        "description": "Schaalbaar, veilig en overal toegankelijk",
+        "invoiceVerification": "Factuurcontrole",
+        "billingErrorDetection": "Detectie van factureringsfouten",
+        "costManagement": "Kostenbeheer"
       }
     },
     "keyAdvantages": {
-      "title": "Belangrijkste Voordelen",
-      "general": "Algemene Voordelen",
-      "sales": "Verkoop Voordelen",
-      "operational": "Operationele Voordelen",
-      "financial": "Financiële Voordelen"
+      "title": "Belangrijkste voordelen",
+      "general": "Algemene voordelen",
+      "sales": "Verkoopvoordelen",
+      "operational": "Operationele voordelen",
+      "financial": "Financiële voordelen",
+      "lists": {
+        "operational": [
+          "Statusrapporten: beloofde vs. werkelijke levertijden",
+          "Direct contact met klantenservice van vervoerders",
+          "Uitgebreide track-&-trace-functionaliteit",
+          "Meerdere pakketinleverpunten per land",
+          "Automatische e-mailmeldingen voor zendingen",
+          "Compatibiliteit met industriële printers (.ZPL-formaat)"
+        ],
+        "financial": [
+          "Flexibel tariefbeheer (platform of maatwerk)",
+          "Realtime factuurafstemming",
+          "Automatische detectie van gewichtsverschillen",
+          "Directe correctie van factureringsfouten",
+          "Kostenoptimalisatietools",
+          "Financiële rapportages en analyses"
+        ],
+        "sales": [
+          "Multi-carrier flexibiliteit voor de beste tarieven",
+          "Geen verstoring van bestaande contracten",
+          "Integratie van eigen vervoerderscontracten",
+          "Ondersteuning voor verzending vanaf meerdere locaties",
+          "Land-specifieke lokale inleverpunten",
+          "Uitgebreid retournetwerk"
+        ]
+      }
     },
     "carrierNetwork": {
-      "title": "Wereldwijd Vervoerdersnetwerk",
-      "subtitle": "Verbind met 35+ vervoerders in 50+ landen",
+      "title": "Wereldwijd vervoerdersnetwerk",
+      "subtitle": "Verbind met 35+ vervoerders in meer dan 50 landen",
       "stats": {
         "carriers": "35+",
-        "carriersLabel": "Vervoerders Partners",
+        "carriersLabel": "Vervoerderpartners",
         "countries": "50+",
-        "countriesLabel": "Landen Bediend",
+        "countriesLabel": "Bediende landen",
         "shipments": "1M+",
-        "shipmentsLabel": "Maandelijkse Zendingen",
-        "uptime": "99.9%",
-        "uptimeLabel": "Platform Uptime"
+        "shipmentsLabel": "Maandelijkse zendingen",
+        "uptime": "99,9%",
+        "uptimeLabel": "Platform-beschikbaarheid",
+        "injectionPoints": "200+",
+        "injectionPointsLabel": "Inleverpunten"
+      },
+      "section": {
+        "title": "Momenteel geïntegreerde vervoerders",
+        "subtitle": "Kies de beste vervoerder voor elke zending op basis van levertijd, prijs en regio"
+      },
+      "types": {
+        "national": "Nationaal",
+        "express": "Express",
+        "parcel": "Pakket",
+        "mail": "Post",
+        "global": "Internationaal"
+      },
+      "regions": {
+        "netherlands": "Nederland",
+        "germany": "Duitsland",
+        "belgium": "België",
+        "austria": "Oostenrijk",
+        "unitedKingdom": "Verenigd Koninkrijk",
+        "denmark": "Denemarken",
+        "slovenia": "Slovenië",
+        "france": "Frankrijk",
+        "spain": "Spanje",
+        "switzerland": "Zwitserland",
+        "nordic": "Scandinavië",
+        "norway": "Noorwegen",
+        "europe": "Europa",
+        "global": "Wereldwijd"
       }
     }
   },
   "apiDocs": {
-    "title": "MMCore API Documentatie",
+    "title": "MMCore API-documentatie",
     "subtitle": "Volledige referentie voor integratie met ons multi-carrier verzendplatform",
-    "introduction": "Introductie",
-    "introText": "De MMCore API biedt uitgebreide toegang tot ons multi-carrier verzendplatform. Integreer met 35+ vervoerders wereldwijd via één uniforme API.",
-    "quickStart": "Snelle Start",
-    "authentication": "Authenticatie",
-    "authDescription": "Alle API-verzoeken vereisen authenticatie met uw API-sleutel in de header.",
-    "endpoints": "API Endpoints",
-    "additionalResources": "Aanvullende Bronnen",
-    "postmanCollection": "Postman Collectie",
-    "getSupport": "Krijg Ondersteuning",
-    "getAuth": "Authenticatie Ophalen",
-    "getAuthDesc": "Authenticeer en verkrijg toegangstoken",
-    "getTracking": "Trackinginformatie Ophalen",
-    "getTrackingDesc": "Gedetailleerde trackinginformatie voor zendingen ophalen",
-    "postLabel": "Verzendlabel Maken",
-    "postLabelDesc": "Verzendlabels genereren voor verschillende vervoerders",
-    "postManifest": "Manifestgegevens Indienen",
-    "postManifestDesc": "Manifestgegevens indienen voor zendingverwerking",
-    "postLockShipment": "Zendingmanifest Vergrendelen",
-    "postLockShipmentDesc": "Manifestgegevens vergrendelen om verdere wijzigingen te voorkomen",
-    "postShipmentRequest": "Zendingverzoek Maken",
-    "postShipmentRequestDesc": "Nieuwe zendingverzoeken maken met vervoerderselectie",
-    "parameters": "Parameters",
-    "response": "Reactie",
-    "example": "Voorbeeld",
-    "statusCodes": "Statuscodes",
+    "quickStart": "Snelstart",
+    "getUpAndRunning": "Snel operationeel",
+    "signUpForAccount": "Account aanmaken",
+    "includeAuthUser": "Voeg AUTH_USER en AUTH_PW toe voor authenticatie.",
+    "verifyCredentials": "Controleer uw inloggegevens",
+    "startProcessing": "Begin met verwerken van zendingen",
     "exampleAuthentication": "Voorbeeld: Authenticatie",
-    "headerAuthentication": "Header Authenticatie",
+    "basicExample": "Basisvoorbeeld",
+    "endpointsTitle": "API-eindpunten",
     "completeReference": "Volledige referentie",
-    "everythingYouNeed": "Alles wat u nodig heeft",
+    "parameters": "Parameters",
+    "queryParameters": "Queryparameters",
+    "default": "Standaard",
+    "values": "Waarden",
+    "response": "Antwoord",
+    "example": "Voorbeeld",
+    "authentication": "Authenticatie",
     "secureYourApi": "Beveilig uw API",
-    "getUpAndRunning": "Aan de slag",
-    "signUpForAccount": "Registreer voor een account",
-    "verifyCredentials": "Verifieer uw inloggegevens",
-    "startProcessing": "Begin met het verwerken van zendingen",
-    "basicExample": "Basis voorbeeld",
-    "includeAuthUser": "Voeg uw AUTH_USER toe",
-    "keepCredentialsSecure": "Houd uw inloggegevens veilig",
-    "neverExpose": "Stel ze nooit bloot",
-    "useEnvironmentVariables": "Gebruik omgevingsvariabelen",
+    "headerAuthentication": "Header-authenticatie",
+    "securityNote": "Veiligheidsopmerking",
+    "keepCredentialsSecure": "Bewaar uw inloggegevens veilig.",
+    "neverExpose": "Geef deze nooit vrij.",
+    "useEnvironmentVariables": "Gebruik omgevingsvariabelen.",
+    "additionalResources": "Aanvullende bronnen",
+    "everythingYouNeed": "Alles wat u nodig heeft",
+    "postmanCollection": "Postman-collectie",
+    "getSupport": "Ondersteuning krijgen",
     "changelog": "Wijzigingslogboek",
-    "changelogSubtitle": "Blijf op de hoogte van de nieuwste API-wijzigingen en verbeteringen",
-    "backToDocumentation": "Terug naar Documentatie",
-    "stayUpdated": "Blijf Bijgewerkt",
-    "subscribeToUpdates": "Abonneer u op onze updates om belangrijke API-wijzigingen nooit te missen",
-    "viewDocumentation": "Bekijk Documentatie",
-    "contactSupport": "Contact Ondersteuning",
-    "faq": {
-      "title": "Veelgestelde Vragen",
-      "subtitle": "Veelgestelde vragen over de MMCore API",
-      "rateLimits": {
-        "question": "Wat zijn de API-snelheidslimieten?",
-        "answer": "De MMCore API heeft een snelheidslimiet van 1000 verzoeken per uur per API-sleutel. Als u hogere limieten nodig heeft voor productiegebruik, neem dan contact op met ons ondersteuningsteam om enterprise-opties te bespreken."
+    "badges": {
+      "restApi": "REST API",
+      "realTimeTracking": "Realtime Tracking",
+      "manifestProcessing": "Manifestverwerking",
+      "multiCarrier": "Multi-carrier"
+    },
+    "statusCodes": "Statuscodes",
+    "statusCodesIntro": "Statuscodes die worden geretourneerd in tracking-antwoorden met hun beschrijvingen",
+    "endpoints": {
+      "auth": {
+        "description": "Authenticeer en valideer uw API-inloggegevens"
       },
-      "bulkTracking": {
-        "question": "Kan ik meerdere zendingen tegelijk volgen?",
-        "answer": "Ja, het tracking-endpoint ondersteunt bulk tracking. U kunt een array van trackingnummers in de request body sturen om meerdere zendingen tegelijkertijd te volgen, met een maximum van 100 trackingnummers per verzoek."
+      "tracking": {
+        "description": "Ontvang gedetailleerde trackinginformatie voor zendingen met uitgebreide queryparameters",
+        "query": {
+          "lang": "Stelt de taal van de API-respons in",
+          "flightTrackingSetting": "Definieert hoe vlucht-/vrachtbrief-tracking wordt afgehandeld",
+          "type": "Specificeert het type tracking",
+          "trackingDetails": "Definieert het detailniveau in de trackingrespons"
+        }
       },
-      "manifestLocking": {
-        "question": "Wat gebeurt er wanneer ik een manifest vergrendel?",
-        "answer": "Het vergrendelen van een manifest voorkomt verdere wijzigingen aan de zendinggegevens en meldt de vervoerder dat de zending klaar is voor verwerking. Dit wordt meestal gedaan wanneer alle pakketten voor een luchtvrachtbrief zijn toegevoegd."
+      "action": {
+        "description": "Vraag een vervoerderslabel aan voor een specifiek land met verschillende uitvoeropties",
+        "query": {
+          "pl": "Y = Toon PDF-label, N = ontvang JSON-resultaat",
+          "dhlzpl": "Y = ontvang DHL JSON-label, N = URL naar PDF",
+          "zpl": "Y = ontvang ZPL-label indien ondersteund",
+          "o": "Uitvoer in JSON-formaat",
+          "dl": "Y = label wordt binnen deze call aangemaakt"
+        }
       },
-      "trackingLanguages": {
-        "question": "Welke talen worden ondersteund voor tracking-reacties?",
-        "answer": "Momenteel ondersteunt de API Engels (en) en Nederlands (nl) voor tracking-reacties. U kunt de taal specificeren met de 'lang' query parameter in uw tracking-verzoeken."
+      "postManifest": {
+        "description": "Upload manifestgegevens naar de database voor zendingverwerking (ondersteunt bulkuploads)",
+        "query": {
+          "ls": "Y = Manifestgegevens vergrendelen (indien foutloos), N = Niet vergrendelen. ALLEEN VAN TOEPASSING VOOR LUCHTVRACHTBRIEVEN"
+        }
       },
-      "errorHandling": {
-        "question": "Hoe moet ik API-fouten afhandelen?",
-        "answer": "De API retourneert standaard HTTP-statuscodes. Controleer altijd de response status en handel fouten op de juiste manier af. Veelvoorkomende fouten zijn 400 (Bad Request), 401 (Unauthorized), 404 (Not Found), en 500 (Internal Server Error)."
-      },
-      "webhooks": {
-        "question": "Ondersteunen jullie webhooks voor real-time updates?",
-        "answer": "Webhook-ondersteuning is momenteel in ontwikkeling. Voor nu kunt u het tracking-endpoint pollen voor updates. We raden aan om elke 15-30 minuten te controleren op updates om actueel te blijven met zendingstatuswijzigingen."
+      "lockShipment": {
+        "description": "Vergrendel een zending om verdere wijzigingen te voorkomen (alleen luchtvrachtbrieven). Meldt dat de zending voltooid is."
       }
+    },
+    "statusCodeDescriptions": {
+      "97": "Gemanifesteerd voor douane",
+      "98": "Labelgegevens zijn vooraf geregistreerd",
+      "99": "Label is aangemaakt",
+      "200": "Verzendverklaring",
+      "201": "Aankomst verzending",
+      "202": "Verzenddocumentatie",
+      "203": "Wijziging verzending",
+      "204": "Annulering verzending",
+      "205": "Douaneafhandeling gestart",
+      "207": "Douaneprobleem",
+      "208": "In beslag genomen",
+      "209": "Vastgehouden door douane",
+      "210": "Documenten vereist",
+      "211": "Geaccepteerd",
+      "213": "Pakket vrijgegeven",
+      "214": "Handmatig vrijgegeven",
+      "215": "Geannuleerd",
+      "216": "Aangekomen in faciliteit",
+      "217": "Klaar voor laatste bezorging",
+      "218": "Overgedragen aan laatste bezorging",
+      "219": "Opdracht verzonden",
+      "2000": "De vracht wordt gevolgd",
+      "2001": "Informatie verzonden, wachtend op afhaling door vervoerder",
+      "2002": "Vervoerder heeft de vracht opgehaald",
+      "2003": "Onderweg",
+      "2004": "De vracht is aangekomen op bestemming",
+      "2005": "Ontvanger geïnformeerd om de vracht af te halen",
+      "2006": "De vracht is geleverd aan de ontvanger",
+      "2007": "Pakketten verloren, beschadigd, retour of niet opgehaald",
+      "2008": "Levertijd te lang",
+      "3000": "Pakket heeft depot bereikt",
+      "3001": "Uitgaand scan",
+      "3004": "Pakketdetails bijgewerkt",
+      "3005": "Pakket ontvangen door laatste vervoerder",
+      "3050": "Pakket heeft depot verlaten",
+      "5000": "Pakket is onderweg voor levering",
+      "5001": "Pakket wordt bezorgd bij ontvanger",
+      "5002": "SMS-melding naar ontvanger verzonden",
+      "5003": "Pakket wordt geleverd aan pakketautomaat",
+      "5004": "Pakket wordt geleverd aan pakketwinkel",
+      "7000": "Ontvanger niet thuis, tweede poging:",
+      "7001": "Ontvanger niet thuis, pakket 5 dagen in depot opgeslagen",
+      "7002": "Ontvanger niet thuis",
+      "7003": "Ontvanger niet thuis, pakket kan worden opgehaald bij afhaalpunt",
+      "7004": "Opgeslagen tot ophalen",
+      "8000": "Retour naar afzender",
+      "8001": "Zending geannuleerd",
+      "8500": "Extra informatie",
+      "9000": "Bezorgd",
+      "9001": "Pakket bij buren bezorgd",
+      "9002": "Pakket in pakketwinkel bezorgd",
+      "9003": "Pakket in pakketautomaat bezorgd",
+      "9004": "Pakket op veilige plek afgeleverd",
+      "9005": "Pakket opgehaald",
+      "9006": "Retourzending bezorgd",
+      "9500": "Geweigerd",
+      "9501": "Pakket niet opgehaald",
+      "9502": "Pakket niet geleverd",
+      "9503": "Pakket doorgestuurd naar nieuw adres",
+      "9600": "Onjuiste adresgegevens"
+    },
+    "common": {
+      "back": "Terug",
+      "loading": "Laden...",
+      "error": "Fout",
+      "success": "Succes",
+      "cancel": "Annuleren",
+      "confirm": "Bevestigen",
+      "save": "Opslaan",
+      "edit": "Bewerken",
+      "delete": "Verwijderen",
+      "close": "Sluiten"
     }
-  },
-  "common": {
-    "back": "Terug",
-    "loading": "Laden...",
-    "error": "Fout",
-    "success": "Succes",
-    "cancel": "Annuleren",
-    "confirm": "Bevestigen",
-    "save": "Opslaan",
-    "edit": "Bewerken",
-    "delete": "Verwijderen",
-    "close": "Sluiten"
   }
 }

@@ -1,1 +1,392 @@
-{}
+{
+    "navigation": {
+        "home": "Home",
+        "tracking": "Tracciamento",
+        "services": "Servizi",
+        "apiDocs": "Documentazione API",
+        "contact": "Contatti"
+    },
+    "footer": {
+        "allRightsReserved": "Tutti i diritti riservati",
+        "termsOfService": "Termini di servizio",
+        "privacyPolicy": "Informativa sulla privacy",
+        "poweredBy": "Offerto da"
+    },
+    "hero": {
+        "trustedBy": "Scelto da oltre 500 aziende",
+        "title": "Soluzioni Logistiche e di Fulfillment senza interruzioni",
+        "titleHighlight": "Fulfillment",
+        "subtitle": "Collega marchi, produttori e fornitori logistici in tutta Europa e Regno Unito con la nostra piattaforma multi-vettore avanzata.",
+        "getStarted": "Inizia oggi",
+        "viewApiDocs": "Visualizza API Docs",
+        "carriers": "35+ Corrieri",
+        "carriersDesc": "Rete Globale",
+        "countries": "50+ Paesi",
+        "countriesDesc": "Copertura Mondiale",
+        "realtime": "In tempo reale",
+        "realtimeDesc": "Tracciamento e Aggiornamenti"
+    },
+    "about": {
+        "title": "I Nostri Servizi",
+        "subtitle": "Soluzioni di spedizione complete per la tua azienda",
+        "multiCarrier": {
+            "title": "Integrazione Multi-Corriere",
+            "description": "Collegati a oltre 35 corrieri in tutto il mondo tramite una singola API"
+        },
+        "realTimeTracking": {
+            "title": "Tracciamento in Tempo Reale",
+            "description": "Monitora le spedizioni con aggiornamenti e notifiche in tempo reale"
+        },
+        "customsSupport": {
+            "title": "Supporto Doganale",
+            "description": "Documentazione doganale automatizzata e conformità"
+        },
+        "billingReconciliation": {
+            "title": "Riconciliazione Fatturazione",
+            "description": "Fatturazione e gestione dei costi semplificata tra i corrieri"
+        },
+        "learnMore": "Scopri di più sui nostri servizi"
+    },
+    "tracking": {
+        "title": "Traccia la tua Spedizione",
+        "subtitle": "Inserisci il tuo numero di tracciamento per ricevere aggiornamenti in tempo reale",
+        "placeholder": "Inserisci numero di tracciamento",
+        "trackButton": "Traccia Pacco",
+        "trackYourPackage": "TRACCIA IL TUO PACCO",
+        "enterTrackingNumbers": "Inserisci numeri di tracciamento (uno per riga)",
+        "pleaseEnterTracking": "Inserisci almeno un numero di tracciamento",
+        "somethingWentWrong": "Qualcosa è andato storto",
+        "notFound": "Non trovato",
+        "unknownStatus": "Stato sconosciuto",
+        "noUpdates": "Nessun aggiornamento",
+        "noResults": "Nessuna informazione trovata per questo numero.",
+        "error": "Errore durante il recupero delle informazioni di tracciamento. Riprova."
+    },
+    "contact": {
+        "title": "Mettiti in Contatto",
+        "subtitle": "Pronto a ottimizzare le tue operazioni di spedizione? Contattaci oggi stesso.",
+        "successMessage": "Il tuo messaggio è stato inviato con successo!",
+        "stats": {
+            "tms": "TMS",
+            "tmsDesc": "Sistema di Gestione Trasporti",
+            "wms": "WMS",
+            "wmsDesc": "Sistema di Gestione Magazzino",
+            "support": "Supporto 24/7",
+            "supportDesc": "Assistenza Esperta"
+        },
+        "info": {
+            "title": "Informazioni di Contatto",
+            "email": "Email",
+            "emailDesc": "Mettiti in contatto con il nostro team"
+        },
+        "form": {
+            "title": "Modulo di Contatto",
+            "subtitle": "Inviaci un messaggio e ti ricontatteremo",
+            "name": "Nome",
+            "namePlaceholder": "Inserisci il tuo nome",
+            "lastName": "Cognome",
+            "lastNamePlaceholder": "Inserisci il tuo cognome",
+            "email": "Indirizzo Email",
+            "emailPlaceholder": "Inserisci il tuo indirizzo email",
+            "company": "Azienda",
+            "companyPlaceholder": "Inserisci il nome della tua azienda",
+            "enquiry": "Tipo di Richiesta",
+            "selectEnquiry": "Seleziona tipo di richiesta",
+            "enquiryOptions": {
+                "sales": "Vendite",
+                "support": "Supporto Tecnico",
+                "technical": "IT & Integrazione",
+                "partnership": "Partnership",
+                "billing": "Fatturazione & Prezzi",
+                "demo": "Richiedi Demo",
+                "other": "Altro"
+            },
+            "message": "Messaggio",
+            "messagePlaceholder": "Raccontaci le tue esigenze di spedizione...",
+            "submit": "Invia Messaggio"
+        },
+        "quickLinks": {
+            "title": "Link Rapidi",
+            "api": "Documentazione API",
+            "apiIcon": "📚",
+            "features": "Funzionalità Piattaforma",
+            "featuresIcon": "⚡",
+            "tracking": "Traccia Spedizioni",
+            "trackingIcon": "📦"
+        }
+    },
+    "services": {
+        "title": "Piattaforma Multi-Corriere Tariffe & Etichettatura",
+        "subtitle": "Ottimizza le tue operazioni di spedizione con la nostra piattaforma completa",
+        "description": "MMCore è una soluzione cloud scalabile che permette alle aziende di gestire, ottimizzare e automatizzare i processi di spedizione con oltre 35 corrieri in 50+ paesi da un unico sistema centralizzato.",
+        "features": "Funzionalità della Piattaforma",
+        "advantages": "Vantaggi Principali",
+        "carriers": "Rete Globale di Corrieri",
+        "readyToOptimize": "Pronto a Ottimizzare la tua Logistica?",
+        "ctaParagraph": "Inizia oggi con la nostra piattaforma multi-corriere e semplifica le tue operazioni di spedizione.",
+        "getStarted": "Inizia",
+        "apiDocumentation": "Documentazione API",
+        "andManyMore": "E molti altri...",
+        "badge": {
+            "carriers": "35+ Corrieri",
+            "countries": "50+ Paesi",
+            "cloud": "Basato su Cloud",
+            "gdpr": "Conforme GDPR"
+        },
+        "platformCapabilities": {
+            "title": "Funzionalità della Piattaforma",
+            "description": "Tutto ciò di cui hai bisogno per ottimizzare le tue operazioni logistiche",
+            "apiIntegration": {
+                "title": "Integrazione API & EDI",
+                "description": "Integrazione diretta con i sistemi dei corrieri per scambio dati in tempo reale",
+                "contractTerm": "Nessun contratto a lungo termine",
+                "activation": "Attivazione immediata",
+                "apiConnection": "Connessione API diretta"
+            },
+            "customsSupport": {
+                "title": "Supporto Doganale Completo",
+                "description": "Documentazione e conformità doganale automatizzata",
+                "webshopPlugins": "Plugin per e-commerce disponibili",
+                "customFrontend": "Supporto front-end personalizzato",
+                "automatedDataExchange": "Scambio dati automatizzato"
+            },
+            "billingReconciliation": {
+                "title": "Riconciliazione Avanzata della Fatturazione",
+                "description": "Processi di fatturazione semplificati con analisi dettagliata dei costi",
+                "crossBorderShipping": "Spedizioni transfrontaliere",
+                "legalCompliance": "Conformità legale",
+                "automatedDataDeletion": "Cancellazione dati automatizzata"
+            },
+            "cloudBased": {
+                "title": "Architettura Basata su Cloud",
+                "description": "Scalabile, sicura e accessibile ovunque",
+                "invoiceVerification": "Verifica fatture",
+                "billingErrorDetection": "Rilevamento errori di fatturazione",
+                "costManagement": "Gestione dei costi"
+            }
+        },
+        "keyAdvantages": {
+            "title": "Vantaggi Principali",
+            "general": "Benefici Generali",
+            "sales": "Benefici Commerciali",
+            "operational": "Benefici Operativi",
+            "financial": "Benefici Finanziari",
+            "lists": {
+                "operational": [
+                    "Report sullo stato confrontando tempi di transito promessi vs reali",
+                    "Comunicazione diretta con il supporto clienti dei corrieri",
+                    "Funzionalità completa di tracciamento & monitoraggio",
+                    "Punti di consegna multipli per paese",
+                    "Notifiche email automatiche per le spedizioni",
+                    "Compatibilità con stampanti industriali (formato .ZPL)"
+                ],
+                "financial": [
+                    "Gestione flessibile delle tariffe (piattaforma o personalizzate)",
+                    "Riconciliazione della fatturazione in tempo reale",
+                    "Rilevamento automatico discrepanze di peso",
+                    "Correzione immediata degli errori di fatturazione",
+                    "Strumenti di ottimizzazione dei costi",
+                    "Reportistica e analisi finanziaria"
+                ],
+                "sales": [
+                    "Flessibilità multi-corriere per le migliori tariffe",
+                    "Nessuna interferenza con i contratti esistenti",
+                    "Integrazione contratti corriere personalizzati",
+                    "Supporto spedizioni multi-sede",
+                    "Iniezione locale specifica per paese",
+                    "Copertura superiore della rete di resi"
+                ]
+            }
+        },
+        "carrierNetwork": {
+            "title": "Rete Globale di Corrieri",
+            "subtitle": "Connettiti a oltre 35 corrieri in 50+ paesi",
+            "stats": {
+                "carriers": "35+",
+                "carriersLabel": "Partner Corrieri",
+                "countries": "50+",
+                "countriesLabel": "Paesi Serviti",
+                "shipments": "1M+",
+                "shipmentsLabel": "Spedizioni Mensili",
+                "uptime": "99.9%",
+                "uptimeLabel": "Disponibilità Piattaforma",
+                "injectionPoints": "200+",
+                "injectionPointsLabel": "Punti di Ingresso"
+            },
+            "section": {
+                "title": "Corrieri Attualmente Integrati",
+                "subtitle": "Scegli il miglior corriere per ogni spedizione in base a tempi, prezzi e regione"
+            },
+            "types": {
+                "national": "Nazionale",
+                "express": "Espresso",
+                "parcel": "Pacchi",
+                "mail": "Posta",
+                "global": "Globale"
+            },
+            "regions": {
+                "netherlands": "Paesi Bassi",
+                "germany": "Germania",
+                "belgium": "Belgio",
+                "austria": "Austria",
+                "unitedKingdom": "Regno Unito",
+                "denmark": "Danimarca",
+                "slovenia": "Slovenia",
+                "france": "Francia",
+                "spain": "Spagna",
+                "switzerland": "Svizzera",
+                "nordic": "Nordico",
+                "norway": "Norvegia",
+                "europe": "Europa",
+                "global": "Globale"
+            }
+        }
+    },
+    "apiDocs": {
+        "title": "Documentazione API MMCore",
+        "subtitle": "Riferimento completo per l'integrazione con la nostra piattaforma di spedizione multi-corriere",
+        "quickStart": "Avvio Rapido",
+        "getUpAndRunning": "Inizia subito",
+        "signUpForAccount": "Registrati per un account",
+        "includeAuthUser": "Includi AUTH_USER e AUTH_PW per autenticarti.",
+        "verifyCredentials": "Verifica le tue credenziali",
+        "startProcessing": "Inizia a processare le spedizioni",
+        "exampleAuthentication": "Esempio: Autenticazione",
+        "basicExample": "Esempio base",
+        "endpointsTitle": "Endpoint API",
+        "completeReference": "Riferimento completo",
+        "parameters": "Parametri",
+        "queryParameters": "Parametri Query",
+        "default": "Default",
+        "values": "Valori",
+        "response": "Risposta",
+        "example": "Esempio",
+        "authentication": "Autenticazione",
+        "secureYourApi": "Proteggi la tua API",
+        "headerAuthentication": "Autenticazione Header",
+        "securityNote": "Nota di Sicurezza",
+        "keepCredentialsSecure": "Mantieni le tue credenziali sicure.",
+        "neverExpose": "Non esporle mai.",
+        "useEnvironmentVariables": "Usa variabili di ambiente.",
+        "additionalResources": "Risorse Aggiuntive",
+        "everythingYouNeed": "Tutto ciò di cui hai bisogno",
+        "postmanCollection": "Collezione Postman",
+        "getSupport": "Ottieni Supporto",
+        "changelog": "Registro Modifiche",
+        "badges": {
+            "restApi": "REST API",
+            "realTimeTracking": "Tracciamento in tempo reale",
+            "manifestProcessing": "Elaborazione Manifesti",
+            "multiCarrier": "Multi-Corriere"
+        },
+        "statusCodes": "Codici di Stato",
+        "statusCodesIntro": "Codici restituiti nelle risposte di tracciamento con le relative descrizioni",
+        "endpoints": {
+            "auth": {
+                "description": "Autentica e valida le tue credenziali API"
+            },
+            "tracking": {
+                "description": "Ottieni informazioni dettagliate di tracciamento delle spedizioni con parametri di query completi",
+                "query": {
+                    "lang": "Imposta la lingua della risposta API",
+                    "flightTrackingSetting": "Definisce come gestire il tracciamento voli/lettere di vettura",
+                    "type": "Specifica il tipo di tracciamento utilizzato",
+                    "trackingDetails": "Definisce il livello di dettaglio nella risposta di tracciamento"
+                }
+            },
+            "action": {
+                "description": "Richiedi un'etichetta corriere per un paese specifico con varie opzioni di output",
+                "query": {
+                    "pl": "Y = Mostra etichetta PDF, N = ottieni risultato JSON",
+                    "dhlzpl": "Y = ottieni etichetta DHL in JSON, N = ottieni URL al PDF",
+                    "zpl": "Y = ottieni etichetta ZPL se supportata dal corriere",
+                    "o": "Output in formato JSON",
+                    "dl": "Y = l'etichetta verrà restituita in questa chiamata"
+                }
+            },
+            "postManifest": {
+                "description": "Carica dati manifesto nel database per elaborazione spedizioni (supporta upload multipli)",
+                "query": {
+                    "ls": "Y = Blocca dati manifesto (se non ci sono errori), N = Non bloccare i dati. SOLO PER LETTERE DI VETTURA"
+                }
+            },
+            "lockShipment": {
+                "description": "Blocca una spedizione per impedire ulteriori modifiche (solo lettere di vettura). Notifica che la spedizione è completata."
+            }
+        },
+        "statusCodeDescriptions": {
+            "97": "Manifestato per la dogana",
+            "98": "Dati etichetta preregistrati",
+            "99": "Etichetta creata",
+            "200": "Dichiarazione di spedizione",
+            "201": "Arrivo spedizione",
+            "202": "Documentazione spedizione",
+            "203": "Modifica spedizione",
+            "204": "Annullamento spedizione",
+            "205": "Avviata sdoganamento",
+            "207": "Problema doganale",
+            "208": "Confiscato",
+            "209": "Trattenuto dalla dogana",
+            "210": "Documenti richiesti",
+            "211": "Accettato",
+            "213": "Pacco sdoganato",
+            "214": "Sdoganato manualmente",
+            "215": "Annullato",
+            "216": "Arrivato in struttura",
+            "217": "Pronto per ultimo miglio",
+            "218": "Consegnato all'ultimo miglio",
+            "219": "Inviato al corriere",
+            "2000": "Il carico è in tracciamento",
+            "2001": "Informazioni inviate, in attesa che il corriere ritiri il carico",
+            "2002": "Il corriere ha preso in carico il carico",
+            "2003": "In transito",
+            "2004": "Il carico è arrivato a destinazione",
+            "2005": "Avvisare il destinatario per il ritiro",
+            "2006": "Carico consegnato al destinatario",
+            "2007": "Pacchi persi, danneggiati, restituiti, non reclamati, ecc.",
+            "2008": "Tempo di spedizione troppo lungo",
+            "3000": "Pacco arrivato in deposito",
+            "3001": "Scansione uscita",
+            "3004": "Dettagli pacco aggiornati",
+            "3005": "Pacco arrivato al corriere ultimo miglio",
+            "3050": "Pacco partito dal deposito",
+            "5000": "Pacco in consegna",
+            "5001": "Pacco in consegna al destinatario",
+            "5002": "Notifica SMS inviata al destinatario",
+            "5003": "Pacco in consegna a un locker",
+            "5004": "Pacco in consegna a un punto ritiro",
+            "7000": "Destinatario assente, secondo tentativo:",
+            "7001": "Destinatario assente, pacco in deposito per 5 giorni",
+            "7002": "Destinatario assente",
+            "7003": "Destinatario assente, pacco ritirabile a punto raccolta",
+            "7004": "Conservato fino a richiesta",
+            "8000": "Reso al mittente",
+            "8001": "Spedizione annullata",
+            "8500": "Informazioni aggiuntive",
+            "9000": "Consegnato",
+            "9001": "Pacco consegnato ai vicini",
+            "9002": "Pacco consegnato al punto ritiro",
+            "9003": "Pacco consegnato al parcelbox",
+            "9004": "Pacco consegnato in luogo sicuro",
+            "9005": "Pacco ritirato",
+            "9006": "Reso consegnato",
+            "9500": "Rifiutato",
+            "9501": "Pacco non ritirato",
+            "9502": "Pacco non consegnato",
+            "9503": "Pacco reindirizzato a nuovo indirizzo",
+            "9600": "Dettagli indirizzo errati"
+        },
+        "common": {
+            "back": "Indietro",
+            "loading": "Caricamento...",
+            "error": "Errore",
+            "success": "Successo",
+            "cancel": "Annulla",
+            "confirm": "Conferma",
+            "save": "Salva",
+            "edit": "Modifica",
+            "delete": "Elimina",
+            "close": "Chiudi"
+        }
+    }
+}
