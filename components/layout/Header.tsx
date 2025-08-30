@@ -15,6 +15,7 @@ const languages = [
   { code: "nl" as Locale, name: "Nederlands", flag: "🇳🇱" },
   { code: "de" as Locale, name: "Deutsch", flag: "🇩🇪" },
   { code: "fr" as Locale, name: "Français", flag: "🇫🇷" },
+  { code: "it" as Locale, name: "Italiano", flag: "🇮🇹" },
 ]
 
 export default function Header() {
@@ -54,15 +55,13 @@ export default function Header() {
             <Link
               key={href}
               href={href}
-              className={`relative h-full flex items-center px-2 group ${
-                isActive(href) ? "text-primary font-semibold" : "text-foreground hover:text-primary transition-colors"
-              }`}
+              className={`relative h-full flex items-center px-2 group ${isActive(href) ? "text-primary font-semibold" : "text-foreground hover:text-primary transition-colors"
+                }`}
             >
               {label}
               <span
-                className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ${
-                  isActive(href) ? "scale-x-100" : ""
-                }`}
+                className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ${isActive(href) ? "scale-x-100" : ""
+                  }`}
               />
             </Link>
           ))}
@@ -116,9 +115,8 @@ export default function Header() {
               <Link
                 key={href}
                 href={href}
-                className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  isActive(href) ? "bg-primary/10 text-primary" : "text-foreground hover:bg-muted"
-                }`}
+                className={`block px-3 py-2 rounded-md text-base font-medium ${isActive(href) ? "bg-primary/10 text-primary" : "text-foreground hover:bg-muted"
+                  }`}
                 onClick={() => setIsOpen(false)}
               >
                 {label}

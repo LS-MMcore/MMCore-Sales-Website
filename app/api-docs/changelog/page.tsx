@@ -23,7 +23,7 @@ import { useLanguage } from "@/contexts/LanguageContext"
 const changelogEntries = [
   {
     version: "1.90",
-    date: "2024-12-01",
+    date: "06-08-2025",
     type: "major",
     title: "Tracking API Major Update",
     changes: [
@@ -130,7 +130,7 @@ export default function ChangelogPage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <div className="pt-16">
+      <div style={{ paddingTop: "50px" }}>
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#63b2dc]/10 via-[#63b2dc]/20 to-background">
           <div className="container px-4 md:px-6">
@@ -233,34 +233,7 @@ export default function ChangelogPage() {
             </div>
           </div>
         </section>
-
-        {/* Call to Action */}
-        <section className="w-full py-12 md:py-24" style={{ backgroundColor: "#63b2dc10" }}>
-          <div className="container px-4 md:px-6">
-            <div className="text-center space-y-6 max-w-2xl mx-auto">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl" style={{ color: "#63b2dc" }}>
-                {t("apiDocs.stayUpdated")}
-              </h2>
-              <p className="text-slate-700 md:text-lg">{t("apiDocs.subscribeToUpdates")}</p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild className="text-white" style={{ backgroundColor: "#63b2dc" }}>
-                  <Link href="/api-docs">{t("apiDocs.viewDocumentation")}</Link>
-                </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  asChild
-                  className="bg-transparent hover:text-white"
-                  style={{ borderColor: "#63b2dc", color: "#63b2dc" }}
-                >
-                  <Link href="/#contact">{t("apiDocs.contactSupport")}</Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
-
       <Footer />
     </div>
   )

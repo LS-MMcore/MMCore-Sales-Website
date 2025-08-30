@@ -1,6 +1,6 @@
 "use client"
 
-import { createContext, useContext, useState, type ReactNode } from "react"
+import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react"
 import { type Locale, getTranslation } from "../lib/translations"
 
 interface LanguageContextType {
@@ -11,12 +11,58 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
+const STORAGE_KEY = "lng"
+
+function readInitialLocale(): Locale {
+  // 1) URL ?lng=xx wins
+  if (typeof window !== "undefined") {
+    const urlLng = new URLSearchParams(window.location.search).get("lng")
+    if (urlLng && ["en", "nl", "de", "fr", "it"].includes(urlLng)) {
+      return urlLng as Locale
+    }
+    // 2) localStorage
+    const stored = window.localStorage.getItem(STORAGE_KEY)
+    if (stored && ["en", "nl", "de", "fr", "it"].includes(stored)) {
+      return stored as Locale
+    }
+    // 3) cookie
+    const m = document.cookie.match(/(?:^|;\s*)lng=([^;]+)/)
+    if (m && ["en", "nl", "de", "fr", "it"].includes(m[1])) {
+      return m[1] as Locale
+    }
+  }
+  // 4) fallback
+  return "en"
+}
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocale] = useState<Locale>("en")
+  const [locale, _setLocale] = useState<Locale>(readInitialLocale)
 
-  const t = (key: string) => getTranslation(locale, key)
+  // persist and update <html lang="...">
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, locale)
+    } catch { }
+    try {
+      document.cookie = `lng=${locale}; path=/; max-age=31536000; samesite=lax`
+    } catch { }
+    if (typeof document !== "undefined") {
+      document.documentElement.lang = locale
+    }
+  }, [locale])
 
-  return <LanguageContext.Provider value={{ locale, setLocale, t }}>{children}</LanguageContext.Provider>
+  const setLocale = (lng: Locale) => {
+    _setLocale(lng)
+    // persistence handled by the effect above
+  }
+
+  const t = useMemo(() => (key: string) => getTranslation(locale, key), [locale])
+
+  return (
+    <LanguageContext.Provider value={{ locale, setLocale, t }}>
+      {children}
+    </LanguageContext.Provider>
+  )
 }
 
 export function useLanguage() {

@@ -273,6 +273,9 @@
     "postmanCollection": "Postman Collection",
     "getSupport": "Get Support",
     "changelog": "Changelog",
+    "changelogSubtitle": "Stay up to date with the latest changes and improvements",
+    "stayUpdated": "Stay Updated",
+    "backToDocumentation": "Back to Documentation",
     "badges": {
       "restApi": "REST API",
       "realTimeTracking": "Real-time Tracking",

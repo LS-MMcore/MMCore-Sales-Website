@@ -188,7 +188,7 @@ export default function ApiDocsPage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <div className="pt-16">
+      <div style={{ paddingTop: "50px" }}>
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#63b2dc]/10 via-[#63b2dc]/20 to-background">
           <div className="container px-4 md:px-6">

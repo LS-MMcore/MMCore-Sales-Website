@@ -11,6 +11,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from "@/components/ui/select"
 import { Send } from "lucide-react"
 import { useLanguage } from "@/contexts/LanguageContext"
+import Link from "next/link"
 
 function ContactForm() {
   const { t } = useLanguage()
@@ -270,33 +271,32 @@ export default function ContactSection() {
                 {t("contact.quickLinks.title")}
               </h3>
               <div className="space-y-4">
-                <a
-                  href="/api-docs"
-                  className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group"
-                >
-                  <span className="text-2xl">{t("contact.quickLinks.apiIcon")}</span>
-                  <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">
-                    {t("contact.quickLinks.api")}
-                  </span>
-                </a>
-                <a
-                  href="/services"
-                  className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group"
-                >
-                  <span className="text-2xl">{t("contact.quickLinks.featuresIcon")}</span>
-                  <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">
-                    {t("contact.quickLinks.features")}
-                  </span>
-                </a>
-                <a
-                  href="/tracking"
-                  className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group"
-                >
-                  <span className="text-2xl">{t("contact.quickLinks.trackingIcon")}</span>
-                  <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">
-                    {t("contact.quickLinks.tracking")}
-                  </span>
-                </a>
+                <Link href="/api-docs" legacyBehavior passHref>
+                  <a className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group">
+                    <span className="text-2xl">{t("contact.quickLinks.apiIcon")}</span>
+                    <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">
+                      {t("contact.quickLinks.api")}
+                    </span>
+                  </a>
+                </Link>
+
+                <Link href="/services" legacyBehavior passHref>
+                  <a className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group">
+                    <span className="text-2xl">{t("contact.quickLinks.featuresIcon")}</span>
+                    <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">
+                      {t("contact.quickLinks.features")}
+                    </span>
+                  </a>
+                </Link>
+
+                <Link href="/tracking" legacyBehavior passHref>
+                  <a className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group">
+                    <span className="text-2xl">{t("contact.quickLinks.trackingIcon")}</span>
+                    <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">
+                      {t("contact.quickLinks.tracking")}
+                    </span>
+                  </a>
+                </Link>
               </div>
             </Card>
           </div>
