@@ -5,8 +5,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "MMCore",
-  description: "MMcore",
-    generator: 'v0.app'
+  description: "MMcore"
 }
 
 export default function RootLayout({
