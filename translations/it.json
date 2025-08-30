@@ -92,6 +92,8 @@
             "companyPlaceholder": "Inserisci il nome della tua azienda",
             "enquiry": "Tipo di Richiesta",
             "selectEnquiry": "Seleziona tipo di richiesta",
+            "sending": "Invio in corso...",
+            "success": "Il tuo messaggio è stato inviato con successo!",
             "enquiryOptions": {
                 "sales": "Vendite",
                 "support": "Supporto Tecnico",
@@ -316,6 +318,64 @@
             "lockShipment": {
                 "description": "Blocca una spedizione per impedire ulteriori modifiche (solo lettere di vettura). Notifica che la spedizione è completata."
             }
+        },
+        "faq": {
+            "title": "Domande frequenti",
+            "subtitle": "Domande comuni sulle nostre soluzioni di spedizione per l’e-commerce",
+            "intro": {
+                "title": "Panoramica FAQ e-commerce",
+                "description": "Una pagina FAQ per l’e-commerce fornisce risposte rapide alle domande più comuni su politiche del negozio, spedizioni, resi e dettagli dei prodotti. È una risorsa self-service che migliora l’esperienza cliente e riduce le richieste di supporto."
+            },
+            "items": [
+                {
+                    "question": "Quali sono le vostre opzioni di spedizione e i relativi costi?",
+                    "answer": "Offriamo più opzioni di spedizione tramite la nostra rete di oltre 35 vettori, tra cui standard, express e consegna overnight. I costi di spedizione variano in base a destinazione, dimensioni del pacco e corriere selezionato. Usa la nostra piattaforma per confrontare le tariffe e scegliere l’opzione migliore per le tue esigenze."
+                },
+                {
+                    "question": "Quando riceverò il mio ordine?",
+                    "answer": "Le tempistiche di consegna dipendono dal corriere selezionato e dalla destinazione. Le date di consegna stimate vengono mostrate al checkout e nel tuo link di tracking. Gli ordini nazionali arrivano di solito entro 1–3 giorni lavorativi; le consegne internazionali variano in base alla regione e alle procedure doganali."
+                },
+                {
+                    "question": "Come posso tracciare il mio ordine?",
+                    "answer": "Utilizza il nostro tracking in tempo reale: inserisci il numero di spedizione nella pagina di tracciamento o segui il link nell’e-mail di conferma. Riceverai aggiornamenti a ogni fase del processo di consegna."
+                },
+                {
+                    "question": "Quali sono le politiche per spedizioni internazionali, dazi e tasse?",
+                    "answer": "Gli ordini internazionali possono essere soggetti a dazi doganali, imposte e spese di sdoganamento. In base alla rotta e al corriere, le spedizioni possono essere inviate in DDU (Delivered Duties Unpaid) o DDP (Delivered Duties Paid). Eventuali costi saranno indicati al checkout o riscossi alla consegna secondo la normativa locale."
+                },
+                {
+                    "question": "Qual è la politica di reso?",
+                    "answer": "La maggior parte degli articoli può essere restituita entro 30 giorni dalla consegna, in condizioni originali e con imballo integro, salvo diversa indicazione. Alcuni prodotti possono prevedere regole di reso specifiche per categoria. Le etichette di reso possono essere generate tramite la nostra piattaforma per gli ordini idonei."
+                },
+                {
+                    "question": "Come effettuo un reso?",
+                    "answer": "Avvia un reso dalla cronologia ordini del tuo account o contatta il nostro team di supporto. Riceverai un’etichetta di reso e le istruzioni. Una volta ricevuto e ispezionato l’articolo, procederemo con rimborso o sostituzione in base alla tua richiesta."
+                },
+                {
+                    "question": "Cosa devo fare se il mio ordine è difettoso o errato?",
+                    "answer": "Contattaci entro 7 giorni dalla consegna indicando il numero d’ordine e foto del problema. Organizzeremo una sostituzione, un cambio o un rimborso e forniremo, se necessario, un’etichetta di reso prepagata."
+                },
+                {
+                    "question": "Come posso modificare un ordine già effettuato?",
+                    "answer": "Le modifiche sono possibili prima della spedizione. Se il tuo ordine è ancora in elaborazione, puoi aggiornare l’indirizzo, il metodo di spedizione o annullare l’ordine. Una volta spedito, le modifiche sono limitate — contatta l’assistenza clienti per ricevere aiuto."
+                },
+                {
+                    "question": "Come posso essere sicuro di ordinare la taglia o la vestibilità giusta?",
+                    "answer": "Consulta la guida alle taglie e le misure del prodotto nella pagina del prodotto. Se sei tra due taglie, leggi le recensioni dei clienti o contatta il supporto per un consiglio prima di ordinare."
+                },
+                {
+                    "question": "Da dove provengono i vostri prodotti o come sono realizzati?",
+                    "answer": "Le pagine prodotto riportano, quando fornito dal brand, origine, materiali e dettagli di produzione. Per informazioni aggiuntive su un articolo specifico, contatta il nostro team di assistenza clienti."
+                },
+                {
+                    "question": "Come posso contattare l’assistenza clienti?",
+                    "answer": "Siamo disponibili 24/7 via e-mail all’indirizzo info@mmcore.eu e tramite il nostro modulo di contatto. I clienti business possono contattarci anche tramite il nostro canale di supporto API."
+                },
+                {
+                    "question": "Cosa faccio se non ho mai ricevuto il mio ordine?",
+                    "answer": "Verifica innanzitutto il link di tracking per l’ultima scansione. Conferma l’indirizzo di consegna e controlla presso vicini o punti di ritiro locali. Se non è ancora arrivato entro 2 giorni lavorativi dalla data prevista, contatta l’assistenza clienti indicando il tuo numero d’ordine così potremo indagare e, se necessario, aprire un reclamo."
+                }
+            ]
         },
         "statusCodeDescriptions": {
             "97": "Manifestato per la dogana",

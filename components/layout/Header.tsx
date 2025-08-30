@@ -16,6 +16,7 @@ const languages = [
   { code: "de" as Locale, name: "Deutsch", flag: "🇩🇪" },
   { code: "fr" as Locale, name: "Français", flag: "🇫🇷" },
   { code: "it" as Locale, name: "Italiano", flag: "🇮🇹" },
+  { code: "es" as Locale, name: "Español", flag: "🇪🇸" },
 ]
 
 export default function Header() {
@@ -32,7 +33,7 @@ export default function Header() {
     { href: "/tracking", label: t("navigation.tracking") },
     { href: "/services", label: t("navigation.services") },
     { href: "/api-docs", label: t("navigation.apiDocs") },
-    { href: "#contact", label: t("navigation.contact") },
+    { href: "/#contact", label: t("navigation.contact") },
   ]
 
   const handleLanguageChange = (langCode: Locale) => {

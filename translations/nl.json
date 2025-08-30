@@ -92,6 +92,8 @@
       "companyPlaceholder": "Voer uw bedrijfsnaam in",
       "enquiry": "Type aanvraag",
       "selectEnquiry": "Selecteer type aanvraag",
+      "sending": "Verzenden...",
+      "success": "Uw bericht is succesvol verzonden!",
       "enquiryOptions": {
         "sales": "Verkoop",
         "support": "Technische ondersteuning",
@@ -316,6 +318,64 @@
       "lockShipment": {
         "description": "Vergrendel een zending om verdere wijzigingen te voorkomen (alleen luchtvrachtbrieven). Meldt dat de zending voltooid is."
       }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Veelgestelde vragen over onze e-commerce-verzendoplossingen",
+      "intro": {
+        "title": "Overzicht e-commerce-FAQ",
+        "description": "Een e-commerce-FAQ-pagina biedt snelle antwoorden op veelgestelde vragen over winkelbeleid, verzending, retouren en productdetails. Het is een selfservicebron die de klantervaring verbetert en het aantal supportverzoeken vermindert."
+      },
+      "items": [
+        {
+          "question": "Welke verzendopties bieden jullie en wat kosten ze?",
+          "answer": "We bieden meerdere verzendopties via ons netwerk van 35+ carriers, waaronder standaard, express en overnight. De verzendkosten variëren per bestemming, pakketgrootte en gekozen carrier. Gebruik ons platform om tarieven te vergelijken en de beste optie te kiezen."
+        },
+        {
+          "question": "Wanneer ontvang ik mijn bestelling?",
+          "answer": "De levertijd hangt af van de gekozen carrier en de bestemming. Verwachte leverdata worden getoond bij het afrekenen en in je trackinglink. Binnenlandse bestellingen komen doorgaans binnen 1–3 werkdagen aan; internationale leveringen variëren per regio en douaneafhandeling."
+        },
+        {
+          "question": "Hoe kan ik mijn bestelling volgen?",
+          "answer": "Gebruik onze realtime-tracking: voer je track-&-tracenummer in op de trackingpagina of volg de link in je bevestigingsmail. Je ontvangt updates bij elke stap van het bezorgproces."
+        },
+        {
+          "question": "Wat zijn de voorwaarden voor internationale verzending, rechten en belastingen?",
+          "answer": "Internationale bestellingen kunnen onderworpen zijn aan douanerechten, belastingen en afhandelingskosten. Afhankelijk van route en carrier worden zendingen verstuurd als DDU (Delivered Duties Unpaid) of DDP (Delivered Duties Paid). Eventuele kosten worden bij het afrekenen getoond of bij levering geïnd volgens lokale regelgeving."
+        },
+        {
+          "question": "Wat is jullie retourbeleid?",
+          "answer": "De meeste artikelen kunnen, tenzij anders vermeld, binnen 30 dagen na levering in originele staat en verpakking worden geretourneerd. Sommige producten hebben categoriespecifieke retourregels. Retourlabels kunnen voor in aanmerking komende bestellingen via ons platform worden aangemaakt."
+        },
+        {
+          "question": "Hoe maak ik een retour aan?",
+          "answer": "Start een retour via de bestelgeschiedenis in je account of neem contact op met ons supportteam. Je ontvangt een retourlabel en instructies. Zodra het artikel is ontvangen en gecontroleerd, storten we terug of ruilen we om volgens je voorkeur."
+        },
+        {
+          "question": "Wat moet ik doen als mijn bestelling defect of onjuist is?",
+          "answer": "Neem binnen 7 dagen na levering contact met ons op met je bestelnummer en foto’s van het probleem. We regelen een vervanging, omruiling of terugbetaling en leveren indien nodig een gefrankeerd retourlabel."
+        },
+        {
+          "question": "Hoe wijzig ik een al geplaatste bestelling?",
+          "answer": "Wijzigingen zijn mogelijk voordat de bestelling is verzonden. Als je bestelling nog wordt verwerkt, kun je het adres of de verzendmethode aanpassen of annuleren. Na verzending zijn wijzigingen beperkt—neem contact op met de klantenservice."
+        },
+        {
+          "question": "Hoe zorg ik dat ik de juiste maat of pasvorm bestel?",
+          "answer": "Raadpleeg de maattabel en productafmetingen op de productpagina. Twijfel je tussen twee maten, bekijk dan klantbeoordelingen of neem contact op met support voor advies vóór het bestellen."
+        },
+        {
+          "question": "Waar komen jullie producten vandaan of hoe worden ze gemaakt?",
+          "answer": "Productpagina’s vermelden—indien door het merk aangeleverd—herkomst, materialen en productiedetails. Voor extra informatie over een specifiek artikel kun je contact opnemen met ons klantenserviceteam."
+        },
+        {
+          "question": "Hoe neem ik contact op met de klantenservice?",
+          "answer": "We zijn 24/7 bereikbaar via e-mail op info@mmcore.eu en via ons contactformulier. Zakelijke klanten kunnen ons ook bereiken via ons API-supportkanaal."
+        },
+        {
+          "question": "Wat moet ik doen als ik mijn bestelling niet heb ontvangen?",
+          "answer": "Controleer eerst je trackinglink voor de laatste scan. Bevestig je afleveradres en check bij buren of lokale afhaalpunten. Is de bestelling 2 werkdagen na de verwachte datum nog niet binnen, neem dan contact op met de klantenservice met je bestelnummer zodat we dit kunnen onderzoeken en indien nodig een claim indienen."
+        }
+      ]
     },
     "statusCodeDescriptions": {
       "97": "Gemanifesteerd voor douane",

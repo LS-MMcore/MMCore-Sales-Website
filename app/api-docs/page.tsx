@@ -28,6 +28,8 @@ type ApiEndpoint = {
   example: string
 }
 
+type FaqItem = { question: string; answer: string }
+
 // Build endpoints with i18n strings
 const buildApiEndpoints = (t: (k: string) => string): ApiEndpoint[] => [
   {
@@ -173,12 +175,50 @@ const buildStatusCodes = (t: (k: string) => string) =>
     "9500", "9501", "9502", "9503", "9600",
   ].map((code) => ({ code, description: t(`apiDocs.statusCodeDescriptions.${code}`) }))
 
+// --- FAQ helper ---
+// Prefer an "items" array under apiDocs.faq.items; otherwise derive from the faq object; finally fall back to known keys.
+const DEFAULT_FAQ_KEYS = ["shipping", "orderTracking", "returns", "orderChanges", "payment", "customerService"]
+
+const buildFaqItems = (t: (k: string, opts?: any) => any): FaqItem[] => {
+  // Try items array (i18next/next-intl with returnObjects)
+  const itemsAttempt = (t as any)("apiDocs.faq.items", { returnObjects: true }) as any
+  if (Array.isArray(itemsAttempt)) {
+    return itemsAttempt
+      .filter(Boolean)
+      .map((it) => ({ question: String(it?.question ?? ""), answer: String(it?.answer ?? "") }))
+      .filter((it) => it.question && it.answer)
+  }
+
+  // Try reading the whole faq object and pulling subkeys (ignoring title/subtitle)
+  const faqObj = (t as any)("apiDocs.faq", { returnObjects: true }) as any
+  if (faqObj && typeof faqObj === "object" && !Array.isArray(faqObj)) {
+    const derived: FaqItem[] = []
+    for (const key of Object.keys(faqObj)) {
+      if (key === "title" || key === "subtitle") continue
+      const maybe = faqObj[key]
+      const question = typeof maybe?.question === "string" ? maybe.question : (t as any)(`apiDocs.faq.${key}.question`)
+      const answer = typeof maybe?.answer === "string" ? maybe.answer : (t as any)(`apiDocs.faq.${key}.answer`)
+      if (typeof question === "string" && typeof answer === "string" && question && answer) {
+        derived.push({ question, answer })
+      }
+    }
+    if (derived.length) return derived
+  }
+
+  // Final fallback: known keys (works with your current en.json)
+  return DEFAULT_FAQ_KEYS.map((k) => ({
+    question: t(`apiDocs.faq.${k}.question`),
+    answer: t(`apiDocs.faq.${k}.answer`),
+  }))
+}
+
 export default function ApiDocsPage() {
   const [expandedEndpoints, setExpandedEndpoints] = useState<number[]>([])
   const { t } = useLanguage()
 
   const apiEndpoints = useMemo(() => buildApiEndpoints(t), [t])
   const statusCodes = useMemo(() => buildStatusCodes(t), [t])
+  const faqItems = useMemo(() => buildFaqItems(t as any), [t])
 
   const toggleEndpoint = (index: number) => {
     setExpandedEndpoints((prev) => (prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]))
@@ -503,6 +543,51 @@ curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY' \\
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </section>
+
+        {/* FAQ Section (now loaded from i18n) */}
+        <section className="w-full py-12 md:py-24 bg-white">
+          <div className="container px-4 md:px-6">
+            <div className="text-center space-y-4 mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-slate-800">
+                {t("apiDocs.faq.title")}
+              </h2>
+              <p className="mx-auto max-w-[700px] text-slate-600 md:text-lg">{t("apiDocs.faq.subtitle")}</p>
+            </div>
+
+            <div className="max-w-4xl mx-auto space-y-4">
+              {faqItems.map((faq, idx) => {
+                const isExpanded = expandedEndpoints.includes(idx + 1000) // Use offset to avoid conflicts
+                return (
+                  <Card key={idx} className="border-[#63b2dc]/30">
+                    <CardHeader
+                      className="cursor-pointer hover:bg-slate-50/50 transition-colors"
+                      onClick={() => toggleEndpoint(idx + 1000)}
+                    >
+                      <div className="flex items-center justify-between">
+                        <CardTitle className="text-lg text-slate-800">{faq.question}</CardTitle>
+                        <div className="flex items-center space-x-2">
+                          {isExpanded ? (
+                            <ChevronDown className="h-5 w-5 text-slate-500" />
+                          ) : (
+                            <ChevronRight className="h-5 w-5 text-slate-500" />
+                          )}
+                        </div>
+                      </div>
+                    </CardHeader>
+                    <div
+                      className={`overflow-hidden transition-all duration-300 ease-in-out ${isExpanded ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                        }`}
+                    >
+                      <CardContent>
+                        <p className="text-slate-600">{faq.answer}</p>
+                      </CardContent>
+                    </div>
+                  </Card>
+                )
+              })}
+            </div>
           </div>
         </section>
 

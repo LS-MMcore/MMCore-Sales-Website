@@ -92,6 +92,8 @@
       "companyPlaceholder": "Enter your company name",
       "enquiry": "Enquiry Type",
       "selectEnquiry": "Select enquiry type",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
       "enquiryOptions": {
         "sales": "Sales",
         "support": "Technical Support",
@@ -276,6 +278,64 @@
     "changelogSubtitle": "Stay up to date with the latest changes and improvements",
     "stayUpdated": "Stay Updated",
     "backToDocumentation": "Back to Documentation",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about our e-commerce shipping solutions",
+      "intro": {
+        "title": "E-commerce FAQ Overview",
+        "description": "An E-commerce FAQ page provides quick answers to common questions about store policies, shipping, returns, and product details. It serves as a self-service resource to improve customer experience and reduce support requests."
+      },
+      "items": [
+        {
+          "question": "What are your shipping options and costs?",
+          "answer": "We offer multiple shipping options through our 35+ carrier network including standard, express, and overnight delivery. Shipping costs vary by destination, package size, and selected carrier. Use our platform to compare rates and choose the best option for your needs."
+        },
+        {
+          "question": "When will I receive my order?",
+          "answer": "Delivery times depend on the selected carrier and destination. Estimated delivery dates are shown at checkout and in your tracking link. Domestic orders typically arrive within 1–3 business days; international deliveries vary by region and customs processing."
+        },
+        {
+          "question": "How can I track my order?",
+          "answer": "Use our real-time tracking: enter your tracking number on the tracking page or follow the link in your confirmation email. You’ll receive updates at each step of the delivery process."
+        },
+        {
+          "question": "What are the policies for international shipping, duties, and taxes?",
+          "answer": "International orders may be subject to customs duties, taxes, and brokerage fees. Depending on the route and carrier, shipments may ship DDU/Delivered Duties Unpaid or DDP/Delivered Duties Paid. Any applicable fees will be indicated at checkout or collected on delivery per local regulations."
+        },
+        {
+          "question": "What is the return policy?",
+          "answer": "Most items can be returned within 30 days of delivery in original condition and packaging unless otherwise noted. Some products may have category-specific return rules. Return labels can be generated through our platform for eligible orders."
+        },
+        {
+          "question": "How do I make a return?",
+          "answer": "Start a return from your account order history or contact our support team. You’ll receive a return label and instructions. Once the item is received and inspected, we’ll issue a refund or exchange per your request."
+        },
+        {
+          "question": "What should I do if my order is defective or incorrect?",
+          "answer": "Contact us within 7 days of delivery with your order number and photos of the issue. We’ll arrange a replacement, exchange, or refund and provide a prepaid return label if needed."
+        },
+        {
+          "question": "How do I make changes to an order I've already placed?",
+          "answer": "Order changes are possible before the order ships. If your order is still processing, you may update the address, shipping method, or cancel the order. Once shipped, changes are limited—please contact customer service for assistance."
+        },
+        {
+          "question": "How can I ensure I order the correct size or fit?",
+          "answer": "Refer to the size chart and product measurements on the product page. If you’re between sizes, check customer reviews or contact support for guidance before ordering."
+        },
+        {
+          "question": "Where do your products come from or how are they made?",
+          "answer": "Product pages list origin, materials, and manufacturing details when provided by the brand. For additional information about a specific item, please reach out to our customer service team."
+        },
+        {
+          "question": "How do I contact customer service?",
+          "answer": "We’re available 24/7 via email at info@mmcore.eu and through our contact form. Business customers can also reach us via our API support channel."
+        },
+        {
+          "question": "What do I do if I never received my order?",
+          "answer": "First, check your tracking link for the latest scan. Confirm your delivery address and check with neighbors or local pickup points. If it still hasn’t arrived 2 business days after the expected date, contact customer service with your order number so we can investigate and file a claim if necessary."
+        }
+      ]
+    },
     "badges": {
       "restApi": "REST API",
       "realTimeTracking": "Real-time Tracking",

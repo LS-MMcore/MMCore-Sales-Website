@@ -92,6 +92,8 @@
       "companyPlaceholder": "Geben Sie Ihren Unternehmensnamen ein",
       "enquiry": "Anfragetyp",
       "selectEnquiry": "Anfragetyp auswählen",
+      "sending": "Senden...",
+      "success": "Ihr Nachricht wurde erfolgreich versendet!",
       "enquiryOptions": {
         "sales": "Vertrieb",
         "support": "Technischer Support",
@@ -316,6 +318,64 @@
       "lockShipment": {
         "description": "Sperrt eine Sendung, um weitere Änderungen zu verhindern (nur Luftfrachtbriefe). Signalisiert, dass die Sendung abgeschlossen ist."
       }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Häufige Fragen zu unseren E-Commerce-Versandlösungen",
+      "intro": {
+        "title": "Überblick: E-Commerce-FAQ",
+        "description": "Eine E-Commerce-FAQ-Seite liefert schnelle Antworten auf häufige Fragen zu Shop-Richtlinien, Versand, Rückgaben und Produktdetails. Sie dient als Self-Service-Ressource, verbessert die Kundenerfahrung und reduziert Supportanfragen."
+      },
+      "items": [
+        {
+          "question": "Welche Versandoptionen gibt es und was kosten sie?",
+          "answer": "Wir bieten mehrere Versandoptionen über unser Netzwerk mit 35+ Carriern, darunter Standard, Express und Overnight. Die Versandkosten variieren je nach Ziel, Paketgröße und gewähltem Carrier. Nutzen Sie unsere Plattform, um Tarife zu vergleichen und die beste Option für Ihre Bedürfnisse zu wählen."
+        },
+        {
+          "question": "Wann erhalte ich meine Bestellung?",
+          "answer": "Die Lieferzeiten hängen vom gewählten Carrier und dem Zielort ab. Voraussichtliche Liefertermine werden an der Kasse und in Ihrem Tracking-Link angezeigt. Inlandsbestellungen treffen in der Regel innerhalb von 1–3 Werktagen ein; internationale Lieferungen variieren je nach Region und Zollabwicklung."
+        },
+        {
+          "question": "Wie kann ich meine Bestellung verfolgen?",
+          "answer": "Nutzen Sie unser Echtzeit-Tracking: Geben Sie Ihre Sendungsnummer auf der Tracking-Seite ein oder folgen Sie dem Link in Ihrer Bestätigungs-E-Mail. Sie erhalten bei jedem Schritt des Zustellprozesses Updates."
+        },
+        {
+          "question": "Welche Richtlinien gelten für internationalen Versand, Zölle und Steuern?",
+          "answer": "Internationale Bestellungen können Zollabgaben, Steuern und Bearbeitungsgebühren unterliegen. Abhängig von Route und Carrier können Sendungen als DDU (Delivered Duties Unpaid) oder DDP (Delivered Duties Paid) versendet werden. Entsprechende Gebühren werden an der Kasse ausgewiesen oder bei Zustellung gemäß lokalen Vorschriften erhoben."
+        },
+        {
+          "question": "Wie lautet die Rückgaberichtlinie?",
+          "answer": "Die meisten Artikel können, sofern nicht anders angegeben, innerhalb von 30 Tagen nach Lieferung im Originalzustand und in der Originalverpackung zurückgegeben werden. Einige Produkte haben kategoriespezifische Rückgaberegeln. Rücksendeetiketten können für berechtigte Bestellungen über unsere Plattform erstellt werden."
+        },
+        {
+          "question": "Wie mache ich eine Rücksendung?",
+          "answer": "Starten Sie eine Rücksendung über die Bestellhistorie in Ihrem Konto oder kontaktieren Sie unser Support-Team. Sie erhalten ein Rücksendeetikett und Anweisungen. Sobald der Artikel eingegangen und geprüft ist, veranlassen wir eine Rückerstattung oder einen Umtausch gemäß Ihrem Wunsch."
+        },
+        {
+          "question": "Was soll ich tun, wenn meine Bestellung defekt oder falsch ist?",
+          "answer": "Kontaktieren Sie uns innerhalb von 7 Tagen nach Lieferung mit Ihrer Bestellnummer und Fotos des Problems. Wir veranlassen einen Ersatz, Umtausch oder eine Erstattung und stellen bei Bedarf ein frankiertes Rücksendeetikett bereit."
+        },
+        {
+          "question": "Wie kann ich eine bereits aufgegebene Bestellung ändern?",
+          "answer": "Änderungen sind möglich, bevor die Bestellung versandt wird. Solange Ihre Bestellung noch in Bearbeitung ist, können Sie die Adresse oder Versandmethode aktualisieren oder die Bestellung stornieren. Nach dem Versand sind Änderungen nur eingeschränkt möglich—bitte wenden Sie sich an den Kundenservice."
+        },
+        {
+          "question": "Wie stelle ich sicher, dass ich die richtige Größe oder Passform bestelle?",
+          "answer": "Sehen Sie sich die Größentabelle und die Produktmaße auf der Produktseite an. Wenn Sie zwischen zwei Größen liegen, prüfen Sie Kundenbewertungen oder kontaktieren Sie den Support für eine Empfehlung vor der Bestellung."
+        },
+        {
+          "question": "Woher stammen Ihre Produkte bzw. wie werden sie hergestellt?",
+          "answer": "Produktseiten enthalten—sofern vom Hersteller bereitgestellt—Angaben zu Herkunft, Materialien und Herstellung. Für zusätzliche Informationen zu einem bestimmten Artikel wenden Sie sich bitte an unser Kundenserviceteam."
+        },
+        {
+          "question": "Wie kontaktiere ich den Kundenservice?",
+          "answer": "Wir sind rund um die Uhr per E-Mail unter info@mmcore.eu und über unser Kontaktformular erreichbar. Geschäftskunden können uns außerdem über unseren API-Supportkanal erreichen."
+        },
+        {
+          "question": "Was mache ich, wenn ich meine Bestellung nie erhalten habe?",
+          "answer": "Prüfen Sie zunächst Ihren Tracking-Link auf den neuesten Scan. Bestätigen Sie Ihre Lieferadresse und fragen Sie bei Nachbarn oder lokalen Abholstellen nach. Wenn die Sendung 2 Werktage nach dem erwarteten Datum noch nicht eingetroffen ist, kontaktieren Sie den Kundenservice mit Ihrer Bestellnummer, damit wir nachforschen und ggf. eine Reklamation einreichen können."
+        }
+      ]
     },
     "statusCodeDescriptions": {
       "97": "Für den Zoll manifestiert",

@@ -1,7 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
-import { Mail, Truck, Warehouse, Headphones, Sparkles, Zap, Shield } from "lucide-react"
+import { Mail, Truck, Warehouse, Headphones, Sparkles, Zap, Shield, Send } from "lucide-react"
 import type React from "react"
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
@@ -9,9 +9,18 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from "@/components/ui/select"
-import { Send } from "lucide-react"
 import { useLanguage } from "@/contexts/LanguageContext"
 import Link from "next/link"
+import emailjs from "@emailjs/browser"
+
+// Option A: hardcode here (replace the strings)
+// Option B: set NEXT_PUBLIC_EMAILJS_* env vars at build time
+const EMAILJS_SERVICE_ID =
+  process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_8na7vk7"
+const EMAILJS_TEMPLATE_ID =
+  process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_480dovp"
+const EMAILJS_PUBLIC_KEY =
+  process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "s_1qNgx9tCqPTmLf5"
 
 function ContactForm() {
   const { t } = useLanguage()
@@ -23,7 +32,8 @@ function ContactForm() {
     enquiry: "",
     message: "",
   })
-  const [status, setStatus] = useState<string | null>(null)
+  const [status, setStatus] = useState<"idle" | "sent" | "error">("idle")
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target
@@ -34,13 +44,51 @@ function ContactForm() {
     setFormData((prev) => ({ ...prev, enquiry: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // Simulate form submission
-    console.log("Form submitted:", formData)
-    setStatus("Your message has been sent successfully!")
-    setFormData({ firstName: "", lastName: "", email: "", companyName: "", enquiry: "", message: "" }) // Clear form
-    setTimeout(() => setStatus(null), 5000) // Clear status after 5 seconds
+    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+      console.error("EmailJS IDs/keys missing")
+      setStatus("error")
+      return
+    }
+
+    setIsSubmitting(true)
+    setStatus("idle")
+
+    try {
+      // These keys must match variables used in your EmailJS template
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email, // use as reply-to in your template
+          companyName: formData.companyName,
+          enquiry: formData.enquiry,
+          message: formData.message,
+          // You can also add a computed subject in the template using these values
+        },
+        { publicKey: EMAILJS_PUBLIC_KEY }
+      )
+
+      setStatus("sent")
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        companyName: "",
+        enquiry: "",
+        message: "",
+      })
+    } catch (err) {
+      console.error("EmailJS error:", err)
+      setStatus("error")
+    } finally {
+      setIsSubmitting(false)
+      // auto-clear banner after a few seconds
+      setTimeout(() => setStatus("idle"), 5000)
+    }
   }
 
   return (
@@ -160,15 +208,26 @@ function ContactForm() {
 
           <Button
             type="submit"
+            disabled={isSubmitting}
             className="w-full bg-gradient-to-r from-[#63b2dc] to-blue-500 text-white hover:from-[#5aa3cc] hover:to-blue-600 transition-all duration-200 h-14 text-lg font-semibold shadow-lg hover:shadow-xl"
           >
-            <Send className="mr-3 h-5 w-5" /> {t("contact.form.submit")}
+            <Send className="mr-3 h-5 w-5" />
+            {isSubmitting ? (t("contact.form.sending") || "Sending…") : t("contact.form.submit")}
             <Zap className="ml-3 h-5 w-5" />
           </Button>
 
-          {status && (
+          {status === "sent" && (
             <div className="text-center p-4 bg-green-50 border border-green-200 rounded-lg">
-              <p className="text-green-700 font-medium">{status}</p>
+              <p className="text-green-700 font-medium">
+                {t("contact.form.success") || "Your message has been sent successfully!"}
+              </p>
+            </div>
+          )}
+          {status === "error" && (
+            <div className="text-center p-4 bg-red-50 border border-red-200 rounded-lg">
+              <p className="text-red-700 font-medium">
+                {t("contact.form.error") || "Something went wrong. Please try again."}
+              </p>
             </div>
           )}
         </form>

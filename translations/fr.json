@@ -92,6 +92,8 @@
       "companyPlaceholder": "Entrez le nom de votre entreprise",
       "enquiry": "Type de demande",
       "selectEnquiry": "Sélectionnez le type de demande",
+      "sending": "Envoi en cours...",
+      "success": "Votre message a été envoyé avec succès!",
       "enquiryOptions": {
         "sales": "Ventes",
         "support": "Support technique",
@@ -316,6 +318,64 @@
       "lockShipment": {
         "description": "Verrouiller un envoi pour empêcher toute modification (LTA uniquement). Indique que l’envoi est terminé."
       }
+    },
+    "faq": {
+      "title": "Foire aux questions",
+      "subtitle": "Questions fréquentes sur nos solutions d’expédition e-commerce",
+      "intro": {
+        "title": "Aperçu de la FAQ e-commerce",
+        "description": "Une page de FAQ e-commerce fournit des réponses rapides aux questions fréquentes concernant les politiques du magasin, l’expédition, les retours et les informations sur les produits. Elle sert de ressource en libre-service pour améliorer l’expérience client et réduire les demandes adressées au support."
+      },
+      "items": [
+        {
+          "question": "Quelles sont vos options de livraison et leurs coûts ?",
+          "answer": "Nous proposons plusieurs options d’expédition via notre réseau de plus de 35 transporteurs, notamment standard, express et livraison de nuit. Les coûts d’envoi varient selon la destination, la taille du colis et le transporteur choisi. Utilisez notre plateforme pour comparer les tarifs et choisir l’option la mieux adaptée à vos besoins."
+        },
+        {
+          "question": "Quand vais-je recevoir ma commande ?",
+          "answer": "Les délais dépendent du transporteur sélectionné et de la destination. Les dates de livraison estimées s’affichent au moment du paiement et dans votre lien de suivi. Les commandes nationales arrivent généralement sous 1 à 3 jours ouvrables ; les livraisons internationales varient selon la région et le dédouanement."
+        },
+        {
+          "question": "Comment puis-je suivre ma commande ?",
+          "answer": "Utilisez notre suivi en temps réel : saisissez votre numéro de suivi sur la page dédiée ou suivez le lien dans votre e-mail de confirmation. Vous recevrez des mises à jour à chaque étape de la livraison."
+        },
+        {
+          "question": "Quelles sont les politiques pour l’expédition internationale, les droits et les taxes ?",
+          "answer": "Les commandes internationales peuvent être soumises à des droits de douane, des taxes et des frais de courtage. Selon l’itinéraire et le transporteur, les envois peuvent partir en DDU (Delivered Duties Unpaid) ou en DDP (Delivered Duties Paid). Les frais applicables seront indiqués au paiement ou perçus à la livraison conformément à la réglementation locale."
+        },
+        {
+          "question": "Quelle est votre politique de retour ?",
+          "answer": "La plupart des articles peuvent être retournés dans les 30 jours suivant la livraison, à l’état neuf et dans l’emballage d’origine, sauf indication contraire. Certains produits peuvent avoir des règles de retour spécifiques à leur catégorie. Les étiquettes de retour peuvent être générées via notre plateforme pour les commandes éligibles."
+        },
+        {
+          "question": "Comment effectuer un retour ?",
+          "answer": "Initiez un retour depuis l’historique de commandes de votre compte ou contactez notre équipe support. Vous recevrez une étiquette de retour et des instructions. Une fois l’article reçu et contrôlé, nous procéderons à un remboursement ou à un échange selon votre demande."
+        },
+        {
+          "question": "Que faire si ma commande est défectueuse ou incorrecte ?",
+          "answer": "Contactez-nous dans les 7 jours suivant la livraison avec votre numéro de commande et des photos du problème. Nous organiserons un remplacement, un échange ou un remboursement et fournirons, si nécessaire, une étiquette de retour prépayée."
+        },
+        {
+          "question": "Comment modifier une commande déjà passée ?",
+          "answer": "Des modifications sont possibles avant l’expédition. Si votre commande est encore en cours de traitement, vous pouvez mettre à jour l’adresse, la méthode d’expédition ou l’annuler. Une fois expédiée, les modifications sont limitées—veuillez contacter le service client pour obtenir de l’aide."
+        },
+        {
+          "question": "Comment être sûr(e) de choisir la bonne taille ou le bon ajustement ?",
+          "answer": "Consultez le guide des tailles et les mesures du produit sur la page article. Si vous hésitez entre deux tailles, lisez les avis clients ou contactez le support pour obtenir des conseils avant de commander."
+        },
+        {
+          "question": "D’où viennent vos produits ou comment sont-ils fabriqués ?",
+          "answer": "Les pages produit indiquent, lorsque fourni par la marque, l’origine, les matériaux et les détails de fabrication. Pour toute information supplémentaire sur un article précis, contactez notre équipe du service client."
+        },
+        {
+          "question": "Comment contacter le service client ?",
+          "answer": "Nous sommes disponibles 24 h/24 et 7 j/7 par e-mail à info@mmcore.eu et via notre formulaire de contact. Les clients professionnels peuvent également nous joindre via notre canal de support API."
+        },
+        {
+          "question": "Que faire si je n’ai jamais reçu ma commande ?",
+          "answer": "Vérifiez d’abord votre lien de suivi pour voir le dernier scan. Confirmez votre adresse de livraison et renseignez-vous auprès de vos voisins ou points relais. Si la commande n’est toujours pas arrivée 2 jours ouvrables après la date prévue, contactez le service client avec votre numéro de commande afin que nous enquêtions et, si nécessaire, ouvrions une réclamation."
+        }
+      ]
     },
     "statusCodeDescriptions": {
       "97": "Manifeste établi pour la douane",

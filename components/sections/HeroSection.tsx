@@ -25,10 +25,6 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 text-white">
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-sm font-medium">
-                <Zap className="w-4 h-4" />
-                {t("hero.trustedBy")}
-              </div>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
                 {t("hero.title").split(t("hero.titleHighlight"))[0]}
                 <span className="text-yellow-300">{t("hero.titleHighlight")}</span>
