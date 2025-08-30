@@ -16,7 +16,7 @@ import {
   CheckCircle,
 } from "lucide-react"
 import Link from "next/link"
-import Header from "@/components/layout/Header"
+import HeaderChangelog from "@/components/layout/HeaderChangelog"
 import Footer from "@/components/layout/Footer"
 import { useLanguage } from "@/contexts/LanguageContext"
 
@@ -128,7 +128,7 @@ export default function ChangelogPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      <HeaderChangelog />
 
       <div style={{ paddingTop: "50px" }}>
         {/* Hero Section */}
