@@ -4,8 +4,9 @@ import de from "../translations/de.json"
 import fr from "../translations/fr.json"
 import it from "../translations/it.json"
 import es from "../translations/es.json"
+import cn from "../translations/cn.json"
 
-export type Locale = "en" | "nl" | "de" | "fr" | "it" | "es"
+export type Locale = "en" | "nl" | "de" | "fr" | "it" | "es" | "cn"
 
 export const translations = {
   en,
@@ -13,10 +14,11 @@ export const translations = {
   de,
   fr,
   it,
-  es
+  es,
+  cn
 }
 
-export const locales: Locale[] = ["en", "nl", "de", "fr", "it", "es"]
+export const locales: Locale[] = ["en", "nl", "de", "fr", "it", "es", "cn"]
 
 export const localeNames = {
   en: "English",
@@ -25,6 +27,7 @@ export const localeNames = {
   fr: "Français",
   it: "Italiano",
   es: "Español",
+  cn: "中文",
 }
 
 export function getTranslation(locale: Locale, key: string): string {

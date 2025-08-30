@@ -17,6 +17,7 @@ const languages = [
   { code: "fr" as Locale, name: "Français", flag: "🇫🇷" },
   { code: "it" as Locale, name: "Italiano", flag: "🇮🇹" },
   { code: "es" as Locale, name: "Español", flag: "🇪🇸" },
+  { code: "cn" as Locale, name: "中文", flag: "🇨🇳" },
 ]
 
 export default function Header() {

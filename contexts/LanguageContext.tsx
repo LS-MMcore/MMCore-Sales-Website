@@ -19,7 +19,7 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 const STORAGE_KEY = "lng"
-const SUPPORTED = ["en", "nl", "de", "fr", "it", "es"] as const
+const SUPPORTED = ["en", "nl", "de", "fr", "it", "es", "cn"] as const
 type SupportedLocale = (typeof SUPPORTED)[number]
 
 function isSupportedLocale(v: unknown): v is SupportedLocale {
