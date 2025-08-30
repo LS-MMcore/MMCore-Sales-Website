@@ -47,7 +47,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
         <div className="flex items-center py-2">
           <Link href="/">
-            <Image src="../mmcore_slogan.png" alt="Company Logo" width={150} height={60} priority />
+            <Image src="/mmcore_slogan.png" alt="Company Logo" width={150} height={60} priority />
           </Link>
         </div>
 

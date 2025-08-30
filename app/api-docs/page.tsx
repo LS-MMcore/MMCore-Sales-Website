@@ -326,37 +326,7 @@ export default function ApiDocsPage() {
 curl --location 'https://api.mmcore.tech/auth' \\
 --header 'AUTH_USER=YOUR_AUTH_USER' \\
 --header 'AUTH_PW=YOUR_AUTH_PW'
-
-// Upload manifest data
-curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY?ls=Y' \\
---header 'Content-Type: application/json' \\
---data '[{
-  "waybill": "999-12345678",
-  "packageId": "1",
-  "parcelId": "123456",
-  "name": "John Doe",
-  "address": "Test Street",
-  "zipcode": "1012AB",
-  "city": "Amsterdam",
-  "country": "NL",
-  "phone": "0612345678",
-  "email": "john.doe@mail.com",
-  "sellerName": "Your Company",
-  "sellerAddress": "Business Street 123",
-  "sellerZipcode": "3011AD",
-  "sellerCity": "Rotterdam",
-  "sellerCountry": "NL",
-  "sku": "PRODUCT-001",
-  "content": "Electronics",
-  "hsCode": "123456",
-  "quantity": "1",
-  "itemPrice": "10.00",
-  "parcelWeight": "0.20",
-  "currency": "EUR",
-  "parcelPrice": "10.20",
-  "taxType": "IOSS",
-  "taxIdent": "IM1234567890"
-}]'`}</code>
+`}</code>
                 </pre>
               </CardContent>
             </Card>
