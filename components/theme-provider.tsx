@@ -12,8 +12,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
     defaultTheme="light"      // force light as the default
     enableSystem={false}      // ignore OS preference
     disableTransitionOnChange // optional: avoid flicker
-    {...props}
-  >
+    {...props}>
     {children}
   </NextThemesProvider>
 }
