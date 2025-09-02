@@ -1,0 +1,455 @@
+{
+    "navigation": {
+        "home": "Inicio",
+        "tracking": "Seguimiento",
+        "services": "Servicios",
+        "apiDocs": "Documentación API",
+        "contact": "Contacto"
+    },
+    "footer": {
+        "allRightsReserved": "Todos los derechos reservados",
+        "termsOfService": "Términos del servicio",
+        "privacyPolicy": "Política de privacidad",
+        "poweredBy": "Desarrollado por"
+    },
+    "hero": {
+        "trustedBy": "Con la confianza de 500+ empresas",
+        "title": "Soluciones de Logística y Cumplimiento sin Fronteras",
+        "titleHighlight": "Cumplimiento",
+        "subtitle": "Conecta marcas, fabricantes y proveedores logísticos en toda Europa y el Reino Unido con nuestra avanzada plataforma multitransportista.",
+        "getStarted": "Comienza Hoy",
+        "viewApiDocs": "Ver Documentación API",
+        "carriers": "35+ Transportistas",
+        "carriersDesc": "Red Global",
+        "countries": "50+ Países",
+        "countriesDesc": "Alcance Mundial",
+        "realtime": "En tiempo real",
+        "realtimeDesc": "Seguimiento y Actualizaciones"
+    },
+    "about": {
+        "title": "Nuestros Servicios",
+        "subtitle": "Soluciones integrales de envío para tu negocio",
+        "multiCarrier": {
+            "title": "Integración Multitransportista",
+            "description": "Conéctate con 35+ transportistas en todo el mundo a través de una sola API"
+        },
+        "realTimeTracking": {
+            "title": "Seguimiento en Tiempo Real",
+            "description": "Monitorea envíos con actualizaciones y notificaciones en vivo"
+        },
+        "customsSupport": {
+            "title": "Soporte Aduanero",
+            "description": "Documentación y cumplimiento aduanero automatizado"
+        },
+        "billingReconciliation": {
+            "title": "Conciliación de Facturación",
+            "description": "Gestión simplificada de facturación y costos entre transportistas"
+        },
+        "learnMore": "Conoce Más Sobre Nuestros Servicios"
+    },
+    "tracking": {
+        "title": "Rastrea tu Envío",
+        "subtitle": "Introduce tu número de seguimiento para obtener actualizaciones en tiempo real",
+        "placeholder": "Introduce número de seguimiento",
+        "trackButton": "Rastrear Paquete",
+        "trackYourPackage": "RASTREA TU PAQUETE",
+        "enterTrackingNumbers": "Introduce números de seguimiento (uno por línea)",
+        "pleaseEnterTracking": "Por favor introduce al menos un número de seguimiento",
+        "somethingWentWrong": "Algo salió mal",
+        "notFound": "No encontrado",
+        "unknownStatus": "Estado Desconocido",
+        "noUpdates": "Sin actualizaciones",
+        "noResults": "No se encontró información de seguimiento para este número.",
+        "error": "Error al obtener la información de seguimiento. Inténtalo nuevamente."
+    },
+    "contact": {
+        "title": "Ponte en Contacto",
+        "subtitle": "¿Listo para optimizar tus operaciones de envío? Contáctanos hoy.",
+        "successMessage": "¡Tu mensaje ha sido enviado exitosamente!",
+        "stats": {
+            "tms": "TMS",
+            "tmsDesc": "Sistema de Gestión de Transporte",
+            "wms": "WMS",
+            "wmsDesc": "Sistema de Gestión de Almacén",
+            "support": "Soporte 24/7",
+            "supportDesc": "Asistencia Experta"
+        },
+        "info": {
+            "title": "Información de Contacto",
+            "email": "Correo Electrónico",
+            "emailDesc": "Ponte en contacto con nuestro equipo"
+        },
+        "form": {
+            "title": "Formulario de Contacto",
+            "subtitle": "Envíanos un mensaje y nos pondremos en contacto contigo",
+            "name": "Nombre",
+            "namePlaceholder": "Introduce tu nombre",
+            "lastName": "Apellido",
+            "lastNamePlaceholder": "Introduce tu apellido",
+            "email": "Correo Electrónico",
+            "emailPlaceholder": "Introduce tu correo electrónico",
+            "company": "Empresa",
+            "companyPlaceholder": "Introduce el nombre de tu empresa",
+            "enquiry": "Tipo de Consulta",
+            "selectEnquiry": "Selecciona el tipo de consulta",
+            "sending": "Enviando...",
+            "success": "¡Tu mensaje ha sido enviado exitosamente!",
+            "enquiryOptions": {
+                "sales": "Ventas",
+                "support": "Soporte Técnico",
+                "technical": "TI e Integración",
+                "partnership": "Alianzas",
+                "billing": "Facturación y Precios",
+                "demo": "Solicitar Demostración",
+                "other": "Otro"
+            },
+            "message": "Mensaje",
+            "messagePlaceholder": "Cuéntanos sobre tus necesidades de envío...",
+            "submit": "Enviar Mensaje"
+        },
+        "quickLinks": {
+            "title": "Enlaces Rápidos",
+            "api": "Documentación API",
+            "apiIcon": "📚",
+            "features": "Características de la Plataforma",
+            "featuresIcon": "⚡",
+            "tracking": "Rastrear Envíos",
+            "trackingIcon": "📦"
+        }
+    },
+    "services": {
+        "title": "Plataforma Multitransportista de Tarifas y Etiquetado",
+        "subtitle": "Optimiza tus operaciones de envío con nuestra plataforma integral",
+        "description": "MMCore es una solución en la nube, completamente escalable, que permite a las empresas gestionar, optimizar y automatizar sus procesos de envío con más de 35 transportistas que entregan en más de 50 países desde un sistema centralizado.",
+        "features": "Capacidades de la Plataforma",
+        "advantages": "Ventajas Clave",
+        "carriers": "Red Global de Transportistas",
+        "readyToOptimize": "¿Listo para Optimizar tu Logística?",
+        "ctaParagraph": "Comienza hoy con nuestra plataforma multitransportista y optimiza tus operaciones de envío.",
+        "getStarted": "Comenzar",
+        "apiDocumentation": "Documentación API",
+        "andManyMore": "Y muchos más...",
+        "badge": {
+            "carriers": "35+ Transportistas",
+            "countries": "50+ Países",
+            "cloud": "Basado en la Nube",
+            "gdpr": "Cumple con GDPR"
+        },
+        "platformCapabilities": {
+            "title": "Capacidades de la Plataforma",
+            "description": "Todo lo que necesitas para optimizar tus operaciones logísticas",
+            "apiIntegration": {
+                "title": "Integración API y EDI",
+                "description": "Integración directa con sistemas de transportistas para intercambio de datos en tiempo real",
+                "contractTerm": "Sin contratos a largo plazo",
+                "activation": "Activación inmediata",
+                "apiConnection": "Conexión directa API"
+            },
+            "customsSupport": {
+                "title": "Soporte Aduanero Integral",
+                "description": "Gestión automatizada de documentación y cumplimiento aduanero",
+                "webshopPlugins": "Plugins para tiendas online disponibles",
+                "customFrontend": "Soporte de front-end personalizado",
+                "automatedDataExchange": "Intercambio de datos automatizado"
+            },
+            "billingReconciliation": {
+                "title": "Conciliación Avanzada de Facturación",
+                "description": "Procesos de facturación simplificados con análisis de costos detallado",
+                "crossBorderShipping": "Envíos transfronterizos",
+                "legalCompliance": "Cumplimiento legal",
+                "automatedDataDeletion": "Eliminación de datos automatizada"
+            },
+            "cloudBased": {
+                "title": "Arquitectura Basada en la Nube",
+                "description": "Escalable, segura y accesible desde cualquier lugar",
+                "invoiceVerification": "Verificación de facturas",
+                "billingErrorDetection": "Detección de errores de facturación",
+                "costManagement": "Gestión de costos"
+            }
+        },
+        "keyAdvantages": {
+            "title": "Ventajas Clave",
+            "general": "Beneficios Generales",
+            "sales": "Beneficios Comerciales",
+            "operational": "Beneficios Operativos",
+            "financial": "Beneficios Financieros",
+            "lists": {
+                "operational": [
+                    "Informes de estado comparando tiempos de tránsito prometidos vs reales",
+                    "Comunicación directa con el servicio al cliente del transportista",
+                    "Funcionalidad completa de rastreo y seguimiento",
+                    "Múltiples puntos de inyección de paquetes por país",
+                    "Notificaciones automáticas por correo electrónico para envíos",
+                    "Compatibilidad con impresoras industriales (formato .ZPL)"
+                ],
+                "financial": [
+                    "Gestión flexible de tarifas (plataforma o personalizada)",
+                    "Conciliación de facturación en tiempo real",
+                    "Detección automática de discrepancias de peso",
+                    "Corrección inmediata de errores de facturación",
+                    "Herramientas de optimización de costos",
+                    "Informes y análisis financieros"
+                ],
+                "sales": [
+                    "Flexibilidad multitransportista para mejores tarifas",
+                    "Sin interferencia con contratos existentes",
+                    "Integración de contratos personalizados con transportistas",
+                    "Soporte para envíos multilocalización",
+                    "Inyección local específica por país",
+                    "Cobertura superior en red de devoluciones"
+                ]
+            }
+        },
+        "carrierNetwork": {
+            "title": "Red Global de Transportistas",
+            "subtitle": "Conéctate con 35+ transportistas en 50+ países",
+            "stats": {
+                "carriers": "35+",
+                "carriersLabel": "Socios Transportistas",
+                "countries": "50+",
+                "countriesLabel": "Países Servidos",
+                "shipments": "1M+",
+                "shipmentsLabel": "Envíos Mensuales",
+                "uptime": "99.9%",
+                "uptimeLabel": "Disponibilidad de la Plataforma",
+                "injectionPoints": "200+",
+                "injectionPointsLabel": "Puntos de Inyección"
+            },
+            "section": {
+                "title": "Transportistas Actualmente Integrados",
+                "subtitle": "Elige el mejor transportista para cada envío según tiempo de entrega, precio y región"
+            },
+            "types": {
+                "national": "Nacional",
+                "express": "Exprés",
+                "parcel": "Paquetería",
+                "mail": "Correo",
+                "global": "Global"
+            },
+            "regions": {
+                "netherlands": "Países Bajos",
+                "germany": "Alemania",
+                "belgium": "Bélgica",
+                "austria": "Austria",
+                "unitedKingdom": "Reino Unido",
+                "denmark": "Dinamarca",
+                "slovenia": "Eslovenia",
+                "france": "Francia",
+                "spain": "España",
+                "switzerland": "Suiza",
+                "nordic": "Nórdico",
+                "norway": "Noruega",
+                "europe": "Europa",
+                "global": "Global"
+            }
+        }
+    },
+    "apiDocs": {
+        "title": "Documentación API de MMCore",
+        "subtitle": "Referencia completa para integrarse con nuestra plataforma de envíos multitransportista",
+        "quickStart": "Inicio Rápido",
+        "getUpAndRunning": "Ponte en marcha",
+        "signUpForAccount": "Regístrate para obtener una cuenta",
+        "includeAuthUser": "Incluye tu AUTH_USER y AUTH_PW para autenticarte.",
+        "verifyCredentials": "Verifica tus credenciales",
+        "startProcessing": "Comienza a procesar envíos",
+        "exampleAuthentication": "Ejemplo: Autenticación",
+        "basicExample": "Ejemplo básico",
+        "endpointsTitle": "Endpoints API",
+        "completeReference": "Referencia completa",
+        "parameters": "Parámetros",
+        "queryParameters": "Parámetros de consulta",
+        "default": "Por defecto",
+        "values": "Valores",
+        "response": "Respuesta",
+        "example": "Ejemplo",
+        "authentication": "Autenticación",
+        "secureYourApi": "Protege tu API",
+        "headerAuthentication": "Autenticación en encabezado",
+        "securityNote": "Nota de Seguridad",
+        "keepCredentialsSecure": "Mantén seguras tus credenciales.",
+        "neverExpose": "Nunca las expongas.",
+        "useEnvironmentVariables": "Usa variables de entorno.",
+        "additionalResources": "Recursos Adicionales",
+        "everythingYouNeed": "Todo lo que necesitas",
+        "postmanCollection": "Colección de Postman",
+        "getSupport": "Obtener Soporte",
+        "changelog": "Registro de cambios",
+        "changelogSubtitle": "Mantente al día con los últimos cambios y mejoras",
+        "stayUpdated": "Mantente Actualizado",
+        "backToDocumentation": "Volver a la Documentación",
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "subtitle": "Preguntas comunes sobre nuestras soluciones de envíos para e-commerce",
+            "intro": {
+                "title": "Resumen de FAQ de E-commerce",
+                "description": "Una página de FAQ de e-commerce ofrece respuestas rápidas a preguntas comunes sobre políticas de la tienda, envíos, devoluciones y detalles de productos. Sirve como recurso de autoservicio para mejorar la experiencia del cliente y reducir solicitudes de soporte."
+            },
+            "items": [
+                {
+                    "question": "¿Cuáles son sus opciones y costos de envío?",
+                    "answer": "Ofrecemos múltiples opciones de envío a través de nuestra red de 35+ transportistas, incluyendo estándar, exprés y entrega nocturna. Los costos de envío varían según el destino, tamaño del paquete y transportista seleccionado. Usa nuestra plataforma para comparar tarifas y elegir la mejor opción."
+                },
+                {
+                    "question": "¿Cuándo recibiré mi pedido?",
+                    "answer": "Los tiempos de entrega dependen del transportista seleccionado y el destino. Las fechas estimadas se muestran al pagar y en tu enlace de seguimiento. Los pedidos nacionales suelen llegar en 1–3 días hábiles; las entregas internacionales varían según región y aduanas."
+                },
+                {
+                    "question": "¿Cómo puedo rastrear mi pedido?",
+                    "answer": "Usa nuestro seguimiento en tiempo real: introduce tu número de seguimiento en la página de seguimiento o sigue el enlace en tu correo de confirmación. Recibirás actualizaciones en cada paso del proceso de entrega."
+                },
+                {
+                    "question": "¿Cuáles son las políticas para envíos internacionales, aranceles e impuestos?",
+                    "answer": "Los pedidos internacionales pueden estar sujetos a aranceles, impuestos y tarifas de gestión. Dependiendo de la ruta y transportista, los envíos pueden realizarse DDU (derechos no pagados) o DDP (derechos pagados). Cualquier tarifa aplicable se mostrará en el pago o se cobrará al momento de la entrega según las regulaciones locales."
+                },
+                {
+                    "question": "¿Cuál es la política de devoluciones?",
+                    "answer": "La mayoría de los artículos pueden devolverse dentro de los 30 días posteriores a la entrega en su estado y empaque original, salvo indicación contraria. Algunos productos pueden tener reglas específicas. Las etiquetas de devolución pueden generarse en nuestra plataforma para pedidos elegibles."
+                },
+                {
+                    "question": "¿Cómo hago una devolución?",
+                    "answer": "Inicia una devolución desde el historial de pedidos en tu cuenta o contacta con nuestro equipo de soporte. Recibirás una etiqueta de devolución e instrucciones. Una vez recibido e inspeccionado el artículo, emitiremos un reembolso o cambio según tu solicitud."
+                },
+                {
+                    "question": "¿Qué debo hacer si mi pedido es defectuoso o incorrecto?",
+                    "answer": "Contáctanos dentro de los 7 días posteriores a la entrega con tu número de pedido y fotos del problema. Organizaremos un reemplazo, cambio o reembolso y te proporcionaremos una etiqueta de devolución prepagada si es necesario."
+                },
+                {
+                    "question": "¿Cómo hago cambios en un pedido que ya realicé?",
+                    "answer": "Los cambios son posibles antes del envío. Si tu pedido aún está en proceso, puedes actualizar la dirección, método de envío o cancelarlo. Una vez enviado, los cambios son limitados; por favor contacta a servicio al cliente para asistencia."
+                },
+                {
+                    "question": "¿Cómo aseguro pedir la talla o ajuste correcto?",
+                    "answer": "Consulta la tabla de tallas y medidas del producto en la página del artículo. Si estás entre tallas, revisa reseñas de clientes o contacta con soporte antes de ordenar."
+                },
+                {
+                    "question": "¿De dónde provienen sus productos o cómo se fabrican?",
+                    "answer": "Las páginas de producto muestran origen, materiales y detalles de fabricación cuando la marca los proporciona. Para más información sobre un artículo específico, contacta a nuestro servicio al cliente."
+                },
+                {
+                    "question": "¿Cómo contacto con servicio al cliente?",
+                    "answer": "Estamos disponibles 24/7 por correo electrónico en info@mmcore.eu y a través de nuestro formulario de contacto. Los clientes empresariales también pueden contactarnos vía nuestro canal de soporte API."
+                },
+                {
+                    "question": "¿Qué hago si nunca recibí mi pedido?",
+                    "answer": "Primero, revisa tu enlace de seguimiento para la última actualización. Confirma tu dirección de entrega y consulta con vecinos o puntos de recogida locales. Si aún no llega 2 días hábiles después de la fecha estimada, contacta con servicio al cliente con tu número de pedido para que investiguemos y presentemos una reclamación si es necesario."
+                }
+            ]
+        },
+        "badges": {
+            "restApi": "REST API",
+            "realTimeTracking": "Seguimiento en Tiempo Real",
+            "manifestProcessing": "Procesamiento de Manifiestos",
+            "multiCarrier": "Multitransportista"
+        },
+        "statusCodes": "Códigos de Estado",
+        "statusCodesIntro": "Códigos de estado devueltos en respuestas de seguimiento con sus descripciones",
+        "endpoints": {
+            "auth": {
+                "description": "Autenticar y validar tus credenciales API"
+            },
+            "tracking": {
+                "description": "Obtén información detallada de seguimiento para envíos con parámetros de consulta completos",
+                "query": {
+                    "lang": "Establece el idioma de la respuesta API",
+                    "flightTrackingSetting": "Define cómo debe manejarse el seguimiento de vuelos/guías aéreas",
+                    "type": "Especifica el tipo de seguimiento utilizado",
+                    "trackingDetails": "Define el nivel de detalle en la respuesta de seguimiento"
+                }
+            },
+            "action": {
+                "description": "Solicita una etiqueta de transportista para un país específico con varias opciones de salida",
+                "query": {
+                    "pl": "Y = Mostrar etiqueta PDF, N = obtener resultado en JSON",
+                    "dhlzpl": "Y = obtener etiqueta DHL en JSON, N = obtener URL para PDF",
+                    "zpl": "Y = obtener etiqueta ZPL si el transportista lo soporta",
+                    "o": "La salida será en formato JSON",
+                    "dl": "Y = la etiqueta se generará dentro de esta llamada"
+                }
+            },
+            "postManifest": {
+                "description": "Sube datos de manifiesto a la base de datos para procesar envíos (soporta cargas masivas)",
+                "query": {
+                    "ls": "Y = Bloquear datos de manifiesto (si no hay errores), N = No bloquear datos. SOLO APLICABLE PARA GUÍAS AÉREAS"
+                }
+            },
+            "lockShipment": {
+                "description": "Bloquea un envío para evitar cambios posteriores (solo guías aéreas). Esto notifica que el envío está completo."
+            }
+        },
+        "statusCodeDescriptions": {
+            "97": "Manifiestado para aduanas",
+            "98": "Los datos de la etiqueta han sido preregistrados",
+            "99": "La etiqueta ha sido creada",
+            "200": "Declaración de despacho",
+            "201": "Llegada del despacho",
+            "202": "Documentación de despacho",
+            "203": "Modificación del despacho",
+            "204": "Cancelación del despacho",
+            "205": "Inicio del despacho aduanero",
+            "207": "Problema en aduanas",
+            "208": "Confiscado",
+            "209": "Retenido por aduanas",
+            "210": "Requiere documentos",
+            "211": "Aceptado",
+            "213": "Paquete liberado",
+            "214": "Liberado manualmente",
+            "215": "Cancelado",
+            "216": "Llegó a instalaciones",
+            "217": "Listo para última milla",
+            "218": "Liberado para última milla",
+            "219": "Trabajo despachado",
+            "2000": "La carga está siendo rastreada",
+            "2001": "Información enviada, esperando a que el transportista recoja la carga",
+            "2002": "El transportista recoge la carga",
+            "2003": "En tránsito",
+            "2004": "La carga llegó a destino",
+            "2005": "Notificar al consignatario para recoger la carga",
+            "2006": "La carga fue entregada al consignatario",
+            "2007": "Paquetes perdidos, dañados, devueltos, no reclamados, etc.",
+            "2008": "Tiempo de envío demasiado largo",
+            "3000": "El paquete llegó a un depósito",
+            "3001": "Escaneo de salida",
+            "3004": "Detalles del paquete actualizados",
+            "3005": "El paquete llegó al transportista de última milla",
+            "3050": "El paquete salió del depósito",
+            "5000": "El paquete está en camino de entrega",
+            "5001": "El paquete está en camino de entrega al destinatario",
+            "5002": "Se envió un SMS de notificación al destinatario",
+            "5003": "El paquete está en camino de entrega a un casillero",
+            "5004": "El paquete está en camino de entrega a un punto de recogida",
+            "7000": "Destinatario ausente, segundo intento:",
+            "7001": "Destinatario ausente, el paquete se almacenará en el depósito por 5 días",
+            "7002": "Destinatario ausente",
+            "7003": "Destinatario ausente, el paquete puede recogerse en un punto de recogida",
+            "7004": "Almacenado hasta solicitud",
+            "8000": "Devolver al remitente",
+            "8001": "Envío cancelado",
+            "8500": "Información adicional",
+            "9000": "Entregado",
+            "9001": "Paquete entregado a los vecinos",
+            "9002": "Paquete entregado en punto de recogida",
+            "9003": "Paquete entregado en buzón",
+            "9004": "Paquete entregado en lugar seguro",
+            "9005": "Paquete recogido",
+            "9006": "Devolución entregada",
+            "9500": "Rechazado",
+            "9501": "El paquete no fue recogido",
+            "9502": "El paquete no fue entregado",
+            "9503": "El paquete fue redirigido a una nueva dirección",
+            "9600": "Detalles de dirección incorrectos"
+        },
+        "common": {
+            "back": "Atrás",
+            "loading": "Cargando...",
+            "error": "Error",
+            "success": "Éxito",
+            "cancel": "Cancelar",
+            "confirm": "Confirmar",
+            "save": "Guardar",
+            "edit": "Editar",
+            "delete": "Eliminar",
+            "close": "Cerrar"
+        }
+    }
+}

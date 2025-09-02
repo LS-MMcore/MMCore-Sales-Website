@@ -1,5 +1,7 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type React from "react"
+import type { Metadata } from "next"
+import { LanguageProvider } from "@/contexts/LanguageContext"
+import "./globals.css"
 
 export const metadata: Metadata = {
   title: 'MMCore',
@@ -19,7 +21,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="./orb.png" />
       </head>
-      <body>{children}</body>
+      <body>
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   )
 }

@@ -1,265 +1,529 @@
 "use client"
 
+import { useEffect, useMemo, useState } from "react"
 import { useSearchParams } from "next/navigation"
-import Link from "next/link"
+import Header from "@/components/layout/Header"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { Textarea } from "@/components/ui/textarea"
+import { Badge } from "@/components/ui/badge"
+import TrackingProgressBar from "@/components/tracking-progress-bar"
+import { useLanguage } from "@/contexts/LanguageContext"
 import {
-  PackageCheck,
-  ArrowLeft,
-  Copy,
+  Loader2,
+  Search,
   Package,
+  CheckCircle2,
+  Truck,
+  MapPin,
+  Clock,
+  AlertTriangle,
+  XCircle,
+  Building2,
+  FileText,
+  PackageCheck,
   ChevronDown,
   ChevronUp,
-  Clock,
-  Truck,
-  CheckCircle,
-  MapPin,
 } from "lucide-react"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { useState } from "react"
+
+
+type MMCoreScan = {
+  itemNumber: number
+  code: string
+  description: string
+  location: string
+  dateTime: string
+}
+
+type MMCoreResponse = {
+  state: boolean
+  numberOfItems: number
+  notFound: string[]
+  items: Record<string, MMCoreScan[]>
+  lastStatus: Record<string, MMCoreScan>
+}
+
+function getStatusInfo(code: string, apiDescription?: string) {
+  // Prefer API text; fall back to your local map; then to the raw code
+  const statusText = (apiDescription || "").trim() || code
+
+  // style/icon still keyed off the numeric code
+  if (code === "9000" || code.startsWith("900")) {
+    return {
+      text: statusText,
+      variant: "default" as const,
+      bgColor: "bg-green-50 border-green-200",
+      textColor: "text-green-800",
+      icon: CheckCircle2,
+      iconColor: "text-green-600",
+    }
+  }
+
+  if (code === "5000" || code === "5001" || code.startsWith("500") || code === "2003" || code === "3001" || code === "3050") {
+    return {
+      text: statusText,
+      variant: "secondary" as const,
+      bgColor: "bg-blue-50 border-blue-200",
+      textColor: "text-blue-800",
+      icon: Truck,
+      iconColor: "text-blue-600",
+    }
+  }
+
+  if (code === "3000" || code === "216" || code === "3005") {
+    return {
+      text: statusText,
+      variant: "secondary" as const,
+      bgColor: "bg-indigo-50 border-indigo-200",
+      textColor: "text-indigo-800",
+      icon: Building2,
+      iconColor: "text-indigo-600",
+    }
+  }
+
+  if (code.startsWith("20") || code === "97" || code === "98" || code === "213") {
+    return {
+      text: statusText,
+      variant: "secondary" as const,
+      bgColor: "bg-amber-50 border-amber-200",
+      textColor: "text-amber-800",
+      icon: FileText,
+      iconColor: "text-amber-600",
+    }
+  }
+
+  if (code === "99") {
+    return {
+      text: statusText,
+      variant: "secondary" as const,
+      // (Optional: Tailwind uses 'gray', not 'grey')
+      bgColor: "bg-gray-50 border-gray-200",
+      textColor: "text-gray-800",
+      icon: Package,
+      iconColor: "text-gray-600",
+    }
+  }
+
+  if (code.startsWith("95") || code === "215" || code === "208" || code.startsWith("70") || code.startsWith("80")) {
+    return {
+      text: statusText,
+      variant: "destructive" as const,
+      bgColor: "bg-red-50 border-red-200",
+      textColor: "text-red-800",
+      icon: AlertTriangle,
+      iconColor: "text-red-600",
+    }
+  }
+
+  return {
+    text: statusText,
+    variant: "secondary" as const,
+    bgColor: "bg-gray-50 border-gray-200",
+    textColor: "text-gray-800",
+    icon: Clock,
+    iconColor: "text-gray-600",
+  }
+}
+
+function buildMMCoreUrl(language: string, apiKey: string) {
+  return `https://api.mmcore.tech/get_tracking_information/${encodeURIComponent(
+    apiKey
+  )}?lang=${encodeURIComponent(language)}&type=barcode`
+}
 
 export default function TrackingPage() {
-  const searchParams = useSearchParams()
-  const trackingNumbersParam = searchParams.get("numbers") || ""
-  const numbersArray = trackingNumbersParam.split("\n").filter((num) => num.trim() !== "")
-  const displayTrackingNumber = numbersArray.length > 0 ? numbersArray[0] : "00370724763137261917" // Use first or default
+  const search = useSearchParams()
+  const { t, locale } = useLanguage()
 
-  // Hardcoded tracking data for demonstration
-  const trackingData = [
-    {
-      datetime: "2025-06-17 08:56:30",
-      location: "TUEN MUN NT (HK)",
-      label: "INFORMED",
-      code: "97",
-      description: "Manifested for customs",
-    },
-    {
-      datetime: "2025-06-27 12:41:00",
-      location: "Vestby",
-      label: "DEP_RECEIVED",
-      code: "3000",
-      description: "Parcel has been received",
-    },
-    {
-      datetime: "2025-06-27 12:41:00",
-      location: "VestbySorter",
-      label: "IN_TRANSIT",
-      code: "5000",
-      description: "Parcel is being loaded for transport",
-    },
-    {
-      datetime: "2025-06-27 23:57:00",
-      location: "Hokksund",
-      label: "IN_TRANSIT",
-      code: "5000",
-      description: "Parcel is being loaded for transport",
-    },
-    {
-      datetime: "2025-06-28 06:48:00",
-      location: "HOKKSUND",
-      label: "DELIVERED",
-      code: "9000",
-      description: "Parcel delivered",
-    },
-  ]
+  // Map LanguageContext locale -> vendor expected uppercase code
+  const vendorLang = useMemo(() => {
+    switch ((locale || "en").toLowerCase()) {
+      case "nl":
+        return "NL"
+      case "de":
+        return "DE"
+      case "fr":
+        return "FR"
+      case "it":
+        return "IT"
+      default:
+        return "EN"
+    }
+  }, [locale])
 
-  const latestEvent = trackingData[trackingData.length - 1]
-  const isDelivered = latestEvent?.label === "DELIVERED"
+  const [raw, setRaw] = useState("")
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const [result, setResult] = useState<null | { requested: string[]; lang: string; data: MMCoreResponse }>(null)
+  const [collapsedPackages, setCollapsedPackages] = useState<Set<string>>(new Set())
+  const [showAllEntries, setShowAllEntries] = useState<Set<string>>(new Set())
 
-  const lastUpdateDate = latestEvent
-    ? new Date(latestEvent.datetime).toLocaleString("en-US", {
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false,
+  const codesFromQuery = useMemo(() => {
+    const numbers = search.get("numbers") || ""
+    const codes = search.get("codes") || search.get("code") || ""
+    const joined = [numbers, codes].filter(Boolean).join("\n")
+    return parseCodes(joined)
+  }, [search])
+
+  useEffect(() => {
+    if (codesFromQuery.length) {
+      setRaw(codesFromQuery.join("\n"))
+      void onSubmit(codesFromQuery)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  async function onSubmit(codesArg?: string[]) {
+    const codes = codesArg ?? parseCodes(raw)
+    if (!codes.length) {
+      setError(t("tracking.pleaseEnterTracking"))
+      return
+    }
+    setLoading(true)
+    setError(null)
+    setResult(null)
+    try {
+      const cleaned = Array.from(new Set(codes.map((c) => String(c).trim()).filter(Boolean))).slice(0, 50)
+
+      const MMCORE_KEY =
+        (typeof process !== "undefined" && (process as any).env?.NEXT_PUBLIC_MMCORE_KEY) ||
+        "43133486A143C928A86CF90CCF0E8DD0A16F57D0"
+
+      const url = buildMMCoreUrl(vendorLang, MMCORE_KEY)
+
+      const upstream = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain" },
+        body: JSON.stringify(cleaned),
+        cache: "no-store",
       })
-    : "N/A"
-  const lastUpdateLocation = latestEvent ? latestEvent.location : "N/A"
-  const originLocation = trackingData[0] ? latestEvent.location : "NLD" // Use latest event location for origin if available, otherwise default
 
-  const getProgressStage = (label: string) => {
-    switch (label) {
-      case "INFORMED":
-        return 1
-      case "DEP_RECEIVED":
-        return 2
-      case "IN_TRANSIT":
-        return 3
-      case "DELIVERED":
-        return 4
-      default:
-        return 0
+      if (!upstream.ok) {
+        const text = await upstream.text().catch(() => "")
+        throw new Error(text || `Upstream error (${upstream.status})`)
+      }
+
+      const data = (await upstream.json()) as MMCoreResponse
+      setResult({ requested: cleaned, lang: vendorLang, data })
+    } catch (e: any) {
+      setError(e?.message ?? t("tracking.somethingWentWrong"))
+    } finally {
+      setLoading(false)
     }
   }
 
-  const currentProgress = getProgressStage(latestEvent?.label || "")
-  const progressStages = ["Preparing", "Picked up", "In transit", "Delivered"]
-
-  const handleCopyTrackingNumbers = () => {
-    navigator.clipboard.writeText(numbersArray.join("\n"))
-    alert("All tracking numbers copied to clipboard!")
+  const togglePackageCollapse = (barcode: string) => {
+    setCollapsedPackages((prev) => {
+      const newSet = new Set(prev)
+      if (newSet.has(barcode)) {
+        newSet.delete(barcode)
+      } else {
+        newSet.add(barcode)
+      }
+      return newSet
+    })
   }
 
-  const handleCopySingleTrackingNumber = (text: string) => {
-    navigator.clipboard.writeText(text)
-    alert("Tracking number copied to clipboard!")
-  }
-
-  const [statusDropdownOpen, setStatusDropdownOpen] = useState(false)
-  const [currentStatus, setCurrentStatus] = useState("Pending") // Default status
-
-  const getIconForLabel = (label: string) => {
-    switch (label) {
-      case "DELIVERED":
-        return <CheckCircle className="h-5 w-5 text-green-500" />
-      case "IN_TRANSIT":
-        return <Truck className="h-5 w-5 text-primary" />
-      case "DEP_RECEIVED":
-        return <Package className="h-5 w-5 text-primary" />
-      case "INFORMED":
-        return <Clock className="h-5 w-5 text-gray-500" />
-      default:
-        return <MapPin className="h-5 w-5 text-gray-500" />
-    }
+  const toggleShowAllEntries = (barcode: string) => {
+    setShowAllEntries((prev) => {
+      const newSet = new Set(prev)
+      if (newSet.has(barcode)) {
+        newSet.delete(barcode)
+      } else {
+        newSet.add(barcode)
+      }
+      return newSet
+    })
   }
 
   return (
-    <div className="flex flex-col min-h-[100dvh] bg-gray-100">
-      <header className="px-4 lg:px-6 h-14 flex items-center border-b bg-white shadow-sm">
-        <Link href="/" className="flex items-center justify-center text-primary hover:underline">
-          <ArrowLeft className="h-5 w-5 mr-2" /> Back to Home
-        </Link>
-      </header>
-      <main className="flex-1 flex flex-col items-center py-12 md:py-24 lg:py-32 px-4">
-        <div className="container max-w-4xl mx-auto text-center space-y-8">
-          <div className="space-y-4">
-            <PackageCheck className="h-20 w-20 mx-auto text-primary" />
-            <h1 className="text-4xl font-bold tracking-tighter">Shipment Tracking</h1>
-            <p className="text-lg text-muted-foreground">Here are the details for your tracking numbers:</p>
-            {numbersArray.length > 0 && (
-              <Button
-                onClick={handleCopyTrackingNumbers}
-                className="bg-primary text-primary-foreground hover:bg-primary/90"
-              >
-                <Copy className="mr-2 h-4 w-4" /> Copy All Tracking Numbers
-              </Button>
-            )}
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#63b2dc]/10">
+      <Header />
+
+      <main className="mx-auto max-w-6xl px-3 sm:px-4 py-6 sm:py-8 pt-24 sm:pt-32">
+        <div className="text-center mb-6 sm:mb-8">
+          <div className="inline-flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-[#63b2dc]/10 rounded-full mb-3 sm:mb-4">
+            <PackageCheck className="h-6 w-6 sm:h-8 sm:w-8 text-[#63b2dc]" />
           </div>
-
-          {numbersArray.length > 0 ? (
-            <Card className="p-6 shadow-lg text-left">
-              <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center gap-2">
-                  <Package className="h-5 w-5 text-primary" />
-                  <span className="text-sm text-muted-foreground">Tracking number</span>
-                  <span className="font-semibold text-lg">{displayTrackingNumber}</span>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => handleCopySingleTrackingNumber(displayTrackingNumber)}
-                    className="h-6 w-6 text-muted-foreground hover:text-primary"
-                  >
-                    <Copy className="h-4 w-4" />
-                    <span className="sr-only">Copy tracking number</span>
-                  </Button>
-                </div>
-                <DropdownMenu open={statusDropdownOpen} onOpenChange={setStatusDropdownOpen}>
-                  <DropdownMenuTrigger asChild>
-                    <Button variant="outline" className="flex items-center gap-1 bg-transparent">
-                      {currentStatus}
-                      {statusDropdownOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-                    </Button>
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end">
-                    <DropdownMenuItem onClick={() => setCurrentStatus("Pending")}>Pending</DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => setCurrentStatus("In Transit")}>In Transit</DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => setCurrentStatus("Delivered")}>Delivered</DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
-              </div>
-
-              <h2 className="text-2xl font-bold mb-2">Estimated Delivery Jul 22, 2025</h2>
-              <p className="text-sm text-muted-foreground mb-6">
-                Last update: {lastUpdateDate} | OSL: Pending Scan | Origin: {originLocation}
-              </p>
-
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold mb-4">Shipment Progress</h3>
-                <div className="flex items-center justify-between gap-2">
-                  {progressStages.map((stage, index) => (
-                    <div key={stage} className="flex flex-col items-center flex-1">
-                      <div
-                        className={`h-2 w-full rounded-full ${
-                          index + 1 <= currentProgress ? (isDelivered ? "bg-green-500" : "bg-primary") : "bg-gray-200"
-                        } ${index === 0 ? "rounded-l-full" : ""} ${
-                          index === progressStages.length - 1 ? "rounded-r-full" : ""
-                        }`}
-                      />
-                      <span
-                        className={`mt-2 text-xs text-center ${
-                          index + 1 <= currentProgress ? "font-medium text-foreground" : "text-muted-foreground"
-                        }`}
-                      >
-                        {stage}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold mb-4">Shipment Events</h3>
-                <div className="relative pl-6 border-l-2 border-gray-200 space-y-6">
-                  {/* Reverse the trackingData array for display */}
-                  {[...trackingData].reverse().map((event, index) => (
-                    <div key={index} className="relative">
-                      <div className="absolute -left-3 top-0 flex h-6 w-6 items-center justify-center rounded-full bg-white">
-                        {getIconForLabel(event.label)}
-                      </div>
-                      <div className="ml-4">
-                        <p className="text-sm text-muted-foreground">
-                          {new Date(event.datetime).toLocaleString("en-US", {
-                            month: "short",
-                            day: "numeric",
-                            year: "numeric",
-                            hour: "2-digit",
-                            minute: "2-digit",
-                            hour12: false,
-                          })}
-                          {/* "Latest" tag for the first item in the reversed array (which is the actual latest) */}
-                          {index === 0 && (
-                            <span className="ml-2 inline-flex items-center rounded-md bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
-                              Latest
-                            </span>
-                          )}
-                        </p>
-                        <h3
-                          className={`font-semibold ${event.label === "DELIVERED" ? "text-green-600" : "text-foreground"}`}
-                        >
-                          {event.description}
-                        </h3>
-                        <p className="text-sm text-muted-foreground">Location: {event.location}</p>
-                        <p className="text-xs text-gray-400">
-                          Label: {event.label} (Code: {event.code})
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </Card>
-          ) : (
-            <p className="text-lg text-muted-foreground">No tracking numbers provided.</p>
-          )}
-
-          <Link href="/" passHref>
-            <Button className="mt-8 bg-primary text-primary-foreground hover:bg-primary/90">Go Back to Homepage</Button>
-          </Link>
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-2">{t("tracking.title")}</h1>
+          <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto px-2">
+            {t("tracking.enterTrackingNumbers")}
+          </p>
         </div>
+
+        <Card className="p-4 sm:p-6 shadow-lg border-0 bg-white/70 backdrop-blur-sm">
+          <div className="space-y-4 sm:space-y-0 sm:grid sm:gap-4 sm:grid-cols-[1fr_auto]">
+            <div className="space-y-2">
+              <label className="text-sm font-medium text-slate-700">Tracking Numbers</label>
+              <Textarea
+                value={raw}
+                onChange={(e) => setRaw(e.target.value)}
+                className="min-h-[100px] sm:min-h-[120px] resize-none border-slate-200 focus:border-[#63b2dc] focus:ring-[#63b2dc] text-sm sm:text-base"
+                placeholder={t("tracking.placeholder")}
+              />
+            </div>
+            <div className="flex flex-col gap-3 sm:w-48">
+              <Button
+                onClick={() => onSubmit()}
+                disabled={loading}
+                className="w-full bg-[#63b2dc] hover:bg-[#63b2dc]/90 text-white shadow-md h-11 sm:h-10 text-base sm:text-sm"
+                size="lg"
+              >
+                {loading ? (
+                  <>
+                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    Tracking...
+                  </>
+                ) : (
+                  <>
+                    <Search className="mr-2 h-4 w-4 sm:h-8 sm:w-8" />
+                    {t("tracking.trackButton")}
+                  </>
+                )}
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => setRaw("")}
+                disabled={loading}
+                className="w-full border-slate-200 hover:bg-slate-50 h-11 sm:h-10 text-base sm:text-sm"
+              >
+                Clear All
+              </Button>
+              <div className="text-center">
+                <span className="text-xs text-slate-500">{parseCodes(raw).length} / 50 numbers</span>
+                <div className="w-full bg-slate-200 rounded-full h-1.5 mt-1">
+                  <div
+                    className="bg-[#63b2dc] h-1.5 rounded-full transition-all duration-300"
+                    style={{ width: `${(parseCodes(raw).length / 50) * 100}%` }}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          {error && (
+            <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg flex items-center gap-2">
+              <XCircle className="h-4 w-4 text-red-600 flex-shrink-0" />
+              <p className="text-sm text-red-700">{error}</p>
+            </div>
+          )}
+        </Card>
+
+        {result && (
+          <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
+            {result.data.notFound?.length ? (
+              <Card className="border-dashed border-amber-300 bg-amber-50/50 p-3 sm:p-4">
+                <div className="flex items-center gap-2">
+                  <AlertTriangle className="h-4 w-4 text-amber-600 flex-shrink-0" />
+                  <p className="text-xs sm:text-sm text-amber-800">
+                    <span className="font-medium">
+                      {t("tracking.notFound")} ({result.data.notFound.length}):
+                    </span>{" "}
+                    <span className="text-amber-700 break-all">{result.data.notFound.join(", ")}</span>
+                  </p>
+                </div>
+              </Card>
+            ) : null}
+
+            {Object.entries(result.data.items || {}).map(([barcode, scans]) => {
+              const last = result.data.lastStatus?.[barcode]
+              console.log({ last })
+              const lastCode = last?.code || ""
+              const statusInfo = getStatusInfo(lastCode, last.description)
+              const isCollapsed = collapsedPackages.has(barcode)
+              const showingAll = showAllEntries.has(barcode)
+              const sortedScans = (scans || [])
+                .slice()
+                .sort((a, b) => (b.dateTime || "").localeCompare(a.dateTime || ""))
+              const displayedScans = showingAll ? sortedScans : sortedScans.slice(0, 5)
+              const hasMoreEntries = sortedScans.length > 5
+
+              return (
+                <Card
+                  key={barcode}
+                  className={`overflow-hidden shadow-lg border-0 transition-all duration-300 ease-in-out ${isCollapsed ? "rounded-lg" : "bg-white"}`}
+                  style={isCollapsed ? { backgroundColor: "color-mix(in oklab, #63b2dc 10%, transparent)" } : {}}
+                >
+                  <div
+                    className={`transition-all duration-300 ease-in-out ${!isCollapsed ? "border-b rounded-t-lg" : ""} ${isCollapsed ? "bg-[#63b2dc] text-white" : statusInfo.bgColor}`}
+                  >
+                    <div className="flex items-center justify-between p-3 sm:p-4">
+                      <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
+                        <div
+                          className={`p-1.5 sm:p-2 rounded-lg shadow-sm transition-all duration-300 flex-shrink-0 ${isCollapsed ? "bg-white/20" : "bg-white"}`}
+                        >
+                          <Package
+                            className={`h-4 w-4 sm:h-5 sm:w-5 transition-colors duration-300 ${isCollapsed ? "text-white" : "text-slate-600"}`}
+                          />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <div
+                            className={`font-mono font-semibold text-sm sm:text-base transition-colors duration-300 truncate ${isCollapsed ? "text-white" : "text-slate-900"}`}
+                          >
+                            {barcode}
+                          </div>
+                          <div
+                            className={`text-xs flex items-center gap-1 transition-colors duration-300 ${isCollapsed ? "text-white/80" : "text-slate-600"}`}
+                          >
+                            <Clock className="h-3 w-3 flex-shrink-0" />
+                            <span className="truncate">
+                              {last?.dateTime ? new Date(last.dateTime).toLocaleString() : t("tracking.noUpdates")}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+                        {statusInfo.icon && (
+                          <statusInfo.icon
+                            className={`h-4 w-4 sm:h-5 sm:w-5 transition-colors duration-300 ${isCollapsed ? "text-white" : statusInfo.iconColor}`}
+                          />
+                        )}
+                        <Badge
+                          className={`font-medium text-xs transition-all duration-300 px-2 py-1 ${isCollapsed ? "bg-white/20 text-white hover:bg-white/30" : `${statusInfo.textColor} bg-white`}`}
+                        >
+                          {statusInfo.text || t("tracking.unknownStatus")}
+                        </Badge>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => togglePackageCollapse(barcode)}
+                          className={`h-9 w-9 sm:h-8 sm:w-8 p-0 transition-all duration-300 ${isCollapsed ? "hover:bg-white/20 text-white" : "hover:bg-white/50"}`}
+                        >
+                          {isCollapsed ? (
+                            <ChevronDown
+                              className={`h-4 w-4 transition-all duration-300 transform ${isCollapsed ? "text-white rotate-0" : "text-slate-500 hover:text-slate-700 rotate-180"}`}
+                            />
+                          ) : (
+                            <ChevronUp
+                              className={`h-4 w-4 transition-all duration-300 transform ${isCollapsed ? "text-white rotate-180" : "text-slate-500 hover:text-slate-700 rotate-0"}`}
+                            />
+                          )}
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className={`transition-all duration-300 ease-in-out overflow-hidden ${isCollapsed ? "max-h-0 opacity-0" : "max-h-[2000px] opacity-100"}`}
+                  >
+                    <div className="p-3 sm:p-6 bg-white rounded-b-lg">
+                      <TrackingProgressBar scans={scans} lastStatus={last} />
+
+                      <div className="space-y-3 sm:space-y-4">
+                        {displayedScans.map((scan, index) => {
+                          const scanStatusInfo = getStatusInfo(scan.code, scan.description)
+                          const isLatest = index === 0
+
+                          return (
+                            <div
+                              key={barcode + "-" + scan.itemNumber}
+                              className={`relative flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl transition-all duration-200 hover:shadow-md ${isLatest ? scanStatusInfo.bgColor : "bg-slate-50 hover:bg-slate-100"
+                                }`}
+                              style={{
+                                animationDelay: `${index * 50}ms`,
+                                animation: !isCollapsed ? `fadeInUp 0.3s ease-out forwards` : "none",
+                              }}
+                            >
+                              {index < displayedScans.length - 1 && (
+                                <div className="absolute left-[22px] sm:left-[30px] top-[52px] sm:top-[60px] w-0.5 h-6 sm:h-8 bg-slate-200" />
+                              )}
+
+                              <div
+                                className={`p-1.5 sm:p-2 rounded-full flex-shrink-0 ${isLatest ? "bg-white shadow-sm" : "bg-white"}`}
+                              >
+                                {scanStatusInfo.icon && (
+                                  <scanStatusInfo.icon
+                                    className={`h-3 w-3 sm:h-4 sm:w-4 ${scanStatusInfo.iconColor}`}
+                                  />
+                                )}
+                              </div>
+
+                              <div className="flex-1 min-w-0">
+                                <div
+                                  className={`font-medium text-sm sm:text-base leading-tight ${isLatest ? scanStatusInfo.textColor : "text-slate-900"}`}
+                                >
+                                  {scanStatusInfo.text}
+                                </div>
+                                {(scan.location || scan.description) && (
+                                  <div className="mt-1 flex items-start gap-1 text-xs sm:text-sm text-slate-600">
+                                    <MapPin className="h-3 w-3 mt-0.5 flex-shrink-0" />
+                                    <span className="break-words">
+                                      {scan.location}
+                                      {scan.location && scan.description ? " • " : ""}
+                                      {scan.description}
+                                    </span>
+                                  </div>
+                                )}
+                              </div>
+
+                              <div className="text-right text-xs text-slate-500 flex-shrink-0">
+                                {scan.dateTime ? (
+                                  <>
+                                    <div className="whitespace-nowrap">
+                                      {new Date(scan.dateTime).toLocaleDateString()}
+                                    </div>
+                                    <div className="font-mono whitespace-nowrap">
+                                      {new Date(scan.dateTime).toLocaleTimeString()}
+                                    </div>
+                                  </>
+                                ) : (
+                                  "—"
+                                )}
+                              </div>
+                            </div>
+                          )
+                        })}
+                      </div>
+
+                      {hasMoreEntries && (
+                        <div className="mt-4 pt-4 border-t border-slate-200 flex justify-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => toggleShowAllEntries(barcode)}
+                            className="text-[#63b2dc] border-[#63b2dc]/20 hover:bg-[#63b2dc]/5 hover:border-[#63b2dc]/40 transition-all duration-200"
+                          >
+                            {showingAll ? (
+                              <>
+                                <ChevronUp className="mr-2 h-4 w-4" />
+                                Show Less
+                              </>
+                            ) : (
+                              <>
+                                <ChevronDown className="mr-2 h-4 w-4" />
+                                Show All ({sortedScans.length} entries)
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </Card>
+              )
+            })}
+          </div>
+        )}
+        <style jsx>{`
+          @keyframes fadeInUp {
+            from {
+              opacity: 0;
+              transform: translateY(10px);
+            }
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+        `}</style>
       </main>
     </div>
   )
+}
+
+function parseCodes(input: string): string[] {
+  const tokens = input
+    .split(/[\s,;\n]+/g)
+    .map((t) => t.trim())
+    .filter(Boolean)
+  const unique = Array.from(new Set(tokens))
+  return unique.slice(0, 50)
 }
