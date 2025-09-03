@@ -1,7 +1,7 @@
 {
     "navigation": {
         "home": "首页",
-        "tracking": "物流追踪",
+        "tracking": "货件追踪",
         "services": "服务",
         "apiDocs": "API 文档",
         "contact": "联系我们"
@@ -13,10 +13,10 @@
         "poweredBy": "技术支持"
     },
     "hero": {
-        "trustedBy": "获得 500+ 企业信赖",
+        "trustedBy": "500+ 家企业信赖",
         "title": "无缝物流与履约解决方案",
         "titleHighlight": "履约",
-        "subtitle": "通过我们先进的多承运商平台，将欧洲和英国的品牌、制造商和物流供应商无缝连接。",
+        "subtitle": "通过我们先进的多承运商平台，连接欧洲与英国的品牌、制造商和物流服务商。",
         "getStarted": "立即开始",
         "viewApiDocs": "查看 API 文档",
         "carriers": "35+ 承运商",
@@ -31,67 +31,67 @@
         "subtitle": "为您的业务提供全面的运输解决方案",
         "multiCarrier": {
             "title": "多承运商集成",
-            "description": "通过一个 API 连接全球 35+ 承运商"
+            "description": "通过单一 API 连接全球 35+ 承运商"
         },
         "realTimeTracking": {
             "title": "实时追踪",
-            "description": "通过实时更新和通知监控货物"
+            "description": "以实时更新与通知监控货件"
         },
         "customsSupport": {
-            "title": "清关支持",
-            "description": "自动化报关文件与合规"
+            "title": "报关支持",
+            "description": "自动化海关文件与合规"
         },
         "billingReconciliation": {
             "title": "账单对账",
-            "description": "跨承运商的简化账单与成本管理"
+            "description": "跨承运商的精简账单与成本管理"
         },
-        "learnMore": "了解更多服务详情"
+        "learnMore": "了解更多我们的服务"
     },
     "tracking": {
-        "title": "追踪您的货物",
-        "subtitle": "输入追踪号以获取实时更新",
+        "title": "追踪您的货件",
+        "subtitle": "输入追踪号即可获取实时更新",
         "placeholder": "输入追踪号",
         "trackButton": "查询包裹",
         "trackYourPackage": "追踪您的包裹",
         "enterTrackingNumbers": "输入追踪号（每行一个）",
         "pleaseEnterTracking": "请至少输入一个追踪号",
-        "somethingWentWrong": "发生错误",
+        "somethingWentWrong": "出现问题",
         "notFound": "未找到",
         "unknownStatus": "未知状态",
         "noUpdates": "暂无更新",
-        "noResults": "未找到该追踪号的物流信息。",
-        "error": "获取物流信息时出错，请重试。"
+        "noResults": "未找到该号码的追踪信息。",
+        "error": "获取追踪信息时出错，请重试。"
     },
     "contact": {
         "title": "联系我们",
-        "subtitle": "准备好优化您的运输操作了吗？立即联系我们。",
+        "subtitle": "准备好精简您的运输运营了吗？今天就联系我们。",
         "successMessage": "您的消息已成功发送！",
         "stats": {
-            "tms": "运输管理系统",
-            "tmsDesc": "Transport Management System",
-            "wms": "仓储管理系统",
-            "wmsDesc": "Warehouse Management System",
-            "support": "24/7 支持",
+            "tms": "TMS",
+            "tmsDesc": "运输管理系统",
+            "wms": "WMS",
+            "wmsDesc": "仓储管理系统",
+            "support": "7×24 支持",
             "supportDesc": "专家协助"
         },
         "info": {
             "title": "联系信息",
-            "email": "邮箱",
-            "emailDesc": "联系我们的团队"
+            "email": "电子邮箱",
+            "emailDesc": "与我们的团队取得联系"
         },
         "form": {
             "title": "联系表单",
             "subtitle": "给我们留言，我们会尽快回复您",
-            "name": "名",
+            "name": "名字",
             "namePlaceholder": "请输入您的名字",
-            "lastName": "姓",
+            "lastName": "姓氏",
             "lastNamePlaceholder": "请输入您的姓氏",
-            "email": "电子邮箱",
-            "emailPlaceholder": "请输入您的电子邮箱",
+            "email": "邮箱地址",
+            "emailPlaceholder": "请输入您的邮箱地址",
             "company": "公司",
             "companyPlaceholder": "请输入您的公司名称",
             "enquiry": "咨询类型",
-            "selectEnquiry": "请选择咨询类型",
+            "selectEnquiry": "选择咨询类型",
             "sending": "发送中...",
             "success": "您的消息已成功发送！",
             "enquiryOptions": {
@@ -100,11 +100,11 @@
                 "technical": "IT 与集成",
                 "partnership": "合作伙伴",
                 "billing": "账单与定价",
-                "demo": "申请演示",
+                "demo": "请求演示",
                 "other": "其他"
             },
             "message": "留言",
-            "messagePlaceholder": "请告诉我们您的运输需求...",
+            "messagePlaceholder": "请描述您的运输需求...",
             "submit": "发送消息"
         },
         "quickLinks": {
@@ -113,89 +113,89 @@
             "apiIcon": "📚",
             "features": "平台功能",
             "featuresIcon": "⚡",
-            "tracking": "物流追踪",
+            "tracking": "货件追踪",
             "trackingIcon": "📦"
         }
     },
     "services": {
-        "title": "多承运商运价与标签平台",
-        "subtitle": "通过我们的综合平台简化运输流程",
-        "description": "MMCore 是一个基于云、完全可扩展的解决方案，使企业能够通过一个集中系统管理、优化和自动化跨 35+ 承运商、覆盖 50+ 国家 的运输流程。",
-        "features": "平台功能",
-        "advantages": "主要优势",
+        "title": "多承运商费率与标签平台",
+        "subtitle": "使用我们的一体化平台精简您的运输运营",
+        "description": "MMCore 是一款云端、可完全扩展的解决方案，帮助企业从一个中心化系统管理、优化并自动化跨 35+ 承运商、覆盖 50+ 国家/地区的运输流程。",
+        "features": "平台能力",
+        "advantages": "关键优势",
         "carriers": "全球承运商网络",
         "readyToOptimize": "准备好优化您的物流了吗？",
-        "ctaParagraph": "立即使用我们的多承运商平台，简化您的运输流程。",
+        "ctaParagraph": "立即使用我们的多承运商平台，今天就精简您的运输运营。",
         "getStarted": "立即开始",
         "apiDocumentation": "API 文档",
-        "andManyMore": "更多功能...",
+        "andManyMore": "更多精彩……",
         "badge": {
             "carriers": "35+ 承运商",
             "countries": "50+ 国家",
             "cloud": "云端架构",
-            "gdpr": "符合 GDPR"
+            "gdpr": "GDPR 合规"
         },
         "platformCapabilities": {
-            "title": "平台功能",
-            "description": "优化物流操作的一切所需",
+            "title": "平台能力",
+            "description": "精简您物流运营所需的一切",
             "apiIntegration": {
-                "title": "API & EDI 集成",
+                "title": "API 与 EDI 集成",
                 "description": "与承运商系统直接集成，实现实时数据交换",
-                "contractTerm": "无需长期合同",
-                "activation": "即时开通",
+                "contractTerm": "无需长期合约",
+                "activation": "即时启用",
                 "apiConnection": "直接 API 连接"
             },
             "customsSupport": {
-                "title": "全面清关支持",
-                "description": "自动化报关文件与合规管理",
-                "webshopPlugins": "支持电商插件",
-                "customFrontend": "自定义前端支持",
+                "title": "全面报关支持",
+                "description": "自动化海关文件与合规管理",
+                "webshopPlugins": "提供网店插件",
+                "customFrontend": "支持自定义前端",
                 "automatedDataExchange": "自动化数据交换"
             },
             "billingReconciliation": {
                 "title": "高级账单对账",
-                "description": "简化账单流程并提供详细成本分析",
+                "description": "精简账单流程并提供详细成本分析",
                 "crossBorderShipping": "跨境运输",
-                "legalCompliance": "法规合规",
+                "legalCompliance": "法律合规",
                 "automatedDataDeletion": "自动化数据删除"
             },
             "cloudBased": {
                 "title": "云端架构",
                 "description": "可扩展、安全，并可随时随地访问",
-                "invoiceVerification": "发票验证",
+                "invoiceVerification": "发票核验",
                 "billingErrorDetection": "账单错误检测",
                 "costManagement": "成本管理"
             }
         },
         "keyAdvantages": {
-            "title": "主要优势",
-            "general": "总体优势",
+            "title": "关键优势",
+            "general": "通用优势",
             "sales": "销售优势",
             "operational": "运营优势",
             "financial": "财务优势",
             "lists": {
                 "operational": [
-                    "对比承诺与实际运输时间的状态报告",
-                    "与承运商客户支持直接沟通",
-                    "全面的追踪功能",
+                    "承诺与实际运输时效对比的状态报告",
+                    "与承运商客服的直接沟通",
+                    "全面的 Track & Trace 功能",
                     "每个国家多个包裹注入点",
-                    "货运自动邮件通知",
-                    "工业打印机兼容 (.ZPL 格式)"
+                    "自动化发货邮件通知",
+                    "工业打印机兼容（.ZPL 格式）"
                 ],
                 "financial": [
-                    "灵活的运价管理（平台或自定义）",
+                    "灵活的费率管理（平台或自定义）",
                     "实时账单对账",
-                    "自动检测重量差异",
+                    "自动重量差异检测",
                     "即时账单错误修正",
                     "成本优化工具",
                     "财务报告与分析"
                 ],
                 "sales": [
-                    "多承运商灵活选择最佳费率",
-                    "不干扰现有合同",
-                    "支持自定义承运商合同",
-                    "支持多地点发货",
-                    "特定国家本地注入点",
+                    "多承运商灵活性，获取最佳费率",
+                    "不干预现有合约",
+                    "支持自定义承运商合约集成",
+                    "多地点发货支持",
+                    "针对各国的本地注入",
                     "卓越的退货网络覆盖"
                 ]
             }
@@ -205,25 +205,25 @@
             "subtitle": "连接 35+ 承运商，覆盖 50+ 国家",
             "stats": {
                 "carriers": "35+",
-                "carriersLabel": "合作承运商",
+                "carriersLabel": "承运商伙伴",
                 "countries": "50+",
-                "countriesLabel": "覆盖国家",
+                "countriesLabel": "服务国家",
                 "shipments": "100万+",
-                "shipmentsLabel": "每月货运",
+                "shipmentsLabel": "月度货件",
                 "uptime": "99.9%",
                 "uptimeLabel": "平台正常运行时间",
                 "injectionPoints": "200+",
                 "injectionPointsLabel": "注入点"
             },
             "section": {
-                "title": "已集成承运商",
-                "subtitle": "根据交货时间、价格和地区选择最佳承运商"
+                "title": "当前已集成承运商",
+                "subtitle": "依据时效、价格与地区，为每票货件选择最佳承运商"
             },
             "types": {
                 "national": "国内",
                 "express": "快递",
                 "parcel": "包裹",
-                "mail": "邮件",
+                "mail": "邮政",
                 "global": "全球"
             },
             "regions": {
@@ -244,16 +244,30 @@
             }
         }
     },
+    "servicesOverview": {
+        "title": "我们的软件解决方案",
+        "subtitle": "旨在高效管理并精简仓库运营，同时连接多个第三方物流（3PL）供应商。",
+        "wms": {
+            "title": "WMS - 仓储管理系统",
+            "description": "完整的仓储管理解决方案，提供实时洞察、50+ 即插即用 ERP/网站系统连接，以及 100% 透明的运营。",
+            "tag": "MMcore WMS"
+        },
+        "tms": {
+            "title": "TMS - 运输管理系统",
+            "description": "全面的运输规划与执行平台，连接欧洲多家承运商，具备先进的物流能力。",
+            "tag": "MMcore TMS"
+        }
+    },
     "apiDocs": {
         "title": "MMCore API 文档",
-        "subtitle": "完整的多承运商运输平台集成参考",
+        "subtitle": "集成我们多承运商运输平台的完整参考",
         "quickStart": "快速开始",
-        "getUpAndRunning": "立即上手",
-        "signUpForAccount": "注册账号",
-        "includeAuthUser": "在认证时包含您的 AUTH_USER 和 AUTH_PW。",
+        "getUpAndRunning": "快速上手",
+        "signUpForAccount": "注册账户",
+        "includeAuthUser": "包含您的 AUTH_USER 与 AUTH_PW 进行认证。",
         "verifyCredentials": "验证您的凭证",
-        "startProcessing": "开始处理货物",
-        "exampleAuthentication": "示例：认证",
+        "startProcessing": "开始处理货件",
+        "exampleAuthentication": "示例：身份验证",
         "basicExample": "基础示例",
         "endpointsTitle": "API 端点",
         "completeReference": "完整参考",
@@ -267,72 +281,79 @@
         "secureYourApi": "保护您的 API",
         "headerAuthentication": "请求头认证",
         "securityNote": "安全提示",
-        "keepCredentialsSecure": "请妥善保管您的凭证。",
-        "neverExpose": "切勿泄露。",
-        "useEnvironmentVariables": "请使用环境变量。",
-        "additionalResources": "其他资源",
-        "everythingYouNeed": "您需要的一切",
+        "keepCredentialsSecure": "请确保凭证安全。",
+        "neverExpose": "切勿暴露它们。",
+        "useEnvironmentVariables": "使用环境变量。",
+        "additionalResources": "更多资源",
+        "everythingYouNeed": "应有尽有",
         "postmanCollection": "Postman 集合",
         "getSupport": "获取支持",
         "changelog": "更新日志",
-        "changelogSubtitle": "随时了解最新的变化与改进",
-        "stayUpdated": "保持更新",
+        "changelogSubtitle": "随时了解最新变更与改进",
+        "stayUpdated": "保持关注",
         "backToDocumentation": "返回文档",
         "faq": {
             "title": "常见问题",
-            "subtitle": "关于我们的电商运输解决方案的常见问题",
+            "subtitle": "关于我们电商运输解决方案的常见问题",
+            "ctaTitle": "仍有疑问？",
+            "ctaSubtitle": "找不到想要的内容？我们的支持团队随时为您解答关于平台的任何问题。",
+            "ctaButton": "联系支持",
             "intro": {
                 "title": "电商常见问题概览",
-                "description": "电商常见问题页面提供关于店铺政策、运输、退货和产品细节的快速答案。它是一个自助资源，可提升客户体验并减少客服请求。"
+                "description": "电商常见问题页面提供关于商店政策、运输、退货和产品详情的快速回答。它是一项自助资源，可提升客户体验并减少支持请求。"
             },
             "items": [
                 {
-                    "question": "你们的运输选项和费用是什么？",
-                    "answer": "我们通过 35+ 承运商网络提供多种运输选项，包括标准、快递和隔日达。运输费用取决于目的地、包裹尺寸和所选承运商。您可以使用我们的平台比较运价并选择最适合的选项。"
+                    "question": "你们提供哪些运输选项与费用？",
+                    "answer": "我们通过 35+ 承运商网络提供标准、快递和隔夜达等多种选项。运费取决于目的地、包裹尺寸和选择的承运商。请使用我们的平台比较费率并选择最合适的方案。"
+                },
+                {
+                    "question": "我收到你们的追踪链接，但我并没有在你们这里下单。",
+                    "answer": "出现这种情况是因为我们为多家零售商安排末端配送。也就是说，如果您在例如亚马逊下单，配送环节可能由我们处理。"
                 },
                 {
                     "question": "我什么时候能收到订单？",
-                    "answer": "交货时间取决于所选承运商和目的地。预计送达日期会在结账时和您的追踪链接中显示。国内订单通常在 1–3 个工作日内送达；国际订单因地区和清关时间而异。"
+                    "answer": "送达时间取决于所选承运商和目的地。预计送达日期会在结账以及您的追踪链接中显示。国内通常 1–3 个工作日；国际运输因地区和海关而异。"
                 },
                 {
-                    "question": "我该如何追踪订单？",
-                    "answer": "使用我们的实时追踪：在追踪页面输入您的追踪号，或点击确认邮件中的链接。您将在运输的每个步骤收到更新。"
+                    "question": "如何追踪我的订单？",
+                    "answer": "使用我们的实时追踪：在追踪页面输入追踪号，或点击确认邮件中的链接。配送每一步都会有更新。"
                 },
                 {
-                    "question": "国际运输、关税和税费政策是什么？",
-                    "answer": "国际订单可能需缴纳关税、税费和手续费。根据路线与承运商不同，货物可能按 DDU（未完税交货）或 DDP（完税交货）发运。任何适用费用会在结账时显示，或在收货时根据当地规定收取。"
+                    "question": "国际运输、关税与税费政策是什么？",
+                    "answer": "国际订单可能产生关税、税费及代理费。根据路线和承运商不同，可能采用 DDU（未完税交货）或 DDP（完税交货）。相关费用会在结账时显示，或按当地法规在收货时收取。"
                 },
                 {
                     "question": "退货政策是什么？",
-                    "answer": "大多数商品可在交付后 30 天内以原始状态和包装退货，除非另有说明。部分产品可能有类别特定的退货规则。符合条件的订单可通过我们的平台生成退货标签。"
+                    "answer": "除非另有说明，大多数商品可在交付后 30 天内以原始状态与包装退回。部分品类可能有特定退货规则。符合条件的订单可通过我们的平台生成退货标签。"
                 },
                 {
-                    "question": "我该如何退货？",
-                    "answer": "您可以在账户订单历史中发起退货，或联系我们的支持团队。我们会提供退货标签和说明。一旦收到并检查商品，我们会根据您的要求退款或换货。"
+                    "question": "如何发起退货？",
+                    "answer": "您可以在账户订单历史中发起退货，或联系支持。我们会提供退货标签和说明。收到并检验商品后，将按您的要求退款或换货。"
                 },
                 {
-                    "question": "如果订单有缺陷或错误，我该怎么办？",
-                    "answer": "请在收货 7 天内联系我们，并提供订单号和问题照片。我们会安排更换、换货或退款，并在需要时提供预付退货标签。"
+                    "question": "如果收到的订单有缺陷或不正确怎么办？",
+                    "answer": "请在送达后 7 天内联系我们，并提供订单号及问题照片。我们会安排更换、换货或退款，并在需要时提供预付费退货标签。"
                 },
                 {
-                    "question": "我能修改已下的订单吗？",
-                    "answer": "在订单发货前可以修改。如果订单仍在处理中，您可以更新地址、运输方式或取消订单。一旦发货，修改将受限——请联系客户服务获取帮助。"
+                    "question": "已下单的订单还能修改吗？",
+                    "answer": "发货前可以修改。如果订单仍在处理，您可更新地址、运输方式或取消。发货后变更受限，请联系客服。"
                 },
                 {
-                    "question": "我该如何确保选择正确的尺码？",
-                    "answer": "请参考产品页面上的尺码表和测量信息。如果您在两个尺码之间，可以查看客户评价或联系支持团队获取建议。"
+                    "question": "如何确保选择正确的尺码或规格？",
+                    "answer": "请参考产品页的尺码表与测量数据。如处于两种尺码之间，可查看用户评价或在下单前联系支持获取建议。"
                 },
                 {
-                    "question": "你们的产品来自哪里或如何生产？",
-                    "answer": "产品页面会列出产地、材质和生产信息（如品牌提供）。若需更多特定商品信息，请联系客户服务团队。"
+                    "question": "你们的产品来源或制造方式是什么？",
+                    "answer": "当品牌提供相关信息时，产品页会列出产地、材质与制造详情。如需特定商品的更多信息，请与客服团队联系。"
                 },
                 {
                     "question": "如何联系客户服务？",
-                    "answer": "我们 24/7 提供支持，您可以通过邮箱 info@mmcore.eu 或联系表单联系我们。企业客户还可通过 API 支持渠道联系。"
+                    "answer": "您可 7×24 通过邮箱 info@mmcore.eu 或联系表单联系我们。企业客户也可通过我们的 API 支持渠道联系。"
                 },
                 {
-                    "question": "如果我从未收到订单，该怎么办？",
-                    "answer": "首先，请查看追踪链接中的最新状态。确认收货地址，并检查邻居或本地取件点。如果预计送达日期后 2 个工作日仍未收到，请携订单号联系客户服务，我们会调查并在必要时提交索赔。"
+                    "question": "如果我一直没有收到订单怎么办？",
+                    "answer": "请先查看追踪链接的最新扫描记录；确认收货地址，并向邻居或附近自提点咨询。如果在预计日期后 2 个工作日仍未到，请携带订单号联系客户服务，我们会调查并在必要时发起索赔。"
                 }
             ]
         },
@@ -342,102 +363,102 @@
             "manifestProcessing": "清单处理",
             "multiCarrier": "多承运商"
         },
-        "statusCodes": "状态码",
-        "statusCodesIntro": "追踪响应中返回的状态码及其描述",
+        "statusCodes": "状态代码",
+        "statusCodesIntro": "追踪响应中返回的状态代码与说明",
         "endpoints": {
             "auth": {
-                "description": "验证并确认您的 API 凭证"
+                "description": "验证并校验您的 API 凭证"
             },
             "tracking": {
-                "description": "通过综合查询参数获取详细的货运追踪信息",
+                "description": "使用丰富的查询参数获取货件的详细追踪信息",
                 "query": {
-                    "lang": "设置 API 响应的语言",
-                    "flightTrackingSetting": "定义航班/运单追踪方式",
-                    "type": "指定使用的追踪类型",
+                    "lang": "设置 API 响应语言",
+                    "flightTrackingSetting": "定义航班/运单追踪的处理方式",
+                    "type": "指定所用的追踪类型",
                     "trackingDetails": "定义追踪响应的详细程度"
                 }
             },
             "action": {
-                "description": "请求指定国家的承运商标签，支持多种输出选项",
+                "description": "为特定国家请求承运商标签，支持多种输出选项",
                 "query": {
-                    "pl": "Y = 显示 PDF 标签, N = 获取 JSON 结果",
-                    "dhlzpl": "Y = 获取 DHL JSON 标签, N = 获取 PDF URL",
-                    "zpl": "Y = 如果承运商支持，则获取 ZPL 标签",
-                    "o": "输出为 JSON 格式",
-                    "dl": "Y = 标签将在此调用中直接返回"
+                    "pl": "Y = 显示 PDF 标签，N = 返回 JSON 结果",
+                    "dhlzpl": "Y = 获取 DHL JSON 标签，N = 返回获取 PDF 的 URL",
+                    "zpl": "Y = 若承运商支持则返回 ZPL 标签",
+                    "o": "输出将为 JSON 格式",
+                    "dl": "Y = 在本次调用中直接返回标签"
                 }
             },
             "postManifest": {
-                "description": "上传货运清单数据以进行处理（支持批量上传）",
+                "description": "将清单数据上传至数据库以处理货件（支持批量上传）",
                 "query": {
-                    "ls": "Y = 锁定清单数据（无错误时）, N = 不锁定清单数据。仅适用于运单。"
+                    "ls": "Y = 锁定清单数据（若无错误），N = 不锁定清单数据。仅适用于航空运单。"
                 }
             },
             "lockShipment": {
-                "description": "锁定货运以防进一步更改（仅限运单）。表示该货运已完成。"
+                "description": "锁定货件以防止进一步更改（仅航空运单）。这意味着货件已完成。"
             }
         },
         "statusCodeDescriptions": {
-            "97": "已清单用于报关",
-            "98": "标签数据已预注册",
+            "97": "报关清单已建立",
+            "98": "标签数据已预登记",
             "99": "标签已创建",
-            "200": "发货申报",
-            "201": "发货到达",
-            "202": "发货文件",
-            "203": "发货修改",
-            "204": "发货取消",
+            "200": "发运申报",
+            "201": "发运到达",
+            "202": "发运文件处理",
+            "203": "发运更改",
+            "204": "发运取消",
             "205": "开始清关",
-            "207": "清关问题",
-            "208": "被扣押",
+            "207": "海关问题",
+            "208": "被没收",
             "209": "海关扣留",
             "210": "需要文件",
-            "211": "已接受",
+            "211": "已接收",
             "213": "包裹已清关",
-            "214": "人工清关",
+            "214": "手动清关",
             "215": "已取消",
             "216": "到达处理中心",
-            "217": "准备最后一程",
-            "218": "交付至最后一程",
-            "219": "任务已分派",
-            "2000": "货物正在追踪",
+            "217": "准备进入末端配送",
+            "218": "已交付至末端承运",
+            "219": "派送任务已下发",
+            "2000": "货物正在被追踪",
             "2001": "信息已发送，等待物流商取件",
             "2002": "物流商已取件",
             "2003": "运输中",
-            "2004": "货物到达目的地",
+            "2004": "货物已到达目的地",
             "2005": "通知收件人取件",
-            "2006": "货物已交付收件人",
-            "2007": "包裹丢失、损坏、退回或无人认领",
+            "2006": "货物已送达收件人",
+            "2007": "包裹丢失、损坏、退回、无人领取等",
             "2008": "运输时间过长",
-            "3000": "包裹已到达分拣中心",
+            "3000": "包裹已到达分拨中心",
             "3001": "出库扫描",
-            "3004": "包裹详情已更新",
-            "3005": "包裹已到达最后一程承运商",
-            "3050": "包裹已离开分拣中心",
-            "5000": "包裹正在派送",
+            "3004": "包裹信息已更新",
+            "3005": "包裹已到达末端承运商",
+            "3050": "包裹已离开分拨中心",
+            "5000": "包裹派送中",
             "5001": "包裹正在派送至收件人",
             "5002": "已向收件人发送短信通知",
             "5003": "包裹正在派送至自提柜",
-            "5004": "包裹正在派送至自提点",
+            "5004": "包裹正在派送至自提点/商店",
             "7000": "收件人不在家，第二次尝试：",
-            "7001": "收件人不在家，包裹将在仓库保存 5 天",
+            "7001": "收件人不在家，包裹将在分拨中心保存 5 天",
             "7002": "收件人不在家",
-            "7003": "收件人不在家，包裹可在指定点领取",
-            "7004": "存储至请求为止",
-            "8000": "退回发件人",
-            "8001": "货运已取消",
+            "7003": "收件人不在家，包裹可在自提点领取",
+            "7004": "按请求存放",
+            "8000": "退回寄件方",
+            "8001": "货件已取消",
             "8500": "附加信息",
             "9000": "已送达",
-            "9001": "包裹已交付邻居",
-            "9002": "包裹已送至自提点",
-            "9003": "包裹已送至自提柜",
-            "9004": "包裹已放置于安全位置",
+            "9001": "包裹已投递给邻居",
+            "9002": "包裹已投递至自提店",
+            "9003": "包裹已投递至包裹柜",
+            "9004": "包裹已投递至安全放置点",
             "9005": "包裹已被领取",
             "9006": "退货已送达",
-            "9500": "已拒收",
-            "9501": "包裹未被领取",
-            "9502": "包裹未送达",
-            "9503": "包裹已改派新地址",
-            "9600": "地址信息错误"
+            "9500": "拒收",
+            "9501": "包裹未被取走",
+            "9502": "包裹未能送达",
+            "9503": "包裹已改投新地址",
+            "9600": "地址信息不正确"
         },
         "common": {
             "back": "返回",
@@ -450,6 +471,179 @@
             "edit": "编辑",
             "delete": "删除",
             "close": "关闭"
+        }
+    },
+    "wms": {
+        "hero": {
+            "title": "仓储管理系统",
+            "subtitle": "旨在高效管理并精简仓库运营，同时连接多个第三方物流（3PL）供应商。",
+            "badges": {
+                "saas": "SAAS WMS",
+                "realtime": "实时洞察",
+                "integrations": "50+ 集成",
+                "transparent": "100% 透明"
+            }
+        },
+        "saasSystem": {
+            "title": "MMcore：SAAS WMS 系统",
+            "subtitle": "完整的仓储管理解决方案，提供实时洞察与无缝集成"
+        },
+        "features": {
+            "realtimeInsight": {
+                "title": "实时洞察",
+                "description": "为所有客户提供物流运营的完整可见性，包含实时数据更新与全面报表。",
+                "benefits": [
+                    "库存实时跟踪",
+                    "订单状态实时更新",
+                    "绩效分析",
+                    "自定义仪表盘"
+                ]
+            },
+            "flexibleFastSetup": {
+                "title": "灵活与快速部署",
+                "description": "最小化配置即可快速上线，让您的仓库运作迅速开展。",
+                "benefits": [
+                    "快速实施",
+                    "最小停机时间",
+                    "便捷配置",
+                    "快速用户上手"
+                ]
+            },
+            "plugPlayConnections": {
+                "title": "50+ 即插即用连接",
+                "description": "通过我们丰富的连接器库，无缝集成主流 ERP 与网站系统。",
+                "benefits": [
+                    "ERP 系统集成",
+                    "电商平台",
+                    "财务软件",
+                    "自定义 API 连接"
+                ]
+            },
+            "reportingOptions": {
+                "title": "20+ 报表选项",
+                "description": "全面的报表套件，支持可定制仪表盘与自动生成报表。",
+                "benefits": [
+                    "库存报表",
+                    "绩效指标",
+                    "成本分析",
+                    "合规报表"
+                ]
+            }
+        },
+        "carrierPlatform": {
+            "title": "电商仓：承运商平台",
+            "subtitle": "即插即用的标签平台，连接全欧洲主要承运商",
+            "features": {
+                "allCarriers": {
+                    "title": "覆盖欧洲主要承运商",
+                    "description": "通过统一平台连接欧洲领先承运商。",
+                    "benefits": [
+                        "集成 DHL、FedEx、UPS",
+                        "本地承运网络",
+                        "跨境运输",
+                        "统一 API 访问"
+                    ]
+                },
+                "performance": {
+                    "title": "绩效追踪与报告",
+                    "description": "通过详细的分析与报告监控承运商绩效。",
+                    "benefits": [
+                        "投递时效表现",
+                        "成本对比分析",
+                        "服务水平监控",
+                        "自定义 KPI 追踪"
+                    ]
+                },
+                "financial": {
+                    "title": "财务管理",
+                    "description": "为客户与承运商提供全面的财务监管与自动对账。",
+                    "benefits": [
+                        "自动化结算",
+                        "成本分摊",
+                        "发票管理",
+                        "财务报表"
+                    ]
+                }
+            }
+        },
+        "benefits": {
+            "title": "集中式 WMS 的优势",
+            "subtitle": "以我们全面的管理系统变革您的仓库运营",
+            "items": {
+                "enhancedEfficiency": {
+                    "title": "更高效率",
+                    "description": "精简操作并提升生产力",
+                    "points": [
+                        "减少手工流程与纸质作业",
+                        "加快订单履约并缩短交付周期",
+                        "提升人力效率"
+                    ]
+                },
+                "costSavings": {
+                    "title": "节约成本",
+                    "description": "优化支出并最大化投资回报",
+                    "points": [
+                        "通过自动化降低运营成本",
+                        "减少库存持有成本",
+                        "提高资源利用率并降低浪费"
+                    ]
+                },
+                "improvedAccuracy": {
+                    "title": "更高准确性",
+                    "description": "最小化错误并提升可靠性",
+                    "points": [
+                        "实时数据更新减少差错",
+                        "提升库存准确度并降低断货",
+                        "精确拣选与包装"
+                    ]
+                },
+                "scalability": {
+                    "title": "可扩展性",
+                    "description": "灵活成长，游刃有余",
+                    "points": [
+                        "可扩展至多仓与高交易量",
+                        "灵活适配业务变化与增长",
+                        "面向未来的架构"
+                    ]
+                },
+                "betterDecisionMaking": {
+                    "title": "更佳决策",
+                    "description": "以数据洞察做出明智选择",
+                    "points": [
+                        "数据驱动的战略规划",
+                        "增强的供应链可视化与控制",
+                        "以可靠交付提升客户满意度"
+                    ]
+                }
+            }
+        },
+        "stats": {
+            "warehousesConnected": "已连接仓库",
+            "erpIntegrations": "ERP 集成",
+            "countriesServed": "服务国家",
+            "systemUptime": "系统可用性",
+            "values": {
+                "warehousesConnected": "500+",
+                "erpIntegrations": "50+",
+                "countriesServed": "25+",
+                "systemUptime": "99.9%"
+            }
+        },
+        "cta": {
+            "title": "准备好变革您的仓库了吗？",
+            "subtitle": "体验我们集中式 WMS 解决方案的强大能力，今天就精简您的仓库运营。",
+            "getStarted": "立即开始",
+            "viewApiDocs": "查看 API 文档"
+        }
+    },
+    "tms": {
+        "hero": {
+            "title": "运输管理系统",
+            "subtitle": "完整的运输规划与执行平台，连接欧洲多家承运商并提供先进的物流能力。"
+        },
+        "cta": {
+            "title": "准备好优化您的运输了吗？",
+            "subtitle": "使用我们全面的运输管理系统精简您的物流运营。"
         }
     }
 }

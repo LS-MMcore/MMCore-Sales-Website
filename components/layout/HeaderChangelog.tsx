@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, Globe } from "lucide-react"
+import { Menu, X, Globe, ChevronDown, Warehouse, Truck } from "lucide-react"
 import Image from "next/image"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Button } from "../ui/button"
@@ -21,6 +21,7 @@ const languages = [
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false)
   const pathname = usePathname()
   const { locale, setLocale, t } = useLanguage()
 
@@ -28,12 +29,30 @@ export default function Header() {
     return pathname === path
   }
 
+  const isServicesActive = () => {
+    return pathname === "/services" || pathname === "/wms" || pathname === "/tms"
+  }
+
   const navItems = [
     { href: "/", label: t("navigation.home") },
     { href: "/tracking", label: t("navigation.tracking") },
-    { href: "/services", label: t("navigation.services") },
-    { href: "/api-docs", label: t("navigation.apiDocs") },
+    { href: "/api-documentation", label: t("navigation.apiDocs") },
     { href: "/#contact", label: t("navigation.contact") },
+  ]
+
+  const servicesItems = [
+    {
+      href: "/wms",
+      label: "WMS",
+      description: "Warehouse Management System",
+      icon: Warehouse,
+    },
+    {
+      href: "/tms",
+      label: "TMS",
+      description: "Transport Management System",
+      icon: Truck,
+    },
   ]
 
   const handleLanguageChange = (langCode: Locale) => {
@@ -66,6 +85,42 @@ export default function Header() {
               />
             </Link>
           ))}
+
+          <DropdownMenu open={servicesOpen} onOpenChange={setServicesOpen}>
+            <DropdownMenuTrigger asChild>
+              <button
+                className={`relative h-full flex items-center px-2 group gap-1 ${isServicesActive()
+                    ? "text-primary font-semibold"
+                    : "text-foreground hover:text-primary transition-colors"
+                  }`}
+              >
+                {t("navigation.services")}
+                <ChevronDown
+                  className={`h-4 w-4 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`}
+                />
+                <span
+                  className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ${isServicesActive() ? "scale-x-100" : ""
+                    }`}
+                />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="center" className="w-64 p-2">
+              {servicesItems.map(({ href, label, description, icon: Icon }) => (
+                <DropdownMenuItem key={href} asChild className="p-0">
+                  <Link href={href} className="flex items-center gap-3 p-3 rounded-md hover:bg-muted transition-colors">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                      <Icon className="h-4 w-4" style={{ color: "#63b2dc" }} />
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="font-medium text-foreground">{label}</span>
+                      <span className="text-sm text-muted-foreground">{description}</span>
+                    </div>
+                  </Link>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="sm" className="gap-2 bg-transparent">
@@ -123,6 +178,26 @@ export default function Header() {
                 {label}
               </Link>
             ))}
+
+            <div className="px-3 py-2">
+              <div className="text-sm font-medium text-muted-foreground mb-2">{t("navigation.services")}</div>
+              {servicesItems.map(({ href, label, description, icon: Icon }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="flex items-center gap-3 p-2 rounded-md hover:bg-muted transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  <div className="p-1.5 rounded-md" style={{ backgroundColor: "#63b2dc20" }}>
+                    <Icon className="h-3 w-3" style={{ color: "#63b2dc" }} />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-sm font-medium text-foreground">{label}</span>
+                    <span className="text-xs text-muted-foreground">{description}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       )}

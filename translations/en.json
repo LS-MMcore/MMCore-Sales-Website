@@ -244,6 +244,20 @@
       }
     }
   },
+  "servicesOverview": {
+    "title": "Our Software Solutions",
+    "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL) providers.",
+    "wms": {
+      "title": "WMS - Warehouse Management System",
+      "description": "Complete warehouse management solution with real-time insights, 50+ plug & play connections to ERP/Web systems, and 100% transparent operations.",
+      "tag": "MMcore WMS"
+    },
+    "tms": {
+      "title": "TMS - Transport Management System",
+      "description": "Comprehensive transportation planning and execution platform connecting multiple carriers across Europe with advanced logistics capabilities.",
+      "tag": "MMcore TMS"
+    }
+  },
   "apiDocs": {
     "title": "MMCore API Documentation",
     "subtitle": "Complete reference for integrating with our multi-carrier shipping platform",
@@ -281,6 +295,9 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "subtitle": "Common questions about our e-commerce shipping solutions",
+      "ctaTitle": "Still Have Questions?",
+      "ctaSubtitle": "Can't find what you're looking for? Our support team is here to help you with any questions about our platform.",
+      "ctaButton": "Contact Support",
       "intro": {
         "title": "E-commerce FAQ Overview",
         "description": "An E-commerce FAQ page provides quick answers to common questions about store policies, shipping, returns, and product details. It serves as a self-service resource to improve customer experience and reduce support requests."
@@ -289,6 +306,10 @@
         {
           "question": "What are your shipping options and costs?",
           "answer": "We offer multiple shipping options through our 35+ carrier network including standard, express, and overnight delivery. Shipping costs vary by destination, package size, and selected carrier. Use our platform to compare rates and choose the best option for your needs."
+        },
+        {
+          "question": "I got a tracking link from your company but I did not order anything from you.",
+          "answer": "This happens since we arrange the last-mile delivery for various retailers. Meaning if you ordered something on Amazon, for example, we might be handling the delivery."
         },
         {
           "question": "When will I receive my order?",
@@ -450,6 +471,179 @@
       "edit": "Edit",
       "delete": "Delete",
       "close": "Close"
+    }
+  },
+  "wms": {
+    "hero": {
+      "title": "Warehouse Management System",
+      "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL) providers.",
+      "badges": {
+        "saas": "SAAS WMS",
+        "realtime": "Real-time Insights",
+        "integrations": "50+ Integrations",
+        "transparent": "100% Transparent"
+      }
+    },
+    "saasSystem": {
+      "title": "MMcore: SAAS WMS System",
+      "subtitle": "Complete warehouse management solution with real-time insights and seamless integrations"
+    },
+    "features": {
+      "realtimeInsight": {
+        "title": "Real-time Insight",
+        "description": "Complete visibility into logistics operations for all customers with live data updates and comprehensive reporting.",
+        "benefits": [
+          "Live inventory tracking",
+          "Real-time order status",
+          "Performance analytics",
+          "Custom dashboards"
+        ]
+      },
+      "flexibleFastSetup": {
+        "title": "Flexible & Fast Setup",
+        "description": "Quick deployment with minimal configuration required. Get your warehouse operations running in no time.",
+        "benefits": [
+          "Rapid implementation",
+          "Minimal downtime",
+          "Easy configuration",
+          "Quick user onboarding"
+        ]
+      },
+      "plugPlayConnections": {
+        "title": "50+ Plug & Play Connections",
+        "description": "Seamless integration with major ERP and web systems through our extensive connector library.",
+        "benefits": [
+          "ERP system integration",
+          "E-commerce platforms",
+          "Accounting software",
+          "Custom API connections"
+        ]
+      },
+      "reportingOptions": {
+        "title": "20+ Reporting Options",
+        "description": "Comprehensive reporting suite with customizable dashboards and automated report generation.",
+        "benefits": [
+          "Inventory reports",
+          "Performance metrics",
+          "Cost analysis",
+          "Compliance reporting"
+        ]
+      }
+    },
+    "carrierPlatform": {
+      "title": "E-warehouse Logistics: Carrier Platform",
+      "subtitle": "Plug & play labeling platform connecting all major carriers in Europe",
+      "features": {
+        "allCarriers": {
+          "title": "All Major European Carriers",
+          "description": "Connect with leading carriers across Europe through our unified platform.",
+          "benefits": [
+            "DHL, FedEx, UPS integration",
+            "Local carrier networks",
+            "Cross-border shipping",
+            "Unified API access"
+          ]
+        },
+        "performance": {
+          "title": "Performance Tracking & Reporting",
+          "description": "Monitor carrier performance with detailed analytics and reporting capabilities.",
+          "benefits": [
+            "Delivery performance metrics",
+            "Cost comparison analysis",
+            "Service level monitoring",
+            "Custom KPI tracking"
+          ]
+        },
+        "financial": {
+          "title": "Financial Management",
+          "description": "Comprehensive financial oversight for both customers and carriers with automated reconciliation.",
+          "benefits": [
+            "Automated billing",
+            "Cost allocation",
+            "Invoice management",
+            "Financial reporting"
+          ]
+        }
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Centralized WMS",
+      "subtitle": "Transform your warehouse operations with our comprehensive management system",
+      "items": {
+        "enhancedEfficiency": {
+          "title": "Enhanced Efficiency",
+          "description": "Streamline operations and boost productivity",
+          "points": [
+            "Reduced manual processes and paperwork",
+            "Faster order fulfillment and reduced lead times",
+            "Improved labour productivity"
+          ]
+        },
+        "costSavings": {
+          "title": "Cost Savings",
+          "description": "Optimize expenses and maximize ROI",
+          "points": [
+            "Lower operational costs through automation",
+            "Reduced inventory holding costs",
+            "Improved resource utilization and reduced wastage"
+          ]
+        },
+        "improvedAccuracy": {
+          "title": "Improved Accuracy",
+          "description": "Minimize errors and enhance reliability",
+          "points": [
+            "Real-time data updates minimize errors",
+            "Enhanced inventory accuracy and reduced stockouts",
+            "Precise order picking and packing"
+          ]
+        },
+        "scalability": {
+          "title": "Scalability",
+          "description": "Grow with confidence and flexibility",
+          "points": [
+            "Scalable to accommodate multiple warehouses and high transaction volumes",
+            "Flexible to adapt to changing business needs and growth",
+            "Future-proof architecture"
+          ]
+        },
+        "betterDecisionMaking": {
+          "title": "Better Decision Making",
+          "description": "Make informed choices with data insights",
+          "points": [
+            "Data-driven insights for strategic planning",
+            "Enhanced supply chain visibility and control",
+            "Improved customer satisfaction through reliable delivery"
+          ]
+        }
+      }
+    },
+    "stats": {
+      "warehousesConnected": "Warehouses Connected",
+      "erpIntegrations": "ERP Integrations",
+      "countriesServed": "Countries Served",
+      "systemUptime": "System Uptime",
+      "values": {
+        "warehousesConnected": "500+",
+        "erpIntegrations": "50+",
+        "countriesServed": "25+",
+        "systemUptime": "99.9%"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Warehouse?",
+      "subtitle": "Experience the power of our centralized WMS solution and streamline your warehouse operations today.",
+      "getStarted": "Get Started",
+      "viewApiDocs": "View API Documentation"
+    }
+  },
+  "tms": {
+    "hero": {
+      "title": "Transport Management System",
+      "subtitle": "Complete transportation planning and execution platform connecting multiple carriers across Europe with advanced logistics capabilities."
+    },
+    "cta": {
+      "title": "Ready to Optimize Your Transportation?",
+      "subtitle": "Streamline your logistics operations with our comprehensive Transport Management System."
     }
   }
 }

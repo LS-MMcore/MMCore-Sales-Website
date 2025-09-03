@@ -15,12 +15,9 @@ import emailjs from "@emailjs/browser"
 
 // Option A: hardcode here (replace the strings)
 // Option B: set NEXT_PUBLIC_EMAILJS_* env vars at build time
-const EMAILJS_SERVICE_ID =
-  process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_8na7vk7"
-const EMAILJS_TEMPLATE_ID =
-  process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_480dovp"
-const EMAILJS_PUBLIC_KEY =
-  process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "s_1qNgx9tCqPTmLf5"
+const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_8na7vk7"
+const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_480dovp"
+const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "s_1qNgx9tCqPTmLf5"
 
 function ContactForm() {
   const { t } = useLanguage()
@@ -69,7 +66,7 @@ function ContactForm() {
           message: formData.message,
           // You can also add a computed subject in the template using these values
         },
-        { publicKey: EMAILJS_PUBLIC_KEY }
+        { publicKey: EMAILJS_PUBLIC_KEY },
       )
 
       setStatus("sent")
@@ -212,7 +209,7 @@ function ContactForm() {
             className="w-full bg-gradient-to-r from-[#63b2dc] to-blue-500 text-white hover:from-[#5aa3cc] hover:to-blue-600 transition-all duration-200 h-14 text-lg font-semibold shadow-lg hover:shadow-xl"
           >
             <Send className="mr-3 h-5 w-5" />
-            {isSubmitting ? (t("contact.form.sending") || "Sending…") : t("contact.form.submit")}
+            {isSubmitting ? t("contact.form.sending") || "Sending…" : t("contact.form.submit")}
             <Zap className="ml-3 h-5 w-5" />
           </Button>
 
@@ -330,12 +327,19 @@ export default function ContactSection() {
                 {t("contact.quickLinks.title")}
               </h3>
               <div className="space-y-4">
-                <Link href="/api-docs" legacyBehavior passHref>
+                <Link href="/api-documentation" legacyBehavior passHref>
                   <a className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group">
                     <span className="text-2xl">{t("contact.quickLinks.apiIcon")}</span>
                     <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">
                       {t("contact.quickLinks.api")}
                     </span>
+                  </a>
+                </Link>
+
+                <Link href="/faq" legacyBehavior passHref>
+                  <a className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 text-gray-700 hover:text-[#63b2dc] group">
+                    <span className="text-2xl">❓</span>
+                    <span className="font-medium text-lg group-hover:translate-x-1 transition-transform">FAQ</span>
                   </a>
                 </Link>
 

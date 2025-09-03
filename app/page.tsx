@@ -2,6 +2,7 @@ import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
 import HeroSection from "@/components/sections/HeroSection"
 import AboutSection from "@/components/sections/AboutSection"
+import ServicesOverviewSection from "@/components/sections/ServicesOverviewSection"
 import TrackingSection from "@/components/sections/TrackingSection"
 import ContactSection from "@/components/sections/ContactSection"
 
@@ -11,7 +12,7 @@ export default function HomePage() {
       <Header />
       <main className="flex-1 pt-[58px]">
         <HeroSection />
-        <AboutSection />
+        <ServicesOverviewSection />
         <TrackingSection />
         <ContactSection />
       </main>
