@@ -246,7 +246,7 @@
     },
     "servicesOverview": {
         "title": "Nuestras soluciones de software",
-        "subtitle": "Diseñado para gestionar y optimizar de manera eficiente las operaciones de almacén, conectando a múltiples proveedores de logística de terceros (3PL y 4PL).",
+        "subtitle": "Desde el almacenamiento hasta la entrega, WMS y TMS optimizan las operaciones y conectan a tus socios logísticos con total visibilidad.",
         "wms": {
             "title": "WMS - Sistema de Gestión de Almacén",
             "description": "Solución completa de gestión de almacén con información en tiempo real, más de 50 conexiones plug & play a sistemas ERP/Web y operaciones 100% transparentes.",
