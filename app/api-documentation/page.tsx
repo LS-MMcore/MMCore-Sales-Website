@@ -516,51 +516,6 @@ curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY' \\
           </div>
         </section>
 
-        {/* FAQ Section (now loaded from i18n) */}
-        <section className="w-full py-12 md:py-24 bg-white">
-          <div className="container px-4 md:px-6">
-            <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-slate-800">
-                {t("apiDocs.faq.title")}
-              </h2>
-              <p className="mx-auto max-w-[700px] text-slate-600 md:text-lg">{t("apiDocs.faq.subtitle")}</p>
-            </div>
-
-            <div className="max-w-4xl mx-auto space-y-4">
-              {faqItems.map((faq, idx) => {
-                const isExpanded = expandedEndpoints.includes(idx + 1000) // Use offset to avoid conflicts
-                return (
-                  <Card key={idx} className="border-[#63b2dc]/30">
-                    <CardHeader
-                      className="cursor-pointer hover:bg-slate-50/50 transition-colors"
-                      onClick={() => toggleEndpoint(idx + 1000)}
-                    >
-                      <div className="flex items-center justify-between">
-                        <CardTitle className="text-lg text-slate-800">{faq.question}</CardTitle>
-                        <div className="flex items-center space-x-2">
-                          {isExpanded ? (
-                            <ChevronDown className="h-5 w-5 text-slate-500" />
-                          ) : (
-                            <ChevronRight className="h-5 w-5 text-slate-500" />
-                          )}
-                        </div>
-                      </div>
-                    </CardHeader>
-                    <div
-                      className={`overflow-hidden transition-all duration-300 ease-in-out ${isExpanded ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                        }`}
-                    >
-                      <CardContent>
-                        <p className="text-slate-600">{faq.answer}</p>
-                      </CardContent>
-                    </div>
-                  </Card>
-                )
-              })}
-            </div>
-          </div>
-        </section>
-
         {/* Resources */}
         <section className="w-full py-12 md:py-24" style={{ backgroundColor: "#63b2dc10" }}>
           <div className="container px-4 md:px-6">
