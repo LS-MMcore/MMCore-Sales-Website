@@ -246,7 +246,7 @@
     },
     "servicesOverview": {
         "title": "Nuestras soluciones de software",
-        "subtitle": "Diseñadas para gestionar y agilizar eficazmente las operaciones de almacén conectando a múltiples proveedores 3PL.",
+        "subtitle": "Diseñado para gestionar y optimizar de manera eficiente las operaciones de almacén, conectando a múltiples proveedores de logística de terceros (3PL y 4PL).",
         "wms": {
             "title": "WMS - Sistema de Gestión de Almacén",
             "description": "Solución completa de gestión de almacén con información en tiempo real, más de 50 conexiones plug & play a sistemas ERP/Web y operaciones 100% transparentes.",
@@ -476,7 +476,7 @@
     "wms": {
         "hero": {
             "title": "Sistema de Gestión de Almacén",
-            "subtitle": "Diseñado para gestionar y agilizar eficazmente las operaciones de almacén mientras conecta a múltiples proveedores 3PL.",
+            "subtitle": "Diseñado para gestionar y optimizar de manera eficiente las operaciones de almacén, conectando a múltiples proveedores de logística de terceros (3PL y 4PL).",
             "badges": {
                 "saas": "SAAS WMS",
                 "realtime": "Información en tiempo real",
@@ -531,7 +531,7 @@
             }
         },
         "carrierPlatform": {
-            "title": "Logística e-warehouse: plataforma de transportistas",
+            "title": "MMcore: plataforma de transportistas",
             "subtitle": "Plataforma de etiquetado plug & play que conecta a los principales transportistas europeos",
             "features": {
                 "allCarriers": {

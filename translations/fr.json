@@ -246,7 +246,7 @@
   },
   "servicesOverview": {
     "title": "Nos solutions logicielles",
-    "subtitle": "Conçues pour gérer et rationaliser efficacement les opérations d’entrepôt tout en connectant plusieurs prestataires 3PL.",
+    "subtitle": "Conçu pour gérer et rationaliser efficacement les opérations d’entrepôt tout en connectant plusieurs prestataires logistiques tiers (3PL et 4PL).",
     "wms": {
       "title": "WMS - Warehouse Management System",
       "description": "Solution complète de gestion d’entrepôt avec insights en temps réel, plus de 50 connexions plug & play vers des systèmes ERP/Web, et des opérations 100 % transparentes.",
@@ -476,7 +476,7 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Conçu pour gérer et rationaliser efficacement les opérations d’entrepôt tout en connectant plusieurs prestataires 3PL.",
+      "subtitle": "Conçu pour gérer et rationaliser efficacement les opérations d’entrepôt tout en connectant plusieurs prestataires logistiques tiers (3PL et 4PL).",
       "badges": {
         "saas": "SAAS WMS",
         "realtime": "Insights en temps réel",
@@ -531,7 +531,7 @@
       }
     },
     "carrierPlatform": {
-      "title": "E-warehouse Logistics : plateforme transporteurs",
+      "title": "MMcore : plateforme transporteurs",
       "subtitle": "Plateforme d’étiquetage plug & play connectant les principaux transporteurs européens",
       "features": {
         "allCarriers": {

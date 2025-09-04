@@ -246,7 +246,7 @@
   },
   "servicesOverview": {
     "title": "Our Software Solutions",
-    "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL) providers.",
+    "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL and 4PL) providers.",
     "wms": {
       "title": "WMS - Warehouse Management System",
       "description": "Complete warehouse management solution with real-time insights, 50+ plug & play connections to ERP/Web systems, and 100% transparent operations.",
@@ -476,7 +476,7 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL) providers.",
+      "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL and 4PL) providers.",
       "badges": {
         "saas": "SAAS WMS",
         "realtime": "Real-time Insights",
@@ -531,7 +531,7 @@
       }
     },
     "carrierPlatform": {
-      "title": "E-warehouse Logistics: Carrier Platform",
+      "title": "MMcore: Carrier Platform",
       "subtitle": "Plug & play labeling platform connecting all major carriers in Europe",
       "features": {
         "allCarriers": {
