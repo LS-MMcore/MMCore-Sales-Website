@@ -517,7 +517,7 @@ curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY' \\
         </section>
 
         {/* Resources */}
-        <section className="w-full py-12 md:py-24" style={{ backgroundColor: "#63b2dc10" }}>
+        <section className="w-full py-12 md:py-24 bg-white">
           <div className="container px-4 md:px-6">
             <div className="text-center space-y-6 max-w-2xl mx-auto">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl" style={{ color: "#63b2dc" }}>
