@@ -1,15 +1,16 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { LanguageProvider } from "@/contexts/LanguageContext"
+import { Analytics } from '@vercel/analytics/next';
 import "./globals.css"
 
 export const metadata: Metadata = {
   title: 'MMCore',
   description: 'MMcore',
   icons: {
-    icon: "/favicon.ico", 
+    icon: "/favicon.ico",
   },
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
       </head>
       <body>
         <LanguageProvider>{children}</LanguageProvider>
+        <Analytics />
       </body>
     </html>
   )
