@@ -4,42 +4,43 @@
     "tracking": "Suivi",
     "services": "Services",
     "apiDocs": "Documentation API",
-    "contact": "Contact"
+    "contact": "Contact",
+    "portalLogin": "Connexion au portail"
   },
   "footer": {
     "allRightsReserved": "Tous droits réservés",
-    "termsOfService": "Conditions d’utilisation",
+    "termsOfService": "Conditions d'utilisation",
     "privacyPolicy": "Politique de confidentialité",
     "poweredBy": "Propulsé par"
   },
   "hero": {
-    "trustedBy": "Plébiscité par 500+ entreprises",
-    "title": "Solutions de Logistique et de Fulfillment sans friction",
+    "trustedBy": "Approuvé par 500+ entreprises",
+    "title": "Solutions de logistique & Fulfillment sans friction",
     "titleHighlight": "Fulfillment",
-    "subtitle": "Reliez marques, fabricants et prestataires logistiques à travers l’Europe et le Royaume-Uni grâce à notre plateforme multi-transporteurs avancée.",
-    "getStarted": "Commencer",
-    "viewApiDocs": "Voir la doc API",
-    "carriers": "35+ Transporteurs",
+    "subtitle": "Reliez des marques, des fabricants et des prestataires logistiques à travers l'Europe et le Royaume-Uni grâce à notre plateforme multi-carrier avancée.",
+    "getStarted": "Commencez dès aujourd'hui",
+    "viewApiDocs": "Voir la documentation API",
+    "carriers": "35+ transporteurs",
     "carriersDesc": "Réseau mondial",
-    "countries": "50+ Pays",
-    "countriesDesc": "Couverture internationale",
+    "countries": "50+ pays",
+    "countriesDesc": "Portée mondiale",
     "realtime": "Temps réel",
-    "realtimeDesc": "Suivi et mises à jour"
+    "realtimeDesc": "Suivi & mises à jour"
   },
   "about": {
     "title": "Nos services",
-    "subtitle": "Des solutions d’expédition complètes pour votre entreprise",
+    "subtitle": "Solutions d'expédition complètes pour votre entreprise",
     "multiCarrier": {
-      "title": "Intégration multi-transporteurs",
-      "description": "Connectez-vous à plus de 35 transporteurs via une API unique"
+      "title": "Intégration multi-carrier",
+      "description": "Connectez-vous à 35+ transporteurs dans le monde via une seule API"
     },
     "realTimeTracking": {
       "title": "Suivi en temps réel",
-      "description": "Surveillez les envois avec des mises à jour et notifications en direct"
+      "description": "Surveillez vos envois avec des mises à jour et notifications en direct"
     },
     "customsSupport": {
-      "title": "Support douanes",
-      "description": "Documentation et conformité douanières automatisées"
+      "title": "Assistance douanière",
+      "description": "Documentation douanière automatisée et conformité"
     },
     "billingReconciliation": {
       "title": "Rapprochement de facturation",
@@ -50,7 +51,7 @@
   "tracking": {
     "title": "Suivez votre envoi",
     "subtitle": "Saisissez votre numéro de suivi pour obtenir des mises à jour en temps réel",
-    "placeholder": "Saisir le numéro de suivi",
+    "placeholder": "Saisissez le numéro de suivi",
     "trackButton": "Suivre le colis",
     "trackYourPackage": "SUIVEZ VOTRE COLIS",
     "enterTrackingNumbers": "Saisissez les numéros de suivi (un par ligne)",
@@ -63,8 +64,8 @@
     "error": "Erreur lors de la récupération des informations de suivi. Veuillez réessayer."
   },
   "contact": {
-    "title": "Entrer en contact",
-    "subtitle": "Prêt à optimiser vos opérations d’expédition ? Contactez-nous dès aujourd’hui.",
+    "title": "Contactez-nous",
+    "subtitle": "Prêt à rationaliser vos opérations d'expédition ? Contactez-nous dès aujourd'hui.",
     "successMessage": "Votre message a été envoyé avec succès !",
     "stats": {
       "tms": "TMS",
@@ -72,7 +73,7 @@
       "wms": "WMS",
       "wmsDesc": "Warehouse Management System",
       "support": "Support 24/7",
-      "supportDesc": "Assistance d’experts"
+      "supportDesc": "Assistance d'experts"
     },
     "info": {
       "title": "Informations de contact",
@@ -81,30 +82,30 @@
     },
     "form": {
       "title": "Formulaire de contact",
-      "subtitle": "Envoyez-nous un message et nous vous répondrons rapidement",
+      "subtitle": "Envoyez-nous un message et nous vous répondrons",
       "name": "Prénom",
-      "namePlaceholder": "Entrez votre prénom",
+      "namePlaceholder": "Saisissez votre prénom",
       "lastName": "Nom",
-      "lastNamePlaceholder": "Entrez votre nom",
+      "lastNamePlaceholder": "Saisissez votre nom",
       "email": "Adresse e-mail",
-      "emailPlaceholder": "Entrez votre adresse e-mail",
+      "emailPlaceholder": "Saisissez votre adresse e-mail",
       "company": "Entreprise",
-      "companyPlaceholder": "Entrez le nom de votre entreprise",
+      "companyPlaceholder": "Saisissez le nom de votre entreprise",
       "enquiry": "Type de demande",
       "selectEnquiry": "Sélectionnez un type de demande",
-      "sending": "Envoi…",
+      "sending": "Envoi...",
       "success": "Votre message a été envoyé avec succès !",
       "enquiryOptions": {
-        "sales": "Commercial",
-        "support": "Support technique",
+        "sales": "Ventes",
+        "support": "Assistance technique",
         "technical": "IT & Intégration",
         "partnership": "Partenariat",
-        "billing": "Facturation & Tarifs",
+        "billing": "Facturation & tarifs",
         "demo": "Demander une démo",
         "other": "Autre"
       },
       "message": "Message",
-      "messagePlaceholder": "Parlez-nous de vos besoins d’expédition…",
+      "messagePlaceholder": "Parlez-nous de vos besoins d'expédition...",
       "submit": "Envoyer le message"
     },
     "quickLinks": {
@@ -113,55 +114,55 @@
       "apiIcon": "📚",
       "features": "Fonctionnalités de la plateforme",
       "featuresIcon": "⚡",
-      "tracking": "Suivre des envois",
+      "tracking": "Suivre les envois",
       "trackingIcon": "📦"
     }
   },
   "services": {
-    "title": "Plateforme Multi-transporteurs pour Tarification & Étiquetage",
-    "subtitle": "Rationalisez vos opérations d’expédition avec notre plateforme complète",
-    "description": "MMCore est une solution cloud entièrement évolutive permettant aux entreprises de gérer, optimiser et automatiser leurs processus d’expédition avec 35+ transporteurs vers 50+ pays depuis un système centralisé.",
+    "title": "Plateforme de tarification & d'étiquetage multi-carrier",
+    "subtitle": "Rationalisez vos opérations d'expédition avec notre plateforme complète",
+    "description": "MMCore est une solution cloud-based entièrement évolutive qui permet aux entreprises de gérer, d'optimiser et d'automatiser leurs processus d'expédition via 35+ transporteurs vers 50+ pays depuis un système centralisé.",
     "features": "Capacités de la plateforme",
     "advantages": "Avantages clés",
     "carriers": "Réseau mondial de transporteurs",
     "readyToOptimize": "Prêt à optimiser votre logistique ?",
-    "ctaParagraph": "Commencez avec notre plateforme multi-transporteurs et simplifiez vos opérations d’expédition dès aujourd’hui.",
+    "ctaParagraph": "Commencez avec notre plateforme multi-carrier et rationalisez dès aujourd'hui vos opérations d'expédition.",
     "getStarted": "Commencer",
     "apiDocumentation": "Documentation API",
-    "andManyMore": "Et bien plus encore…",
+    "andManyMore": "Et bien plus encore...",
     "badge": {
-      "carriers": "35+ Transporteurs",
-      "countries": "50+ Pays",
-      "cloud": "Basé sur le cloud",
-      "gdpr": "Conforme au RGPD"
+      "carriers": "35+ transporteurs",
+      "countries": "50+ pays",
+      "cloud": "Cloud-based",
+      "gdpr": "Conforme au GDPR"
     },
     "platformCapabilities": {
       "title": "Capacités de la plateforme",
-      "description": "Tout ce dont vous avez besoin pour fluidifier vos opérations logistiques",
+      "description": "Tout ce dont vous avez besoin pour rationaliser vos opérations logistiques",
       "apiIntegration": {
         "title": "Intégration API & EDI",
-        "description": "Intégration directe aux systèmes des transporteurs pour des échanges de données en temps réel",
-        "contractTerm": "Sans engagement longue durée",
+        "description": "Intégration directe avec les systèmes des transporteurs pour l'échange de données en temps réel",
+        "contractTerm": "Sans contrat longue durée",
         "activation": "Activation immédiate",
         "apiConnection": "Connexion API directe"
       },
       "customsSupport": {
-        "title": "Support douanier complet",
+        "title": "Assistance douanière complète",
         "description": "Documentation douanière automatisée et gestion de la conformité",
-        "webshopPlugins": "Plugins e-commerce disponibles",
+        "webshopPlugins": "Plugins de webshop disponibles",
         "customFrontend": "Support front-end personnalisé",
-        "automatedDataExchange": "Échanges de données automatisés"
+        "automatedDataExchange": "Échange de données automatisé"
       },
       "billingReconciliation": {
-        "title": "Rapprochement avancé de facturation",
+        "title": "Rapprochement de facturation avancé",
         "description": "Processus de facturation rationalisés avec analyse détaillée des coûts",
-        "crossBorderShipping": "Expéditions transfrontalières",
+        "crossBorderShipping": "Expédition transfrontalière",
         "legalCompliance": "Conformité légale",
         "automatedDataDeletion": "Suppression automatisée des données"
       },
       "cloudBased": {
-        "title": "Architecture cloud",
-        "description": "Évolutive, sécurisée et accessible partout",
+        "title": "Architecture cloud-based",
+        "description": "Évolutif, sécurisé et accessible de partout",
         "invoiceVerification": "Vérification des factures",
         "billingErrorDetection": "Détection des erreurs de facturation",
         "costManagement": "Gestion des coûts"
@@ -175,26 +176,26 @@
       "financial": "Avantages financiers",
       "lists": {
         "operational": [
-          "Rapports d’état comparant délais promis vs réels",
-          "Communication directe avec le support des transporteurs",
-          "Fonctionnalités complètes de track & trace",
-          "Multiples points d’injection de colis par pays",
+          "Rapports d'état comparant délais promis et délais réels",
+          "Communication directe avec le support client des transporteurs",
+          "Fonctionnalité track & trace complète",
+          "Multiples points d'injection de colis par pays",
           "Notifications e-mail automatiques pour les envois",
           "Compatibilité avec imprimantes industrielles (format .ZPL)"
         ],
         "financial": [
-          "Gestion flexible des tarifs (plateforme ou personnalisés)",
+          "Gestion tarifaire flexible (plateforme ou custom)",
           "Rapprochement de facturation en temps réel",
           "Détection automatique des écarts de poids",
           "Correction immédiate des erreurs de facturation",
-          "Outils d’optimisation des coûts",
+          "Outils d'optimisation des coûts",
           "Rapports et analyses financières"
         ],
         "sales": [
-          "Flexibilité multi-transporteurs pour les meilleurs tarifs",
+          "Flexibilité multi-carrier pour les meilleurs tarifs",
           "Aucune interférence avec les contrats existants",
-          "Intégration de contrats transporteurs personnalisés",
-          "Support des expéditions multi-sites",
+          "Intégration de contrats transporteur custom",
+          "Prise en charge des expéditions multi-sites",
           "Injection locale spécifique au pays",
           "Couverture supérieure du réseau de retours"
         ]
@@ -205,15 +206,15 @@
       "subtitle": "Connectez-vous à 35+ transporteurs dans 50+ pays",
       "stats": {
         "carriers": "35+",
-        "carriersLabel": "Transporteurs partenaires",
+        "carriersLabel": "Partenaires transporteurs",
         "countries": "50+",
         "countriesLabel": "Pays desservis",
         "shipments": "1M+",
-        "shipmentsLabel": "Envois mensuels",
+        "shipmentsLabel": "Expéditions mensuelles",
         "uptime": "99,9%",
         "uptimeLabel": "Disponibilité de la plateforme",
         "injectionPoints": "200+",
-        "injectionPointsLabel": "Points d’injection"
+        "injectionPointsLabel": "Points d'injection"
       },
       "section": {
         "title": "Transporteurs actuellement intégrés",
@@ -224,7 +225,7 @@
         "express": "Express",
         "parcel": "Colis",
         "mail": "Courrier",
-        "global": "Global"
+        "global": "Mondial"
       },
       "regions": {
         "netherlands": "Pays-Bas",
@@ -237,36 +238,36 @@
         "france": "France",
         "spain": "Espagne",
         "switzerland": "Suisse",
-        "nordic": "Nordiques",
+        "nordic": "Pays nordiques",
         "norway": "Norvège",
         "europe": "Europe",
-        "global": "Global"
+        "global": "Mondial"
       }
     }
   },
   "servicesOverview": {
     "title": "Nos solutions logicielles",
-    "subtitle": "Du stockage à la livraison, WMS et TMS rationalisent les opérations et connectent vos partenaires logistiques avec une visibilité totale.",
+    "subtitle": "Conçues pour gérer et rationaliser efficacement les opérations d'entrepôt tout en connectant plusieurs prestataires Third-Party Logistics (3PL).",
     "wms": {
       "title": "WMS - Warehouse Management System",
-      "description": "Solution complète de gestion d’entrepôt avec insights en temps réel, plus de 50 connexions plug & play vers des systèmes ERP/Web, et des opérations 100 % transparentes.",
+      "description": "Solution complète de gestion d'entrepôt avec informations en temps réel, 50+ connexions plug & play vers des systèmes ERP/Web et une transparence à 100%.",
       "tag": "MMcore WMS"
     },
     "tms": {
       "title": "TMS - Transport Management System",
-      "description": "Plateforme complète de planification et d’exécution du transport connectant plusieurs transporteurs en Europe avec des capacités logistiques avancées.",
+      "description": "Plateforme complète de planification et d'exécution du transport connectant plusieurs transporteurs en Europe avec des capacités logistiques avancées.",
       "tag": "MMcore TMS"
     }
   },
   "apiDocs": {
     "title": "Documentation API MMCore",
-    "subtitle": "Référence complète pour intégrer notre plateforme d’expédition multi-transporteurs",
+    "subtitle": "Référence complète pour s'intégrer à notre plateforme d'expédition multi-carrier",
     "quickStart": "Démarrage rapide",
     "getUpAndRunning": "Mise en route",
-    "signUpForAccount": "Créer un compte",
-    "includeAuthUser": "Incluez vos AUTH_USER et AUTH_PW pour vous authentifier.",
+    "signUpForAccount": "Créez un compte",
+    "includeAuthUser": "Incluez votre AUTH_USER et AUTH_PW pour vous authentifier.",
     "verifyCredentials": "Vérifiez vos identifiants",
-    "startProcessing": "Commencez à traiter les envois",
+    "startProcessing": "Commencez à traiter des envois",
     "exampleAuthentication": "Exemple : Authentification",
     "basicExample": "Exemple basique",
     "endpointsTitle": "Points de terminaison API",
@@ -283,186 +284,186 @@
     "securityNote": "Note de sécurité",
     "keepCredentialsSecure": "Gardez vos identifiants en sécurité.",
     "neverExpose": "Ne les exposez jamais.",
-    "useEnvironmentVariables": "Utilisez des variables d’environnement.",
+    "useEnvironmentVariables": "Utilisez des variables d'environnement.",
     "additionalResources": "Ressources supplémentaires",
-    "everythingYouNeed": "Tout ce qu’il vous faut",
+    "everythingYouNeed": "Tout ce dont vous avez besoin",
     "postmanCollection": "Collection Postman",
-    "getSupport": "Obtenir de l’aide",
-    "changelog": "Journal des modifications",
-    "changelogSubtitle": "Restez informé des dernières évolutions et améliorations",
-    "stayUpdated": "Rester informé",
+    "getSupport": "Obtenir de l'aide",
+    "changelog": "Changelog",
+    "changelogSubtitle": "Restez informé des dernières modifications et améliorations",
+    "stayUpdated": "Restez informé",
     "backToDocumentation": "Retour à la documentation",
     "faq": {
       "title": "Foire aux questions",
-      "subtitle": "Questions fréquentes sur nos solutions d’expédition e-commerce",
-      "ctaTitle": "Vous avez encore des questions ?",
-      "ctaSubtitle": "Vous ne trouvez pas ce que vous cherchez ? Notre équipe support est là pour vous aider sur tout ce qui concerne la plateforme.",
+      "subtitle": "Questions courantes sur nos solutions d'expédition e-commerce",
+      "ctaTitle": "Encore des questions ?",
+      "ctaSubtitle": "Vous ne trouvez pas ce que vous cherchez ? Notre équipe d'assistance est là pour vous aider sur toutes les questions liées à notre plateforme.",
       "ctaButton": "Contacter le support",
       "intro": {
         "title": "Aperçu de la FAQ e-commerce",
-        "description": "Une page FAQ e-commerce apporte des réponses rapides sur les politiques du magasin, l’expédition, les retours et les détails produits. C’est une ressource en libre-service pour améliorer l’expérience client et réduire les demandes au support."
+        "description": "Une page FAQ e-commerce fournit des réponses rapides aux questions sur les politiques du magasin, l'expédition, les retours et les détails produits. C'est une ressource en libre-service pour améliorer l'expérience client et réduire les demandes au support."
       },
       "items": [
         {
-          "question": "Quelles sont vos options d’expédition et leurs coûts ?",
-          "answer": "Nous proposons plusieurs options via notre réseau de 35+ transporteurs : standard, express et livraison le lendemain. Les coûts varient selon la destination, la taille du colis et le transporteur choisi. Utilisez notre plateforme pour comparer les tarifs et choisir la meilleure option."
+          "question": "Quelles sont vos options et vos coûts d'expédition ?",
+          "answer": "Nous proposons plusieurs options via notre réseau de 35+ transporteurs, notamment la livraison standard, express et overnight. Les coûts dépendent de la destination, de la taille du colis et du transporteur choisi. Utilisez notre plateforme pour comparer les tarifs et sélectionner la meilleure option."
         },
         {
-          "question": "J’ai reçu un lien de suivi de votre part mais je n’ai rien commandé chez vous.",
-          "answer": "Cela peut arriver car nous gérons le dernier kilomètre pour divers e-commerçants. Ainsi, si vous avez commandé sur Amazon par exemple, il est possible que nous assurions la livraison."
+          "question": "J'ai reçu un lien de suivi de votre part mais je n'ai rien commandé chez vous.",
+          "answer": "Cela arrive car nous gérons la livraison last mile pour divers détaillants. Si vous avez commandé sur Amazon, par exemple, il se peut que nous gérions la livraison."
         },
         {
-          "question": "Quand recevrai-je ma commande ?",
-          "answer": "Les délais dépendent du transporteur et de la destination. Les dates estimées s’affichent au paiement et dans votre lien de suivi. En national, la livraison prend généralement 1–3 jours ouvrés ; à l’international, cela varie selon la région et le dédouanement."
+          "question": "Quand vais-je recevoir ma commande ?",
+          "answer": "Les délais dépendent du transporteur et de la destination. Les dates estimées sont affichées au paiement et dans votre lien de suivi. Les commandes nationales arrivent généralement sous 1 à 3 jours ouvrés ; les livraisons internationales varient selon la région et le dédouanement."
         },
         {
-          "question": "Comment suivre ma commande ?",
-          "answer": "Utilisez notre suivi en temps réel : saisissez votre numéro de suivi sur la page dédiée ou suivez le lien dans l’e-mail de confirmation. Vous recevrez des mises à jour à chaque étape."
+          "question": "Comment puis-je suivre ma commande ?",
+          "answer": "Utilisez notre suivi en temps réel : saisissez votre numéro de suivi sur la page de suivi ou suivez le lien dans votre e-mail de confirmation. Vous recevrez des mises à jour à chaque étape de la livraison."
         },
         {
-          "question": "Quelle est votre politique pour les expéditions internationales, droits et taxes ?",
-          "answer": "Les commandes internationales peuvent être soumises à des droits, taxes et frais de courtage. Selon l’itinéraire et le transporteur, l’envoi peut être DDU (droits non acquittés) ou DDP (droits acquittés). Les frais applicables seront indiqués au paiement ou perçus à la livraison conformément à la réglementation locale."
+          "question": "Quelles sont les règles pour l'expédition internationale, les droits et les taxes ?",
+          "answer": "Les commandes internationales peuvent être soumises à des droits de douane, taxes et frais de courtage. Selon l’itinéraire et le transporteur, les envois peuvent partir en DDU (Delivered Duties Unpaid) ou DDP (Delivered Duties Paid). Les frais éventuels seront indiqués au paiement ou perçus à la livraison selon la réglementation locale."
         },
         {
           "question": "Quelle est votre politique de retour ?",
-          "answer": "La plupart des articles peuvent être retournés dans les 30 jours suivant la livraison, dans leur état et emballage d’origine, sauf indication contraire. Certains produits peuvent avoir des règles spécifiques. Les étiquettes de retour peuvent être générées via notre plateforme pour les commandes éligibles."
+          "answer": "La plupart des articles peuvent être retournés sous 30 jours après la livraison, dans leur état et emballage d'origine, sauf indication contraire. Certains produits peuvent avoir des règles spécifiques. Les étiquettes de retour peuvent être générées via notre plateforme pour les commandes éligibles."
         },
         {
           "question": "Comment effectuer un retour ?",
-          "answer": "Initiez un retour depuis l’historique de vos commandes ou contactez notre support. Vous recevrez une étiquette de retour et des instructions. Une fois l’article reçu et vérifié, nous procéderons au remboursement ou à l’échange selon votre demande."
+          "answer": "Lancez un retour depuis l’historique de commandes de votre compte ou contactez notre support. Vous recevrez une étiquette de retour et des instructions. Une fois l’article reçu et contrôlé, nous procéderons à un remboursement ou un échange selon votre choix."
         },
         {
           "question": "Que faire si ma commande est défectueuse ou incorrecte ?",
-          "answer": "Contactez-nous dans les 7 jours suivant la livraison avec votre numéro de commande et des photos du problème. Nous organiserons un remplacement, un échange ou un remboursement et fournirons, si nécessaire, une étiquette de retour prépayée."
+          "answer": "Contactez-nous sous 7 jours après la livraison avec votre numéro de commande et des photos du problème. Nous organiserons un remplacement, un échange ou un remboursement et fournirons si besoin une étiquette de retour prépayée."
         },
         {
-          "question": "Puis-je modifier une commande déjà passée ?",
-          "answer": "Les changements sont possibles avant l’expédition. Si votre commande est encore en traitement, vous pouvez mettre à jour l’adresse, la méthode d’expédition ou l’annuler. Une fois expédiée, les modifications sont limitées : veuillez contacter le service client."
+          "question": "Comment modifier une commande déjà passée ?",
+          "answer": "Les modifications sont possibles tant que la commande n’a pas été expédiée. Si elle est encore en cours de traitement, vous pouvez mettre à jour l’adresse, le mode d’expédition ou annuler. Une fois expédiée, les changements sont limités—contactez le service client."
         },
         {
-          "question": "Comment être sûr de choisir la bonne taille ou le bon ajustement ?",
+          "question": "Comment être sûr(e) de choisir la bonne taille ou coupe ?",
           "answer": "Consultez le guide des tailles et les mesures sur la page produit. En cas d’hésitation entre deux tailles, lisez les avis clients ou contactez le support avant de commander."
         },
         {
-          "question": "D’où proviennent vos produits ou comment sont-ils fabriqués ?",
-          "answer": "Les pages produit indiquent l’origine, les matériaux et les détails de fabrication lorsque fournis par la marque. Pour plus d’informations sur un article spécifique, contactez notre service client."
+          "question": "D’où viennent vos produits ou comment sont-ils fabriqués ?",
+          "answer": "Les pages produit indiquent l’origine, les matériaux et les détails de fabrication quand ils sont fournis par la marque. Pour plus d’informations sur un article spécifique, contactez notre service client."
         },
         {
           "question": "Comment contacter le service client ?",
-          "answer": "Nous sommes disponibles 24/7 par e-mail à info@mmcore.eu et via notre formulaire de contact. Les clients professionnels peuvent également utiliser notre canal de support API."
+          "answer": "Nous sommes disponibles 24/7 par e-mail à info@mmcore.eu et via notre formulaire de contact. Les clients professionnels peuvent aussi nous joindre via notre canal de support API."
         },
         {
           "question": "Que faire si je n’ai jamais reçu ma commande ?",
-          "answer": "Vérifiez d’abord votre lien de suivi pour le dernier scan. Confirmez votre adresse de livraison et renseignez-vous auprès des voisins ou points relais. Si le colis n’arrive pas dans les 2 jours ouvrés suivant la date prévue, contactez le service client avec votre numéro de commande pour enquête et éventuelle réclamation."
+          "answer": "Vérifiez d’abord votre lien de suivi pour le dernier scan. Confirmez votre adresse de livraison et renseignez-vous auprès des voisins ou points de retrait locaux. Si elle n’est toujours pas arrivée 2 jours ouvrés après la date prévue, contactez le service client avec votre numéro de commande pour que nous enquêtions et déposions une réclamation si nécessaire."
         }
       ]
     },
     "badges": {
       "restApi": "REST API",
       "realTimeTracking": "Suivi en temps réel",
-      "manifestProcessing": "Traitement des manifestes",
-      "multiCarrier": "Multi-transporteurs"
+      "manifestProcessing": "Traitement du manifest",
+      "multiCarrier": "Multi-carrier"
     },
-    "statusCodes": "Codes d’état",
-    "statusCodesIntro": "Codes d’état retournés dans les réponses de suivi avec leurs descriptions",
+    "statusCodes": "Codes de statut",
+    "statusCodesIntro": "Codes de statut renvoyés dans les réponses de suivi avec leur description",
     "endpoints": {
       "auth": {
-        "description": "Authentifier et valider vos identifiants API"
+        "description": "Authentifiez et validez vos identifiants API"
       },
       "tracking": {
-        "description": "Obtenez des informations de suivi détaillées avec des paramètres de requête complets",
+        "description": "Obtenez des informations de suivi détaillées pour les envois avec des paramètres de requête complets",
         "query": {
           "lang": "Définit la langue de la réponse API",
-          "flightTrackingSetting": "Définit la gestion du suivi de vol / lettre de transport",
+          "flightTrackingSetting": "Définit la gestion du suivi flight/waybill",
           "type": "Spécifie le type de suivi utilisé",
           "trackingDetails": "Définit le niveau de détail de la réponse de suivi"
         }
       },
       "action": {
-        "description": "Demander une étiquette transporteur pour un pays donné avec diverses options de sortie",
+        "description": "Demandez un label transporteur pour un pays spécifique avec diverses options de sortie",
         "query": {
-          "pl": "Y = Afficher l’étiquette PDF, N = obtenir un résultat JSON",
-          "dhlzpl": "Y = obtenir l’étiquette DHL au format JSON, N = obtenir une URL pour récupérer le PDF",
-          "zpl": "Y = obtenir l’étiquette ZPL si prise en charge",
+          "pl": "Y = Afficher le label PDF, N = obtenir un résultat JSON",
+          "dhlzpl": "Y = obtenir le label DHL JSON, N = obtenir l’URL pour récupérer le PDF",
+          "zpl": "Y = obtenir un label ZPL si le transporteur le supporte",
           "o": "La sortie sera au format JSON",
-          "dl": "Y = l’étiquette sera retournée dans cet appel"
+          "dl": "Y = le label sera appelé dans cet appel"
         }
       },
       "postManifest": {
-        "description": "Téléverser les données de manifeste dans la base pour le traitement des envois (prise en charge des envois groupés)",
+        "description": "Téléchargez des données de manifest dans la base pour le traitement des envois (prend en charge les envois en lot)",
         "query": {
-          "ls": "Y = Verrouiller les données du manifeste (s’il n’y a pas d’erreurs), N = Ne pas les verrouiller. APPLICABLE UNIQUEMENT AUX LETTRES DE TRANSPORT AÉRIEN (AWB)"
+          "ls": "Y = Verrouiller les données du manifest (s’il n’y a pas d’erreurs), N = Ne pas verrouiller les données du manifest. UNIQUEMENT APPLICABLE AUX AIRWAYBILLS"
         }
       },
       "lockShipment": {
-        "description": "Verrouiller un envoi pour empêcher toute modification (AWB uniquement). Indique que l’envoi est terminé."
+        "description": "Verrouillez un envoi pour empêcher d’autres modifications (Airwaybills uniquement). Indique que l’envoi est terminé."
       }
     },
     "statusCodeDescriptions": {
-      "97": "Manifeste établi pour la douane",
-      "98": "Données d’étiquette pré-enregistrées",
-      "99": "Étiquette créée",
-      "200": "Déclaration d’expédition",
-      "201": "Arrivée expédition",
-      "202": "Documentation d’expédition",
-      "203": "Modification d’expédition",
-      "204": "Annulation d’expédition",
+      "97": "Manifesté pour la douane",
+      "98": "Les données du label ont été pré-enregistrées",
+      "99": "Label créé",
+      "200": "Déclaration d'expédition",
+      "201": "Arrivée d'expédition",
+      "202": "Documentation d'expédition",
+      "203": "Modification d'expédition",
+      "204": "Annulation d'expédition",
       "205": "Début du dédouanement",
       "207": "Problème douanier",
       "208": "Confisqué",
       "209": "Retenu par la douane",
-      "210": "Documents requis",
+      "210": "Documents nécessaires",
       "211": "Accepté",
       "213": "Colis dédouané",
-      "214": "Dédouanement manuel",
+      "214": "Dédouané manuellement",
       "215": "Annulé",
-      "216": "Arrivé en agence / site",
-      "217": "Prêt pour le dernier kilomètre",
-      "218": "Transmis au dernier kilomètre",
-      "219": "Course assignée",
-      "2000": "Le fret est en cours de suivi",
-      "2001": "Informations envoyées, en attente de prise en charge par le logisticien",
-      "2002": "Le logisticien a pris en charge le fret",
+      "216": "Arrivé en agence",
+      "217": "Prêt pour le last mile",
+      "218": "Libéré pour le last mile",
+      "219": "Tournée lancée",
+      "2000": "Le colis est en cours de suivi",
+      "2001": "Informations envoyées, en attente de prise en charge par le prestataire logistique",
+      "2002": "Le prestataire logistique a pris en charge le colis",
       "2003": "En transit",
-      "2004": "Le fret est arrivé à destination",
-      "2005": "Notifier le destinataire de venir récupérer le fret",
-      "2006": "Le fret a été livré au destinataire",
+      "2004": "Le colis est arrivé à destination",
+      "2005": "Notifier le destinataire pour le retrait du colis",
+      "2006": "Le colis a été livré au destinataire",
       "2007": "Colis perdus, endommagés, retournés, non réclamés, etc.",
-      "2008": "Délai d’expédition trop long",
-      "3000": "Colis arrivé dans une agence",
-      "3001": "Scan de départ",
+      "2008": "Temps d'expédition trop long",
+      "3000": "Colis arrivé en dépôt",
+      "3001": "Scan départ",
       "3004": "Détails du colis mis à jour",
-      "3005": "Colis arrivé chez le transporteur du dernier km",
-      "3050": "Colis parti de l’agence",
+      "3005": "Colis arrivé chez le transporteur last mile",
+      "3050": "Colis parti du dépôt",
       "5000": "Colis en cours de livraison",
-      "5001": "Colis en livraison au destinataire",
-      "5002": "SMS de notification envoyé au destinataire",
-      "5003": "Colis en livraison vers consigne/locker",
-      "5004": "Colis en livraison vers point relais",
-      "7000": "Destinataire absent, deuxième passage :",
-      "7001": "Destinataire absent, colis stocké 5 jours en agence",
+      "5001": "Colis en cours de livraison au destinataire",
+      "5002": "Un SMS de notification a été envoyé au destinataire",
+      "5003": "Colis en cours de livraison vers une consigne",
+      "5004": "Colis en cours de livraison vers un point relais",
+      "7000": "Destinataire absent, deuxième tentative :",
+      "7001": "Destinataire absent, colis stocké 5 jours au dépôt",
       "7002": "Destinataire absent",
       "7003": "Destinataire absent, colis à retirer en point relais",
-      "7004": "Stocké jusqu’à demande",
-      "8000": "Retour à l’expéditeur",
+      "7004": "Stocké jusqu'à demande",
+      "8000": "Retour à l'expéditeur",
       "8001": "Envoi annulé",
       "8500": "Informations supplémentaires",
       "9000": "Livré",
-      "9001": "Livré aux voisins",
-      "9002": "Livré en point relais",
-      "9003": "Livré en consigne",
-      "9004": "Livré en lieu sûr",
-      "9005": "Colis récupéré",
+      "9001": "Colis livré chez les voisins",
+      "9002": "Colis livré en point relais",
+      "9003": "Colis livré en consigne",
+      "9004": "Colis livré en lieu sécurisé",
+      "9005": "Colis retiré",
       "9006": "Retour livré",
       "9500": "Refusé",
       "9501": "Colis non retiré",
-      "9502": "Colis non distribué",
-      "9503": "Colis réacheminé vers une nouvelle adresse",
-      "9600": "Adresse incorrecte"
+      "9502": "Colis non livré",
+      "9503": "Colis redirigé vers une nouvelle adresse",
+      "9600": "Coordonnées d'adresse incorrectes"
     },
     "common": {
       "back": "Retour",
-      "loading": "Chargement…",
+      "loading": "Chargement...",
       "error": "Erreur",
       "success": "Succès",
       "cancel": "Annuler",
@@ -476,82 +477,148 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Conçu pour gérer et rationaliser efficacement les opérations d’entrepôt tout en connectant plusieurs prestataires logistiques tiers (3PL et 4PL).",
+      "subtitle": "Conçu pour gérer et rationaliser efficacement les opérations d'entrepôt tout en connectant plusieurs prestataires 3PL.",
       "badges": {
         "saas": "SAAS WMS",
-        "realtime": "Insights en temps réel",
+        "realtime": "Informations en temps réel",
         "integrations": "50+ intégrations",
-        "transparent": "100 % transparent"
+        "transparent": "100% transparent"
       }
     },
+    "logisticsSolutions": {
+      "title": "Solutions de logistique & Fulfillment à travers l'Europe et le Royaume-Uni",
+      "subtitle": "Bienvenue chez MMCore, votre partenaire de confiance en logistique et supply chain. Basés aux Pays-Bas, nous mettons en relation marques, fabricants et prestataires logistiques avec les bons partenaires pour l’e-commerce Fulfillment, l'entreposage, le shipping, l’air cargo et le dédouanement—afin d’assurer l’efficacité à chaque étape.",
+      "description": "Grâce à notre vaste réseau 3PL et 4PL en Europe et au Royaume-Uni, nous aidons les entreprises à rationaliser leurs opérations, réduire les coûts et améliorer l’efficacité. Que vous recherchiez un support 3PL ou 4PL, nous trouvons l’adéquation parfaite pour vos besoins.",
+      "conclusion": "Avec MMCore, vous gagnez un partenaire logistique de confiance qui rationalise vos opérations, étend votre portée et optimise votre chaîne d'approvisionnement. Connectons-nous pour faire avancer votre entreprise."
+    },
+    "partnerSearch": {
+      "title": "Recherche de partenaires 3PL aux Pays-Bas, en Europe & au Royaume-Uni",
+      "subtitle": "Trouver le bon prestataire third-party logistics (3PL) ou fourth-party logistics (4PL) est crucial. MMCore simplifie ce processus en associant les entreprises à des partenaires fiables de Fulfillment et de logistique adaptés à leurs besoins.",
+      "description": "Nous vous connectons avec :",
+      "services": [
+        "Centres de Fulfillment e-commerce",
+        "Solutions d’entreposage",
+        "Partenaires de shipping et distribution",
+        "Experts en dédouanement"
+      ]
+    },
+    "ecommerceFulfillment": {
+      "title": "E-commerce Fulfillment",
+      "subtitle": "Pour les entreprises e-commerce, un Fulfillment rapide et efficace est essentiel. Nous vous aidons à trouver des partenaires qui offrent :",
+      "services": [
+        "Traitement des commandes & gestion des stocks",
+        "Services pick, pack & ship",
+        "Fulfillment transfrontalier pour les marchés européens et UK",
+        "Gestion des retours & reverse logistics"
+      ],
+      "description": "Que vous recherchiez un support 3PL ou 4PL, nous exploitons notre réseau en Europe et au Royaume-Uni pour trouver la meilleure solution pour votre entreprise."
+    },
+    "warehousingConnections": {
+      "title": "Solutions d’entreposage",
+      "subtitle": "Besoin d’un emplacement stratégique en Europe ou au Royaume-Uni ? Nous vous aidons à trouver des solutions d’entreposage sécurisées, évolutives et économiques, pour du stockage court terme ou la distribution longue durée.",
+      "services": [
+        "Chaine du froid & entreposage spécialisé",
+        "Solutions de stockage flexibles & évolutives",
+        "Systèmes de gestion d’entrepôt intégrés"
+      ]
+    },
+    "shippingFreight": {
+      "title": "Solutions d’expédition & de fret",
+      "subtitle": "Des livraisons locales au fret international, MMCore assure un transport fluide et économique. Nous vous connectons à des partenaires de shipping et de fret pour :",
+      "services": [
+        "Air cargo & express shipping",
+        "Fret maritime & transport conteneurisé",
+        "Routier & last mile",
+        "Transport multimodal pour une efficacité optimale"
+      ]
+    },
+    "customsClearance": {
+      "title": "Dédouanement & conformité",
+      "subtitle": "Les procédures douanières peuvent être complexes. MMCore s’appuie sur des spécialistes du dédouanement pour garantir un commerce international fluide et conforme.",
+      "services": [
+        "Gestion de la documentation import/export",
+        "Optimisation des droits & taxes",
+        "Solutions logistiques prêtes pour le Brexit",
+        "Regulatory compliance & trade advisory"
+      ]
+    },
+    "customSupplyChain": {
+      "title": "Personnaliser votre chaîne d’approvisionnement",
+      "subtitle": "Chaque entreprise a des défis logistiques uniques. Chez MMCore, nous adaptons les solutions supply chain à vos besoins spécifiques pour des opérations fluides et des économies.",
+      "services": [
+        "Stratégie logistique & optimisation sur mesure",
+        "Solutions d’échelle en Fulfillment & entreposage",
+        "Gestion intégrée de la supply chain"
+      ]
+    },
     "saasSystem": {
-      "title": "MMcore : WMS en mode SAAS",
-      "subtitle": "Solution complète de gestion d’entrepôt avec insights en temps réel et intégrations fluides"
+      "title": "MMcore : Système SAAS WMS",
+      "subtitle": "Solution complète de gestion d'entrepôt avec informations en temps réel et intégrations fluides"
     },
     "features": {
       "realtimeInsight": {
-        "title": "Insight en temps réel",
-        "description": "Visibilité complète des opérations logistiques pour tous les clients, avec données live et reporting exhaustif.",
+        "title": "Information en temps réel",
+        "description": "Visibilité complète des opérations logistiques pour tous les clients avec des mises à jour en direct et une reporting avancé.",
         "benefits": [
           "Suivi des stocks en direct",
           "Statut des commandes en temps réel",
-          "Analytique de performance",
-          "Tableaux de bord personnalisés"
+          "Analyses de performances",
+          "Dashboards personnalisés"
         ]
       },
       "flexibleFastSetup": {
         "title": "Mise en place flexible & rapide",
-        "description": "Déploiement rapide avec configuration minimale. Faites tourner votre entrepôt en un rien de temps.",
+        "description": "Déploiement rapide avec configuration minimale. Mettez vos opérations d’entrepôt en route en un rien de temps.",
         "benefits": [
-          "Implémentation accélérée",
+          "Implémentation rapide",
           "Temps d’arrêt minimal",
           "Configuration simple",
-          "Onboarding utilisateurs rapide"
+          "Onboarding utilisateurs accéléré"
         ]
       },
       "plugPlayConnections": {
         "title": "50+ connexions plug & play",
-        "description": "Intégration transparente aux principaux systèmes ERP et web via notre bibliothèque de connecteurs.",
+        "description": "Intégration fluide avec les principaux systèmes ERP et web via notre vaste bibliothèque de connecteurs.",
         "benefits": [
-          "Intégration aux ERP",
+          "Intégration aux systèmes ERP",
           "Plateformes e-commerce",
           "Logiciels comptables",
-          "Connexions API personnalisées"
+          "Connexions API custom"
         ]
       },
       "reportingOptions": {
         "title": "20+ options de reporting",
-        "description": "Suite de rapports complète avec tableaux de bord personnalisables et génération automatique.",
+        "description": "Suite de reporting complète avec tableaux de bord personnalisables et génération automatique de rapports.",
         "benefits": [
           "Rapports d’inventaire",
           "Indicateurs de performance",
           "Analyse des coûts",
-          "Rapports de conformité"
+          "Reporting conformité"
         ]
       }
     },
     "carrierPlatform": {
-      "title": "MMcore : plateforme transporteurs",
-      "subtitle": "Plateforme d’étiquetage plug & play connectant les principaux transporteurs européens",
+      "title": "MMCore : Carrier Platform",
+      "subtitle": "Plateforme d’étiquetage plug & play connectant tous les grands transporteurs européens",
       "features": {
         "allCarriers": {
-          "title": "Tous les principaux transporteurs européens",
+          "title": "Tous les grands transporteurs européens",
           "description": "Connectez-vous aux transporteurs leaders en Europe via notre plateforme unifiée.",
           "benefits": [
-            "Intégrations DHL, FedEx, UPS",
-            "Réseaux locaux",
-            "Expéditions transfrontalières",
+            "Intégration DHL, FedEx, UPS",
+            "Réseaux de transporteurs locaux",
+            "Expédition transfrontalière",
             "Accès API unifié"
           ]
         },
         "performance": {
-          "title": "Suivi de performance & reporting",
-          "description": "Surveillez la performance des transporteurs avec des analyses et rapports détaillés.",
+          "title": "Tracking des performances & reporting",
+          "description": "Surveillez les performances des transporteurs avec des analyses et rapports détaillés.",
           "benefits": [
-            "Metrics de performance de livraison",
-            "Analyse comparative des coûts",
-            "Suivi des SLA",
-            "KPI personnalisés"
+            "Indicateurs de performance de livraison",
+            "Analyses comparatives des coûts",
+            "Suivi des niveaux de service",
+            "Suivi de KPI custom"
           ]
         },
         "financial": {
@@ -561,7 +628,7 @@
             "Facturation automatisée",
             "Allocation des coûts",
             "Gestion des factures",
-            "Rapports financiers"
+            "Reporting financier"
           ]
         }
       }
@@ -572,47 +639,47 @@
       "items": {
         "enhancedEfficiency": {
           "title": "Efficacité accrue",
-          "description": "Rationalisez les opérations et boostez la productivité",
+          "description": "Rationalisez les processus et boostez la productivité",
           "points": [
             "Moins de processus manuels et de paperasse",
-            "Préparation plus rapide et délais réduits",
-            "Meilleure productivité de la main-d’œuvre"
+            "Traitement des commandes plus rapide et délais réduits",
+            "Productivité du travail améliorée"
           ]
         },
         "costSavings": {
           "title": "Réduction des coûts",
           "description": "Optimisez les dépenses et maximisez le ROI",
           "points": [
-            "Coûts opérationnels réduits grâce à l’automatisation",
+            "Coûts opérationnels réduits via l’automatisation",
             "Diminution des coûts de stockage",
             "Meilleure utilisation des ressources et moins de gaspillage"
           ]
         },
         "improvedAccuracy": {
-          "title": "Précision renforcée",
-          "description": "Réduisez les erreurs et améliorez la fiabilité",
+          "title": "Précision améliorée",
+          "description": "Minimisez les erreurs et renforcez la fiabilité",
           "points": [
-            "Données en temps réel limitant les erreurs",
-            "Inventaire plus précis et moins de ruptures",
-            "Préparation et emballage plus exacts"
+            "Mises à jour de données en temps réel réduisant les erreurs",
+            "Précision d’inventaire renforcée et moins de ruptures",
+            "Préparation de commandes précise"
           ]
         },
         "scalability": {
           "title": "Scalabilité",
-          "description": "Grandissez avec confiance et flexibilité",
+          "description": "Croissez avec confiance et flexibilité",
           "points": [
-            "Évolutif pour plusieurs entrepôts et forts volumes",
-            "Flexible pour s’adapter aux besoins changeants",
-            "Architecture pérenne"
+            "Évolutif pour plusieurs entrepôts et volumes élevés",
+            "Flexible pour s’adapter à l’évolution des besoins",
+            "Architecture future-proof"
           ]
         },
         "betterDecisionMaking": {
           "title": "Meilleure prise de décision",
-          "description": "Décidez grâce à des insights data-driven",
+          "description": "Décidez avec des insights basés sur les données",
           "points": [
-            "Insights pour la planification stratégique",
-            "Visibilité et contrôle accrus de la chaîne logistique",
-            "Satisfaction client améliorée par des livraisons fiables"
+            "Insights data-driven pour la planification stratégique",
+            "Visibilité et contrôle accrus de la supply chain",
+            "Satisfaction client améliorée grâce à une livraison fiable"
           ]
         }
       }
@@ -631,19 +698,19 @@
     },
     "cta": {
       "title": "Prêt à transformer votre entrepôt ?",
-      "subtitle": "Découvrez la puissance de notre WMS centralisé et simplifiez vos opérations dès aujourd’hui.",
+      "subtitle": "Découvrez la puissance de notre solution WMS centralisée et rationalisez vos opérations dès aujourd’hui.",
       "getStarted": "Commencer",
-      "viewApiDocs": "Voir la doc API"
+      "viewApiDocs": "Voir la documentation API"
     }
   },
   "tms": {
     "hero": {
       "title": "Transport Management System",
-      "subtitle": "Plateforme complète de planification et d’exécution du transport reliant plusieurs transporteurs en Europe avec des capacités logistiques avancées."
+      "subtitle": "Plateforme complète de planification et d’exécution du transport connectant plusieurs transporteurs en Europe avec des capacités logistiques avancées."
     },
     "cta": {
-      "title": "Prêt à optimiser vos transports ?",
-      "subtitle": "Rationalisez vos opérations logistiques avec notre Transport Management System."
+      "title": "Prêt à optimiser votre transport ?",
+      "subtitle": "Rationalisez vos opérations logistiques avec notre Transport Management System complet."
     }
   }
 }
