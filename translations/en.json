@@ -485,12 +485,6 @@
         "transparent": "100% Transparent"
       }
     },
-    "logisticsSolutions": {
-      "title": "Seamless Logistics & Fulfillment Solutions Across Europe and the UK",
-      "subtitle": "Welcome to MMCore, your trusted partner in logistics and supply chain solutions. Based in the Netherlands, we specialize in connecting brands, manufacturers, and logistics providers with the right partners for e-commerce fulfilment, warehousing, shipping, air cargo, and customs clearance. This to ensuring efficiency at every stage",
-      "description": "With our extensive 3PL and 4PL network across Europe and the UK, we help businesses streamline operations, reduce costs, and improve efficiency. Whether you're looking for 3PL or 4PL logistics support, we leverage our strong network across Europe and the UK to find the perfect fit for your business needs.",
-      "conclusion": "With MMCore, you gain a trusted logistics partner that helps streamline your operations, expand your reach, and optimize your supply chain. Let's connect and move your business forward."
-    },
     "partnerSearch": {
       "title": "3PL Partner Search in the Netherlands, Europe & UK",
       "subtitle": "Finding the right third-party logistics (3PL) or fourth-party logistics (4PL) provider is crucial for success. MMCore simplifies this process by matching businesses with reliable fulfilment and logistics partners tailored to their specific needs.",
@@ -711,6 +705,122 @@
     "cta": {
       "title": "Ready to Optimize Your Transportation?",
       "subtitle": "Streamline your logistics operations with our comprehensive Transport Management System."
+    }
+  },
+  "fulfilment": {
+    "hero": {
+      "title": "Seamless Logistics & Fulfilment Solutions",
+      "subtitle": "Connecting brands, manufacturers, and logistics partners across Europe & the UK with efficient, tailored 3PL and 4PL support.",
+      "badges": {
+        "europeanNetwork": "Extensive European & UK Network",
+        "tailoredSolutions": "Tailored 3PL & 4PL Solutions",
+        "costEfficiency": "Efficiency & Cost Reduction",
+        "endToEnd": "End-to-End Logistics Support"
+      }
+    },
+    "logisticsSolutions": {
+      "title": "Seamless Logistics & Fulfilment Solutions Across Europe and the UK",
+      "subtitle": "Welcome to MMCore, your trusted partner in logistics and supply chain solutions. Based in the Netherlands, we specialize in connecting brands, manufacturers, and logistics providers with the right partners for e-commerce fulfilment, warehousing, shipping, air cargo, and customs clearance. This to ensuring efficiency at every stage",
+      "conclusion": "With MMCore, you gain a trusted logistics partner that helps streamline your operations, expand your reach, and optimize your supply chain. Let's connect and move your business forward.",
+      "optimize": "Optimize Your Fulfilment Today",
+      "getStarted": "Get Started Today",
+      "learnMore": "Learn More About Our Services"
+    },
+    "network": {
+      "title": "Extensive European Network",
+      "description": "With our extensive 3PL and 4PL network across Europe and the UK, we help businesses streamline operations, reduce costs, and improve efficiency. Whether you're looking for 3PL or 4PL logistics support, we leverage our strong network across Europe and the UK to find the perfect fit for your business needs."
+    },
+    "tayloredSolutions": {
+      "title": "Tailored 3PL & 4PL Solutions",
+      "description": "We leverage our strong network across Europe and the UK to find the perfect fit for your business needs, whether you're looking for 3PL or 4PL logistics support."
+    }
+  },
+  "globalEcommerce": {
+    "hero": {
+      "title": "Global E-commerce Solutions",
+      "subtitle": "Enabling Global Commerce Through Smarter Logistics",
+      "description": "MMcore is a global logistics provider specializing in seamless cross-border solutions for e-commerce and retail businesses. With a strategically positioned network of warehouses and international hubs, we enable fast, compliant, and cost-effective parcel movement across Europe and key global markets.",
+      "additionalInfo": "Our services cover the full logistics chain—from customs clearance and fulfillment to trucking and last-mile delivery. Backed by local expertise and scalable infrastructure, we help companies expand confidently and deliver exceptional customer experiences worldwide.",
+      "trustedPartner": "Trusted Global Logistics Partner",
+      "getStarted": "Get Started",
+      "badges": {
+        "crossBorder": "Cross-Border Logistics",
+        "euCustoms": "EU Customs Expertise",
+        "iossCompliance": "IOSS Compliance",
+        "globalNetwork": "Global Network"
+      }
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "description1": "is a global logistics provider specializing in seamless cross-border solutions for e-commerce and retail businesses. With a strategically positioned network of warehouses and international hubs, we enable fast, compliant, and cost-effective parcel movement across Europe and key global markets.",
+      "description2": "Our services cover the full logistics chain—from customs clearance to last-mile delivery, we cover every aspect of your logistics needs",
+      "highlights": {
+        "euCompliance": "EU Compliance Ready",
+        "globalReach": "Global Reach",
+        "scalableSolutions": "Scalable Solutions",
+        "localExpertise": "Local Expertise"
+      },
+      "globalNetworkTitle": "Global Network",
+      "globalNetworkDescription": "Our strategically positioned warehouses and international hubs enable seamless cross-border logistics across Europe and beyond."
+    },
+    "stats": {
+      "countriesServed": "Countries Served",
+      "warehouseLocations": "Warehouse Locations",
+      "dailyParcelVolume": "Daily Parcel Volume",
+      "averageTransitTime": "Average Transit Time"
+    },
+    "overview": {
+      "title": "Comprehensive Cross-Border Solutions",
+      "description": "MMcore simplifies cross-border logistics for global e-commerce businesses through a powerful combination of strategically located warehouses, reliable last-mile delivery partners, and deep local market expertise.",
+      "compliance": "Our proven track record in EU customs clearance—including IOSS compliance—ensures smooth, compliant entry into Europe. With scalable infrastructure capable of handling high parcel volumes daily, we provide end-to-end support that helps businesses grow confidently and deliver exceptional customer experiences across European markets."
+    },
+    "coreCapabilities": {
+      "title": "Core Capabilities",
+      "description": "Everything you need for successful global e-commerce logistics"
+    },
+    "logisticsChain": {
+      "title": "Complete Logistics Chain",
+      "description": "From customs clearance to last-mile delivery, we cover every aspect of your logistics needs"
+    },
+    "features": {
+      "crossBorderLogistics": {
+        "title": "Cross-Border Logistics",
+        "description": "Seamless international shipping with customs expertise"
+      },
+      "warehouseNetwork": {
+        "title": "Strategic Warehouse Network",
+        "description": "Strategically positioned facilities across Europe and key global markets"
+      },
+      "customsCompliance": {
+        "title": "EU Customs & IOSS Compliance",
+        "description": "Proven track record in EU customs clearance and IOSS compliance"
+      },
+      "lastMileDelivery": {
+        "title": "Reliable Last-Mile Delivery",
+        "description": "Trusted delivery partners for exceptional customer experiences"
+      },
+      "scalableInfrastructure": {
+        "title": "Scalable Infrastructure",
+        "description": "Handle high parcel volumes with confidence and reliability"
+      },
+      "localExpertise": {
+        "title": "Local Market Expertise",
+        "description": "Deep understanding of local markets and regulations"
+      }
+    },
+    "services": {
+      "customsClearance": "Customs Clearance",
+      "fulfillment": "E-commerce Fulfillment",
+      "trucking": "Trucking Services",
+      "lastMile": "Last-Mile Delivery",
+      "warehousing": "International Warehousing",
+      "compliance": "Regulatory Compliance"
+    },
+    "cta": {
+      "title": "Ready to Expand Globally?",
+      "subtitle": "Let MMcore help you navigate cross-border logistics and deliver exceptional customer experiences worldwide.",
+      "getStarted": "Get Started Today",
+      "learnMore": "Learn More"
     }
   }
 }

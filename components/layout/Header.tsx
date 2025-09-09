@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, Globe, ChevronDown, Warehouse, Truck } from "lucide-react"
+import { Menu, X, Globe, ChevronDown, Warehouse, Truck, Box } from "lucide-react"
 import Image from "next/image"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Button } from "../ui/button"
@@ -31,7 +31,7 @@ export default function Header() {
   }
 
   const isServicesActive = () => {
-    return pathname === "/services" || pathname === "/wms" || pathname === "/tms"
+    return pathname === "/services" || pathname === "/wms" || pathname === "/tms" || pathname === "/fullfilment" || pathname === "/global-ecommerce-logistics"
   }
 
   const navItems = [
@@ -55,6 +55,18 @@ export default function Header() {
       label: "TMS",
       description: "Transport Management System",
       icon: Truck,
+    },
+    {
+      href: "/fullfilment",
+      label: "Fulfillment",
+      description: "Fulfillment Services",
+      icon: Box, // Consider using a Box or Package icon from lucide-react if available
+    },
+    {
+      href: "/global-ecommerce-logistics",
+      label: "Global Ecommerce",
+      description: "Worldwide Ecommerce Logistics",
+      icon: Globe,
     },
   ]
 
