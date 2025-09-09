@@ -246,7 +246,7 @@
   },
   "servicesOverview": {
     "title": "Unsere Softwarelösungen",
-    "subtitle": "Entwickelt, um Lagerprozesse effizient zu steuern und zu verschlanken – mit Anbindung mehrerer 3PL-Dienstleister.",
+    "subtitle": "Von der Lagerung bis zur Lieferung optimieren WMS und TMS die Abläufe und verbinden Ihre Logistikpartner mit voller Transparenz.",
     "wms": {
       "title": "WMS – Warehouse Management System",
       "description": "Umfassende Lagerverwaltung mit Echtzeit-Insights, 50+ Plug-&-Play-Anbindungen an ERP/Web-Systeme und 100% transparente Abläufe.",
@@ -476,7 +476,7 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Entwickelt, um Lagerprozesse effizient zu steuern und zu verschlanken und dabei mehrere 3PL-Dienstleister zu verbinden.",
+      "subtitle": "Entwickelt, um Lagerabläufe effizient zu verwalten und zu optimieren und gleichzeitig mehrere Drittanbieter-Logistikdienstleister (3PL und 4PL) zu verbinden.",
       "badges": {
         "saas": "SAAS WMS",
         "realtime": "Echtzeit-Insights",
@@ -531,7 +531,7 @@
       }
     },
     "carrierPlatform": {
-      "title": "E-Warehouse Logistics: Carrier-Plattform",
+      "title": "MMcore: Carrier-Plattform",
       "subtitle": "Plug-&-Play-Labeling-Plattform, die alle großen europäischen Carrier verbindet",
       "features": {
         "allCarriers": {

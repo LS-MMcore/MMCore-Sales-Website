@@ -246,7 +246,7 @@
   },
   "servicesOverview": {
     "title": "Onze softwareoplossingen",
-    "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, terwijl je meerdere Third‑Party Logistics (3PL)‑providers koppelt.",
+    "subtitle": "Van opslag tot levering stroomlijnen WMS en TMS de operaties en verbinden ze uw logistieke partners met volledige zichtbaarheid.",
     "wms": {
       "title": "WMS - Warehouse Management System",
       "description": "Complete magazijnbeheeroplossing met realtime inzichten, 50+ plug‑&‑play koppelingen met ERP/websystemen en 100% transparante operaties.",
@@ -476,7 +476,7 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, terwijl je meerdere 3PL‑providers koppelt.",
+      "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, terwijl je meerdere 3PL en 4PL‑providers koppelt.",
       "badges": {
         "saas": "SAAS WMS",
         "realtime": "Realtime inzichten",
@@ -531,7 +531,7 @@
       }
     },
     "carrierPlatform": {
-      "title": "E‑warehouse Logistics: Carrier‑platform",
+      "title": "MMcore: Carrier‑platform",
       "subtitle": "Plug‑&‑play labelplatform dat alle grote Europese vervoerders verbindt",
       "features": {
         "allCarriers": {
