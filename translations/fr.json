@@ -712,5 +712,121 @@
       "title": "Prêt à optimiser votre transport ?",
       "subtitle": "Rationalisez vos opérations logistiques avec notre Transport Management System complet."
     }
+  },
+  "fulfilment": {
+    "hero": {
+      "title": "Solutions de Logistique & Fulfilment Fluides",
+      "subtitle": "Nous connectons marques, fabricants et partenaires logistiques à travers l’Europe et le Royaume-Uni avec un support 3PL et 4PL efficace et sur mesure.",
+      "badges": {
+        "europeanNetwork": "Réseau Étendu en Europe & au Royaume-Uni",
+        "tailoredSolutions": "Solutions 3PL & 4PL Sur Mesure",
+        "costEfficiency": "Efficacité & Réduction des Coûts",
+        "endToEnd": "Support Logistique de bout en bout"
+      }
+    },
+    "logisticsSolutions": {
+      "title": "Solutions de Logistique & Fulfilment en Europe et au Royaume-Uni",
+      "subtitle": "Bienvenue chez MMCore, votre partenaire de confiance en logistique et chaîne d’approvisionnement. Basés aux Pays-Bas, nous connectons marques, fabricants et prestataires logistiques avec les bons partenaires pour le fulfilment e-commerce, l’entreposage, le transport, le fret aérien et le dédouanement, garantissant l’efficacité à chaque étape.",
+      "conclusion": "Avec MMCore, vous bénéficiez d’un partenaire logistique de confiance qui vous aide à rationaliser vos opérations, étendre votre portée et optimiser votre chaîne d’approvisionnement. Connectons-nous et faisons avancer votre entreprise.",
+      "optimize": "Optimisez Votre Fulfilment Dès Aujourd’hui",
+      "getStarted": "Commencez Aujourd’hui",
+      "learnMore": "En Savoir Plus sur Nos Services"
+    },
+    "network": {
+      "title": "Réseau Européen Étendu",
+      "description": "Grâce à notre vaste réseau 3PL et 4PL en Europe et au Royaume-Uni, nous aidons les entreprises à rationaliser leurs opérations, réduire les coûts et améliorer l’efficacité. Que vous recherchiez un support 3PL ou 4PL, nous exploitons notre réseau solide pour trouver la solution idéale."
+    },
+    "tayloredSolutions": {
+      "title": "Solutions 3PL & 4PL Sur Mesure",
+      "description": "Nous exploitons notre solide réseau en Europe et au Royaume-Uni pour trouver la solution idéale à vos besoins, qu’il s’agisse de support logistique 3PL ou 4PL."
+    }
+  },
+  "globalEcommerce": {
+    "hero": {
+      "title": "Solutions Globales de E-commerce",
+      "subtitle": "Favoriser le Commerce Mondial grâce à une Logistique Plus Intelligente",
+      "description": "MMcore est un prestataire logistique mondial spécialisé dans les solutions transfrontalières fluides pour les entreprises e-commerce et retail. Grâce à un réseau stratégique d’entrepôts et hubs internationaux, nous permettons un acheminement rapide, conforme et rentable des colis en Europe et sur les marchés mondiaux clés.",
+      "additionalInfo": "Nos services couvrent toute la chaîne logistique — du dédouanement et fulfilment au transport et à la livraison du dernier kilomètre. Avec une expertise locale et une infrastructure évolutive, nous aidons les entreprises à se développer en toute confiance et à offrir des expériences clients exceptionnelles à travers le monde.",
+      "trustedPartner": "Partenaire Logistique Mondial de Confiance",
+      "getStarted": "Commencez",
+      "badges": {
+        "crossBorder": "Logistique Transfrontalière",
+        "euCustoms": "Expertise Douanière UE",
+        "iossCompliance": "Conformité IOSS",
+        "globalNetwork": "Réseau Mondial"
+      }
+    },
+    "whoWeAre": {
+      "title": "Qui Nous Sommes",
+      "description1": "est un prestataire logistique mondial spécialisé dans les solutions transfrontalières fluides pour les entreprises e-commerce et retail. Grâce à un réseau stratégique d’entrepôts et hubs internationaux, nous permettons un acheminement rapide, conforme et rentable des colis en Europe et sur les marchés mondiaux clés.",
+      "description2": "Nos services couvrent toute la chaîne logistique — du dédouanement à la livraison du dernier kilomètre.",
+      "highlights": {
+        "euCompliance": "Prêt pour la Conformité UE",
+        "globalReach": "Portée Mondiale",
+        "scalableSolutions": "Solutions Évolutives",
+        "localExpertise": "Expertise Locale"
+      },
+      "globalNetworkTitle": "Réseau Mondial",
+      "globalNetworkDescription": "Nos entrepôts et hubs internationaux stratégiquement positionnés permettent une logistique transfrontalière fluide en Europe et au-delà."
+    },
+    "stats": {
+      "countriesServed": "Pays Desservis",
+      "warehouseLocations": "Sites d’Entrepôts",
+      "dailyParcelVolume": "Volume Quotidien de Colis",
+      "averageTransitTime": "Temps Moyen de Transit"
+    },
+    "overview": {
+      "title": "Solutions Transfrontalières Complètes",
+      "description": "MMcore simplifie la logistique transfrontalière pour les entreprises e-commerce mondiales grâce à une combinaison puissante d’entrepôts stratégiquement situés, de partenaires fiables de dernier kilomètre et d’une connaissance approfondie des marchés locaux.",
+      "compliance": "Notre expérience éprouvée en matière de dédouanement dans l’UE — y compris la conformité IOSS — garantit une entrée fluide et conforme en Europe. Grâce à une infrastructure évolutive, nous apportons un soutien de bout en bout permettant aux entreprises de croître en toute confiance."
+    },
+    "coreCapabilities": {
+      "title": "Compétences Clés",
+      "description": "Tout ce dont vous avez besoin pour une logistique e-commerce mondiale réussie"
+    },
+    "logisticsChain": {
+      "title": "Chaîne Logistique Complète",
+      "description": "Du dédouanement à la livraison du dernier kilomètre — nous couvrons chaque aspect de vos besoins logistiques."
+    },
+    "features": {
+      "crossBorderLogistics": {
+        "title": "Logistique Transfrontalière",
+        "description": "Expédition internationale fluide avec expertise douanière"
+      },
+      "warehouseNetwork": {
+        "title": "Réseau d’Entrepôts Stratégiques",
+        "description": "Sites stratégiquement situés en Europe et sur les marchés mondiaux clés"
+      },
+      "customsCompliance": {
+        "title": "Conformité Douanière UE & IOSS",
+        "description": "Expérience prouvée en dédouanement UE et conformité IOSS"
+      },
+      "lastMileDelivery": {
+        "title": "Livraison du Dernier Kilomètre Fiable",
+        "description": "Partenaires de livraison de confiance pour des expériences clients exceptionnelles"
+      },
+      "scalableInfrastructure": {
+        "title": "Infrastructure Évolutive",
+        "description": "Gérez de grands volumes de colis avec fiabilité"
+      },
+      "localExpertise": {
+        "title": "Expertise du Marché Local",
+        "description": "Connaissance approfondie des marchés locaux et de la réglementation"
+      }
+    },
+    "services": {
+      "customsClearance": "Dédouanement",
+      "fulfillment": "Fulfilment E-commerce",
+      "trucking": "Services de Transport",
+      "lastMile": "Livraison du Dernier Kilomètre",
+      "warehousing": "Entreposage International",
+      "compliance": "Conformité Réglementaire"
+    },
+    "cta": {
+      "title": "Prêt à Vous Développer à l’International ?",
+      "subtitle": "Laissez MMcore vous aider à naviguer la logistique transfrontalière et à offrir des expériences clients exceptionnelles dans le monde entier.",
+      "getStarted": "Commencez Aujourd’hui",
+      "learnMore": "En Savoir Plus"
+    }
   }
 }

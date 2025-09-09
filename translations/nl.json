@@ -712,5 +712,121 @@
       "title": "Klaar om uw transport te optimaliseren?",
       "subtitle": "Stroomlijn uw logistieke operatie met ons uitgebreide Transport Management System."
     }
+  },
+  "fulfilment": {
+    "hero": {
+      "title": "Naadloze Logistiek & Fulfilment Oplossingen",
+      "subtitle": "Wij verbinden merken, producenten en logistieke partners in heel Europa en het VK met efficiënte, op maat gemaakte 3PL- en 4PL-ondersteuning.",
+      "badges": {
+        "europeanNetwork": "Uitgebreid Europees & VK Netwerk",
+        "tailoredSolutions": "Op maat gemaakte 3PL & 4PL Oplossingen",
+        "costEfficiency": "Efficiëntie & Kostenreductie",
+        "endToEnd": "End-to-End Logistieke Ondersteuning"
+      }
+    },
+    "logisticsSolutions": {
+      "title": "Naadloze Logistiek & Fulfilment Oplossingen in Europa en het VK",
+      "subtitle": "Welkom bij MMCore, uw betrouwbare partner in logistieke- en supply chain-oplossingen. Vanuit Nederland verbinden wij merken, producenten en logistieke dienstverleners met de juiste partners voor e-commerce fulfilment, warehousing, verzending, luchtvracht en douaneafhandeling. Dit alles om efficiëntie te garanderen in elke fase.",
+      "conclusion": "Met MMCore krijgt u een betrouwbare logistieke partner die helpt uw operaties te stroomlijnen, uw bereik te vergroten en uw supply chain te optimaliseren. Laten we samenwerken en uw bedrijf vooruit helpen.",
+      "optimize": "Optimaliseer Uw Fulfilment Vandaag",
+      "getStarted": "Start Vandaag",
+      "learnMore": "Lees Meer Over Onze Diensten"
+    },
+    "network": {
+      "title": "Uitgebreid Europees Netwerk",
+      "description": "Met ons uitgebreide 3PL- en 4PL-netwerk in Europa en het VK helpen wij bedrijven hun operaties te stroomlijnen, kosten te verlagen en de efficiëntie te verbeteren. Of u nu op zoek bent naar 3PL- of 4PL-logistieke ondersteuning, wij benutten ons sterke netwerk in Europa en het VK om de perfecte oplossing voor uw bedrijfsbehoeften te vinden."
+    },
+    "tayloredSolutions": {
+      "title": "Op maat gemaakte 3PL & 4PL OSplossingen",
+      "description": "Wij benutten ons sterke netwerk in Europa en het VK om de perfecte oplossing voor uw bedrijfsbehoeften te vinden, of u nu op zoek bent naar 3PL- of 4PL-logistieke ondersteuning."
+    }
+  },
+  "globalEcommerce": {
+    "hero": {
+      "title": "Wereldwijde E-commerce Oplossingen",
+      "subtitle": "Wereldwijde Handel Mogelijk Maken Met Slimmere Logistiek",
+      "description": "MMcore is een wereldwijde logistieke dienstverlener gespecialiseerd in naadloze grensoverschrijdende oplossingen voor e-commerce- en retailbedrijven. Met een strategisch gepositioneerd netwerk van magazijnen en internationale hubs maken wij snelle, conforme en kosteneffectieve pakketbewegingen mogelijk in Europa en belangrijke wereldmarkten.",
+      "additionalInfo": "Onze diensten dekken de volledige logistieke keten—van douaneafhandeling en fulfilment tot transport en last-mile bezorging. Dankzij lokale expertise en schaalbare infrastructuur helpen wij bedrijven vol vertrouwen uit te breiden en wereldwijd uitzonderlijke klantervaringen te leveren.",
+      "trustedPartner": "Betrouwbare Wereldwijde Logistieke Partner",
+      "getStarted": "Start Nu",
+      "badges": {
+        "crossBorder": "Grensoverschrijdende Logistiek",
+        "euCustoms": "EU Douane-expertise",
+        "iossCompliance": "IOSS-naleving",
+        "globalNetwork": "Wereldwijd Netwerk"
+      }
+    },
+    "whoWeAre": {
+      "title": "Wie Wij Zijn",
+      "description1": "is een wereldwijde logistieke dienstverlener gespecialiseerd in naadloze grensoverschrijdende oplossingen voor e-commerce- en retailbedrijven. Met een strategisch gepositioneerd netwerk van magazijnen en internationale hubs maken wij snelle, conforme en kosteneffectieve pakketbewegingen mogelijk in Europa en belangrijke wereldmarkten.",
+      "description2": "Onze diensten dekken de volledige logistieke keten—van douaneafhandeling tot last-mile levering, wij dekken elk aspect van uw logistieke behoeften.",
+      "highlights": {
+        "euCompliance": "EU Conform Gereed",
+        "globalReach": "Wereldwijd Bereik",
+        "scalableSolutions": "Schaalbare Oplossingen",
+        "localExpertise": "Lokale Expertise"
+      },
+      "globalNetworkTitle": "Wereldwijd Netwerk",
+      "globalNetworkDescription": "Onze strategisch gepositioneerde magazijnen en internationale hubs maken naadloze grensoverschrijdende logistiek mogelijk in Europa en daarbuiten."
+    },
+    "stats": {
+      "countriesServed": "Landen Bedient",
+      "warehouseLocations": "Magazijnlocaties",
+      "dailyParcelVolume": "Dagelijks Pakketvolume",
+      "averageTransitTime": "Gemiddelde Transittijd"
+    },
+    "overview": {
+      "title": "Uitgebreide Grensoverschrijdende Oplossingen",
+      "description": "MMcore vereenvoudigt grensoverschrijdende logistiek voor wereldwijde e-commercebedrijven door een krachtige combinatie van strategisch gelegen magazijnen, betrouwbare last-mile partners en diepgaande lokale marktkennis.",
+      "compliance": "Onze bewezen ervaring in EU-douaneafhandeling—including IOSS-naleving—zorgt voor een soepele, conforme toegang tot Europa. Met schaalbare infrastructuur die hoge pakketvolumes dagelijks aankan, bieden wij end-to-end ondersteuning die bedrijven helpt zelfverzekerd te groeien en uitzonderlijke klantervaringen te leveren in heel Europa."
+    },
+    "coreCapabilities": {
+      "title": "Kerncompetenties",
+      "description": "Alles wat u nodig heeft voor succesvolle wereldwijde e-commerce logistiek"
+    },
+    "logisticsChain": {
+      "title": "Volledige Logistieke Ketting",
+      "description": "Van douaneafhandeling tot last-mile levering, wij dekken elk aspect van uw logistieke behoeften."
+    },
+    "features": {
+      "crossBorderLogistics": {
+        "title": "Grensoverschrijdende Logistiek",
+        "description": "Naadloze internationale verzending met douane-expertise"
+      },
+      "warehouseNetwork": {
+        "title": "Strategisch Magazijnnetwerk",
+        "description": "Strategisch gelegen faciliteiten in Europa en belangrijke wereldmarkten"
+      },
+      "customsCompliance": {
+        "title": "EU Douane & IOSS Naleving",
+        "description": "Bewezen ervaring in EU-douaneafhandeling en IOSS-naleving"
+      },
+      "lastMileDelivery": {
+        "title": "Betrouwbare Last-Mile Levering",
+        "description": "Vertrouwde bezorgpartners voor uitzonderlijke klantervaringen"
+      },
+      "scalableInfrastructure": {
+        "title": "Schaalbare Infrastructuur",
+        "description": "Verwerk hoge pakketvolumes met vertrouwen en betrouwbaarheid"
+      },
+      "localExpertise": {
+        "title": "Lokale Marktkennis",
+        "description": "Diepgaand begrip van lokale markten en regelgeving"
+      }
+    },
+    "services": {
+      "customsClearance": "Douaneafhandeling",
+      "fulfillment": "E-commerce Fulfilment",
+      "trucking": "Transportdiensten",
+      "lastMile": "Last-Mile Levering",
+      "warehousing": "Internationale Opslag",
+      "compliance": "Regelgevende Naleving"
+    },
+    "cta": {
+      "title": "Klaar om Wereldwijd uit te Breiden?",
+      "subtitle": "Laat MMcore u helpen bij het navigeren door grensoverschrijdende logistiek en uitzonderlijke klantervaringen wereldwijd te leveren.",
+      "getStarted": "Start Vandaag",
+      "learnMore": "Lees Meer"
+    }
   }
 }

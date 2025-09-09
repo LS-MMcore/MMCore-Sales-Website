@@ -712,5 +712,121 @@
       "title": "Bereit, Ihren Transport zu optimieren?",
       "subtitle": "Straffen Sie Ihre Logistikabläufe mit unserem umfassenden Transport Management System."
     }
+  },
+  "fulfilment": {
+    "hero": {
+      "title": "Nahtlose Logistik- & Fulfilment-Lösungen",
+      "subtitle": "Wir verbinden Marken, Hersteller und Logistikpartner in ganz Europa und dem Vereinigten Königreich mit effizienter, maßgeschneiderter 3PL- und 4PL-Unterstützung.",
+      "badges": {
+        "europeanNetwork": "Umfassendes Europa- & UK-Netzwerk",
+        "tailoredSolutions": "Maßgeschneiderte 3PL- & 4PL-Lösungen",
+        "costEfficiency": "Effizienz & Kostenreduzierung",
+        "endToEnd": "End-to-End Logistikunterstützung"
+      }
+    },
+    "logisticsSolutions": {
+      "title": "Nahtlose Logistik- & Fulfilment-Lösungen in Europa und dem Vereinigten Königreich",
+      "subtitle": "Willkommen bei MMCore, Ihrem vertrauenswürdigen Partner für Logistik- und Supply-Chain-Lösungen. Mit Sitz in den Niederlanden spezialisieren wir uns darauf, Marken, Hersteller und Logistikanbieter mit den richtigen Partnern für E-Commerce-Fulfilment, Lagerhaltung, Versand, Luftfracht und Zollabfertigung zu verbinden – um Effizienz in jeder Phase sicherzustellen.",
+      "conclusion": "Mit MMCore gewinnen Sie einen vertrauenswürdigen Logistikpartner, der Ihre Abläufe optimiert, Ihre Reichweite erweitert und Ihre Supply Chain verbessert. Lassen Sie uns Ihr Geschäft gemeinsam voranbringen.",
+      "optimize": "Optimieren Sie Ihr Fulfilment Heute",
+      "getStarted": "Jetzt Starten",
+      "learnMore": "Mehr Über Unsere Dienstleistungen Erfahren"
+    },
+    "network": {
+      "title": "Umfassendes Europäisches Netzwerk",
+      "description": "Mit unserem umfangreichen 3PL- und 4PL-Netzwerk in Europa und dem Vereinigten Königreich helfen wir Unternehmen, ihre Abläufe zu optimieren, Kosten zu senken und die Effizienz zu steigern. Ob Sie 3PL- oder 4PL-Unterstützung suchen – wir nutzen unser starkes Netzwerk, um die ideale Lösung für Ihre Geschäftsanforderungen zu finden."
+    },
+    "tayloredSolutions": {
+      "title": "Maßgeschneiderte 3PL- & 4PL-Lösungen",
+      "description": "Wir nutzen unser starkes Netzwerk in Europa und dem Vereinigten Königreich, um die perfekte Lösung für Ihre Geschäftsanforderungen zu finden – ganz gleich, ob Sie 3PL- oder 4PL-Unterstützung benötigen."
+    }
+  },
+  "globalEcommerce": {
+    "hero": {
+      "title": "Globale E-Commerce-Lösungen",
+      "subtitle": "Globale Handelsmöglichkeiten durch intelligente Logistik",
+      "description": "MMcore ist ein globaler Logistikdienstleister, der sich auf nahtlose grenzüberschreitende Lösungen für E-Commerce- und Einzelhandelsunternehmen spezialisiert hat. Mit einem strategisch positionierten Netzwerk von Lagern und internationalen Hubs ermöglichen wir schnelle, konforme und kosteneffiziente Paketbewegungen in ganz Europa und wichtigen Weltmärkten.",
+      "additionalInfo": "Unsere Dienstleistungen decken die gesamte Logistikkette ab – von Zollabfertigung und Fulfilment bis hin zu Transport und Last-Mile-Zustellung. Mit lokaler Expertise und skalierbarer Infrastruktur helfen wir Unternehmen, selbstbewusst zu expandieren und weltweit außergewöhnliche Kundenerlebnisse zu bieten.",
+      "trustedPartner": "Vertrauenswürdiger Globaler Logistikpartner",
+      "getStarted": "Jetzt Starten",
+      "badges": {
+        "crossBorder": "Grenzüberschreitende Logistik",
+        "euCustoms": "EU-Zoll-Expertise",
+        "iossCompliance": "IOSS-Konformität",
+        "globalNetwork": "Globales Netzwerk"
+      }
+    },
+    "whoWeAre": {
+      "title": "Wer Wir Sind",
+      "description1": "ist ein globaler Logistikdienstleister, der sich auf nahtlose grenzüberschreitende Lösungen für E-Commerce- und Einzelhandelsunternehmen spezialisiert hat. Mit einem strategisch positionierten Netzwerk von Lagern und internationalen Hubs ermöglichen wir schnelle, konforme und kosteneffiziente Paketbewegungen in ganz Europa und wichtigen Weltmärkten.",
+      "description2": "Unsere Dienstleistungen decken die gesamte Logistikkette ab – von der Zollabfertigung bis zur Last-Mile-Zustellung, wir decken jeden Aspekt Ihrer Logistikanforderungen ab.",
+      "highlights": {
+        "euCompliance": "EU-konform",
+        "globalReach": "Globale Reichweite",
+        "scalableSolutions": "Skalierbare Lösungen",
+        "localExpertise": "Lokale Expertise"
+      },
+      "globalNetworkTitle": "Globales Netzwerk",
+      "globalNetworkDescription": "Unsere strategisch positionierten Lager und internationalen Hubs ermöglichen nahtlose grenzüberschreitende Logistik in Europa und darüber hinaus."
+    },
+    "stats": {
+      "countriesServed": "Bediente Länder",
+      "warehouseLocations": "Lagerstandorte",
+      "dailyParcelVolume": "Tägliches Paketvolumen",
+      "averageTransitTime": "Durchschnittliche Transitzeit"
+    },
+    "overview": {
+      "title": "Umfassende Grenzüberschreitende Lösungen",
+      "description": "MMcore vereinfacht die grenzüberschreitende Logistik für globale E-Commerce-Unternehmen durch eine leistungsstarke Kombination aus strategisch gelegenen Lagern, zuverlässigen Last-Mile-Partnern und tiefgehender lokaler Marktkenntnis.",
+      "compliance": "Unsere bewährte Erfolgsbilanz in der EU-Zollabfertigung – einschließlich IOSS-Konformität – gewährleistet einen reibungslosen und regelkonformen Markteintritt nach Europa. Mit skalierbarer Infrastruktur, die große Paketvolumen täglich bewältigen kann, bieten wir End-to-End-Support, der Unternehmen hilft, selbstbewusst zu wachsen und außergewöhnliche Kundenerlebnisse in ganz Europa zu liefern."
+    },
+    "coreCapabilities": {
+      "title": "Kernkompetenzen",
+      "description": "Alles, was Sie für erfolgreiche globale E-Commerce-Logistik benötigen"
+    },
+    "logisticsChain": {
+      "title": "Komplette Logistikkette",
+      "description": "Von der Zollabfertigung bis zur Last-Mile-Zustellung – wir decken jeden Aspekt Ihrer Logistikanforderungen ab."
+    },
+    "features": {
+      "crossBorderLogistics": {
+        "title": "Grenzüberschreitende Logistik",
+        "description": "Nahtloser internationaler Versand mit Zoll-Expertise"
+      },
+      "warehouseNetwork": {
+        "title": "Strategisches Lagernetzwerk",
+        "description": "Strategisch gelegene Einrichtungen in Europa und wichtigen Weltmärkten"
+      },
+      "customsCompliance": {
+        "title": "EU-Zoll & IOSS-Konformität",
+        "description": "Bewährte Erfahrung in der EU-Zollabfertigung und IOSS-Konformität"
+      },
+      "lastMileDelivery": {
+        "title": "Zuverlässige Last-Mile-Zustellung",
+        "description": "Vertrauenswürdige Zustellpartner für außergewöhnliche Kundenerlebnisse"
+      },
+      "scalableInfrastructure": {
+        "title": "Skalierbare Infrastruktur",
+        "description": "Hohe Paketvolumen mit Zuverlässigkeit und Sicherheit bewältigen"
+      },
+      "localExpertise": {
+        "title": "Lokale Marktkenntnis",
+        "description": "Tiefes Verständnis für lokale Märkte und Vorschriften"
+      }
+    },
+    "services": {
+      "customsClearance": "Zollabfertigung",
+      "fulfillment": "E-Commerce-Fulfilment",
+      "trucking": "Transportdienste",
+      "lastMile": "Last-Mile-Zustellung",
+      "warehousing": "Internationale Lagerhaltung",
+      "compliance": "Regulatorische Konformität"
+    },
+    "cta": {
+      "title": "Bereit, Global zu Expandieren?",
+      "subtitle": "Lassen Sie MMcore Ihnen helfen, sich in der grenzüberschreitenden Logistik zurechtzufinden und weltweit außergewöhnliche Kundenerlebnisse zu liefern.",
+      "getStarted": "Starten Sie Heute",
+      "learnMore": "Mehr Erfahren"
+    }
   }
 }

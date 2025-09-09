@@ -4,20 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import {
-  Warehouse,
-  Database,
-  Zap,
-  BarChart3,
-  Users,
-  CheckCircle,
   Globe,
-  Settings,
-  TrendingUp,
-  Clock,
   Target,
-  Truck,
-  Package,
-  Shield,
+  Box,
   Network,
 } from "lucide-react"
 import Link from "next/link"
@@ -38,7 +27,7 @@ export default function FulfilmentPage() {
             <div className="text-center space-y-4 max-w-4xl mx-auto">
               <div className="flex justify-center mb-6">
                 <div className="p-3 rounded-full" style={{ backgroundColor: "#63b2dc20" }}>
-                  <Warehouse className="h-8 w-8" style={{ color: "#63b2dc" }} />
+                  <Box className="h-8 w-8" style={{ color: "#63b2dc" }} />
                 </div>
               </div>
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl" style={{ color: "#63b2dc" }}>
