@@ -4,7 +4,8 @@
     "tracking": "Tracking",
     "services": "Services",
     "apiDocs": "API Documentation",
-    "contact": "Contact"
+    "contact": "Contact",
+    "portalLogin": "Portal Login"
   },
   "footer": {
     "allRightsReserved": "All rights reserved",
@@ -246,7 +247,7 @@
   },
   "servicesOverview": {
     "title": "Our Software Solutions",
-    "subtitle": "From storage to delivery, WMS and TMS streamline operations and connect your logistics partners with full visibility.",
+    "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL) providers.",
     "wms": {
       "title": "WMS - Warehouse Management System",
       "description": "Complete warehouse management solution with real-time insights, 50+ plug & play connections to ERP/Web systems, and 100% transparent operations.",
@@ -476,13 +477,79 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL and 4PL) providers.",
+      "subtitle": "Designed to efficiently manage and streamline warehouse operations while connecting multiple Third-Party Logistics (3PL) providers.",
       "badges": {
         "saas": "SAAS WMS",
         "realtime": "Real-time Insights",
         "integrations": "50+ Integrations",
         "transparent": "100% Transparent"
       }
+    },
+    "logisticsSolutions": {
+      "title": "Seamless Logistics & Fulfillment Solutions Across Europe and the UK",
+      "subtitle": "Welcome to MMCore, your trusted partner in logistics and supply chain solutions. Based in the Netherlands, we specialize in connecting brands, manufacturers, and logistics providers with the right partners for e-commerce fulfilment, warehousing, shipping, air cargo, and customs clearance. This to ensuring efficiency at every stage",
+      "description": "With our extensive 3PL and 4PL network across Europe and the UK, we help businesses streamline operations, reduce costs, and improve efficiency. Whether you're looking for 3PL or 4PL logistics support, we leverage our strong network across Europe and the UK to find the perfect fit for your business needs.",
+      "conclusion": "With MMCore, you gain a trusted logistics partner that helps streamline your operations, expand your reach, and optimize your supply chain. Let's connect and move your business forward."
+    },
+    "partnerSearch": {
+      "title": "3PL Partner Search in the Netherlands, Europe & UK",
+      "subtitle": "Finding the right third-party logistics (3PL) or fourth-party logistics (4PL) provider is crucial for success. MMCore simplifies this process by matching businesses with reliable fulfilment and logistics partners tailored to their specific needs.",
+      "description": "We connect you with:",
+      "services": [
+        "E-commerce fulfilment centers",
+        "Warehousing solutions",
+        "Shipping and distribution partners",
+        "Customs clearance experts"
+      ]
+    },
+    "ecommerceFulfillment": {
+      "title": "ECommerce Fulfillment",
+      "subtitle": "For e-commerce businesses, fast and efficient fulfilment is key. We help you find partners that provide:",
+      "services": [
+        "Order processing & inventory management",
+        "Pick, pack & ship services",
+        "Cross-border fulfilment for European and UK markets",
+        "Returns management & reverse logistics"
+      ],
+      "description": "Whether you're looking for 3PL or 4PL logistics support, we leverage our strong network across Europe and the UK to find the perfect fit for your business needs."
+    },
+    "warehousingConnections": {
+      "title": "Warehousing Connections",
+      "subtitle": "Need a strategic warehouse location in Europe or the UK? We help businesses find secure, scalable, and cost-effective warehousing solutions, whether for short-term storage or long-term distribution.",
+      "services": [
+        "Cold storage & specialized warehousing",
+        "Flexible & scalable storage solutions",
+        "Integrated warehouse management systems"
+      ]
+    },
+    "shippingFreight": {
+      "title": "Shipping & Freight Solutions",
+      "subtitle": "From local deliveries to international freight, MMCore ensures smooth and cost-efficient transportation. We connect you with trusted shipping and freight partners for:",
+      "services": [
+        "Air cargo & express shipping",
+        "Sea freight & container transport",
+        "Road & last-mile delivery solutions",
+        "Multi-modal transport for optimized efficiency"
+      ]
+    },
+    "customsClearance": {
+      "title": "Customs Clearance & Compliance",
+      "subtitle": "Navigating customs procedures can be complex. MMCore partners with experienced customs clearance specialists to ensure smooth and compliant international trade.",
+      "services": [
+        "Import/export documentation handling",
+        "Duties & tax optimization",
+        "Brexit-ready logistics solutions",
+        "Regulatory compliance & trade advisory"
+      ]
+    },
+    "customSupplyChain": {
+      "title": "Customizing Your Supply Chain Needs",
+      "subtitle": "Every business has unique logistics challenges. At MMCore, we tailor supply chain solutions to fit your specific needs, ensuring seamless operations and cost savings.",
+      "services": [
+        "Custom logistics strategy & optimization",
+        "Scalable fulfilment & warehousing solutions",
+        "Integrated supply chain management"
+      ]
     },
     "saasSystem": {
       "title": "MMcore: SAAS WMS System",
@@ -531,7 +598,7 @@
       }
     },
     "carrierPlatform": {
-      "title": "MMcore: Carrier Platform",
+      "title": "MMCore: Carrier Platform",
       "subtitle": "Plug & play labeling platform connecting all major carriers in Europe",
       "features": {
         "allCarriers": {

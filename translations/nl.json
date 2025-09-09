@@ -1,24 +1,25 @@
 {
   "navigation": {
-    "home": "Startpagina",
-    "tracking": "Zending volgen",
+    "home": "Home",
+    "tracking": "Tracking",
     "services": "Diensten",
     "apiDocs": "API-documentatie",
-    "contact": "Contact opnemen"
+    "contact": "Contact",
+    "portalLogin": "Portaal inloggen"
   },
   "footer": {
     "allRightsReserved": "Alle rechten voorbehouden",
-    "termsOfService": "Servicevoorwaarden",
+    "termsOfService": "Gebruiksvoorwaarden",
     "privacyPolicy": "Privacybeleid",
     "poweredBy": "Aangedreven door"
   },
   "hero": {
     "trustedBy": "Vertrouwd door 500+ bedrijven",
-    "title": "Naadloze logistiek- en Fulfillment oplossingen",
-    "titleHighlight": "Fulfillment",
+    "title": "Naadloze logistiek- en fulfilmentoplossingen",
+    "titleHighlight": "Fulfilment",
     "subtitle": "Verbind merken, fabrikanten en logistieke dienstverleners in Europa en het VK met ons geavanceerde multi-carrier platform.",
     "getStarted": "Begin vandaag nog",
-    "viewApiDocs": "Bekijk API‑docs",
+    "viewApiDocs": "Bekijk API-documentatie",
     "carriers": "35+ vervoerders",
     "carriersDesc": "Wereldwijd netwerk",
     "countries": "50+ landen",
@@ -28,31 +29,31 @@
   },
   "about": {
     "title": "Onze diensten",
-    "subtitle": "Complete verzendoplossingen voor jouw bedrijf",
+    "subtitle": "Complete verzendoplossingen voor uw bedrijf",
     "multiCarrier": {
-      "title": "Multi‑carrier integratie",
-      "description": "Koppel met 35+ vervoerders wereldwijd via één API"
+      "title": "Multi-carrier integratie",
+      "description": "Koppel via één API met 35+ vervoerders wereldwijd"
     },
     "realTimeTracking": {
       "title": "Realtime tracking",
-      "description": "Volg zendingen met live updates en meldingen"
+      "description": "Monitor zendingen met live updates en notificaties"
     },
     "customsSupport": {
-      "title": "Douane‑ondersteuning",
-      "description": "Geautomatiseerde douanedocumenten en compliance"
+      "title": "Douaneondersteuning",
+      "description": "Geautomatiseerde douanedocumentatie en compliance"
     },
     "billingReconciliation": {
-      "title": "Factuurafstemming",
-      "description": "Gestroomlijnd factureren en kostenbeheer over vervoerders"
+      "title": "Facturatie-afstemming",
+      "description": "Gestroomlijnde facturatie en kostenbeheer over vervoerders heen"
     },
-    "learnMore": "Meer over onze diensten"
+    "learnMore": "Meer informatie over onze diensten"
   },
   "tracking": {
-    "title": "Volg je zending",
-    "subtitle": "Voer je trackingnummer in voor realtime updates",
+    "title": "Volg uw zending",
+    "subtitle": "Voer uw trackingnummer in voor realtime updates",
     "placeholder": "Voer trackingnummer in",
-    "trackButton": "Volg pakket",
-    "trackYourPackage": "VOLG JE PAKKET",
+    "trackButton": "Pakket volgen",
+    "trackYourPackage": "VOLG UW PAKKET",
     "enterTrackingNumbers": "Voer trackingnummers in (één per regel)",
     "pleaseEnterTracking": "Voer minimaal één trackingnummer in",
     "somethingWentWrong": "Er ging iets mis",
@@ -64,36 +65,36 @@
   },
   "contact": {
     "title": "Neem contact op",
-    "subtitle": "Klaar om je verzendproces te stroomlijnen? Neem vandaag nog contact met ons op.",
-    "successMessage": "Je bericht is succesvol verzonden!",
+    "subtitle": "Klaar om uw verzendprocessen te stroomlijnen? Neem vandaag nog contact op.",
+    "successMessage": "Uw bericht is succesvol verzonden!",
     "stats": {
       "tms": "TMS",
       "tmsDesc": "Transport Management System",
       "wms": "WMS",
       "wmsDesc": "Warehouse Management System",
-      "support": "24/7 support",
+      "support": "24/7 Support",
       "supportDesc": "Expertondersteuning"
     },
     "info": {
       "title": "Contactgegevens",
-      "email": "E‑mail",
+      "email": "E-mail",
       "emailDesc": "Neem contact op met ons team"
     },
     "form": {
       "title": "Contactformulier",
-      "subtitle": "Stuur ons een bericht en we nemen contact met je op",
+      "subtitle": "Stuur ons een bericht en wij nemen contact met u op",
       "name": "Voornaam",
-      "namePlaceholder": "Vul je voornaam in",
+      "namePlaceholder": "Voer uw voornaam in",
       "lastName": "Achternaam",
-      "lastNamePlaceholder": "Vul je achternaam in",
-      "email": "E‑mailadres",
-      "emailPlaceholder": "Vul je e‑mailadres in",
+      "lastNamePlaceholder": "Voer uw achternaam in",
+      "email": "E-mailadres",
+      "emailPlaceholder": "Voer uw e-mailadres in",
       "company": "Bedrijf",
-      "companyPlaceholder": "Vul je bedrijfsnaam in",
+      "companyPlaceholder": "Voer uw bedrijfsnaam in",
       "enquiry": "Type vraag",
-      "selectEnquiry": "Kies type vraag",
+      "selectEnquiry": "Selecteer type vraag",
       "sending": "Verzenden...",
-      "success": "Je bericht is succesvol verzonden!",
+      "success": "Uw bericht is succesvol verzonden!",
       "enquiryOptions": {
         "sales": "Sales",
         "support": "Technische support",
@@ -104,12 +105,12 @@
         "other": "Overig"
       },
       "message": "Bericht",
-      "messagePlaceholder": "Vertel ons over je verzendbehoeften...",
+      "messagePlaceholder": "Vertel ons over uw verzendbehoeften...",
       "submit": "Bericht verzenden"
     },
     "quickLinks": {
       "title": "Snelle links",
-      "api": "API‑documentatie",
+      "api": "API-documentatie",
       "apiIcon": "📚",
       "features": "Platformfuncties",
       "featuresIcon": "⚡",
@@ -118,49 +119,49 @@
     }
   },
   "services": {
-    "title": "Multi‑carrier tarief- & labelplatform",
-    "subtitle": "Stroomlijn je verzendprocessen met ons uitgebreide platform",
-    "description": "MMCore is een cloud‑based, volledig schaalbare oplossing waarmee bedrijven hun verzendprocessen kunnen beheren, optimaliseren en automatiseren over 35+ vervoerders die leveren aan 50+ landen — allemaal vanuit één centraal systeem.",
+    "title": "Multi-carrier tarief- en labelplatform",
+    "subtitle": "Stroomlijn uw verzendprocessen met ons uitgebreide platform",
+    "description": "MMCore is een cloud-based, volledig schaalbare oplossing waarmee bedrijven hun verzendprocessen over 35+ vervoerders naar 50+ landen vanuit één gecentraliseerd systeem kunnen beheren, optimaliseren en automatiseren.",
     "features": "Platformmogelijkheden",
     "advantages": "Belangrijkste voordelen",
-    "carriers": "Wereldwijd vervoersnetwerk",
-    "readyToOptimize": "Klaar om je logistiek te optimaliseren?",
-    "ctaParagraph": "Ga aan de slag met ons multi‑carrier platform en stroomlijn vandaag nog je verzendprocessen.",
+    "carriers": "Wereldwijd netwerk van vervoerders",
+    "readyToOptimize": "Klaar om uw logistiek te optimaliseren?",
+    "ctaParagraph": "Ga aan de slag met ons multi-carrier platform en stroomlijn vandaag nog uw verzendprocessen.",
     "getStarted": "Aan de slag",
-    "apiDocumentation": "API‑documentatie",
+    "apiDocumentation": "API-documentatie",
     "andManyMore": "En nog veel meer...",
     "badge": {
       "carriers": "35+ vervoerders",
       "countries": "50+ landen",
-      "cloud": "Cloud‑based",
-      "gdpr": "GDPR‑compliant"
+      "cloud": "Cloud-based",
+      "gdpr": "GDPR-conform"
     },
     "platformCapabilities": {
       "title": "Platformmogelijkheden",
-      "description": "Alles wat je nodig hebt om je logistieke processen te stroomlijnen",
+      "description": "Alles wat u nodig heeft om uw logistieke operatie te stroomlijnen",
       "apiIntegration": {
-        "title": "API & EDI‑integratie",
-        "description": "Rechtstreekse integratie met systemen van vervoerders voor realtime gegevensuitwisseling",
+        "title": "API & EDI-integratie",
+        "description": "Directe integratie met systemen van vervoerders voor realtime data-uitwisseling",
         "contractTerm": "Geen langlopende contracten",
         "activation": "Directe activatie",
-        "apiConnection": "Directe API‑koppeling"
+        "apiConnection": "Directe API-koppeling"
       },
       "customsSupport": {
-        "title": "Uitgebreide douane‑ondersteuning",
-        "description": "Geautomatiseerde douanedocumentatie en compliancemanagement",
-        "webshopPlugins": "Webshop‑plugins beschikbaar",
-        "customFrontend": "Ondersteuning voor maatwerk front‑end",
+        "title": "Uitgebreide douaneondersteuning",
+        "description": "Geautomatiseerde douanedocumentatie en compliancebeheer",
+        "webshopPlugins": "Webshop-plugins beschikbaar",
+        "customFrontend": "Ondersteuning voor custom front-end",
         "automatedDataExchange": "Geautomatiseerde gegevensuitwisseling"
       },
       "billingReconciliation": {
-        "title": "Geavanceerde factuurafstemming",
-        "description": "Gestroomlijnde facturatieprocessen met gedetailleerde kostenanalyse",
+        "title": "Geavanceerde facturatie-afstemming",
+        "description": "Gestroomlijnde facturatie met gedetailleerde kostenanalyse",
         "crossBorderShipping": "Grensoverschrijdende verzending",
-        "legalCompliance": "Wettelijke compliance",
+        "legalCompliance": "Naleving van wet- en regelgeving",
         "automatedDataDeletion": "Geautomatiseerde gegevensverwijdering"
       },
       "cloudBased": {
-        "title": "Cloud‑based architectuur",
+        "title": "Cloud-based architectuur",
         "description": "Schaalbaar, veilig en overal toegankelijk",
         "invoiceVerification": "Factuurcontrole",
         "billingErrorDetection": "Detectie van facturatiefouten",
@@ -170,54 +171,54 @@
     "keyAdvantages": {
       "title": "Belangrijkste voordelen",
       "general": "Algemene voordelen",
-      "sales": "Sales‑voordelen",
+      "sales": "Commerciële voordelen",
       "operational": "Operationele voordelen",
       "financial": "Financiële voordelen",
       "lists": {
         "operational": [
-          "Statusrapporten die beloofde vs. werkelijke doorlooptijden vergelijken",
-          "Directe communicatie met klantenservice van vervoerders",
-          "Uitgebreide track‑&‑tracefunctionaliteit",
-          "Meerdere pakket‑injectiepunten per land",
-          "Automatische e‑mailmeldingen voor zendingen",
-          "Ondersteuning voor industriële printers (.ZPL‑formaat)"
+          "Statusrapporten die beloofde versus werkelijke doorlooptijden vergelijken",
+          "Directe klantenservice-communicatie met vervoerders",
+          "Uitgebreide track & trace-functionaliteit",
+          "Meerdere injectiepunten per land",
+          "Automatische e-mailnotificaties voor zendingen",
+          "Compatibel met industriële printers (.ZPL-formaat)"
         ],
         "financial": [
-          "Flexibel tariefbeheer (platform of maatwerk)",
-          "Realtime factuurafstemming",
-          "Automatische detectie van gewichtsafwijkingen",
+          "Flexibel tariefbeheer (platform of custom)",
+          "Realtime facturatie-afstemming",
+          "Automatische detectie van gewichtsverschillen",
           "Directe correctie van facturatiefouten",
-          "Kostenoptimalisatietools",
-          "Financiële rapportage en analyses"
+          "Hulpmiddelen voor kostenoptimalisatie",
+          "Financiële rapportage en analyse"
         ],
         "sales": [
-          "Multi‑carrier flexibiliteit voor de beste tarieven",
-          "Geen invloed op bestaande contracten",
-          "Integratie van eigen vervoerderscontracten",
+          "Multi-carrier flexibiliteit voor de beste tarieven",
+          "Geen inmenging in bestaande contracten",
+          "Integratie van custom vervoerderscontracten",
           "Ondersteuning voor verzending vanaf meerdere locaties",
           "Landspecifieke lokale injectie",
-          "Superieure dekking van het retournetwerk"
+          "Superieure dekking voor retournetwerken"
         ]
       }
     },
     "carrierNetwork": {
-      "title": "Wereldwijd vervoersnetwerk",
-      "subtitle": "Koppel met 35+ vervoerders in 50+ landen",
+      "title": "Wereldwijd netwerk van vervoerders",
+      "subtitle": "Verbind met 35+ vervoerders in 50+ landen",
       "stats": {
         "carriers": "35+",
-        "carriersLabel": "Vervoerspartners",
+        "carriersLabel": "Vervoerderspartners",
         "countries": "50+",
         "countriesLabel": "Bediende landen",
         "shipments": "1M+",
         "shipmentsLabel": "Maandelijkse zendingen",
-        "uptime": "99.9%",
-        "uptimeLabel": "Platform‑uptime",
+        "uptime": "99,9%",
+        "uptimeLabel": "Platform-uptime",
         "injectionPoints": "200+",
         "injectionPointsLabel": "Injectiepunten"
       },
       "section": {
         "title": "Momenteel geïntegreerde vervoerders",
-        "subtitle": "Kies per zending de beste vervoerder op basis van levertijd, prijs en regio"
+        "subtitle": "Kies voor elke zending de beste vervoerder op basis van levertijd, prijs en regio"
       },
       "types": {
         "national": "Nationaal",
@@ -237,7 +238,7 @@
         "france": "Frankrijk",
         "spain": "Spanje",
         "switzerland": "Zwitserland",
-        "nordic": "Scandinavië",
+        "nordic": "Noordse landen",
         "norway": "Noorwegen",
         "europe": "Europa",
         "global": "Wereldwijd"
@@ -246,114 +247,114 @@
   },
   "servicesOverview": {
     "title": "Onze softwareoplossingen",
-    "subtitle": "Van opslag tot levering stroomlijnen WMS en TMS de operaties en verbinden ze uw logistieke partners met volledige zichtbaarheid.",
+    "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, terwijl meerdere Third-Party Logistics (3PL)-providers worden gekoppeld.",
     "wms": {
       "title": "WMS - Warehouse Management System",
-      "description": "Complete magazijnbeheeroplossing met realtime inzichten, 50+ plug‑&‑play koppelingen met ERP/websystemen en 100% transparante operaties.",
+      "description": "Complete magazijnbeheeroplossing met realtime inzichten, 50+ plug & play-koppelingen met ERP/Web-systemen en 100% transparante operaties.",
       "tag": "MMcore WMS"
     },
     "tms": {
       "title": "TMS - Transport Management System",
-      "description": "Uitgebreide plannings‑ en uitvoeringsoplossing voor transport die meerdere vervoerders in Europa verbindt met geavanceerde logistieke mogelijkheden.",
+      "description": "Compleet platform voor transportplanning en -uitvoering dat meerdere vervoerders in Europa verbindt met geavanceerde logistieke mogelijkheden.",
       "tag": "MMcore TMS"
     }
   },
   "apiDocs": {
-    "title": "MMCore API‑documentatie",
-    "subtitle": "Complete referentie voor integratie met ons multi‑carrier verzendplatform",
-    "quickStart": "Snel starten",
+    "title": "MMCore API-documentatie",
+    "subtitle": "Volledige referentie voor integratie met ons multi-carrier verzendplatform",
+    "quickStart": "Snelstart",
     "getUpAndRunning": "Snel aan de slag",
     "signUpForAccount": "Maak een account aan",
-    "includeAuthUser": "Voeg je AUTH_USER en AUTH_PW toe om te authenticeren.",
-    "verifyCredentials": "Controleer je inloggegevens",
+    "includeAuthUser": "Voeg uw AUTH_USER en AUTH_PW toe om te authenticeren.",
+    "verifyCredentials": "Verifieer uw inloggegevens",
     "startProcessing": "Begin met het verwerken van zendingen",
     "exampleAuthentication": "Voorbeeld: Authenticatie",
     "basicExample": "Eenvoudig voorbeeld",
-    "endpointsTitle": "API‑eindpunten",
+    "endpointsTitle": "API-eindpunten",
     "completeReference": "Volledige referentie",
     "parameters": "Parameters",
-    "queryParameters": "Query‑parameters",
+    "queryParameters": "Queryparameters",
     "default": "Standaard",
     "values": "Waarden",
-    "response": "Response",
+    "response": "Respons",
     "example": "Voorbeeld",
     "authentication": "Authenticatie",
-    "secureYourApi": "Beveilig je API",
-    "headerAuthentication": "Header‑authenticatie",
+    "secureYourApi": "Beveilig uw API",
+    "headerAuthentication": "Header-authenticatie",
     "securityNote": "Beveiligingsopmerking",
-    "keepCredentialsSecure": "Houd je inloggegevens veilig.",
+    "keepCredentialsSecure": "Houd uw inloggegevens veilig.",
     "neverExpose": "Stel ze nooit bloot.",
     "useEnvironmentVariables": "Gebruik omgevingsvariabelen.",
-    "additionalResources": "Aanvullende bronnen",
-    "everythingYouNeed": "Alles wat je nodig hebt",
-    "postmanCollection": "Postman‑collectie",
-    "getSupport": "Krijg support",
+    "additionalResources": "Aanvullende resources",
+    "everythingYouNeed": "Alles wat u nodig heeft",
+    "postmanCollection": "Postman-collectie",
+    "getSupport": "Vraag ondersteuning aan",
     "changelog": "Changelog",
     "changelogSubtitle": "Blijf op de hoogte van de nieuwste wijzigingen en verbeteringen",
     "stayUpdated": "Blijf op de hoogte",
     "backToDocumentation": "Terug naar documentatie",
     "faq": {
       "title": "Veelgestelde vragen",
-      "subtitle": "Veelvoorkomende vragen over onze e‑commerce verzendoplossingen",
+      "subtitle": "Veelvoorkomende vragen over onze e-commerce verzendoplossingen",
       "ctaTitle": "Nog vragen?",
-      "ctaSubtitle": "Kun je niet vinden wat je zoekt? Ons supportteam helpt je graag met alle vragen over ons platform.",
-      "ctaButton": "Contact met support",
+      "ctaSubtitle": "Kunt u niet vinden wat u zoekt? Ons supportteam helpt u graag met al uw vragen over ons platform.",
+      "ctaButton": "Neem contact op met support",
       "intro": {
-        "title": "E‑commerce FAQ‑overzicht",
-        "description": "Een e‑commerce FAQ‑pagina geeft snelle antwoorden op veelgestelde vragen over winkelbeleid, verzending, retouren en productdetails. Het is een selfservicebron die de klantervaring verbetert en supportverzoeken vermindert."
+        "title": "E-commerce FAQ-overzicht",
+        "description": "Een e-commerce FAQ-pagina biedt snelle antwoorden op veelgestelde vragen over winkelbeleid, verzending, retouren en productdetails. Het is een selfservicebron om de klantervaring te verbeteren en supportverzoeken te verminderen."
       },
       "items": [
         {
-          "question": "Wat zijn jullie verzendopties en kosten?",
-          "answer": "We bieden meerdere verzendopties via ons netwerk van 35+ vervoerders, waaronder standaard, express en nachtlevering. Verzendkosten variëren per bestemming, pakketgrootte en gekozen vervoerder. Gebruik ons platform om tarieven te vergelijken en de beste optie te kiezen."
+          "question": "Wat zijn jullie verzendopties en -kosten?",
+          "answer": "We bieden meerdere verzendopties via ons netwerk van 35+ vervoerders, waaronder standaard, express en overnight levering. Verzendkosten variëren per bestemming, pakketgrootte en gekozen vervoerder. Gebruik ons platform om tarieven te vergelijken en de beste optie te kiezen."
         },
         {
-          "question": "Ik kreeg een trackinglink van jullie, maar ik heb niets bij jullie besteld.",
-          "answer": "Dat kan kloppen: wij regelen de last‑mile bezorging voor verschillende retailers. Als je bijvoorbeeld iets bij Amazon hebt besteld, kan het zijn dat wij de levering afhandelen."
+          "question": "Ik ontving een trackinglink van jullie, maar ik heb niets bij jullie besteld.",
+          "answer": "Dat kan kloppen, omdat wij de last-mile bezorging voor verschillende retailers regelen. Als u bijvoorbeeld iets bij Amazon heeft besteld, kunnen wij de levering afhandelen."
         },
         {
           "question": "Wanneer ontvang ik mijn bestelling?",
-          "answer": "Levertijden hangen af van de gekozen vervoerder en bestemming. Geschatte leverdata zie je bij het afrekenen en in je trackinglink. Binnenlandse bestellingen komen meestal binnen 1–3 werkdagen aan; internationale leveringen variëren per regio en douaneafhandeling."
+          "answer": "Levertijden hangen af van de gekozen vervoerder en bestemming. Geschatte leverdata ziet u bij het afrekenen en in uw trackinglink. Binnenlandse bestellingen komen doorgaans binnen 1–3 werkdagen aan; internationale leveringen variëren per regio en douaneafhandeling."
         },
         {
           "question": "Hoe kan ik mijn bestelling volgen?",
-          "answer": "Gebruik onze realtime tracking: voer je trackingnummer in op de trackingpagina of volg de link in je bevestigingsmail. Je ontvangt updates bij elke stap van het bezorgproces."
+          "answer": "Gebruik onze realtime tracking: voer uw trackingnummer in op de trackingpagina of volg de link in uw bevestigingsmail. U ontvangt updates bij elke stap van het bezorgproces."
         },
         {
           "question": "Wat zijn de regels voor internationale verzending, invoerrechten en belastingen?",
-          "answer": "Internationale bestellingen kunnen onderworpen zijn aan invoerrechten, belastingen en afhandelingskosten. Afhankelijk van de route en vervoerder verzenden we DDU (Delivered Duties Unpaid) of DDP (Delivered Duties Paid). Eventuele kosten worden bij het afrekenen getoond of bij levering geïnd volgens lokale regelgeving."
+          "answer": "Internationale bestellingen kunnen onderworpen zijn aan douanerechten, belastingen en afhandelingskosten. Afhankelijk van route en vervoerder kan een zending DDU (Delivered Duties Unpaid) of DDP (Delivered Duties Paid) verzonden worden. Eventuele kosten worden bij het afrekenen vermeld of bij levering geïnd volgens lokale regelgeving."
         },
         {
           "question": "Wat is het retourbeleid?",
-          "answer": "De meeste artikelen kun je binnen 30 dagen na levering retourneren, in onbeschadigde staat en originele verpakking, tenzij anders vermeld. Sommige producten hebben categorie‑specifieke retourregels. Retourlabels kun je via ons platform aanmaken voor in aanmerking komende orders."
+          "answer": "De meeste artikelen kunnen binnen 30 dagen na levering in originele staat en verpakking worden geretourneerd, tenzij anders aangegeven. Sommige producten hebben categorie-specifieke retourregels. Retourlabels kunnen via ons platform voor in aanmerking komende orders worden gegenereerd."
         },
         {
           "question": "Hoe maak ik een retour aan?",
-          "answer": "Start een retour vanuit je accountbestelgeschiedenis of neem contact op met ons supportteam. Je ontvangt een retourlabel en instructies. Zodra het artikel is ontvangen en gecontroleerd, storten we terug of ruilen we om — wat jij wilt."
+          "answer": "Start een retour vanuit de bestelgeschiedenis van uw account of neem contact op met ons supportteam. U ontvangt een retourlabel en instructies. Zodra het artikel is ontvangen en gecontroleerd, storten we terug of ruilen we om, afhankelijk van uw voorkeur."
         },
         {
           "question": "Wat moet ik doen als mijn bestelling defect of onjuist is?",
-          "answer": "Neem binnen 7 dagen na levering contact met ons op met je ordernummer en foto’s van het probleem. We regelen vervanging, omruiling of restitutie en sturen indien nodig een voorgefrankeerd retourlabel."
+          "answer": "Neem binnen 7 dagen na levering contact met ons op met uw ordernummer en foto’s van het probleem. We regelen een vervanging, omruiling of terugbetaling en sturen zo nodig een voorafbetaald retourlabel."
         },
         {
           "question": "Hoe wijzig ik een bestelling die ik al heb geplaatst?",
-          "answer": "Wijzigingen zijn mogelijk zolang de order nog niet is verzonden. Als je bestelling nog wordt verwerkt, kun je het adres of de verzendmethode aanpassen of annuleren. Na verzending zijn wijzigingen beperkt — neem dan contact op met de klantenservice."
+          "answer": "Wijzigingen zijn mogelijk zolang de bestelling nog niet is verzonden. Als uw order nog in verwerking is, kunt u het adres of de verzendmethode aanpassen of annuleren. Na verzending zijn wijzigingen beperkt—neem dan contact op met de klantenservice."
         },
         {
           "question": "Hoe zorg ik dat ik de juiste maat of pasvorm bestel?",
-          "answer": "Raadpleeg de maattabel en productafmetingen op de productpagina. Twijfel je tussen twee maten, bekijk dan klantreviews of neem vooraf contact op met support."
+          "answer": "Raadpleeg de maattabel en productmaten op de productpagina. Twijfelt u tussen twee maten, bekijk dan beoordelingen van klanten of neem vooraf contact op met support."
         },
         {
           "question": "Waar komen jullie producten vandaan of hoe worden ze gemaakt?",
-          "answer": "Productpagina’s vermelden herkomst, materialen en productiegegevens als die door het merk zijn aangeleverd. Voor extra informatie over een specifiek item kun je ons customer‑serviceteam benaderen."
+          "answer": "Productpagina’s vermelden herkomst, materialen en productiegegevens wanneer deze door het merk zijn aangeleverd. Voor extra informatie over een specifiek item kunt u contact opnemen met onze klantenservice."
         },
         {
           "question": "Hoe neem ik contact op met de klantenservice?",
-          "answer": "We zijn 24/7 bereikbaar per e‑mail via info@mmcore.eu en via ons contactformulier. Zakelijke klanten kunnen ons ook bereiken via ons API‑supportkanaal."
+          "answer": "Wij zijn 24/7 bereikbaar via e-mail op info@mmcore.eu en via ons contactformulier. Zakelijke klanten kunnen ons ook bereiken via ons API-supportkanaal."
         },
         {
-          "question": "Wat moet ik doen als mijn bestelling nooit is aangekomen?",
-          "answer": "Controleer eerst je trackinglink voor de laatste scan. Bevestig je afleveradres en vraag even bij buren of afhaalpunten. Is het er 2 werkdagen na de verwachte datum nog niet, neem dan contact op met de klantenservice met je ordernummer, dan onderzoeken we het en dienen we indien nodig een claim in."
+          "question": "Wat doe ik als ik mijn bestelling niet heb ontvangen?",
+          "answer": "Controleer eerst uw trackinglink voor de laatste scan. Bevestig uw bezorgadres en informeer bij buren of lokale afhaalpunten. Neem contact op met de klantenservice als de zending 2 werkdagen na de verwachte datum nog niet is bezorgd, zodat we dit kunnen onderzoeken en zo nodig een claim indienen."
         }
       ]
     },
@@ -361,101 +362,101 @@
       "restApi": "REST API",
       "realTimeTracking": "Realtime tracking",
       "manifestProcessing": "Manifestverwerking",
-      "multiCarrier": "Multi‑carrier"
+      "multiCarrier": "Multi-carrier"
     },
     "statusCodes": "Statuscodes",
-    "statusCodesIntro": "Statuscodes die in trackingresponses worden teruggegeven, met hun beschrijvingen",
+    "statusCodesIntro": "Statuscodes die in trackingantwoorden worden teruggegeven met hun beschrijvingen",
     "endpoints": {
       "auth": {
-        "description": "Authenticeer en valideer je API‑gegevens"
+        "description": "Authenticate en valideer uw API-inloggegevens"
       },
       "tracking": {
-        "description": "Haal gedetailleerde trackinginformatie op voor zendingen met uitgebreide query‑parameters",
+        "description": "Verkrijg gedetailleerde trackinginformatie voor zendingen met uitgebreide queryparameters",
         "query": {
-          "lang": "Stelt de taal in voor de API‑response",
-          "flightTrackingSetting": "Bepaalt hoe vlucht/airwaybill‑tracking moet worden afgehandeld",
-          "type": "Specificeert het gebruikte trackingtype",
-          "trackingDetails": "Bepaalt het detailniveau van de trackingresponse"
+          "lang": "Stelt de taal in voor het API-antwoord",
+          "flightTrackingSetting": "Bepaalt hoe flight/waybill tracking moet worden afgehandeld",
+          "type": "Specificeert het type tracking dat wordt gebruikt",
+          "trackingDetails": "Bepaalt het detailniveau in het trackingantwoord"
         }
       },
       "action": {
         "description": "Vraag een vervoerderslabel aan voor een specifiek land met diverse uitvoeropties",
         "query": {
-          "pl": "Y = toon PDF‑label, N = ontvang JSON‑resultaat",
-          "dhlzpl": "Y = ontvang DHL JSON‑label, N = ontvang URL naar PDF",
-          "zpl": "Y = ontvang ZPL‑label indien ondersteund",
-          "o": "Uitvoer is in JSON‑formaat",
-          "dl": "Y = het label wordt binnen deze call opgevraagd"
+          "pl": "Y = Toon PDF-label, N = ontvang JSON-resultaat",
+          "dhlzpl": "Y = ontvang DHL JSON Label, N = ontvang URL om PDF op te halen",
+          "zpl": "Y = ontvang ZPL-label indien ondersteund door de vervoerder",
+          "o": "Uitvoer zal in JSON-formaat zijn",
+          "dl": "Y = het label wordt binnen deze call opgehaald"
         }
       },
       "postManifest": {
         "description": "Upload manifestgegevens naar de database voor zendingverwerking (ondersteunt bulkuploads)",
         "query": {
-          "ls": "Y = vergrendel manifestgegevens (als er geen fouten zijn), N = niet vergrendelen. ALLEEN VAN TOEPASSING OP AIRWAYBILLS"
+          "ls": "Y = Vergrendel manifestgegevens (als er geen fouten zijn), N = Vergrendel manifestgegevens niet. ALLEEN VAN TOEPASSING OP AIRWAYBILLS"
         }
       },
       "lockShipment": {
-        "description": "Vergrendel een zending om verdere wijzigingen te voorkomen (alleen airwaybills). Hiermee wordt gemeld dat de zending compleet is."
+        "description": "Vergrendel een zending om verdere wijzigingen te voorkomen (alleen Airwaybills). Dit geeft aan dat de zending is voltooid."
       }
     },
     "statusCodeDescriptions": {
-      "97": "Aangemeld voor douane",
-      "98": "Labelgegevens zijn vooraf geregistreerd",
+      "97": "Gemanifesteerd voor douane",
+      "98": "Labelgegevens zijn vooringeschreven",
       "99": "Label is aangemaakt",
-      "200": "Aangifte verzending",
-      "201": "Aankomst verzending",
-      "202": "Verzenddocumentatie",
-      "203": "Wijziging verzending",
-      "204": "Annulering verzending",
-      "205": "Douane‑inklaring gestart",
+      "200": "Dispatch-verklaring",
+      "201": "Aankomst dispatch",
+      "202": "Dispatch-documentatie",
+      "203": "Wijziging dispatch",
+      "204": "Annulering dispatch",
+      "205": "Douane-afhandeling gestart",
       "207": "Douaneprobleem",
-      "208": "Geconfisqueerd",
+      "208": "In beslag genomen",
       "209": "Vastgehouden door douane",
       "210": "Documenten nodig",
       "211": "Geaccepteerd",
-      "213": "Pakket ingeklaard",
-      "214": "Handmatig ingeklaard",
+      "213": "Pakket vrijgegeven",
+      "214": "Handmatig vrijgegeven",
       "215": "Geannuleerd",
-      "216": "Aangekomen in faciliteit",
-      "217": "Klaar voor last‑mile",
-      "218": "Vrijgegeven aan last‑mile",
-      "219": "Opdracht uitgezet",
+      "216": "Aangekomen in sorteercentrum",
+      "217": "Gereed voor last mile",
+      "218": "Vrijgegeven voor last mile",
+      "219": "Opdracht uitgegeven",
       "2000": "De zending wordt gevolgd",
-      "2001": "Informatie verzonden, wacht op afhaling door vervoerder",
-      "2002": "De vervoerder heeft de zending opgehaald",
-      "2003": "Onderweg",
-      "2004": "De zending is op bestemming aangekomen",
-      "2005": "Ontvanger informeren om de zending op te halen",
-      "2006": "De zending is aan de ontvanger geleverd",
-      "2007": "Pakketten kwijt, beschadigd, retour, niet opgeëist, etc.",
+      "2001": "Informatie is verzonden, wachten op afhaling door de logistieke dienstverlener",
+      "2002": "De logistieke dienstverlener heeft de zending opgehaald",
+      "2003": "In transit",
+      "2004": "De zending is op de bestemming aangekomen",
+      "2005": "Ontvanger geïnformeerd om de zending op te halen",
+      "2006": "De zending is afgeleverd bij de ontvanger",
+      "2007": "Pakketten zijn verloren gegaan, beschadigd, geretourneerd, niet opgeëist, etc.",
       "2008": "Verzendtijd te lang",
       "3000": "Pakket heeft een depot bereikt",
       "3001": "Uitgaande scan",
-      "3004": "Pakketgegevens bijgewerkt",
-      "3005": "Pakket is aangekomen bij last‑mile vervoerder",
+      "3004": "Pakketdetails bijgewerkt",
+      "3005": "Pakket is aangekomen bij de last-mile vervoerder",
       "3050": "Pakket heeft het depot verlaten",
-      "5000": "Pakket is onderweg voor bezorging",
-      "5001": "Pakket gaat naar de ontvanger",
-      "5002": "Er is een sms‑melding naar de ontvanger gestuurd",
-      "5003": "Pakket gaat naar een pakketkluis",
-      "5004": "Pakket gaat naar een afhaalpunt",
+      "5000": "Pakket is uit voor bezorging",
+      "5001": "Pakket is uit voor bezorging aan ontvanger",
+      "5002": "Een sms-notificatie is naar de ontvanger gestuurd",
+      "5003": "Pakket is uit voor bezorging naar pakketkluis",
+      "5004": "Pakket is uit voor bezorging naar pakketpunt",
       "7000": "Ontvanger was niet thuis, tweede poging:",
-      "7001": "Ontvanger was niet thuis, pakket blijft 5 dagen op het depot",
+      "7001": "Ontvanger was niet thuis, pakket wordt 5 dagen opgeslagen op het depot",
       "7002": "Ontvanger was niet thuis",
-      "7003": "Ontvanger was niet thuis, pakket kan bij een afhaalpunt worden opgehaald",
-      "7004": "Opgeslagen tot op aanvraag",
-      "8000": "Retour afzender",
+      "7003": "Ontvanger was niet thuis, pakket kan worden opgehaald bij een afhaalpunt",
+      "7004": "Opgeslagen tot nader order",
+      "8000": "Retour naar afzender",
       "8001": "Zending geannuleerd",
       "8500": "Extra informatie",
       "9000": "Bezorgd",
       "9001": "Pakket is bij de buren bezorgd",
-      "9002": "Pakket is bij het afhaalpunt bezorgd",
-      "9003": "Pakket is in de pakketbox bezorgd",
-      "9004": "Pakket is op een veilige plek bezorgd",
-      "9005": "Pakket is afgehaald",
+      "9002": "Pakket is afgeleverd bij het pakketpunt",
+      "9003": "Pakket is afgeleverd in de pakketkluis",
+      "9004": "Pakket is op een veilige plaats afgeleverd",
+      "9005": "Pakket is opgehaald",
       "9006": "Retour bezorgd",
       "9500": "Geweigerd",
-      "9501": "Pakket is niet afgehaald",
+      "9501": "Pakket is niet opgehaald",
       "9502": "Pakket is niet bezorgd",
       "9503": "Pakket wordt omgeleid naar een nieuw adres",
       "9600": "Onjuiste adresgegevens"
@@ -464,7 +465,7 @@
       "back": "Terug",
       "loading": "Laden...",
       "error": "Fout",
-      "success": "Succes",
+      "success": "Gelukt",
       "cancel": "Annuleren",
       "confirm": "Bevestigen",
       "save": "Opslaan",
@@ -476,7 +477,7 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, terwijl je meerdere 3PL en 4PL‑providers koppelt.",
+      "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, terwijl meerdere Third-Party Logistics (3PL)-providers worden gekoppeld.",
       "badges": {
         "saas": "SAAS WMS",
         "realtime": "Realtime inzichten",
@@ -484,24 +485,90 @@
         "transparent": "100% transparant"
       }
     },
+    "logisticsSolutions": {
+      "title": "Naadloze logistiek- en fulfilmentoplossingen door heel Europa en het VK",
+      "subtitle": "Welkom bij MMCore, uw vertrouwde partner in logistiek en supply chain-oplossingen. Gevestigd in Nederland, specialiseren wij ons in het verbinden van merken, fabrikanten en logistieke dienstverleners met de juiste partners voor e-commerce fulfilment, warehousing, shipping, air cargo en douane-afhandeling. Dit om efficiëntie in elke fase te waarborgen",
+      "description": "Met ons uitgebreide 3PL- en 4PL-netwerk in Europa en het VK helpen wij bedrijven processen te stroomlijnen, kosten te verlagen en de efficiëntie te verbeteren. Of u nu 3PL- of 4PL-ondersteuning zoekt, wij vinden via ons sterke netwerk de perfecte match voor uw bedrijfsbehoeften.",
+      "conclusion": "Met MMCore krijgt u een vertrouwde logistieke partner die helpt uw operaties te stroomlijnen, uw bereik te vergroten en uw supply chain te optimaliseren. Laten we verbinden en uw bedrijf verder brengen."
+    },
+    "partnerSearch": {
+      "title": "3PL-partnerzoektocht in Nederland, Europa & VK",
+      "subtitle": "De juiste third-party logistics (3PL) of fourth-party logistics (4PL) provider vinden is cruciaal voor succes. MMCore vereenvoudigt dit door bedrijven te koppelen aan betrouwbare fulfilment- en logistieke partners die aansluiten bij hun specifieke behoeften.",
+      "description": "Wij verbinden u met:",
+      "services": [
+        "E-commerce fulfilmentcentra",
+        "Warehousing-oplossingen",
+        "Shipping- en distributiepartners",
+        "Experts in douane-afhandeling"
+      ]
+    },
+    "ecommerceFulfillment": {
+      "title": "E-commerce fulfilment",
+      "subtitle": "Voor e-commercebedrijven is snelle en efficiënte fulfilment essentieel. Wij helpen u partners te vinden die bieden:",
+      "services": [
+        "Orderverwerking & voorraadbeheer",
+        "Pick, pack & ship-services",
+        "Cross-border fulfilment voor Europese en UK-markten",
+        "Retourmanagement & reverse logistics"
+      ],
+      "description": "Zoekt u 3PL- of 4PL-ondersteuning? Wij gebruiken ons sterke netwerk in Europa en het VK om de perfecte match voor uw behoeften te vinden."
+    },
+    "warehousingConnections": {
+      "title": "Warehousing-koppelingen",
+      "subtitle": "Een strategische magazijnlocatie nodig in Europa of het VK? Wij helpen bedrijven veilige, schaalbare en kosteneffectieve warehousing-oplossingen te vinden, voor kortetermijnopslag of langdurige distributie.",
+      "services": [
+        "Koelopslag & gespecialiseerde warehousing",
+        "Flexibele & schaalbare opslagoplossingen",
+        "Geïntegreerde warehouse management systemen"
+      ]
+    },
+    "shippingFreight": {
+      "title": "Verzend- en vrachtoplossingen",
+      "subtitle": "Van lokale leveringen tot internationale vracht: MMCore zorgt voor soepele en kostenefficiënte transporten. We koppelen u aan betrouwbare shipping- en vrachtpartners voor:",
+      "services": [
+        "Air cargo & express shipping",
+        "Zeevracht & containertransport",
+        "Wegtransport & last-mile bezorging",
+        "Multimodaal transport voor optimale efficiëntie"
+      ]
+    },
+    "customsClearance": {
+      "title": "Douane-afhandeling & compliance",
+      "subtitle": "Navigeren door douaneprocedures kan complex zijn. MMCore werkt met ervaren douanespecialisten om zorg te dragen voor vlotte en conforme internationale handel.",
+      "services": [
+        "Afhandeling van import-/exportdocumentatie",
+        "Optimalisatie van invoerrechten & belastingen",
+        "Brexit-proof logistieke oplossingen",
+        "Regulatory compliance & trade advisory"
+      ]
+    },
+    "customSupplyChain": {
+      "title": "Uw supply chain op maat",
+      "subtitle": "Elk bedrijf heeft unieke logistieke uitdagingen. Bij MMCore stemmen we supply chain-oplossingen af op uw specifieke behoeften, voor naadloze operaties en kostenbesparing.",
+      "services": [
+        "Logistieke strategie & optimalisatie op maat",
+        "Schaalbare fulfilment- & warehousing-oplossingen",
+        "Geïntegreerd supply chain management"
+      ]
+    },
     "saasSystem": {
-      "title": "MMcore: SAAS WMS‑systeem",
+      "title": "MMcore: SAAS WMS-systeem",
       "subtitle": "Complete magazijnbeheeroplossing met realtime inzichten en naadloze integraties"
     },
     "features": {
       "realtimeInsight": {
         "title": "Realtime inzicht",
-        "description": "Volledige zichtbaarheid in logistieke operaties voor alle klanten met live data‑updates en uitgebreide rapportage.",
+        "description": "Volledige zichtbaarheid in logistieke operaties voor alle klanten met live data-updates en uitgebreide rapportage.",
         "benefits": [
           "Live voorraadtracking",
           "Realtime orderstatus",
-          "Prestatie‑analyses",
-          "Aangepaste dashboards"
+          "Prestatie-analyses",
+          "Custom dashboards"
         ]
       },
       "flexibleFastSetup": {
-        "title": "Flexibele & snelle setup",
-        "description": "Snel implementeren met minimale configuratie. Je magazijn draait in no‑time.",
+        "title": "Flexibele & snelle implementatie",
+        "description": "Snelle uitrol met minimale configuratie. Krijg uw magazijnoperatie in korte tijd operationeel.",
         "benefits": [
           "Snelle implementatie",
           "Minimale downtime",
@@ -510,48 +577,48 @@
         ]
       },
       "plugPlayConnections": {
-        "title": "50+ plug‑&‑play koppelingen",
-        "description": "Naadloze integratie met grote ERP‑ en websystemen via onze uitgebreide connectorbibliotheek.",
+        "title": "50+ plug & play-koppelingen",
+        "description": "Naadloze integratie met grote ERP- en websystemen via onze uitgebreide connectorbibliotheek.",
         "benefits": [
-          "Integratie met ERP‑systemen",
-          "E‑commerceplatforms",
+          "ERP-systeemintegratie",
+          "E-commerce platforms",
           "Boekhoudsoftware",
-          "Maatwerk API‑koppelingen"
+          "Custom API-koppelingen"
         ]
       },
       "reportingOptions": {
         "title": "20+ rapportagemogelijkheden",
-        "description": "Uitgebreide rapportagesuite met aanpasbare dashboards en automatische rapportgeneratie.",
+        "description": "Uitgebreide rapportagesuite met aanpasbare dashboards en geautomatiseerde rapportgeneratie.",
         "benefits": [
-          "Voorraadrapporten",
-          "Prestatie‑metrics",
+          "Voorraadoverzichten",
+          "Prestatiemetrics",
           "Kostenanalyse",
-          "Compliance‑rapportage"
+          "Compliance-rapportage"
         ]
       }
     },
     "carrierPlatform": {
-      "title": "MMcore: Carrier‑platform",
-      "subtitle": "Plug‑&‑play labelplatform dat alle grote Europese vervoerders verbindt",
+      "title": "MMCore: Carrier Platform",
+      "subtitle": "Plug & play labelplatform dat alle grote Europese vervoerders verbindt",
       "features": {
         "allCarriers": {
           "title": "Alle grote Europese vervoerders",
-          "description": "Koppel met leidende vervoerders in Europa via ons uniforme platform.",
+          "description": "Verbind met leidende vervoerders in Europa via ons uniforme platform.",
           "benefits": [
-            "Integratie met DHL, FedEx, UPS",
-            "Lokale vervoersnetwerken",
+            "DHL, FedEx, UPS-integratie",
+            "Lokale vervoerdersnetwerken",
             "Grensoverschrijdende verzending",
-            "Eén API‑toegang"
+            "Uniforme API-toegang"
           ]
         },
         "performance": {
-          "title": "Prestatie‑tracking & rapportage",
+          "title": "Prestatie-tracking & rapportage",
           "description": "Monitor vervoerdersprestaties met gedetailleerde analyses en rapportages.",
           "benefits": [
-            "Leveringsprestatie‑metrics",
+            "Leveringsprestatie-indicatoren (KPI's)",
             "Kostenvergelijkingsanalyses",
-            "Monitoring van service‑levels",
-            "Aangepaste KPI‑tracking"
+            "Monitoring van servicelevels",
+            "Tracking van custom KPI's"
           ]
         },
         "financial": {
@@ -568,82 +635,82 @@
     },
     "benefits": {
       "title": "Voordelen van gecentraliseerde WMS",
-      "subtitle": "Transformeer je magazijnoperaties met ons uitgebreide beheersysteem",
+      "subtitle": "Transformeer uw magazijnoperaties met ons uitgebreide beheersysteem",
       "items": {
         "enhancedEfficiency": {
-          "title": "Hogere efficiëntie",
+          "title": "Verbeterde efficiëntie",
           "description": "Stroomlijn processen en verhoog de productiviteit",
           "points": [
-            "Minder handmatig werk en papier",
+            "Minder handwerk en papierwerk",
             "Snellere orderafhandeling en kortere doorlooptijden",
-            "Betere arbeidsproductiviteit"
+            "Verbeterde arbeidsproductiviteit"
           ]
         },
         "costSavings": {
           "title": "Kostenbesparing",
           "description": "Optimaliseer uitgaven en maximaliseer ROI",
           "points": [
-            "Lagere operationele kosten door automatisering",
+            "Lagere operationele kosten dankzij automatisering",
             "Lagere voorraadkosten",
-            "Betere inzet van resources en minder verspilling"
+            "Betere inzet van middelen en minder verspilling"
           ]
         },
         "improvedAccuracy": {
-          "title": "Betere nauwkeurigheid",
-          "description": "Minimaliseer fouten en verhoog de betrouwbaarheid",
+          "title": "Hogere nauwkeurigheid",
+          "description": "Minimaliseer fouten en vergroot betrouwbaarheid",
           "points": [
-            "Realtime data‑updates minimaliseren fouten",
-            "Betere voorraadnauwkeurigheid en minder out‑of‑stocks",
-            "Nauwkeuriger orderpicken en verpakken"
+            "Realtime data-updates minimaliseren fouten",
+            "Betere voorraagnauwkeurigheid en minder stock-outs",
+            "Precieze orderpicking en -packing"
           ]
         },
         "scalability": {
           "title": "Schaalbaarheid",
-          "description": "Groei flexibel en met vertrouwen",
+          "description": "Groei met vertrouwen en flexibiliteit",
           "points": [
-            "Schaalbaar voor meerdere magazijnen en hoge volumes",
-            "Flexibel om mee te bewegen met je bedrijf",
-            "Future‑proof architectuur"
+            "Schaalbaar voor meerdere magazijnen en hoge transactievolumes",
+            "Flexibel aanpasbaar aan veranderende bedrijfsbehoeften en groei",
+            "Future-proof architectuur"
           ]
         },
         "betterDecisionMaking": {
           "title": "Betere besluitvorming",
-          "description": "Neem onderbouwde beslissingen met datainsights",
+          "description": "Neem geïnformeerde beslissingen met datainzichten",
           "points": [
-            "Datagedreven inzichten voor strategie",
-            "Meer zicht en controle in de supply chain",
-            "Tevreden klanten door betrouwbare levering"
+            "Data-gedreven inzichten voor strategische planning",
+            "Verbeterde zichtbaarheid en controle in de supply chain",
+            "Hogere klanttevredenheid door betrouwbare levering"
           ]
         }
       }
     },
     "stats": {
-      "warehousesConnected": "Aangesloten magazijnen",
-      "erpIntegrations": "ERP‑integraties",
+      "warehousesConnected": "Verbonden magazijnen",
+      "erpIntegrations": "ERP-integraties",
       "countriesServed": "Bediende landen",
-      "systemUptime": "Systeem‑uptime",
+      "systemUptime": "Systeem-uptime",
       "values": {
         "warehousesConnected": "500+",
         "erpIntegrations": "50+",
         "countriesServed": "25+",
-        "systemUptime": "99.9%"
+        "systemUptime": "99,9%"
       }
     },
     "cta": {
-      "title": "Klaar om je magazijn te transformeren?",
-      "subtitle": "Ervaar de kracht van onze gecentraliseerde WMS‑oplossing en stroomlijn je magazijn vandaag nog.",
+      "title": "Klaar om uw magazijn te transformeren?",
+      "subtitle": "Ervaar de kracht van onze gecentraliseerde WMS-oplossing en stroomlijn vandaag nog uw magazijnoperaties.",
       "getStarted": "Aan de slag",
-      "viewApiDocs": "Bekijk API‑documentatie"
+      "viewApiDocs": "Bekijk API-documentatie"
     }
   },
   "tms": {
     "hero": {
       "title": "Transport Management System",
-      "subtitle": "Complete planning‑ en uitvoeringsoplossing voor transport die meerdere vervoerders in Europa verbindt met geavanceerde logistieke mogelijkheden."
+      "subtitle": "Compleet platform voor transportplanning en -uitvoering dat meerdere vervoerders in Europa verbindt met geavanceerde logistieke mogelijkheden."
     },
     "cta": {
-      "title": "Klaar om je transport te optimaliseren?",
-      "subtitle": "Stroomlijn je logistieke processen met ons uitgebreide Transport Management System."
+      "title": "Klaar om uw transport te optimaliseren?",
+      "subtitle": "Stroomlijn uw logistieke operatie met ons uitgebreide Transport Management System."
     }
   }
 }

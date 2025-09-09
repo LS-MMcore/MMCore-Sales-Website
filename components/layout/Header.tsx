@@ -78,8 +78,8 @@ export default function Header() {
             <DropdownMenuTrigger asChild>
               <button
                 className={`relative h-full flex items-center px-3 lg:px-2 group gap-1 touch-manipulation ${isServicesActive()
-                    ? "text-primary font-semibold"
-                    : "text-foreground hover:text-primary transition-colors"
+                  ? "text-primary font-semibold"
+                  : "text-foreground hover:text-primary transition-colors"
                   }`}
               >
                 {t("navigation.services")}
@@ -129,6 +129,12 @@ export default function Header() {
         </div>
 
         <div className="flex items-center space-x-3">
+          <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white hidden sm:flex">
+            <Link href="/portal" className="touch-manipulation min-h-[44px] px-4">
+              {t("navigation.portalLogin")}
+            </Link>
+          </Button>
+
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="sm" className="gap-2 bg-transparent touch-manipulation min-h-[44px] px-3">
@@ -182,6 +188,16 @@ export default function Header() {
                 </Link>
               ))}
             </div>
+
+            <Link
+              href="https://mmcore.tech"
+              target="_blank"
+              className="block px-3 py-3 rounded-md text-base font-medium text-white text-center touch-manipulation min-h-[48px] flex items-center justify-center mx-2 mb-2"
+              style={{ backgroundColor: "#63b2dc" }}
+              onClick={() => setIsOpen(false)}
+            >
+              {t("navigation.portalLogin")}
+            </Link>
 
             {navItems.slice(2).map(({ href, label }) => (
               <Link

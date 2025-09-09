@@ -547,7 +547,7 @@ curl --location 'https://api.mmcore.tech/post_manifest_data/YOUR_API_KEY' \\
                   className="bg-transparent hover:text-white"
                   style={{ borderColor: "#63b2dc", color: "#63b2dc" }}
                 >
-                  <Link href="/api-docs/changelog">{t("apiDocs.changelog")}</Link>
+                  <Link href="/api-documentation/changelog">{t("apiDocs.changelog")}</Link>
                 </Button>
               </div>
             </div>

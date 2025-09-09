@@ -15,6 +15,10 @@ import {
   TrendingUp,
   Clock,
   Target,
+  Truck,
+  Package,
+  Shield,
+  Network,
 } from "lucide-react"
 import Link from "next/link"
 import Header from "@/components/layout/Header"
@@ -200,9 +204,7 @@ export default function WMSPage() {
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl" style={{ color: "#63b2dc" }}>
                 {t("wms.hero.title")}
               </h1>
-              <p className="mx-auto max-w-[800px] text-slate-700 text-lg md:text-xl">
-                {t("wms.hero.subtitle")}
-              </p>
+              <p className="mx-auto max-w-[800px] text-slate-700 text-lg md:text-xl">{t("wms.hero.subtitle")}</p>
               <div className="flex flex-wrap justify-center gap-2 mt-6">
                 <Badge variant="default" className="text-sm" style={{ backgroundColor: "#63b2dc" }}>
                   {t("wms.hero.badges.saas")}
@@ -221,58 +223,230 @@ export default function WMSPage() {
           </div>
         </section>
 
-        {/* E-warehouse Features */}
+        {/* Logistics Solutions Overview Section */}
+        <section className="w-full py-16 md:py-24 bg-gradient-to-br from-slate-50 to-white">
+          <div className="container px-4 md:px-6">
+            {/* Main Title and Intro */}
+            <div className="text-center space-y-6 max-w-4xl mx-auto mb-16">
+              <div className="flex justify-center mb-6">
+                <div className="p-4 rounded-full bg-gradient-to-br from-[#63b2dc] to-[#4a9bc7]">
+                  <Globe className="h-10 w-10 text-white" />
+                </div>
+              </div>
+              <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl text-slate-800">
+                {t("wms.logisticsSolutions.title")}
+              </h2>
+              <p className="text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
+                {t("wms.logisticsSolutions.subtitle")}
+              </p>
+            </div>
+
+            {/* Key Value Propositions */}
+            <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-16">
+              <Card className="border-[#63b2dc]/20 bg-white/80 backdrop-blur-sm">
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-4">
+                    <div className="p-3 rounded-lg bg-[#63b2dc]/10">
+                      <Network className="h-8 w-8 text-[#63b2dc]" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-slate-800 mb-3">Extensive European Network</h3>
+                      <p className="text-slate-600 leading-relaxed">{t("wms.logisticsSolutions.description")}</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-[#63b2dc]/20 bg-white/80 backdrop-blur-sm">
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-4">
+                    <div className="p-3 rounded-lg bg-[#63b2dc]/10">
+                      <Target className="h-8 w-8 text-[#63b2dc]" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-slate-800 mb-3">Tailored Solutions</h3>
+                      <p className="text-slate-600 leading-relaxed">
+                        We leverage our strong network across Europe and the UK to find the perfect fit for your
+                        business needs, whether you're looking for 3PL or 4PL logistics support.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Logistics Services Grid Section */}
         <section className="w-full py-12 md:py-24 bg-slate-50">
+          <div className="container px-4 md:px-6">
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+              {/* 3PL Partner Search */}
+              <Card className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
+                <CardHeader>
+                  <div className="flex items-center space-x-3">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                      <Network className="h-6 w-6" style={{ color: "#63b2dc" }} />
+                    </div>
+                    <CardTitle className="text-xl text-slate-800">{t("wms.partnerSearch.title")}</CardTitle>
+                  </div>
+                  <CardDescription className="text-base text-slate-600">
+                    {t("wms.partnerSearch.subtitle")}
+                  </CardDescription>
+                  <p className="text-sm text-slate-600 font-medium">{t("wms.partnerSearch.description")}</p>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    {["0", "1", "2", "3"].map((idx) => (
+                      <li key={idx} className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
+                        <span className="text-sm text-slate-600">{t(`wms.partnerSearch.services.${idx}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* E-commerce Fulfillment */}
+              <Card className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
+                <CardHeader>
+                  <div className="flex items-center space-x-3">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                      <Package className="h-6 w-6" style={{ color: "#63b2dc" }} />
+                    </div>
+                    <CardTitle className="text-xl text-slate-800">{t("wms.ecommerceFulfillment.title")}</CardTitle>
+                  </div>
+                  <CardDescription className="text-base text-slate-600">
+                    {t("wms.ecommerceFulfillment.subtitle")}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2 mb-4">
+                    {["0", "1", "2", "3"].map((idx) => (
+                      <li key={idx} className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
+                        <span className="text-sm text-slate-600">{t(`wms.ecommerceFulfillment.services.${idx}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-sm text-slate-600">{t("wms.ecommerceFulfillment.description")}</p>
+                </CardContent>
+              </Card>
+
+              {/* Warehousing Connections */}
+              <Card className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
+                <CardHeader>
+                  <div className="flex items-center space-x-3">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                      <Warehouse className="h-6 w-6" style={{ color: "#63b2dc" }} />
+                    </div>
+                    <CardTitle className="text-xl text-slate-800">{t("wms.warehousingConnections.title")}</CardTitle>
+                  </div>
+                  <CardDescription className="text-base text-slate-600">
+                    {t("wms.warehousingConnections.subtitle")}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    {["0", "1", "2", "3"].map((idx) => (
+                      <li key={idx} className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
+                        <span className="text-sm text-slate-600">{t(`wms.warehousingConnections.services.${idx}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Shipping & Freight */}
+              <Card className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
+                <CardHeader>
+                  <div className="flex items-center space-x-3">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                      <Truck className="h-6 w-6" style={{ color: "#63b2dc" }} />
+                    </div>
+                    <CardTitle className="text-xl text-slate-800">{t("wms.shippingFreight.title")}</CardTitle>
+                  </div>
+                  <CardDescription className="text-base text-slate-600">
+                    {t("wms.shippingFreight.subtitle")}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    {["0", "1", "2", "3"].map((idx) => (
+                      <li key={idx} className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
+                        <span className="text-sm text-slate-600">{t(`wms.shippingFreight.services.${idx}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Customs Clearance */}
+              <Card className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
+                <CardHeader>
+                  <div className="flex items-center space-x-3">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                      <Shield className="h-6 w-6" style={{ color: "#63b2dc" }} />
+                    </div>
+                    <CardTitle className="text-xl text-slate-800">{t("wms.customsClearance.title")}</CardTitle>
+                  </div>
+                  <CardDescription className="text-base text-slate-600">
+                    {t("wms.customsClearance.subtitle")}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    {["0", "1", "2", "3"].map((idx) => (
+                      <li key={idx} className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
+                        <span className="text-sm text-slate-600">{t(`wms.customsClearance.services.${idx}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Custom Supply Chain */}
+              <Card className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
+                <CardHeader>
+                  <div className="flex items-center space-x-3">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                      <Settings className="h-6 w-6" style={{ color: "#63b2dc" }} />
+                    </div>
+                    <CardTitle className="text-xl text-slate-800">{t("wms.customSupplyChain.title")}</CardTitle>
+                  </div>
+                  <CardDescription className="text-base text-slate-600">
+                    {t("wms.customSupplyChain.subtitle")}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    {["0", "1", "2", "3"].map((idx) => (
+                      <li key={idx} className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
+                        <span className="text-sm text-slate-600">{t(`wms.customSupplyChain.services.${idx}`)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* E-warehouse Features */}
+        <section className="w-full py-12 md:py-24 bg-white">
           <div className="container px-4 md:px-6">
             <div className="text-center space-y-4 mb-12">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-slate-800">
                 {t("wms.saasSystem.title")}
               </h2>
-              <p className="mx-auto max-w-[700px] text-slate-600 md:text-lg">
-                {t("wms.saasSystem.subtitle")}
-              </p>
+              <p className="mx-auto max-w-[700px] text-slate-600 md:text-lg">{t("wms.saasSystem.subtitle")}</p>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 max-w-6xl mx-auto">
               {wmsFeatures.map((feature, index) => (
-                <Card key={index} className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
-                  <CardHeader>
-                    <div className="flex items-center space-x-3">
-                      <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
-                        <feature.icon className="h-6 w-6" style={{ color: "#63b2dc" }} />
-                      </div>
-                      <CardTitle className="text-xl text-slate-800">{feature.title}</CardTitle>
-                    </div>
-                    <CardDescription className="text-base text-slate-600">{feature.description}</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-2">
-                      {feature.benefits.map((benefit, idx) => (
-                        <li key={idx} className="flex items-center space-x-2">
-                          <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
-                          <span className="text-sm text-slate-600">{benefit}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Carrier Platform Section */}
-        <section className="w-full py-12 md:py-24 bg-white">
-          <div className="container px-4 md:px-6">
-            <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-slate-800">
-                {t("wms.carrierPlatform.title")}
-              </h2>
-              <p className="mx-auto max-w-[700px] text-slate-600 md:text-lg">
-                {t("wms.carrierPlatform.subtitle")}
-              </p>
-            </div>
-            <div className="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto">
-              {carrierPlatformFeatures.map((feature, index) => (
                 <Card key={index} className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
                   <CardHeader>
                     <div className="flex items-center space-x-3">
@@ -306,12 +480,8 @@ export default function WMSPage() {
         >
           <div className="container px-4 md:px-6">
             <div className="text-center space-y-4 mb-12">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">
-                {t("wms.benefits.title")}
-              </h2>
-              <p className="mx-auto max-w-[700px] text-white/90 md:text-lg">
-                {t("wms.benefits.subtitle")}
-              </p>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">{t("wms.benefits.title")}</h2>
+              <p className="mx-auto max-w-[700px] text-white/90 md:text-lg">{t("wms.benefits.subtitle")}</p>
             </div>
 
             {/* Stats */}
@@ -360,8 +530,47 @@ export default function WMSPage() {
           </div>
         </section>
 
+        {/* Carrier Platform Section */}
+        <section className="w-full py-12 md:py-24" style={{ backgroundColor: "#63b2dc20" }}>
+          <div className="container px-4 md:px-6">
+            <div className="text-center space-y-4 mb-12">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-slate-800">
+                {t("wms.carrierPlatform.title")}
+              </h2>
+              <p className="mx-auto max-w-[700px] text-slate-600 md:text-lg">{t("wms.carrierPlatform.subtitle")}</p>
+            </div>
+            <div className="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto">
+              {carrierPlatformFeatures.map((feature, index) => (
+                <Card key={index} className="h-full border-[#63b2dc]/30 hover:border-[#63b2dc]/50 transition-colors">
+                  <CardHeader>
+                    <div className="flex items-center space-x-3">
+                      <div className="p-2 rounded-lg" style={{ backgroundColor: "#63b2dc20" }}>
+                        <feature.icon className="h-6 w-6" style={{ color: "#63b2dc" }} />
+                      </div>
+                      <CardTitle className="text-xl text-slate-800">{feature.title}</CardTitle>
+                    </div>
+                    <CardDescription className="text-base text-slate-600">{feature.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-2">
+                      {feature.benefits.map((benefit, idx) => (
+                        <li key={idx} className="flex items-center space-x-2">
+                          <CheckCircle className="h-4 w-4 flex-shrink-0" style={{ color: "#63b2dc" }} />
+                          <span className="text-sm text-slate-600">{benefit}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+
+
+
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24" style={{ backgroundColor: "#63b2dc10" }}>
+        <section className="w-full py-12 md:py-24 bg-white">
           <div className="container px-4 md:px-6">
             <div className="text-center space-y-6 max-w-2xl mx-auto">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl" style={{ color: "#63b2dc" }}>
