@@ -549,6 +549,15 @@
       "title": "MMcore: SAAS WMS System",
       "subtitle": "Complete warehouse management solution with real-time insights and seamless integrations"
     },
+    "logisticsSolutions": {
+      "title": "Seamless Logistics & Fulfilment Solutions Across Europe and the UK",
+      "description": "At MMCore, we provide end-to-end logistics solutions tailored to your business needs.",
+      "subtitle": "Welcome to MMCore, your trusted partner in logistics and supply chain solutions. Based in the Netherlands, we specialize in connecting brands, manufacturers, and logistics providers with the right partners for e-commerce fulfilment, warehousing, shipping, air cargo, and customs clearance. This to ensuring efficiency at every stage",
+      "conclusion": "With MMCore, you gain a trusted logistics partner that helps streamline your operations, expand your reach, and optimize your supply chain. Let's connect and move your business forward.",
+      "optimize": "Optimize Your Fulfilment Today",
+      "getStarted": "Get Started Today",
+      "learnMore": "Learn More About Our Services"
+    },
     "features": {
       "realtimeInsight": {
         "title": "Real-time Insight",
@@ -717,14 +726,6 @@
         "costEfficiency": "Efficiency & Cost Reduction",
         "endToEnd": "End-to-End Logistics Support"
       }
-    },
-    "logisticsSolutions": {
-      "title": "Seamless Logistics & Fulfilment Solutions Across Europe and the UK",
-      "subtitle": "Welcome to MMCore, your trusted partner in logistics and supply chain solutions. Based in the Netherlands, we specialize in connecting brands, manufacturers, and logistics providers with the right partners for e-commerce fulfilment, warehousing, shipping, air cargo, and customs clearance. This to ensuring efficiency at every stage",
-      "conclusion": "With MMCore, you gain a trusted logistics partner that helps streamline your operations, expand your reach, and optimize your supply chain. Let's connect and move your business forward.",
-      "optimize": "Optimize Your Fulfilment Today",
-      "getStarted": "Get Started Today",
-      "learnMore": "Learn More About Our Services"
     },
     "network": {
       "title": "Extensive European Network",

@@ -477,83 +477,86 @@
   "wms": {
     "hero": {
       "title": "Warehouse Management System",
-      "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, terwijl meerdere Third-Party Logistics (3PL)-providers worden gekoppeld.",
+      "subtitle": "Ontworpen om magazijnprocessen efficiënt te beheren en te stroomlijnen, en meerdere Third-Party Logistics (3PL)-providers te verbinden.",
       "badges": {
-        "saas": "SAAS WMS",
+        "saas": "SaaS-WMS",
         "realtime": "Realtime inzichten",
         "integrations": "50+ integraties",
         "transparent": "100% transparant"
       }
     },
-    "logisticsSolutions": {
-      "title": "Naadloze logistiek- en fulfilmentoplossingen door heel Europa en het VK",
-      "subtitle": "Welkom bij MMCore, uw vertrouwde partner in logistiek en supply chain-oplossingen. Gevestigd in Nederland, specialiseren wij ons in het verbinden van merken, fabrikanten en logistieke dienstverleners met de juiste partners voor e-commerce fulfilment, warehousing, shipping, air cargo en douane-afhandeling. Dit om efficiëntie in elke fase te waarborgen",
-      "description": "Met ons uitgebreide 3PL- en 4PL-netwerk in Europa en het VK helpen wij bedrijven processen te stroomlijnen, kosten te verlagen en de efficiëntie te verbeteren. Of u nu 3PL- of 4PL-ondersteuning zoekt, wij vinden via ons sterke netwerk de perfecte match voor uw bedrijfsbehoeften.",
-      "conclusion": "Met MMCore krijgt u een vertrouwde logistieke partner die helpt uw operaties te stroomlijnen, uw bereik te vergroten en uw supply chain te optimaliseren. Laten we verbinden en uw bedrijf verder brengen."
-    },
     "partnerSearch": {
-      "title": "3PL-partnerzoektocht in Nederland, Europa & VK",
-      "subtitle": "De juiste third-party logistics (3PL) of fourth-party logistics (4PL) provider vinden is cruciaal voor succes. MMCore vereenvoudigt dit door bedrijven te koppelen aan betrouwbare fulfilment- en logistieke partners die aansluiten bij hun specifieke behoeften.",
+      "title": "3PL-partnerzoektocht in Nederland, Europa & het VK",
+      "subtitle": "De juiste third-party logistics (3PL) of fourth-party logistics (4PL) partner vinden is cruciaal voor succes. MMCore maakt dit eenvoudig door bedrijven te matchen met betrouwbare fulfilment- en logistiekpartners die aansluiten op hun specifieke behoeften.",
       "description": "Wij verbinden u met:",
       "services": [
-        "E-commerce fulfilmentcentra",
-        "Warehousing-oplossingen",
-        "Shipping- en distributiepartners",
-        "Experts in douane-afhandeling"
+        "E-commerce-fulfilmentcentra",
+        "Magazijnoplossingen",
+        "Verzend- en distributiepartners",
+        "Douane-experts"
       ]
     },
     "ecommerceFulfillment": {
-      "title": "E-commerce fulfilment",
-      "subtitle": "Voor e-commercebedrijven is snelle en efficiënte fulfilment essentieel. Wij helpen u partners te vinden die bieden:",
+      "title": "E-commerce-fulfilment",
+      "subtitle": "Voor e-commercebedrijven zijn snelle en efficiënte fulfilmentprocessen essentieel. Wij helpen u partners te vinden die bieden:",
       "services": [
         "Orderverwerking & voorraadbeheer",
-        "Pick, pack & ship-services",
-        "Cross-border fulfilment voor Europese en UK-markten",
-        "Retourmanagement & reverse logistics"
+        "Picken, packen & verzenden",
+        "Grensoverschrijdende fulfilment voor Europese en Britse markten",
+        "Retourbeheer & omgekeerde logistiek"
       ],
-      "description": "Zoekt u 3PL- of 4PL-ondersteuning? Wij gebruiken ons sterke netwerk in Europa en het VK om de perfecte match voor uw behoeften te vinden."
+      "description": "Zoekt u 3PL- of 4PL-ondersteuning? Wij benutten ons sterke netwerk in Europa en het VK om de perfecte match voor uw bedrijfsbehoeften te vinden."
     },
     "warehousingConnections": {
-      "title": "Warehousing-koppelingen",
-      "subtitle": "Een strategische magazijnlocatie nodig in Europa of het VK? Wij helpen bedrijven veilige, schaalbare en kosteneffectieve warehousing-oplossingen te vinden, voor kortetermijnopslag of langdurige distributie.",
+      "title": "Magazijnverbindingen",
+      "subtitle": "Een strategische magazijnlocatie nodig in Europa of het VK? Wij helpen bedrijven veilige, schaalbare en kostenefficiënte magazijnoplossingen te vinden, voor zowel kortetermijnopslag als langetermijndistributie.",
       "services": [
-        "Koelopslag & gespecialiseerde warehousing",
+        "Koude opslag & gespecialiseerde warehousing",
         "Flexibele & schaalbare opslagoplossingen",
-        "Geïntegreerde warehouse management systemen"
+        "Geïntegreerde warehousemanagementsystemen"
       ]
     },
     "shippingFreight": {
-      "title": "Verzend- en vrachtoplossingen",
-      "subtitle": "Van lokale leveringen tot internationale vracht: MMCore zorgt voor soepele en kostenefficiënte transporten. We koppelen u aan betrouwbare shipping- en vrachtpartners voor:",
+      "title": "Verzend- & vrachtoplossingen",
+      "subtitle": "Van lokale leveringen tot internationale vracht: MMCore zorgt voor soepel en kostenefficiënt transport. We verbinden u met betrouwbare verzend- en vrachtpartners voor:",
       "services": [
-        "Air cargo & express shipping",
+        "Luchtvracht & expresverzending",
         "Zeevracht & containertransport",
-        "Wegtransport & last-mile bezorging",
+        "Wegtransport & last-mile-oplossingen",
         "Multimodaal transport voor optimale efficiëntie"
       ]
     },
     "customsClearance": {
-      "title": "Douane-afhandeling & compliance",
-      "subtitle": "Navigeren door douaneprocedures kan complex zijn. MMCore werkt met ervaren douanespecialisten om zorg te dragen voor vlotte en conforme internationale handel.",
+      "title": "Douaneafhandeling & compliance",
+      "subtitle": "Navigeren door douaneprocedures kan complex zijn. MMCore werkt samen met ervaren specialisten om soepele en conforme internationale handel te waarborgen.",
       "services": [
         "Afhandeling van import-/exportdocumentatie",
-        "Optimalisatie van invoerrechten & belastingen",
+        "Optimalisatie van rechten & belastingen",
         "Brexit-proof logistieke oplossingen",
-        "Regulatory compliance & trade advisory"
+        "Regelgevingscompliance & handelsadvies"
       ]
     },
     "customSupplyChain": {
-      "title": "Uw supply chain op maat",
-      "subtitle": "Elk bedrijf heeft unieke logistieke uitdagingen. Bij MMCore stemmen we supply chain-oplossingen af op uw specifieke behoeften, voor naadloze operaties en kostenbesparing.",
+      "title": "Aanpassing van uw supply-chainbehoeften",
+      "subtitle": "Elke onderneming heeft unieke logistieke uitdagingen. Bij MMCore stemmen we supply-chainoplossingen af op uw specifieke behoeften, voor naadloze operaties en kostenbesparingen.",
       "services": [
-        "Logistieke strategie & optimalisatie op maat",
-        "Schaalbare fulfilment- & warehousing-oplossingen",
-        "Geïntegreerd supply chain management"
+        "Op maat gemaakte logistieke strategie & optimalisatie",
+        "Schaalbare fulfilment- & magazijnoplossingen",
+        "Geïntegreerd supply-chainmanagement"
       ]
     },
     "saasSystem": {
-      "title": "MMcore: SAAS WMS-systeem",
-      "subtitle": "Complete magazijnbeheeroplossing met realtime inzichten en naadloze integraties"
+      "title": "MMCore: SaaS-WMS-systeem",
+      "subtitle": "Complete warehousemanagementoplossing met realtime inzichten en naadloze integraties"
+    },
+    "logisticsSolutions": {
+      "title": "Naadloze logistiek- & fulfilmentoplossingen in Europa en het VK",
+      "description": "Bij MMCore leveren we end-to-end logistieke oplossingen op maat van uw bedrijfsbehoeften.",
+      "subtitle": "Welkom bij MMCore, uw vertrouwde partner in logistiek en supply-chainoplossingen. Vanuit Nederland verbinden we merken, fabrikanten en logistieke dienstverleners met de juiste partners voor e-commerce-fulfilment, warehousing, verzending, luchtvracht en douaneafhandeling—en zorgen zo voor efficiëntie in elke stap.",
+      "conclusion": "Met MMCore krijgt u een betrouwbare logistieke partner die uw operaties stroomlijnt, uw bereik vergroot en uw supply chain optimaliseert. Laten we samenwerken en uw bedrijf vooruit helpen.",
+      "optimize": "Optimaliseer vandaag nog uw fulfilment",
+      "getStarted": "Ga vandaag nog aan de slag",
+      "learnMore": "Lees meer over onze diensten"
     },
     "features": {
       "realtimeInsight": {
@@ -563,12 +566,12 @@
           "Live voorraadtracking",
           "Realtime orderstatus",
           "Prestatie-analyses",
-          "Custom dashboards"
+          "Aangepaste dashboards"
         ]
       },
       "flexibleFastSetup": {
         "title": "Flexibele & snelle implementatie",
-        "description": "Snelle uitrol met minimale configuratie. Krijg uw magazijnoperatie in korte tijd operationeel.",
+        "description": "Snelle uitrol met minimale configuratie. Zet uw magazijnoperaties razendsnel op.",
         "benefits": [
           "Snelle implementatie",
           "Minimale downtime",
@@ -577,53 +580,53 @@
         ]
       },
       "plugPlayConnections": {
-        "title": "50+ plug & play-koppelingen",
-        "description": "Naadloze integratie met grote ERP- en websystemen via onze uitgebreide connectorbibliotheek.",
+        "title": "50+ plug-&-play-koppelingen",
+        "description": "Naadloze integratie met toonaangevende ERP- en websysteem via onze uitgebreide connectorbibliotheek.",
         "benefits": [
-          "ERP-systeemintegratie",
-          "E-commerce platforms",
+          "Integratie met ERP-systemen",
+          "E-commerceplatforms",
           "Boekhoudsoftware",
-          "Custom API-koppelingen"
+          "Aangepaste API-koppelingen"
         ]
       },
       "reportingOptions": {
         "title": "20+ rapportagemogelijkheden",
         "description": "Uitgebreide rapportagesuite met aanpasbare dashboards en geautomatiseerde rapportgeneratie.",
         "benefits": [
-          "Voorraadoverzichten",
-          "Prestatiemetrics",
-          "Kostenanalyse",
+          "Voorraadrapporten",
+          "Prestatie-indicatoren",
+          "Kostenanalyses",
           "Compliance-rapportage"
         ]
       }
     },
     "carrierPlatform": {
-      "title": "MMCore: Carrier Platform",
-      "subtitle": "Plug & play labelplatform dat alle grote Europese vervoerders verbindt",
+      "title": "MMCore: carrierplatform",
+      "subtitle": "Plug-&-play labelplatform dat alle grote vervoerders in Europa verbindt",
       "features": {
         "allCarriers": {
           "title": "Alle grote Europese vervoerders",
-          "description": "Verbind met leidende vervoerders in Europa via ons uniforme platform.",
+          "description": "Verbind met toonaangevende vervoerders in heel Europa via ons uniforme platform.",
           "benefits": [
-            "DHL, FedEx, UPS-integratie",
-            "Lokale vervoerdersnetwerken",
+            "Integratie met DHL, FedEx, UPS",
+            "Lokale vervoersnetwerken",
             "Grensoverschrijdende verzending",
-            "Uniforme API-toegang"
+            "Eén API-toegang"
           ]
         },
         "performance": {
-          "title": "Prestatie-tracking & rapportage",
-          "description": "Monitor vervoerdersprestaties met gedetailleerde analyses en rapportages.",
+          "title": "Performance-tracking & rapportage",
+          "description": "Monitor de prestaties van vervoerders met gedetailleerde analyses en rapportages.",
           "benefits": [
-            "Leveringsprestatie-indicatoren (KPI's)",
-            "Kostenvergelijkingsanalyses",
-            "Monitoring van servicelevels",
-            "Tracking van custom KPI's"
+            "Leveringsprestatie-metrics",
+            "Kostenvergelijkingen",
+            "Monitoring van serviceniveaus",
+            "Aangepaste KPI-tracking"
           ]
         },
         "financial": {
           "title": "Financieel beheer",
-          "description": "Volledig financieel overzicht voor klanten en vervoerders met geautomatiseerde afstemming.",
+          "description": "Volledig financieel overzicht voor klanten en vervoerders met automatische aflettering.",
           "benefits": [
             "Geautomatiseerde facturatie",
             "Kostenallocatie",
@@ -634,14 +637,14 @@
       }
     },
     "benefits": {
-      "title": "Voordelen van gecentraliseerde WMS",
+      "title": "Voordelen van een gecentraliseerd WMS",
       "subtitle": "Transformeer uw magazijnoperaties met ons uitgebreide beheersysteem",
       "items": {
         "enhancedEfficiency": {
           "title": "Verbeterde efficiëntie",
           "description": "Stroomlijn processen en verhoog de productiviteit",
           "points": [
-            "Minder handwerk en papierwerk",
+            "Minder handmatige processen en papierwerk",
             "Snellere orderafhandeling en kortere doorlooptijden",
             "Verbeterde arbeidsproductiviteit"
           ]
@@ -650,35 +653,35 @@
           "title": "Kostenbesparing",
           "description": "Optimaliseer uitgaven en maximaliseer ROI",
           "points": [
-            "Lagere operationele kosten dankzij automatisering",
+            "Lagere operationele kosten door automatisering",
             "Lagere voorraadkosten",
-            "Betere inzet van middelen en minder verspilling"
+            "Betere inzet van resources en minder verspilling"
           ]
         },
         "improvedAccuracy": {
           "title": "Hogere nauwkeurigheid",
-          "description": "Minimaliseer fouten en vergroot betrouwbaarheid",
+          "description": "Minimaliseer fouten en verhoog de betrouwbaarheid",
           "points": [
-            "Realtime data-updates minimaliseren fouten",
-            "Betere voorraagnauwkeurigheid en minder stock-outs",
-            "Precieze orderpicking en -packing"
+            "Realtime data-updates beperken fouten",
+            "Betere voorraaddauwkeurigheid en minder stockouts",
+            "Precies orderpicken en verpakken"
           ]
         },
         "scalability": {
           "title": "Schaalbaarheid",
           "description": "Groei met vertrouwen en flexibiliteit",
           "points": [
-            "Schaalbaar voor meerdere magazijnen en hoge transactievolumes",
-            "Flexibel aanpasbaar aan veranderende bedrijfsbehoeften en groei",
-            "Future-proof architectuur"
+            "Schaalbaar voor meerdere magazijnen en hoge transacties",
+            "Flexibel om mee te bewegen met veranderende behoeften",
+            "Toekomstbestendige architectuur"
           ]
         },
         "betterDecisionMaking": {
           "title": "Betere besluitvorming",
-          "description": "Neem geïnformeerde beslissingen met datainzichten",
+          "description": "Neem onderbouwde beslissingen met datainsights",
           "points": [
-            "Data-gedreven inzichten voor strategische planning",
-            "Verbeterde zichtbaarheid en controle in de supply chain",
+            "Datagedreven inzichten voor strategische planning",
+            "Meer zicht en controle in de supply chain",
             "Hogere klanttevredenheid door betrouwbare levering"
           ]
         }
@@ -687,8 +690,8 @@
     "stats": {
       "warehousesConnected": "Verbonden magazijnen",
       "erpIntegrations": "ERP-integraties",
-      "countriesServed": "Bediende landen",
-      "systemUptime": "Systeem-uptime",
+      "countriesServed": "Landen bediend",
+      "systemUptime": "Systeem-beschikbaarheid",
       "values": {
         "warehousesConnected": "500+",
         "erpIntegrations": "50+",
@@ -700,7 +703,7 @@
       "title": "Klaar om uw magazijn te transformeren?",
       "subtitle": "Ervaar de kracht van onze gecentraliseerde WMS-oplossing en stroomlijn vandaag nog uw magazijnoperaties.",
       "getStarted": "Aan de slag",
-      "viewApiDocs": "Bekijk API-documentatie"
+      "viewApiDocs": "Bekijk de API-documentatie"
     }
   },
   "tms": {

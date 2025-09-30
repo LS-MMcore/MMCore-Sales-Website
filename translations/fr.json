@@ -474,116 +474,120 @@
       "close": "Fermer"
     }
   },
+
   "wms": {
     "hero": {
-      "title": "Warehouse Management System",
-      "subtitle": "Conçu pour gérer et rationaliser efficacement les opérations d'entrepôt tout en connectant plusieurs prestataires 3PL.",
+      "title": "Système de Gestion d’Entrepôt (WMS)",
+      "subtitle": "Conçu pour gérer et rationaliser efficacement les opérations d’entrepôt tout en connectant plusieurs prestataires 3PL.",
       "badges": {
-        "saas": "SAAS WMS",
-        "realtime": "Informations en temps réel",
+        "saas": "SaaS WMS",
+        "realtime": "Aperçus en temps réel",
         "integrations": "50+ intégrations",
-        "transparent": "100% transparent"
+        "transparent": "100 % transparent"
       }
     },
-    "logisticsSolutions": {
-      "title": "Solutions de logistique & Fulfillment à travers l'Europe et le Royaume-Uni",
-      "subtitle": "Bienvenue chez MMCore, votre partenaire de confiance en logistique et supply chain. Basés aux Pays-Bas, nous mettons en relation marques, fabricants et prestataires logistiques avec les bons partenaires pour l’e-commerce Fulfillment, l'entreposage, le shipping, l’air cargo et le dédouanement—afin d’assurer l’efficacité à chaque étape.",
-      "description": "Grâce à notre vaste réseau 3PL et 4PL en Europe et au Royaume-Uni, nous aidons les entreprises à rationaliser leurs opérations, réduire les coûts et améliorer l’efficacité. Que vous recherchiez un support 3PL ou 4PL, nous trouvons l’adéquation parfaite pour vos besoins.",
-      "conclusion": "Avec MMCore, vous gagnez un partenaire logistique de confiance qui rationalise vos opérations, étend votre portée et optimise votre chaîne d'approvisionnement. Connectons-nous pour faire avancer votre entreprise."
-    },
     "partnerSearch": {
-      "title": "Recherche de partenaires 3PL aux Pays-Bas, en Europe & au Royaume-Uni",
-      "subtitle": "Trouver le bon prestataire third-party logistics (3PL) ou fourth-party logistics (4PL) est crucial. MMCore simplifie ce processus en associant les entreprises à des partenaires fiables de Fulfillment et de logistique adaptés à leurs besoins.",
-      "description": "Nous vous connectons avec :",
+      "title": "Recherche de partenaires 3PL aux Pays-Bas, en Europe et au Royaume-Uni",
+      "subtitle": "Trouver le bon prestataire logistique 3PL ou 4PL est essentiel. MMCore simplifie ce processus en mettant en relation les entreprises avec des partenaires de fulfillment et de logistique fiables, adaptés à leurs besoins.",
+      "description": "Nous vous mettons en relation avec :",
       "services": [
-        "Centres de Fulfillment e-commerce",
+        "Centres de fulfillment e-commerce",
         "Solutions d’entreposage",
-        "Partenaires de shipping et distribution",
+        "Partenaires d’expédition et de distribution",
         "Experts en dédouanement"
       ]
     },
     "ecommerceFulfillment": {
-      "title": "E-commerce Fulfillment",
-      "subtitle": "Pour les entreprises e-commerce, un Fulfillment rapide et efficace est essentiel. Nous vous aidons à trouver des partenaires qui offrent :",
+      "title": "Fulfillment e-commerce",
+      "subtitle": "Pour l’e-commerce, un fulfillment rapide et efficace est primordial. Nous vous aidons à trouver des partenaires qui proposent :",
       "services": [
         "Traitement des commandes & gestion des stocks",
-        "Services pick, pack & ship",
-        "Fulfillment transfrontalier pour les marchés européens et UK",
-        "Gestion des retours & reverse logistics"
+        "Préparation, emballage & expédition",
+        "Fulfillment transfrontalier pour l’Europe et le Royaume-Uni",
+        "Gestion des retours & logistique inversée"
       ],
-      "description": "Que vous recherchiez un support 3PL ou 4PL, nous exploitons notre réseau en Europe et au Royaume-Uni pour trouver la meilleure solution pour votre entreprise."
+      "description": "Que vous recherchiez un soutien 3PL ou 4PL, nous nous appuyons sur notre solide réseau en Europe et au Royaume-Uni pour trouver la solution idéale."
     },
     "warehousingConnections": {
-      "title": "Solutions d’entreposage",
-      "subtitle": "Besoin d’un emplacement stratégique en Europe ou au Royaume-Uni ? Nous vous aidons à trouver des solutions d’entreposage sécurisées, évolutives et économiques, pour du stockage court terme ou la distribution longue durée.",
+      "title": "Connexions d’entreposage",
+      "subtitle": "Besoin d’un entrepôt stratégique en Europe ou au Royaume-Uni ? Nous aidons les entreprises à trouver des solutions sûres, évolutives et rentables, pour le stockage de courte durée comme pour la distribution longue durée.",
       "services": [
-        "Chaine du froid & entreposage spécialisé",
-        "Solutions de stockage flexibles & évolutives",
+        "Chaine du froid & entrepôts spécialisés",
+        "Solutions de stockage flexibles et évolutives",
         "Systèmes de gestion d’entrepôt intégrés"
       ]
     },
     "shippingFreight": {
       "title": "Solutions d’expédition & de fret",
-      "subtitle": "Des livraisons locales au fret international, MMCore assure un transport fluide et économique. Nous vous connectons à des partenaires de shipping et de fret pour :",
+      "subtitle": "Des livraisons locales au fret international, MMCore garantit un transport fluide et économique. Nous vous mettons en relation avec des partenaires de confiance pour :",
       "services": [
-        "Air cargo & express shipping",
+        "Fret aérien & express",
         "Fret maritime & transport conteneurisé",
-        "Routier & last mile",
+        "Routier & dernière livraison (last-mile)",
         "Transport multimodal pour une efficacité optimale"
       ]
     },
     "customsClearance": {
       "title": "Dédouanement & conformité",
-      "subtitle": "Les procédures douanières peuvent être complexes. MMCore s’appuie sur des spécialistes du dédouanement pour garantir un commerce international fluide et conforme.",
+      "subtitle": "Les procédures douanières peuvent être complexes. MMCore collabore avec des spécialistes expérimentés pour assurer un commerce international fluide et conforme.",
       "services": [
         "Gestion de la documentation import/export",
-        "Optimisation des droits & taxes",
+        "Optimisation droits & taxes",
         "Solutions logistiques prêtes pour le Brexit",
-        "Regulatory compliance & trade advisory"
+        "Conformité réglementaire & conseil"
       ]
     },
     "customSupplyChain": {
-      "title": "Personnaliser votre chaîne d’approvisionnement",
-      "subtitle": "Chaque entreprise a des défis logistiques uniques. Chez MMCore, nous adaptons les solutions supply chain à vos besoins spécifiques pour des opérations fluides et des économies.",
+      "title": "Personnaliser vos besoins supply-chain",
+      "subtitle": "Chaque entreprise a des défis logistiques uniques. MMCore adapte des solutions supply-chain à vos besoins spécifiques, pour des opérations fluides et des économies.",
       "services": [
-        "Stratégie logistique & optimisation sur mesure",
-        "Solutions d’échelle en Fulfillment & entreposage",
-        "Gestion intégrée de la supply chain"
+        "Stratégie logistique sur mesure & optimisation",
+        "Solutions d’exécution et d’entreposage évolutives",
+        "Gestion intégrée de la supply-chain"
       ]
     },
     "saasSystem": {
-      "title": "MMcore : Système SAAS WMS",
-      "subtitle": "Solution complète de gestion d'entrepôt avec informations en temps réel et intégrations fluides"
+      "title": "MMCore : système SaaS WMS",
+      "subtitle": "Solution complète de gestion d’entrepôt avec aperçus en temps réel et intégrations sans couture"
+    },
+    "logisticsSolutions": {
+      "title": "Solutions de logistique & fulfillment sans friction en Europe et au Royaume-Uni",
+      "description": "Chez MMCore, nous proposons des solutions logistiques de bout en bout, adaptées aux besoins de votre entreprise.",
+      "subtitle": "Bienvenue chez MMCore, votre partenaire de confiance en logistique et supply-chain. Basés aux Pays-Bas, nous mettons en relation marques, fabricants et logisticiens avec les bons partenaires pour le fulfillment e-commerce, l’entreposage, l’expédition, le fret aérien et le dédouanement, afin d’assurer l’efficacité à chaque étape.",
+      "conclusion": "Avec MMCore, vous gagnez un partenaire fiable qui rationalise vos opérations, étend votre portée et optimise votre supply-chain. Entrons en contact et faisons avancer votre entreprise.",
+      "optimize": "Optimisez votre fulfillment dès aujourd’hui",
+      "getStarted": "Commencer",
+      "learnMore": "En savoir plus sur nos services"
     },
     "features": {
       "realtimeInsight": {
-        "title": "Information en temps réel",
-        "description": "Visibilité complète des opérations logistiques pour tous les clients avec des mises à jour en direct et une reporting avancé.",
+        "title": "Aperçu en temps réel",
+        "description": "Visibilité complète des opérations logistiques pour tous les clients, avec mises à jour en direct et rapports complets.",
         "benefits": [
           "Suivi des stocks en direct",
           "Statut des commandes en temps réel",
-          "Analyses de performances",
-          "Dashboards personnalisés"
+          "Analyses de performance",
+          "Tableaux de bord personnalisés"
         ]
       },
       "flexibleFastSetup": {
-        "title": "Mise en place flexible & rapide",
-        "description": "Déploiement rapide avec configuration minimale. Mettez vos opérations d’entrepôt en route en un rien de temps.",
+        "title": "Mise en œuvre flexible & rapide",
+        "description": "Déploiement rapide avec configuration minimale. Démarrez vos opérations d’entrepôt en un rien de temps.",
         "benefits": [
-          "Implémentation rapide",
+          "Implantation rapide",
           "Temps d’arrêt minimal",
           "Configuration simple",
-          "Onboarding utilisateurs accéléré"
+          "Onboarding utilisateur accéléré"
         ]
       },
       "plugPlayConnections": {
         "title": "50+ connexions plug & play",
-        "description": "Intégration fluide avec les principaux systèmes ERP et web via notre vaste bibliothèque de connecteurs.",
+        "description": "Intégration fluide avec les principaux ERP et systèmes web grâce à notre vaste bibliothèque de connecteurs.",
         "benefits": [
           "Intégration aux systèmes ERP",
           "Plateformes e-commerce",
-          "Logiciels comptables",
-          "Connexions API custom"
+          "Logiciels de comptabilité",
+          "Connexions API personnalisées"
         ]
       },
       "reportingOptions": {
@@ -592,33 +596,33 @@
         "benefits": [
           "Rapports d’inventaire",
           "Indicateurs de performance",
-          "Analyse des coûts",
-          "Reporting conformité"
+          "Analyses de coûts",
+          "Reporting de conformité"
         ]
       }
     },
     "carrierPlatform": {
-      "title": "MMCore : Carrier Platform",
-      "subtitle": "Plateforme d’étiquetage plug & play connectant tous les grands transporteurs européens",
+      "title": "MMCore : plateforme transporteurs",
+      "subtitle": "Plateforme d’étiquetage plug & play reliant tous les grands transporteurs européens",
       "features": {
         "allCarriers": {
           "title": "Tous les grands transporteurs européens",
-          "description": "Connectez-vous aux transporteurs leaders en Europe via notre plateforme unifiée.",
+          "description": "Connectez-vous aux principaux transporteurs en Europe via notre plateforme unifiée.",
           "benefits": [
-            "Intégration DHL, FedEx, UPS",
-            "Réseaux de transporteurs locaux",
-            "Expédition transfrontalière",
+            "Intégration avec DHL, FedEx, UPS",
+            "Réseaux locaux de transport",
+            "Expéditions transfrontalières",
             "Accès API unifié"
           ]
         },
         "performance": {
-          "title": "Tracking des performances & reporting",
-          "description": "Surveillez les performances des transporteurs avec des analyses et rapports détaillés.",
+          "title": "Suivi des performances & reporting",
+          "description": "Surveillez la performance des transporteurs grâce à des analyses et rapports détaillés.",
           "benefits": [
-            "Indicateurs de performance de livraison",
-            "Analyses comparatives des coûts",
+            "Métriques de livraison",
+            "Analyse comparative des coûts",
             "Suivi des niveaux de service",
-            "Suivi de KPI custom"
+            "Suivi de KPI personnalisés"
           ]
         },
         "financial": {
@@ -639,7 +643,7 @@
       "items": {
         "enhancedEfficiency": {
           "title": "Efficacité accrue",
-          "description": "Rationalisez les processus et boostez la productivité",
+          "description": "Rationalisez les opérations et augmentez la productivité",
           "points": [
             "Moins de processus manuels et de paperasse",
             "Traitement des commandes plus rapide et délais réduits",
@@ -650,18 +654,18 @@
           "title": "Réduction des coûts",
           "description": "Optimisez les dépenses et maximisez le ROI",
           "points": [
-            "Coûts opérationnels réduits via l’automatisation",
-            "Diminution des coûts de stockage",
+            "Coûts opérationnels réduits grâce à l’automatisation",
+            "Moindres coûts de stockage",
             "Meilleure utilisation des ressources et moins de gaspillage"
           ]
         },
         "improvedAccuracy": {
           "title": "Précision améliorée",
-          "description": "Minimisez les erreurs et renforcez la fiabilité",
+          "description": "Minimisez les erreurs et augmentez la fiabilité",
           "points": [
-            "Mises à jour de données en temps réel réduisant les erreurs",
-            "Précision d’inventaire renforcée et moins de ruptures",
-            "Préparation de commandes précise"
+            "Mises à jour en temps réel limitant les erreurs",
+            "Meilleure exactitude des stocks et moins de ruptures",
+            "Préparation des commandes et emballage précis"
           ]
         },
         "scalability": {
@@ -669,17 +673,17 @@
           "description": "Croissez avec confiance et flexibilité",
           "points": [
             "Évolutif pour plusieurs entrepôts et volumes élevés",
-            "Flexible pour s’adapter à l’évolution des besoins",
-            "Architecture future-proof"
+            "Flexible pour s’adapter aux besoins changeants",
+            "Architecture pérenne"
           ]
         },
         "betterDecisionMaking": {
           "title": "Meilleure prise de décision",
-          "description": "Décidez avec des insights basés sur les données",
+          "description": "Des choix éclairés grâce aux insights data",
           "points": [
             "Insights data-driven pour la planification stratégique",
-            "Visibilité et contrôle accrus de la supply chain",
-            "Satisfaction client améliorée grâce à une livraison fiable"
+            "Visibilité et contrôle accrus de la supply-chain",
+            "Satisfaction client améliorée grâce à des livraisons fiables"
           ]
         }
       }
@@ -693,12 +697,12 @@
         "warehousesConnected": "500+",
         "erpIntegrations": "50+",
         "countriesServed": "25+",
-        "systemUptime": "99,9%"
+        "systemUptime": "99,9 %"
       }
     },
     "cta": {
       "title": "Prêt à transformer votre entrepôt ?",
-      "subtitle": "Découvrez la puissance de notre solution WMS centralisée et rationalisez vos opérations dès aujourd’hui.",
+      "subtitle": "Découvrez la puissance de notre WMS centralisé et rationalisez vos opérations dès aujourd’hui.",
       "getStarted": "Commencer",
       "viewApiDocs": "Voir la documentation API"
     }
