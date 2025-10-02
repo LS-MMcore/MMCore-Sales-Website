@@ -474,212 +474,216 @@
       "close": "关闭"
     }
   },
+ 
   "wms": {
     "hero": {
-      "title": "Warehouse Management System",
-      "subtitle": "旨在高效管理并简化仓库运营，同时连接多个 3PL 供应商。",
+      "title": "仓库管理系统",
+      "subtitle": "旨在高效管理并简化仓库运营，同时连接多个第三方物流（3PL）服务商。",
       "badges": {
-        "saas": "SAAS WMS",
+        "saas": "SaaS WMS",
         "realtime": "实时洞察",
         "integrations": "50+ 集成",
         "transparent": "100% 透明"
       }
     },
-    "logisticsSolutions": {
-      "title": "覆盖欧洲与英国的无缝物流与 Fulfillment 解决方案",
-      "subtitle": "欢迎使用 MMCore——值得信赖的物流与供应链合作伙伴。我们总部位于荷兰，专注连接品牌、制造商与物流服务商，与合适伙伴开展 e-commerce Fulfillment、warehousing、shipping、air cargo 与清关协作，确保各环节高效。",
-      "description": "依托覆盖欧洲与英国的 3PL 与 4PL 网络，我们帮助企业精简流程、降低成本并提升效率。无论您需要 3PL 还是 4PL 支持，我们都能凭借强大的网络为您的业务匹配最佳方案。",
-      "conclusion": "选择 MMCore，您将获得一个可信赖的物流伙伴，助您精简运营、扩展触达并优化供应链。让我们携手共进。"
-    },
     "partnerSearch": {
-      "title": "在荷兰、欧洲与英国的 3PL 合作伙伴搜寻",
-      "subtitle": "找到合适的 third-party logistics (3PL) 或 fourth-party logistics (4PL) 伙伴至关重要。MMCore 通过为企业匹配可靠的 Fulfillment 与物流伙伴，简化这一过程。",
-      "description": "我们可为您连接：",
+      "title": "荷兰、欧洲及英国的 3PL 合作伙伴搜索",
+      "subtitle": "找到合适的第三方（3PL）或第四方（4PL）物流服务商对成功至关重要。MMCore 通过将企业与可靠的履约与物流伙伴智能匹配，简化这一过程，满足您特定需求。",
+      "description": "我们为您连接：",
       "services": [
-        "电商 Fulfillment 中心",
-        "Warehousing 方案",
-        "Shipping 与分销伙伴",
-        "清关专家"
+        "电子商务履约中心",
+        "仓储解决方案",
+        "运输与分销合作伙伴",
+        "清关与关务专家"
       ]
     },
     "ecommerceFulfillment": {
-      "title": "E-commerce Fulfillment",
-      "subtitle": "对于电商企业，快速高效的 Fulfillment 至关重要。我们帮助您找到可提供：",
+      "title": "电子商务履约",
+      "subtitle": "对电商企业而言，快速高效的履约是关键。我们帮助您寻找可提供以下服务的伙伴：",
       "services": [
         "订单处理与库存管理",
-        "Pick、Pack & Ship 服务",
-        "面向欧洲与英国市场的跨境 Fulfillment",
-        "退货管理与 reverse logistics"
+        "拣货、包装与发货",
+        "面向欧洲与英国市场的跨境履约",
+        "退货管理与逆向物流"
       ],
-      "description": "无论您需要 3PL 还是 4PL 支持，我们将利用覆盖欧洲与英国的网络，为您的业务找到最契合的伙伴。"
+      "description": "无论您需要 3PL 还是 4PL 支持，我们借助覆盖欧洲与英国的强大网络，为您的业务需求找到最合适的合作伙伴。"
     },
     "warehousingConnections": {
-      "title": "Warehousing 连接",
-      "subtitle": "需要位于欧洲或英国的战略仓位？我们帮助企业找到安全、可扩展、具成本效益的 warehousing 方案，无论是短期存储还是长期分销。",
+      "title": "仓储对接",
+      "subtitle": "需要在欧洲或英国布局战略仓库？我们帮助企业找到安全、可扩展、具成本效益的仓储解决方案，无论是短期存储还是长期分销。",
       "services": [
-        "冷链与专项 warehousing",
+        "冷链与专业仓储",
         "灵活可扩展的存储方案",
-        "集成式 warehouse management 系统"
+        "集成式仓库管理系统"
       ]
     },
     "shippingFreight": {
-      "title": "Shipping 与 Freight 方案",
-      "subtitle": "从本地配送到国际 Freight，MMCore 均可确保运输顺畅且具成本优势。我们可为您连接可靠的 shipping 与 freight 伙伴，覆盖：",
+      "title": "运输与货运解决方案",
+      "subtitle": "从本地配送到国际货运，MMCore 确保运输顺畅且具成本效益。我们为您对接可信赖的运输与货运伙伴，覆盖：",
       "services": [
-        "Air cargo 与 express shipping",
+        "航空货运与特快专递",
         "海运与集装箱运输",
-        "公路运输与 last mile",
+        "公路运输与最后一公里配送",
         "多式联运以优化效率"
       ]
     },
     "customsClearance": {
       "title": "清关与合规",
-      "subtitle": "通关流程往往复杂。MMCore 与资深清关专家合作，保障国际贸易顺畅合规。",
+      "subtitle": "应对各类海关流程可能十分复杂。MMCore 与经验丰富的清关专家合作，确保国际贸易顺畅且合规。",
       "services": [
-        "进出口文件处理",
+        "进出口单证办理",
         "关税与税费优化",
-        "面向 Brexit 的物流方案",
-        "Regulatory compliance & trade advisory"
+        "面向脱欧的物流方案",
+        "法规合规与贸易咨询"
       ]
     },
     "customSupplyChain": {
-      "title": "按需定制您的供应链",
-      "subtitle": "每家企业都有独特的物流挑战。MMCore 将为您的特定需求量身定制供应链方案，确保流程顺畅并节约成本。",
+      "title": "定制化供应链需求",
+      "subtitle": "每家企业都面临独特的物流挑战。MMCore 基于您的具体需求量身定制供应链方案，保障流程顺畅并节约成本。",
       "services": [
-        "定制化物流战略与优化",
-        "可扩展的 Fulfillment 与 warehousing 方案",
-        "一体化 supply chain 管理"
+        "定制物流战略与优化",
+        "可扩展的履约与仓储方案",
+        "一体化供应链管理"
       ]
     },
     "saasSystem": {
-      "title": "MMcore：SAAS WMS 系统",
-      "subtitle": "提供实时洞察与无缝集成的完整仓储管理解决方案"
+      "title": "MMCore：SaaS WMS 系统",
+      "subtitle": "全面的仓库管理解决方案，具备实时洞察与无缝集成"
+    },
+    "logisticsSolutions": {
+      "title": "覆盖欧洲与英国的无缝物流与履约解决方案",
+      "description": "在 MMCore，我们提供端到端、量身定制的物流解决方案，以满足您的业务需求。",
+      "subtitle": "欢迎来到 MMCore——值得信赖的物流与供应链合作伙伴。我们总部位于荷兰，专注于将品牌、制造商与物流服务商与合适的电子商务履约、仓储、运输、空运与清关合作伙伴连接起来，确保每一步都高效。",
+      "conclusion": "与 MMCore 合作，您将获得一个值得信赖的物流伙伴，帮助您简化运营、拓展市场并优化供应链。让我们携手推动您的业务前行。",
+      "optimize": "立即优化您的履约",
+      "getStarted": "马上开始",
+      "learnMore": "了解更多我们的服务"
     },
     "features": {
       "realtimeInsight": {
         "title": "实时洞察",
-        "description": "以实时数据更新与全面报表，为所有客户提供端到端物流可视化。",
+        "description": "为所有客户提供对物流运营的完整可视化，实时数据更新与全面报告。",
         "benefits": [
-          "库存实时追踪",
-          "订单实时状态",
+          "库存实时跟踪",
+          "订单状态实时更新",
           "绩效分析",
-          "Custom 仪表板"
+          "自定义仪表板"
         ]
       },
       "flexibleFastSetup": {
         "title": "灵活与快速部署",
-        "description": "以最低配置快速上线，让仓库运营迅速运转。",
+        "description": "以最少配置实现快速上线，让仓库运营迅速运转。",
         "benefits": [
           "快速实施",
-          "最低停机",
-          "简易配置",
-          "敏捷用户上手"
+          "最小化停机时间",
+          "配置便捷",
+          "用户快速上手"
         ]
       },
       "plugPlayConnections": {
-        "title": "50+ plug & play 连接",
-        "description": "通过我们庞大的连接器库，与主流 ERP 与 Web 系统无缝集成。",
+        "title": "50+ 即插即用连接",
+        "description": "通过丰富的连接器库，与主流 ERP 与 Web 系统实现无缝集成。",
         "benefits": [
           "ERP 系统集成",
-          "E-commerce 平台",
+          "电商平台对接",
           "财务/会计软件",
-          "Custom API 连接"
+          "自定义 API 集成"
         ]
       },
       "reportingOptions": {
         "title": "20+ 报表选项",
-        "description": "全面的报表套件，支持自定义仪表板与自动报表生成。",
+        "description": "全面的报表套件，提供可定制的仪表板与自动化报表生成。",
         "benefits": [
           "库存报表",
           "绩效指标",
           "成本分析",
-          "合规报表"
+          "合规报告"
         ]
       }
     },
     "carrierPlatform": {
-      "title": "MMCore：Carrier Platform",
-      "subtitle": "连接全欧主要承运商的 plug & play 标签平台",
+      "title": "MMCore：承运商平台",
+      "subtitle": "即插即用的标签平台，连接欧洲主要承运商",
       "features": {
         "allCarriers": {
-          "title": "覆盖主要欧洲承运商",
+          "title": "欧洲主要承运商全覆盖",
           "description": "通过统一平台连接欧洲领先承运商。",
           "benefits": [
-            "DHL、FedEx、UPS 集成",
-            "本地承运商网络",
+            "对接 DHL、FedEx、UPS",
+            "本地承运网络",
             "跨境运输",
             "统一 API 访问"
           ]
         },
         "performance": {
-          "title": "绩效追踪与报告",
-          "description": "以详尽分析与报表监控承运商表现。",
+          "title": "绩效跟踪与报告",
+          "description": "通过详细分析与报告能力监控承运商表现。",
           "benefits": [
             "交付绩效指标",
             "成本对比分析",
-            "服务等级监控",
-            "自定义 KPI 追踪"
+            "服务水平监控",
+            "自定义 KPI 跟踪"
           ]
         },
         "financial": {
           "title": "财务管理",
-          "description": "面向客户与承运商的全方位财务总览，支持自动对账。",
+          "description": "为客户与承运商提供全面财务管控与自动对账。",
           "benefits": [
-            "自动化计费",
+            "自动计费",
             "成本分摊",
             "发票管理",
-            "财务报告"
+            "财务报表"
           ]
         }
       }
     },
     "benefits": {
       "title": "集中式 WMS 的优势",
-      "subtitle": "用我们的综合管理系统变革您的仓库运营",
+      "subtitle": "以我们全面的管理系统变革您的仓库运营",
       "items": {
         "enhancedEfficiency": {
           "title": "效率提升",
-          "description": "简化流程并提升生产力",
+          "description": "简化运营并提升生产力",
           "points": [
-            "减少手工流程与纸面操作",
-            "更快的订单履约与更短周期",
-            "提高人效"
+            "减少手工流程与纸质工作",
+            "更快的订单履约与更短交付周期",
+            "提高劳效"
           ]
         },
         "costSavings": {
           "title": "成本节约",
-          "description": "优化支出并最大化 ROI",
+          "description": "优化支出并最大化投资回报",
           "points": [
-            "借助自动化降低运营成本",
-            "降低库存持有成本",
-            "更佳资源利用、减少浪费"
+            "通过自动化降低运营成本",
+            "减少库存持有成本",
+            "改善资源利用并降低浪费"
           ]
         },
         "improvedAccuracy": {
-          "title": "准确性提升",
-          "description": "最小化错误并增强可靠性",
+          "title": "更高准确性",
+          "description": "将错误降到最低，提升可靠性",
           "points": [
-            "实时数据更新降低错误率",
-            "更高的库存准确度、减少缺货",
-            "精准拣货与打包"
+            "实时数据更新减少错误",
+            "提升库存准确率，降低缺货",
+            "精准拣选与包装"
           ]
         },
         "scalability": {
           "title": "可扩展性",
-          "description": "以更高的灵活度安心扩张",
+          "description": "以更高的灵活性自信增长",
           "points": [
             "可扩展至多仓与高交易量",
-            "灵活适配业务变化与增长",
-            "Future-proof 架构"
+            "灵活适应业务变化与增长",
+            "面向未来的架构"
           ]
         },
         "betterDecisionMaking": {
-          "title": "更优决策",
-          "description": "以数据洞察驱动选择",
+          "title": "更佳决策",
+          "description": "用数据洞察做出明智选择",
           "points": [
-            "数据驱动的战略规划洞察",
-            "更高的供应链可视与管控",
-            "更可靠交付带来更高满意度"
+            "助力战略规划的数据驱动洞察",
+            "增强供应链可视化与控制力",
+            "以可靠交付提升客户满意度"
           ]
         }
       }
@@ -687,7 +691,7 @@
     "stats": {
       "warehousesConnected": "已连接仓库",
       "erpIntegrations": "ERP 集成",
-      "countriesServed": "覆盖国家",
+      "countriesServed": "服务国家/地区",
       "systemUptime": "系统可用性",
       "values": {
         "warehousesConnected": "500+",
@@ -698,8 +702,8 @@
     },
     "cta": {
       "title": "准备好变革您的仓库了吗？",
-      "subtitle": "体验我们集中式 WMS 的强大能力，今天就精简您的仓储运营。",
-      "getStarted": "开始使用",
+      "subtitle": "立即体验我们集中式 WMS 方案的强大能力，简化您的仓库运营。",
+      "getStarted": "立即开始",
       "viewApiDocs": "查看 API 文档"
     }
   },

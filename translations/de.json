@@ -474,121 +474,125 @@
       "close": "Schließen"
     }
   },
+
   "wms": {
     "hero": {
-      "title": "Warehouse Management System",
-      "subtitle": "Entwickelt, um Lagerabläufe effizient zu steuern und zu straffen, während mehrere 3PL-Anbieter verbunden werden.",
+      "title": "Warehouse-Management-System",
+      "subtitle": "Entwickelt, um Lagerabläufe effizient zu steuern und zu optimieren – und mehrere Third-Party-Logistiker (3PL) zu vernetzen.",
       "badges": {
-        "saas": "SAAS WMS",
-        "realtime": "Echtzeit-Insights",
+        "saas": "SaaS-WMS",
+        "realtime": "Echtzeit-Einblicke",
         "integrations": "50+ Integrationen",
-        "transparent": "100% transparent"
+        "transparent": "100 % transparent"
       }
     },
-    "logisticsSolutions": {
-      "title": "Nahtlose Logistik- & Fulfillment-Lösungen in Europa und dem Vereinigten Königreich",
-      "subtitle": "Willkommen bei MMCore, Ihrem vertrauenswürdigen Partner für Logistik- und Supply-Chain-Lösungen. Mit Sitz in den Niederlanden verbinden wir Marken, Hersteller und Logistikdienstleister mit den richtigen Partnern für E-Commerce Fulfillment, Warehousing, Shipping, Air Cargo und Zollabfertigung – um Effizienz in jeder Phase sicherzustellen.",
-      "description": "Mit unserem umfangreichen 3PL- und 4PL-Netzwerk in Europa und dem Vereinigten Königreich helfen wir Unternehmen, Abläufe zu straffen, Kosten zu senken und die Effizienz zu steigern. Ob 3PL oder 4PL Support – wir finden über unser starkes Netzwerk die perfekte Lösung für Ihre Anforderungen.",
-      "conclusion": "Mit MMCore erhalten Sie einen verlässlichen Logistikpartner, der Ihre Abläufe strafft, Ihre Reichweite erweitert und Ihre Supply Chain optimiert. Lassen Sie uns verbinden und Ihr Business voranbringen."
-    },
     "partnerSearch": {
-      "title": "3PL-Partnersuche in den Niederlanden, Europa & UK",
-      "subtitle": "Den richtigen third-party logistics (3PL) oder fourth-party logistics (4PL) Provider zu finden, ist entscheidend. MMCore vereinfacht dies, indem wir Unternehmen mit zuverlässigen Fulfillment- und Logistikpartnern passend zu ihren Bedürfnissen verbinden.",
-      "description": "Wir verbinden Sie mit:",
+      "title": "3PL-Partnersuche in den Niederlanden, Europa & dem Vereinigten Königreich",
+      "subtitle": "Den richtigen Third-Party-(3PL) oder Fourth-Party-Logistiker (4PL) zu finden, ist entscheidend. MMCore erleichtert dies, indem wir Unternehmen mit verlässlichen Fulfillment- und Logistikpartnern passend zu ihren Anforderungen zusammenbringen.",
+      "description": "Wir vernetzen Sie mit:",
       "services": [
-        "E-Commerce Fulfillment-Zentren",
-        "Warehousing-Lösungen",
-        "Shipping- & Distributionspartnern",
-        "Experten für Zollabfertigung"
+        "E-Commerce-Fulfillment-Zentren",
+        "Lagerlösungen",
+        "Versand- und Distributionspartnern",
+        "Zoll- und Compliance-Experten"
       ]
     },
     "ecommerceFulfillment": {
-      "title": "E-Commerce Fulfillment",
-      "subtitle": "Für E-Commerce-Unternehmen ist schnelles und effizientes Fulfillment entscheidend. Wir helfen Ihnen, Partner zu finden, die Folgendes bieten:",
+      "title": "E-Commerce-Fulfillment",
+      "subtitle": "Für E-Commerce-Unternehmen sind schnelle, effiziente Fulfillment-Prozesse entscheidend. Wir finden Partner, die Folgendes bieten:",
       "services": [
         "Auftragsabwicklung & Bestandsmanagement",
-        "Pick, Pack & Ship-Services",
-        "Grenzüberschreitendes Fulfillment für Europa und UK",
+        "Pick, Pack & Ship",
+        "Grenzüberschreitendes Fulfillment für Europa & UK",
         "Retourenmanagement & Reverse Logistics"
       ],
-      "description": "Ob Sie 3PL- oder 4PL-Support suchen – wir nutzen unser starkes Netzwerk in Europa und UK, um das perfekte Match für Ihr Unternehmen zu finden."
+      "description": "Ob 3PL oder 4PL – mit unserem starken Netzwerk in Europa und dem Vereinigten Königreich finden wir die perfekte Lösung für Ihr Unternehmen."
     },
     "warehousingConnections": {
-      "title": "Warehousing-Verbindungen",
-      "subtitle": "Benötigen Sie einen strategischen Lagerstandort in Europa oder UK? Wir helfen, sichere, skalierbare und kosteneffiziente Warehousing-Lösungen zu finden – für Kurzzeitlagerung oder langfristige Distribution.",
+      "title": "Lagerhaus-Verbindungen",
+      "subtitle": "Sie suchen einen strategischen Lagerstandort in Europa oder UK? Wir finden sichere, skalierbare und kosteneffiziente Lagerlösungen – für kurz- oder langfristige Distribution.",
       "services": [
-        "Kühlketten- & spezialisiertes Warehousing",
-        "Flexible & skalierbare Lagerlösungen",
+        "Kühl- und Speziallager",
+        "Flexible & skalierbare Lagerkapazitäten",
         "Integrierte Warehouse-Management-Systeme"
       ]
     },
     "shippingFreight": {
-      "title": "Shipping & Freight-Lösungen",
-      "subtitle": "Von lokalen Lieferungen bis zu internationalem Freight sorgt MMCore für reibungslose und kosteneffiziente Transporte. Wir verbinden Sie mit zuverlässigen Shipping- und Freight-Partnern für:",
+      "title": "Versand- & Frachtlösungen",
+      "subtitle": "Von lokalen Zustellungen bis internationale Fracht: MMCore sorgt für reibungslose, kosteneffiziente Transporte. Wir verbinden Sie mit verlässlichen Partnern für:",
       "services": [
-        "Air Cargo & Express Shipping",
+        "Luftfracht & Express",
         "Seefracht & Containertransport",
-        "Straße & Last Mile",
-        "Multimodaler Transport für maximale Effizienz"
+        "Straßentransport & Last-Mile-Zustellung",
+        "Multimodaler Verkehr für maximale Effizienz"
       ]
     },
     "customsClearance": {
-      "title": "Zollabfertigung & Compliance",
-      "subtitle": "Zollprozesse können komplex sein. MMCore arbeitet mit erfahrenen Spezialisten, um reibungskonformen internationalen Handel sicherzustellen.",
+      "title": "Zollabwicklung & Compliance",
+      "subtitle": "Zollprozesse sind komplex. MMCore arbeitet mit erfahrenen Spezialisten, um reibungslosen, regelkonformen internationalen Handel sicherzustellen.",
       "services": [
-        "Abwicklung von Import/Export-Dokumentation",
+        "Abwicklung von Import/Export-Dokumenten",
         "Optimierung von Zöllen & Steuern",
-        "Brexit-fähige Logistiklösungen",
-        "Regulatory Compliance & Trade Advisory"
+        "Brexit-taugliche Logistiklösungen",
+        "Regulatorische Compliance & Handelsberatung"
       ]
     },
     "customSupplyChain": {
-      "title": "Ihre Supply Chain individuell",
-      "subtitle": "Jedes Unternehmen hat einzigartige logistische Herausforderungen. Bei MMCore passen wir Supply-Chain-Lösungen an Ihre spezifischen Bedürfnisse an – für reibungslose Abläufe und Kosteneinsparungen.",
+      "title": "Ihre Supply-Chain individuell gestalten",
+      "subtitle": "Jedes Unternehmen hat eigene Logistik-Herausforderungen. MMCore passt Supply-Chain-Lösungen passgenau an – für nahtlose Abläufe und Kosteneinsparungen.",
       "services": [
         "Individuelle Logistikstrategie & Optimierung",
-        "Skalierbare Fulfillment- & Warehousing-Lösungen",
+        "Skalierbare Fulfillment- & Lagerlösungen",
         "Integriertes Supply-Chain-Management"
       ]
     },
     "saasSystem": {
-      "title": "MMcore: SAAS WMS System",
-      "subtitle": "Komplette Lagerverwaltung mit Echtzeit-Insights und nahtlosen Integrationen"
+      "title": "MMCore: SaaS-WMS-System",
+      "subtitle": "Umfassende WMS-Lösung mit Echtzeit-Einblicken und nahtlosen Integrationen"
+    },
+    "logisticsSolutions": {
+      "title": "Nahtlose Logistik- & Fulfillment-Lösungen in Europa und UK",
+      "description": "MMCore bietet End-to-End-Logistiklösungen, maßgeschneidert für Ihre Geschäftsanforderungen.",
+      "subtitle": "Willkommen bei MMCore, Ihrem vertrauenswürdigen Partner für Logistik und Supply-Chain-Lösungen. Von den Niederlanden aus verbinden wir Marken, Hersteller und Logistikdienstleister mit den richtigen Partnern für E-Commerce-Fulfillment, Lagerung, Versand, Luftfracht und Zollabwicklung – für Effizienz in jedem Schritt.",
+      "conclusion": "Mit MMCore gewinnen Sie einen Partner, der Ihre Abläufe strafft, Ihre Reichweite ausbaut und Ihre Supply-Chain optimiert. Lassen Sie uns gemeinsam Ihr Geschäft voranbringen.",
+      "optimize": "Optimieren Sie Ihr Fulfillment noch heute",
+      "getStarted": "Jetzt starten",
+      "learnMore": "Mehr über unsere Services"
     },
     "features": {
       "realtimeInsight": {
-        "title": "Echtzeit-Insights",
-        "description": "Volle Transparenz in den Logistikabläufen aller Kunden mit Live-Daten und umfassendem Reporting.",
+        "title": "Echtzeit-Einblick",
+        "description": "Volle Transparenz über Logistikprozesse mit Live-Daten und umfassendem Reporting.",
         "benefits": [
-          "Live-Bestandstracking",
-          "Echtzeit-Bestellstatus",
-          "Performance-Analysen",
-          "Custom Dashboards"
+          "Live-Bestandsverfolgung",
+          "Echtzeit-Auftragsstatus",
+          "Leistungsanalysen",
+          "Individuelle Dashboards"
         ]
       },
       "flexibleFastSetup": {
-        "title": "Flexibles & schnelles Setup",
-        "description": "Schnelle Bereitstellung mit minimaler Konfiguration. Setzen Sie Ihren Lagerbetrieb in kürzester Zeit auf.",
+        "title": "Flexibles & schnelles Onboarding",
+        "description": "Schnelle Einführung mit minimaler Konfiguration. Bringen Sie Ihr Lager rasch ans Laufen.",
         "benefits": [
           "Rasche Implementierung",
-          "Minimale Downtime",
+          "Minimale Ausfallzeiten",
           "Einfache Konfiguration",
-          "Schnelles User-Onboarding"
+          "Schnelles Benutzer-Onboarding"
         ]
       },
       "plugPlayConnections": {
-        "title": "50+ Plug-&-Play-Connections",
-        "description": "Nahtlose Integration mit führenden ERP- und Web-Systemen über unsere umfangreiche Connector-Bibliothek.",
+        "title": "50+ Plug-&-Play-Integrationen",
+        "description": "Nahtlose Anbindung an führende ERP- und Web-Systeme über unsere Connector-Bibliothek.",
         "benefits": [
-          "ERP-Systemintegration",
+          "ERP-System-Integration",
           "E-Commerce-Plattformen",
           "Buchhaltungssoftware",
-          "Custom API-Verbindungen"
+          "Individuelle API-Anbindungen"
         ]
       },
       "reportingOptions": {
         "title": "20+ Reporting-Optionen",
-        "description": "Umfassende Reporting-Suite mit anpassbaren Dashboards und automatischer Berichtserstellung.",
+        "description": "Umfangreiche Reporting-Suite mit anpassbaren Dashboards und automatischer Berichtserstellung.",
         "benefits": [
           "Bestandsberichte",
           "Leistungskennzahlen",
@@ -598,14 +602,14 @@
       }
     },
     "carrierPlatform": {
-      "title": "MMCore: Carrier Platform",
-      "subtitle": "Plug-&-Play Labeling-Plattform, die alle großen europäischen Carrier verbindet",
+      "title": "MMCore: Carrier-Plattform",
+      "subtitle": "Plug-&-Play-Labeling-Plattform für alle großen europäischen Carrier",
       "features": {
         "allCarriers": {
           "title": "Alle großen europäischen Carrier",
           "description": "Über unsere einheitliche Plattform mit führenden Carriern in Europa verbinden.",
           "benefits": [
-            "DHL, FedEx, UPS-Integration",
+            "Integration mit DHL, FedEx, UPS",
             "Lokale Carrier-Netzwerke",
             "Grenzüberschreitender Versand",
             "Einheitlicher API-Zugang"
@@ -613,17 +617,17 @@
         },
         "performance": {
           "title": "Performance-Tracking & Reporting",
-          "description": "Carrier-Performance mit detaillierten Analysen und Reports überwachen.",
+          "description": "Carrier-Leistung mit detaillierten Analysen und Reports überwachen.",
           "benefits": [
-            "Liefer-Performance-Kennzahlen",
-            "Kostenvergleichs-Analysen",
+            "Zustellleistungs-Metriken",
+            "Kostenvergleiche",
             "Service-Level-Monitoring",
-            "Tracking custom KPIs"
+            "Individuelle KPI-Verfolgung"
           ]
         },
         "financial": {
           "title": "Finanzmanagement",
-          "description": "Umfassende finanzielle Übersicht für Kunden und Carrier mit automatisiertem Abgleich.",
+          "description": "Umfassende Finanztransparenz für Kunden und Carrier mit automatischem Abgleich.",
           "benefits": [
             "Automatisierte Abrechnung",
             "Kostenallokation",
@@ -634,51 +638,51 @@
       }
     },
     "benefits": {
-      "title": "Vorteile eines zentralisierten WMS",
-      "subtitle": "Transformieren Sie Ihre Lagerabläufe mit unserem umfassenden Managementsystem",
+      "title": "Vorteile eines zentralen WMS",
+      "subtitle": "Transformieren Sie Ihre Lagerprozesse mit unserem umfassenden Managementsystem",
       "items": {
         "enhancedEfficiency": {
           "title": "Höhere Effizienz",
-          "description": "Prozesse straffen und Produktivität steigern",
+          "description": "Abläufe straffen und Produktivität steigern",
           "points": [
             "Weniger manuelle Prozesse und Papierarbeit",
             "Schnellere Auftragsabwicklung und kürzere Durchlaufzeiten",
-            "Verbesserte Arbeitsproduktivität"
+            "Höhere Arbeitsproduktivität"
           ]
         },
         "costSavings": {
           "title": "Kosteneinsparungen",
           "description": "Ausgaben optimieren und ROI maximieren",
           "points": [
-            "Niedrigere Betriebskosten dank Automatisierung",
+            "Niedrigere Betriebskosten durch Automatisierung",
             "Reduzierte Bestandskosten",
             "Bessere Ressourcennutzung und weniger Verschwendung"
           ]
         },
         "improvedAccuracy": {
-          "title": "Höhere Genauigkeit",
+          "title": "Mehr Genauigkeit",
           "description": "Fehler minimieren und Zuverlässigkeit erhöhen",
           "points": [
-            "Echtzeit-Datenupdates minimieren Fehler",
-            "Höhere Bestandsgenauigkeit und weniger Stock-outs",
-            "Präzises Picking und Packing"
+            "Echtzeit-Daten reduzieren Fehler",
+            "Höhere Bestandsgenauigkeit und weniger Out-of-Stocks",
+            "Präzises Picken und Verpacken"
           ]
         },
         "scalability": {
           "title": "Skalierbarkeit",
-          "description": "Mit Zuversicht und Flexibilität wachsen",
+          "description": "Wachstum flexibel und sicher gestalten",
           "points": [
-            "Skalierbar für mehrere Lager und hohe Volumina",
-            "Flexibel für sich ändernde Geschäftsanforderungen",
-            "Future-proof Architektur"
+            "Skalierbar für mehrere Lager und hohe Transaktionsvolumina",
+            "Flexibel bei veränderten Geschäftsanforderungen",
+            "Zukunftssichere Architektur"
           ]
         },
         "betterDecisionMaking": {
           "title": "Bessere Entscheidungen",
-          "description": "Mit Daten-Insights fundiert entscheiden",
+          "description": "Fundierte Entscheidungen dank Daten-Insights",
           "points": [
-            "Data-driven Insights für strategische Planung",
-            "Höhere Transparenz und Kontrolle der Supply Chain",
+            "Datengetriebene Erkenntnisse für die Strategie",
+            "Mehr Transparenz und Kontrolle in der Supply-Chain",
             "Höhere Kundenzufriedenheit durch zuverlässige Lieferung"
           ]
         }
@@ -688,17 +692,17 @@
       "warehousesConnected": "Verbundene Lager",
       "erpIntegrations": "ERP-Integrationen",
       "countriesServed": "Bediente Länder",
-      "systemUptime": "System-Uptime",
+      "systemUptime": "System-Verfügbarkeit",
       "values": {
         "warehousesConnected": "500+",
         "erpIntegrations": "50+",
         "countriesServed": "25+",
-        "systemUptime": "99,9%"
+        "systemUptime": "99,9 %"
       }
     },
     "cta": {
       "title": "Bereit, Ihr Lager zu transformieren?",
-      "subtitle": "Erleben Sie die Leistungsfähigkeit unserer zentralisierten WMS-Lösung und straffen Sie Ihre Lagerabläufe noch heute.",
+      "subtitle": "Erleben Sie die Stärke unseres zentralen WMS und straffen Sie Ihre Lagerprozesse noch heute.",
       "getStarted": "Jetzt starten",
       "viewApiDocs": "API-Dokumentation ansehen"
     }
