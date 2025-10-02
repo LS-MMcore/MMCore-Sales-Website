@@ -136,7 +136,7 @@ curl --location --request GET 'https://api.mmcore.tech/get_tracking_information/
     method: "POST",
     endpoint: "/post_manifest_data/APIKEY",
     description: t("apiDocs.endpoints.postManifest.description"),
-    parameters: ["shipmentNumber", "packageId", "parcelId", "recipient_info", "sender_info", "item_details", "ls (optional)"],
+    parameters: ["transportNumber", "packageId", "parcelId", "recipient_info", "sender_info", "item_details", "ls (optional)"],
     queryParams: [
       {
         name: "ls",
@@ -151,7 +151,7 @@ curl --location --request GET 'https://api.mmcore.tech/get_tracking_information/
 --data '[
     {
         "transportType": "CMR", // Optional, defaults to "AWB" if not provided
-        "shipmentNumber": "999-12345678", //required to be set and unique per shipment
+        "transportNumber": "999-12345678", //required to be set and unique per shipment
         "packageId": "1", //required to be set and unique per package within a shipment
         "parcelId": "123456", //required to be set and unique per parcel within a package
         "name": "John Doe", //recipient name (required)
@@ -182,7 +182,7 @@ curl --location --request GET 'https://api.mmcore.tech/get_tracking_information/
     },
     {
         "transportType": "CMR",
-        "shipmentNumber": "999-12345678",
+        "transportNumber": "999-12345678",
         "packageId": "2",
         "parcelId": "654321",
         "name": "John Doe",

@@ -30,9 +30,9 @@ const changelogEntries = [
     changes: [
       {
         type: "breaking",
-        title: "Waybill Renamed to ShipmentNumber",
+        title: "waybill Renamed to transportNumber",
         description:
-          "The parameter `waybill` has been renamed to `shipmentNumber`. For backwards compatibility, `waybill` will still work until 28-11-2025. After this date, only `shipmentNumber` will be supported.",
+          "The parameter `waybill` has been renamed to `transportNumber`. For backwards compatibility, `waybill` will still work until 28-11-2025. After this date, only `transportNumber` will be supported.",
         icon: AlertCircle
       },
       {
