@@ -14,6 +14,7 @@ import {
   Package,
   AlertCircle,
   CheckCircle,
+  Clock,
 } from "lucide-react"
 import Link from "next/link"
 import HeaderChangelog from "@/components/layout/HeaderChangelog"
@@ -21,6 +22,42 @@ import Footer from "@/components/layout/Footer"
 import { useLanguage } from "@/contexts/LanguageContext"
 
 const changelogEntries = [
+  {
+    version: "1.90.1",
+    date: "29-09-2025",
+    type: "minor",
+    title: "Manifest Data Minor Update",
+    changes: [
+      {
+        type: "breaking",
+        title: "Waybill Renamed to ShipmentNumber",
+        description:
+          "The parameter `waybill` has been renamed to `shipmentNumber`. For backwards compatibility, `waybill` will still work until 28-11-2025. After this date, only `shipmentNumber` will be supported.",
+        icon: AlertCircle
+      },
+      {
+        type: "feature",
+        title: "New transportType Parameter",
+        description:
+          "A new parameter `transportType` has been introduced to define the transport mode. Supported values are: **CMR** (road transport), **AWB** (air transport), and **B/L** (bill of lading).",
+        icon: Package
+      },
+      {
+        type: "improvement",
+        title: "Parameter Requirements Updated",
+        description:
+          "Parameter requirements now vary depending on the selected `transportType`. Refer to the updated API documentation for detailed requirements per transport type.",
+        icon: Code
+      },
+      {
+        type: "note",
+        title: "B/L Support Pending",
+        description:
+          "The `B/L` (bill of lading) option is not yet implemented but will be added in a future update.",
+        icon: Clock
+      }
+    ]
+  },
   {
     version: "1.90",
     date: "06-08-2025",
@@ -103,6 +140,8 @@ const getChangeTypeColor = (type: string) => {
       return "#3b82f6"
     case "fix":
       return "#f59e0b"
+    case "note":
+      return "#8b5cf6"
     default:
       return "#6b7280"
   }
@@ -118,6 +157,8 @@ const getChangeTypeLabel = (type: string) => {
       return "Improvement"
     case "fix":
       return "Bug Fix"
+    case "note":
+      return "Note"
     default:
       return "Change"
   }
@@ -153,7 +194,7 @@ export default function ChangelogPage() {
                   className="mt-4 bg-transparent"
                   style={{ borderColor: "#63b2dc", color: "#63b2dc" }}
                 >
-                  <Link href="/api-docs">
+                  <Link href="/api-documentation">
                     <ArrowLeft className="h-4 w-4 mr-2" />
                     {t("apiDocs.backToDocumentation")}
                   </Link>
