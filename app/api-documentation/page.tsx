@@ -150,37 +150,37 @@ curl --location --request GET 'https://api.mmcore.tech/get_tracking_information/
 --header 'Content-Type: application/json' \\
 --data '[
     {
-        "transportType": "CMR", // Optional, defaults to "AWB" if not provided
+        "transportType": "CMR", // Optional, defaults to "AWB" if not provided, possible values: "AWB", "CMR" or B/L
         "transportNumber": "999-12345678", //required to be set and unique per shipment
-        "packageId": "1", //required to be set and unique per package within a shipment
+        "packageId": "1", //optional if CMR, required if AWB
         "parcelId": "123456", //required to be set and unique per parcel within a package
         "name": "John Doe", //recipient name (required)
         "address": "Test Street", //recipient street address (required)
         "address2": "", //recipient additional address info (optional)
         "zipcode": "Test Zipcode", //recipient postal code (required)
-        "city": "Test City", //recipient city (required)
+        "city": "Test City",  //recipient city (required)
         "country": "ISO 2 Country", //recipient country in ISO 2 format (required)
         "phone": "0612345678", //recipient phone number (required)
         "email": "john.doe@mail.com", //recipient email address (required)
         "sellerName": "seller", //sender name (required)
         "sellerAddress": "seller address", //sender street address (required) 
-        "sellerZipcode": "seller zipcode", //sender postal code (required)
+        "sellerZipcode": "seller zipcode",  //sender postal code (required)
         "sellerCity": "seller city", //sender city (required)
-        "sellerCountry": "seller ISO 2 country", //sender country in ISO 2 format (required)
+        "sellerCountry": "seller ISO 2 country",  //sender country in ISO 2 format (required)
         "sku": "sku", //item SKU or identifier (required)
         "content": "Some content", //item description (required)
         "hsCode": "123456", //item HS code for customs (required for transportType AWB and CMR outside EU)
-        "quantity": "1", //item quantity (required)
+        "quantity": "2", //item quantity (required)
         "itemPrice": "10.00", //item price (required)
-        "parcelWeight": "0.20", //parcel weight in kg (required)
-        "itemWeight": "0.22", //item weight in kg (required)
+        "itemWeight": "0.20", //item weight in kg (required)
+        "parcelWeight": "0.40", //parcel weight in kg (required)
+        "parcelPrice": "20.00", //total parcel price (required)
         "currency": "USD", //currency code in ISO 3 format (required)
-        "parcelPrice": "10.20", //total parcel price (required)
         "taxType": "IOSS", //tax type, e.g. IOSS, OSS, NON_EU (required for transportType AWB and CMR outside EU)
         "taxIdent": "taxIdent", //tax identification number (required for transportType AWB and CMR outside EU)
         "grossWeight": "100" //gross weight in kilograms (required)
     },
-    {
+        {
         "transportType": "CMR",
         "transportNumber": "999-12345678",
         "packageId": "2",
@@ -203,10 +203,10 @@ curl --location --request GET 'https://api.mmcore.tech/get_tracking_information/
         "hsCode": "123456",
         "quantity": "1",
         "itemPrice": "10.00",
-        "parcelWeight": "0.20",
-        "itemWeight": "0.22",
-        "currency": "USD",
+        "itemWeight": "0.20",
+        "parcelWeight": "0.22",
         "parcelPrice": "10.20",
+        "currency": "USD",
         "taxType": "IOSS",
         "taxIdent": "taxIdent",
         "grossWeight": "100"
